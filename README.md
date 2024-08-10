@@ -1,2 +1,2 @@
 # fs-3-summer-projects
-Electrical design repository for summer projects pre-FS3
+Electrical design repository for summer projects pre FS-3
