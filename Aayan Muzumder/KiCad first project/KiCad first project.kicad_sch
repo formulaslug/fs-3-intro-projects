@@ -1,0 +1,72 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ed2ec2bf-1322-414d-8cb8-5501d93892db")
+	(paper "A4")
+	(title_block
+		(title "Demo LED Board")
+		(date "2024-09-26")
+		(rev "0.0")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 41.91 54.61) (xy 41.91 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639252dd-ed0d-4d21-81a9-171408277d27")
+	)
+	(wire
+		(pts
+			(xy 41.91 53.34) (xy 102.87 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf23da2b-b4fc-4281-b79d-74bb06fafaca")
+	)
+	(label "test"
+		(at 54.61 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "623818b2-6e85-44cb-a0fb-e1a5cf58409e")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 72.39 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43ceb5ec-82ed-49da-93ac-8247f45ea187")
+		(property "Netclass" "small traces"
+			(at 73.0885 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
