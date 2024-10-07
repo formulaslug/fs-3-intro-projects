@@ -1,0 +1,301 @@
+(footprint "Converter_DCDC_RECOM_RCD-24_THT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Constant current LED Driver DC/DC Converter, https://g.recomcdn.com/media/Datasheet/pdf/.fYUQjOlW/.t2a80a771bdbb0ef300f7/Datasheet-93/RCD-24.pdf")
+	(tags "Led Driver DC-DC ")
+	(property "Reference" "REF**"
+		(at 8.89 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "abb78ff3-8596-4385-9062-ea48fe227624")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_RECOM_RCD-24_THT"
+		(at 8.89 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d9f646ee-2e02-4c57-86a4-c76359de09bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dffaa97-1444-42a9-af34-8247bc5b49b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c329107-80f2-4237-9d87-532bcc066c8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba851d5b-01b9-4cdf-a1a5-e61aca5568a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.38 -1)
+		(end -2.38 1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4b0b1b48-6128-4b90-976a-2e2293d3deab")
+	)
+	(fp_line
+		(start -2.13 -2.56)
+		(end -2.13 10.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "af2f7855-931a-449a-a6ed-ffaa97ac3d13")
+	)
+	(fp_line
+		(start -2.13 -2.56)
+		(end 20.19 -2.56)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e6bb9e9e-2b2e-4837-9308-a4cdba3f16e9")
+	)
+	(fp_line
+		(start -2.13 10.2)
+		(end 20.19 10.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1bb69184-1d7d-4bb7-95e4-e18b29cdd54d")
+	)
+	(fp_line
+		(start 20.19 -2.56)
+		(end 20.19 10.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f2904e27-78f5-4b53-a292-c888b38aee23")
+	)
+	(fp_line
+		(start -2.52 -2.96)
+		(end -2.52 10.59)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a37857f5-cc1e-4761-b125-e4ed80d3cffe")
+	)
+	(fp_line
+		(start -2.52 -2.96)
+		(end 20.58 -2.96)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bab4f73b-87c9-4dad-bd9b-d73606bf7127")
+	)
+	(fp_line
+		(start -2.52 10.59)
+		(end 20.58 10.59)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "39b09c27-e22c-4c5e-9775-325245a742af")
+	)
+	(fp_line
+		(start 20.58 -2.96)
+		(end 20.58 10.59)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5086b982-ad83-4147-a8c4-c6f2c6dde12c")
+	)
+	(fp_line
+		(start -2.02 -2.46)
+		(end -2.02 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b71ad74e-1814-4a30-9960-a20abbbf49a2")
+	)
+	(fp_line
+		(start -2.02 -2.46)
+		(end 20.08 -2.46)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bf787b8a-ac49-458f-8313-16a90ea8b8a8")
+	)
+	(fp_line
+		(start -2.02 -1)
+		(end -1.02 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "74f0dc24-08a5-4166-bf4b-670d85b447b7")
+	)
+	(fp_line
+		(start -2.02 1)
+		(end -2.02 10.09)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "dc2a50ee-5727-432d-94a3-3b2523624e7e")
+	)
+	(fp_line
+		(start -2.02 10.09)
+		(end 20.08 10.09)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "925cae25-317f-49e0-a42a-962e82467f4b")
+	)
+	(fp_line
+		(start -1.02 0)
+		(end -2.02 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "44a75405-e414-48a2-857c-9c05a440312c")
+	)
+	(fp_line
+		(start 20.08 -2.46)
+		(end 20.08 10.09)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7aed3e09-68b2-485b-8466-e5ba26dee0ba")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 8.89 3.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1893aaa1-f3de-4999-a4d0-82b3fca70b09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "2c6ea45d-60cc-4763-a449-71d518325878")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a467860b-f4dc-44cb-b375-c6e4a811b863")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "efaac864-f602-42c9-8bdd-a46d20ae0761")
+	)
+	(pad "4" thru_hole circle
+		(at 0 7.62)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "053842b0-f3eb-4042-89fb-d51d2f78a65e")
+	)
+	(pad "5" thru_hole circle
+		(at 17.78 7.62)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "642b7e62-0e5f-48f1-ab1a-1efb394a1aa9")
+	)
+	(pad "6" thru_hole circle
+		(at 17.78 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46508a09-f717-4425-8864-0dde4833b4df")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_RECOM_RCD-24_THT.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

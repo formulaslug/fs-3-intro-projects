@@ -1,0 +1,225 @@
+(footprint "Fuse_BelFuse_0ZRE0016FF_L9.9mm_W3.8mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Fuse 0ZRE0016FF, BelFuse, Radial Leaded PTC,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf")
+	(tags "0ZRE BelFuse radial PTC")
+	(property "Reference" "REF**"
+		(at 2.54 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "2c3bdb37-7f53-4716-a6a8-b6f223aa42ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_BelFuse_0ZRE0016FF_L9.9mm_W3.8mm"
+		(at 2.6 5.4 0)
+		(layer "F.Fab")
+		(uuid "5a0029dd-6572-44df-84ae-7602f4f60599")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bf3e8bf-d134-4c3d-8ac3-5de188d79b32")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f586fdb-9d55-4bad-8ee3-91cf52a65090")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a91ee1c5-b0cc-424c-835e-e7833fee62b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.55 -1.25)
+		(end -2.55 2.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03f15984-1d05-4230-931c-ebf7589cd67c")
+	)
+	(fp_line
+		(start -2.55 -1.25)
+		(end 7.65 -1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f46c1301-3124-413c-b46a-b5e139575bd7")
+	)
+	(fp_line
+		(start -2.55 2.85)
+		(end 7.65 2.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a6893b9-828e-4a5b-94c1-5f25baf625c8")
+	)
+	(fp_line
+		(start 7.65 -1.25)
+		(end 7.65 2.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7df09c51-6360-4634-a6ee-13fcd5a0790f")
+	)
+	(fp_line
+		(start -2.65 -1.35)
+		(end -2.65 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "23bf4977-68ef-4cce-8d62-59805a63783d")
+	)
+	(fp_line
+		(start -2.65 -1.35)
+		(end 7.75 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "32fe8d41-3781-4dc1-82e8-df03ea9056dd")
+	)
+	(fp_line
+		(start -2.65 2.95)
+		(end 7.75 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "05c4ac1f-b7ff-4dc1-b9ae-172b16aee609")
+	)
+	(fp_line
+		(start 7.75 -1.35)
+		(end 7.75 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ecfb01c-a639-40b3-ad1b-45be5d8b750b")
+	)
+	(fp_line
+		(start -2.4 -1.1)
+		(end -2.4 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c40744d3-a0a0-4909-820c-9d28ec8f4f65")
+	)
+	(fp_line
+		(start -2.4 -1.1)
+		(end 7.5 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49aa905f-3c93-4e4f-b71c-74e8ce033c38")
+	)
+	(fp_line
+		(start -2.4 2.7)
+		(end 7.5 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b99a7758-b4a7-45db-872f-8582330e1bd6")
+	)
+	(fp_line
+		(start 7.5 -1.1)
+		(end 7.5 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de3ed5b1-8fd8-4fd3-a6fb-639046fe24b9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 0 0)
+		(layer "F.Fab")
+		(uuid "eff762be-da88-4cfa-96f3-7403af220504")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.27 1.27)
+		(drill 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "39b10871-7ace-4943-b06f-d047c29b9b12")
+	)
+	(pad "2" thru_hole circle
+		(at 5.1 1.6)
+		(size 1.27 1.27)
+		(drill 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "64120261-caa6-497e-9f62-e58467beab4a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_BelFuse_0ZRE_0ZRE0016FF_L9.9mm_W3.8mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

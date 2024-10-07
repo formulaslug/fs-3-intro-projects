@@ -1,0 +1,301 @@
+(footprint "L_Neosid_Ms42"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Neosid, Inductor, SMs42, Fixed inductor, SMD, magneticaly shielded, https://neosid.de/import-data/product-pdf/neoFestind_Ms42.pdf")
+	(tags "Neosid Inductor SMs42 Fixed inductor SMD magneticaly shielded")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "4f1ff6b3-a147-4f98-b704-0307fa0e9cf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Neosid_Ms42"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(uuid "824735f8-e86e-4d1b-990e-b9d060c9db1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f90d23b-ee82-4c6d-b2d1-4faf909953e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b50c35e0-cbf4-43b7-bc78-8369b88a520b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7efe99ed-de26-4e87-9514-759b05675fa7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.8 -2.2)
+		(end -2.8 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8901438a-89cc-4790-a886-ae493a0f21f0")
+	)
+	(fp_line
+		(start -2.8 2.2)
+		(end -2.8 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3063c894-f012-4cbf-a559-024800ea724d")
+	)
+	(fp_line
+		(start 2.8 -2.2)
+		(end -2.8 -2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80dbbf48-02b5-4622-b20b-8b55ef9d54a7")
+	)
+	(fp_line
+		(start 2.8 -2.2)
+		(end 2.8 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b545229-440c-443c-8d33-cfada16b1593")
+	)
+	(fp_line
+		(start 2.8 1.5)
+		(end 2.8 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bdeee96-d636-4a97-8f81-f9dd51b28992")
+	)
+	(fp_line
+		(start 2.8 2.2)
+		(end -2.8 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c5ebafe-e31c-40fe-b2e5-43638aa7de97")
+	)
+	(fp_line
+		(start -3.05 -2.25)
+		(end -3.05 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21c2ecb0-de8e-4300-b381-2da043012bdf")
+	)
+	(fp_line
+		(start -3.05 -2.25)
+		(end 3.05 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80814f18-4632-41da-90a5-5b60c3d48966")
+	)
+	(fp_line
+		(start 3.05 2.25)
+		(end -3.05 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd6aa2ba-eede-4221-bbd2-fa4b66471786")
+	)
+	(fp_line
+		(start 3.05 2.25)
+		(end 3.05 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a8f66fa-0725-4c78-9977-ea856ed1688e")
+	)
+	(fp_line
+		(start -2.8 -1)
+		(end -2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "928c9422-e5ca-4677-b8ec-ae05e18e6a47")
+	)
+	(fp_line
+		(start -2.8 1)
+		(end -2.8 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea664262-5a99-4749-bf3d-be6b7cbc2f94")
+	)
+	(fp_line
+		(start -2 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a49f543-4955-4a06-b6a2-6ea1da5a034a")
+	)
+	(fp_line
+		(start -2 1)
+		(end -2.8 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c9575ee-0c7a-45cb-ad04-158cf4ff807f")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de837206-ad41-41cb-9fe6-0ef2ad5934d4")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b1fdd29-674c-4946-81d0-5f719b75944b")
+	)
+	(fp_line
+		(start 2 -1)
+		(end 2.8 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c82e6ae-58d2-438d-88d5-6c307465b95a")
+	)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4c8fb63-5f6f-4082-9915-ed38fd673fb5")
+	)
+	(fp_line
+		(start 2.8 -1)
+		(end 2.8 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dad635cf-e128-4020-adb0-3856114034d8")
+	)
+	(fp_line
+		(start 2.8 1)
+		(end 2 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "374c113d-46b3-425c-a7ee-9c0469294c9a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d054647c-c457-4037-8211-3316c7bc7421")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.3 0)
+		(size 1 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ac92465b-82e7-4c65-a335-441eedb3bc59")
+	)
+	(pad "2" smd rect
+		(at 2.3 0)
+		(size 1 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5d3b0a29-19e7-47e0-9a1f-8fbdc0988f74")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_Ms42.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,225 @@
+(footprint "RV_Disc_D21.5mm_W4.7mm_P10mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Varistor, diameter 21.5mm, width 4.7mm, pitch 10mm")
+	(tags "varistor SIOV")
+	(property "Reference" "REF**"
+		(at 5 4.3 0)
+		(layer "F.SilkS")
+		(uuid "241cfb8f-5c4a-4633-8f49-1c0f0c2f0296")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RV_Disc_D21.5mm_W4.7mm_P10mm"
+		(at 5 -2.4 0)
+		(layer "F.Fab")
+		(uuid "af9bfb4f-ed41-4210-8973-d05831111613")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2eab0ba7-b0e6-462c-9192-cc9e454e27da")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e38df64-9900-4980-a8de-087eff655a5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e90d49b-1999-4842-beca-c2ce87bb824b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.75 -1.4)
+		(end -5.75 3.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b061108c-72dd-4915-b44d-0a9b2e31a780")
+	)
+	(fp_line
+		(start -5.75 -1.4)
+		(end 15.75 -1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4352517-b8ea-4853-8354-8bc023bbea39")
+	)
+	(fp_line
+		(start -5.75 3.3)
+		(end 15.75 3.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d417c7f9-6ffb-477a-a60e-69b35843ce2e")
+	)
+	(fp_line
+		(start 15.75 -1.4)
+		(end 15.75 3.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1a5f6e9-92d5-438d-85df-f4c7f5b64f50")
+	)
+	(fp_line
+		(start -6 -1.65)
+		(end -6 3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b15b7e3f-768b-48b5-a672-6b9b36a8b68a")
+	)
+	(fp_line
+		(start -6 -1.65)
+		(end 16 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b266696-c6c1-4305-89cd-5783e3c232ad")
+	)
+	(fp_line
+		(start -6 3.55)
+		(end 16 3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bc183977-4955-4386-aa9f-2cb004683abd")
+	)
+	(fp_line
+		(start 16 -1.65)
+		(end 16 3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d67d136-5d6f-4674-988f-f561bab9235d")
+	)
+	(fp_line
+		(start -5.75 -1.4)
+		(end -5.75 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "546fb92b-6e2c-4f95-9aad-5e1c13536fe5")
+	)
+	(fp_line
+		(start -5.75 -1.4)
+		(end 15.75 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e64157c9-7b37-476f-8ba0-399c819079d4")
+	)
+	(fp_line
+		(start -5.75 3.3)
+		(end 15.75 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e61d3768-753c-4a8a-8c0f-f7a49e38687e")
+	)
+	(fp_line
+		(start 15.75 -1.4)
+		(end 15.75 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a55f9b0-9bbc-4242-90a3-134f92bfeff3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 0.95 0)
+		(layer "F.Fab")
+		(uuid "c2727f69-d2fc-4466-ae32-dcef30ccd632")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f1333768-ddd7-4f25-8961-8a5f6e49af96")
+	)
+	(pad "2" thru_hole circle
+		(at 10 1.9)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "24e3b122-4c17-46b3-a530-d1f49500c545")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D21.5mm_W4.7mm_P10mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,308 @@
+(footprint "Converter_DCDC_Cyntec_MUN12AD01-SH"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD01-SH_Datasheet.pdf")
+	(tags "Power Module uPOL MUN12AD01")
+	(property "Reference" "REF**"
+		(at 0.05 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "12b05849-4287-4249-b0dd-2a864e1eb68f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_Cyntec_MUN12AD01-SH"
+		(at 0 2.75 0)
+		(layer "F.Fab")
+		(uuid "a8361dc3-18d2-4246-ade1-8ee90789b7d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "361f922d-e7e0-48a6-b2a6-6eaf8a2d3290")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e8cd2cd-a9c3-4ef3-ab52-a3971784d4d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf8159cf-e68f-4557-90e3-3b8e04607873")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 1.85)
+		(end 1.75 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68771291-f96c-4e5b-a1d4-841fa60f3850")
+	)
+	(fp_line
+		(start 1.75 -1.85)
+		(end -1.95 -1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3fe473f-6aba-478c-858b-cd8a3fbec8c6")
+	)
+	(fp_line
+		(start -2.2 -2)
+		(end -2.2 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11e1efa5-c70e-4892-a72e-d2ccad808dcb")
+	)
+	(fp_line
+		(start -2.2 2)
+		(end 2.2 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d071766-c97b-4263-9aa1-5ca82b338d0b")
+	)
+	(fp_line
+		(start 2.2 -2)
+		(end -2.2 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b2a923e-41d2-4296-ae03-326cab3c8d32")
+	)
+	(fp_line
+		(start 2.2 2)
+		(end 2.2 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35ce9ec3-8e46-4b18-a6aa-91e05213f49a")
+	)
+	(fp_line
+		(start -1.75 -0.85)
+		(end -1.75 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df95d7f6-f54e-4051-88e8-c64fa3e635da")
+	)
+	(fp_line
+		(start -1.75 1.75)
+		(end 1.75 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5724dc70-c4dd-44c7-af60-1382720c1677")
+	)
+	(fp_line
+		(start -0.85 -1.75)
+		(end -1.75 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "681989b2-d310-4992-b12b-751a98d43d52")
+	)
+	(fp_line
+		(start 1.75 -1.75)
+		(end -0.85 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8a06191-c870-4cc5-8124-04b46fe06dc1")
+	)
+	(fp_line
+		(start 1.75 1.75)
+		(end 1.75 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd0b934c-bd3a-4cc7-af80-659ef4f5f864")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "eafa7dd9-91a6-4237-bdf2-02cc0709325e")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "" smd custom
+		(at -0.525 -0.525)
+		(size 0.3 0.3)
+		(layers "F.Paste")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.375 0.375) (xy -0.375 0.375) (xy -0.375 -0.125) (xy -0.125 -0.375) (xy 0.375 -0.375)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "52b3ed23-fd50-4d31-b728-fd2396d210c1")
+	)
+	(pad "" smd rect
+		(at -0.525 0.525)
+		(size 0.75 0.75)
+		(layers "F.Paste")
+		(zone_connect 0)
+		(uuid "51954443-e745-4b07-80b7-3ce2f78ab351")
+	)
+	(pad "" smd rect
+		(at 0.525 -0.525)
+		(size 0.75 0.75)
+		(layers "F.Paste")
+		(zone_connect 0)
+		(uuid "d327fce3-f541-4db7-a9de-3ee9c2a4d19e")
+	)
+	(pad "" smd rect
+		(at 0.525 0.525)
+		(size 0.75 0.75)
+		(layers "F.Paste")
+		(zone_connect 0)
+		(uuid "6103a5e0-4345-47dd-b3df-33463924114c")
+	)
+	(pad "1" smd rect
+		(at -1.6 -1.2)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c104b7cd-a735-4dba-af30-b37a537141b9")
+	)
+	(pad "2" smd rect
+		(at -1.6 -0.4)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7fb8ae49-ce7c-4942-8524-f7a7ea6b1691")
+	)
+	(pad "3" smd rect
+		(at -1.6 0.4)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "46ffb769-4052-401f-9359-e3fa9e29f1bc")
+	)
+	(pad "4" smd rect
+		(at -1.6 1.2)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "35e2d48a-67d3-4d93-b76b-0cbeaf1ec46e")
+	)
+	(pad "5" smd rect
+		(at 1.6 1.2)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0789303a-2550-409b-afc1-ba63a74ac19e")
+	)
+	(pad "6" smd rect
+		(at 1.6 0.4)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4b8df9f5-9d0a-4d60-9ab0-979df7ff85dd")
+	)
+	(pad "7" smd rect
+		(at 1.6 -0.4)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5ce2ad24-5287-42fd-a38c-7d0adfc9c600")
+	)
+	(pad "8" smd rect
+		(at 1.6 -1.2)
+		(size 0.7 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a50fe9f1-a5a0-41d4-a619-9d1a92d9092e")
+	)
+	(pad "9" smd custom
+		(at 0 0)
+		(size 1.9 1.4)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.95 0.95) (xy -0.95 0.95) (xy -0.95 -0.7) (xy -0.7 -0.95) (xy 0.95 -0.95)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "e09b7c63-2231-445d-b4fd-98cdc3826644")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Cyntec_MUN12AD0x-SH.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

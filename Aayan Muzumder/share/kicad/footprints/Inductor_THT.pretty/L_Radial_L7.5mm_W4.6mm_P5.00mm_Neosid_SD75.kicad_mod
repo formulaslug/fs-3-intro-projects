@@ -1,0 +1,225 @@
+(footprint "L_Radial_L7.5mm_W4.6mm_P5.00mm_Neosid_SD75"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Radial series, Radial, pin pitch=5.00mm, , length*width=7.5*4.6mm^2, Neosid, SD75, http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd75.pdf")
+	(tags "Inductor Radial series Radial pin pitch 5.00mm  length 7.5mm width 4.6mm Neosid SD75")
+	(property "Reference" "REF**"
+		(at 2.5 -3.55 0)
+		(layer "F.SilkS")
+		(uuid "347233f4-ed3a-4172-8b8a-b6dd4ad19dbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Radial_L7.5mm_W4.6mm_P5.00mm_Neosid_SD75"
+		(at 2.5 3.55 0)
+		(layer "F.Fab")
+		(uuid "e0cc985e-f0b5-4cd7-bcd9-f3f70096f0e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea3f4776-0200-4827-b85a-7d70d54e78e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f54a1807-dadd-48c8-824c-182f56155687")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0054b6d4-a24b-48b2-9d97-672f6790f6c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.37 -2.42)
+		(end -1.37 2.42)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5db06ef2-8676-4930-a129-a85c5e6c5bbe")
+	)
+	(fp_line
+		(start -1.37 -2.42)
+		(end 6.37 -2.42)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f958aad8-ae52-4b4a-8ea5-ced0b46a8120")
+	)
+	(fp_line
+		(start -1.37 2.42)
+		(end 6.37 2.42)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1635f0ab-6b79-4a1e-a2ca-dad01694bcc2")
+	)
+	(fp_line
+		(start 6.37 -2.42)
+		(end 6.37 2.42)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "728dff5c-c168-426e-a5d5-d0e0162210b3")
+	)
+	(fp_line
+		(start -1.5 -2.55)
+		(end -1.5 2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6edc45f0-2dc5-4ca5-b2d5-a54d8864d899")
+	)
+	(fp_line
+		(start -1.5 2.55)
+		(end 6.5 2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b8a3e4a-dba1-45b1-87e1-fb55a93844f8")
+	)
+	(fp_line
+		(start 6.5 -2.55)
+		(end -1.5 -2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4956082e-87d3-4f91-beef-3cb7b8e7c65f")
+	)
+	(fp_line
+		(start 6.5 2.55)
+		(end 6.5 -2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f1ada09-1b54-4906-bc97-b6e90140d893")
+	)
+	(fp_line
+		(start -1.25 -2.3)
+		(end -1.25 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09d86942-9209-44ca-83b6-5b4d43d874e7")
+	)
+	(fp_line
+		(start -1.25 2.3)
+		(end 6.25 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "513c846d-0e6b-4a3d-be31-5c0c5eb6b753")
+	)
+	(fp_line
+		(start 6.25 -2.3)
+		(end -1.25 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ba13336-e4c3-48d4-9712-5d8f70b9137d")
+	)
+	(fp_line
+		(start 6.25 2.3)
+		(end 6.25 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88fd68e8-d799-4fbc-beb2-8fe48b52a765")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "7681f028-bcd1-45fb-b861-08dd24d741e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6c6a0228-89b4-40b2-88c6-c039ea512dfa")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3606d48f-8f94-45b7-8781-16edaff73771")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_L7.5mm_W4.6mm_P5.00mm_Neosid_SD75.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

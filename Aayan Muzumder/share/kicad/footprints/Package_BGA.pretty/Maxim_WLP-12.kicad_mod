@@ -1,0 +1,315 @@
+(footprint "Maxim_WLP-12"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Maxim_WLP-12 W121B2+1 http://pdfserv.maximintegrated.com/package_dwgs/21-0009.PDF")
+	(tags "Maxim_WLP-12")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "ed9ea363-5ced-4809-85e7-a38bb813fbeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Maxim_WLP-12"
+		(at 0.75 2.5 0)
+		(layer "F.Fab")
+		(uuid "00ca8b36-6b60-4d77-86f7-dd45b5cfcaaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fef442b-0d3e-432f-96bc-60387f50d888")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "320fbda7-748b-4662-814d-6a60994a4c8d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f3c5b97-1c4a-4837-ba93-af9dbe029690")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 -0.58)
+		(end -1.1 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f385f6ab-4275-47d2-a4a1-83814d57c304")
+	)
+	(fp_line
+		(start -0.78 -0.9)
+		(end 1.1 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6dda67a5-31c4-495f-b1a9-4d051eaa23bb")
+	)
+	(fp_line
+		(start 1.1 0.9)
+		(end -1.1 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b7a4207-3213-40a1-ad7e-6cbd4b6eb898")
+	)
+	(fp_line
+		(start 1.1 0.9)
+		(end 1.1 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70effc31-99aa-45c7-ba21-af3817b46187")
+	)
+	(fp_poly
+		(pts
+			(xy -1.1 -0.9) (xy -1.6 -0.9) (xy -1.1 -1.4) (xy -1.1 -0.9)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "a73a48b6-7041-4854-abcd-a1a6385bc330")
+	)
+	(fp_line
+		(start -2.02 -1.78)
+		(end 2.02 -1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a4d8e220-c80c-4858-99e3-c638dfa4881c")
+	)
+	(fp_line
+		(start -2.02 1.78)
+		(end -2.02 -1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "081ad320-4feb-436c-adbb-1a62cea2649c")
+	)
+	(fp_line
+		(start -2.02 1.78)
+		(end 2.02 1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf0da8cb-84a7-42b9-8962-340c3b259042")
+	)
+	(fp_line
+		(start 2.02 -1.78)
+		(end 2.02 1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d88e3a5-6a61-4c0f-be0f-3b240e60551e")
+	)
+	(fp_line
+		(start -1.02 0.78)
+		(end -1.02 -0.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "435a5b1d-1b87-461b-9e1b-ed293bdec85a")
+	)
+	(fp_line
+		(start -1.02 0.78)
+		(end 1.02 0.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "670831d2-033c-4b27-854c-d1024cfac392")
+	)
+	(fp_line
+		(start -0.75 -0.78)
+		(end -1.02 -0.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3dc453c6-bdaa-491d-815e-e48f13babd9f")
+	)
+	(fp_line
+		(start 1.02 -0.78)
+		(end -0.75 -0.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3fe23c9a-04f7-4569-9b58-e1615dcc0331")
+	)
+	(fp_line
+		(start 1.02 -0.78)
+		(end 1.02 0.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53ecdebf-58d4-42cc-b33c-8625380bd7bc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1272f7cf-7f6f-488d-a05e-b0f956734b4c")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.75 -0.5 90)
+		(size 0.3 0.3)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d2ebe5be-19bb-4d88-b47c-3bbfbc54794b")
+	)
+	(pad "A2" smd circle
+		(at -0.25 -0.5 90)
+		(size 0.3 0.3)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "967003cf-9288-4226-b1d2-fea09499b381")
+	)
+	(pad "A3" smd circle
+		(at 0.25 -0.5 90)
+		(size 0.3 0.3)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "302e467e-41fe-4285-b525-a63bf38570e5")
+	)
+	(pad "A4" smd circle
+		(at 0.75 -0.5 90)
+		(size 0.3 0.3)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8a3c588a-4c3e-43e3-af14-54f5ac11fa11")
+	)
+	(pad "B1" smd circle
+		(at -0.75 0 90)
+		(size 0.3 0.3)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0e578664-0f99-4c01-b8a7-a3028fdc0352")
+	)
+	(pad "B2" smd circle
+		(at -0.25 0 90)
+		(size 0.3 0.3)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "63db4297-420a-4497-9edc-0ba7d395b4fd")
+	)
+	(pad "B3" smd circle
+		(at 0.25 0 90)
+		(size 0.3 0.3)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1a3690ec-6baa-4418-9a8c-824d4a7dd309")
+	)
+	(pad "B4" smd circle
+		(at 0.75 0 90)
+		(size 0.3 0.3)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a2676893-679d-41f7-9e40-c48b059a6d2f")
+	)
+	(pad "C1" smd circle
+		(at -0.75 0.5 90)
+		(size 0.3 0.3)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d9bd4ea1-5124-4b6f-9e43-e2f16d949f4e")
+	)
+	(pad "C2" smd circle
+		(at -0.25 0.5 90)
+		(size 0.3 0.3)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bb3493fe-646d-4b37-ac70-805c2ee7ef54")
+	)
+	(pad "C3" smd circle
+		(at 0.25 0.5 90)
+		(size 0.3 0.3)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "845f0f2f-13ab-4296-bb72-fc1750a00f83")
+	)
+	(pad "C4" smd circle
+		(at 0.75 0.5 90)
+		(size 0.3 0.3)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "04c33dc9-f33e-4dd3-ae14-cba5a2c83256")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Maxim_WLP-12.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

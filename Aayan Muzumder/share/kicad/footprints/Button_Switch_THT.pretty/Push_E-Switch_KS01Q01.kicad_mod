@@ -1,0 +1,184 @@
+(footprint "Push_E-Switch_KS01Q01"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf")
+	(tags "Push Button")
+	(property "Reference" "REF**"
+		(at 2.5 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "0ae8070b-2b37-4853-9e9b-765c5fa405df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Push_E-Switch_KS01Q01"
+		(at 2.5 9.5 0)
+		(layer "F.Fab")
+		(uuid "75381b22-de1f-4732-9509-9c195255ac9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1d8d934-a948-4f3a-a3b4-4701b80ff330")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce89e1b9-b9d0-4239-b2ce-ecec9cf8d02e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddb79286-64c5-42a7-9459-9320a29d5108")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 4.89 8.14)
+		(end 0.11 8.14)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6a4c083-89cf-41c6-adec-7885db3e8cae")
+	)
+	(fp_arc
+		(start 0.11 8.14)
+		(mid 2.496283 -3.625495)
+		(end 4.896843 8.137095)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67ab3848-f43c-4387-860c-d09ffcbc81fa")
+	)
+	(fp_line
+		(start 0.04 8.39)
+		(end 5.06 8.39)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "49f736ab-5360-4639-badd-e475d8407cf4")
+	)
+	(fp_arc
+		(start 0.04 8.39)
+		(mid 2.55 -3.902515)
+		(end 5.06 8.39)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "67f7b2f9-04cf-438a-a19a-1f4064cfba33")
+	)
+	(fp_line
+		(start 0.11 8)
+		(end 4.89 8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "482263c1-297a-462d-9f2f-e04e42423ee8")
+	)
+	(fp_arc
+		(start 0.11 8)
+		(mid 2.498654 -3.496841)
+		(end 4.892469 7.998926)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5e8aefc-c41e-41f4-be47-fa50f0efad7c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 2.5 0)
+		(layer "F.Fab")
+		(uuid "e0653e86-ed88-43f5-8314-14cffd303149")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "131dc911-cb7b-4c3d-90cb-b08fdd10bacd")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8ea123b6-b0f7-4779-a21f-3d4e920d59d6")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "986b6264-ae57-40f2-bc42-b05f31087759")
+	)
+	(pad "4" thru_hole circle
+		(at 5 5)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "25ed79cd-96b6-4055-8fb5-bb143c775cf8")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/Push_E-Switch_KS01Q01.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

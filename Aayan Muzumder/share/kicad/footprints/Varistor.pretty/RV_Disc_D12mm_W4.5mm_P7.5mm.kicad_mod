@@ -1,0 +1,225 @@
+(footprint "RV_Disc_D12mm_W4.5mm_P7.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Varistor, diameter 12mm, width 4.5mm, pitch 7.5mm")
+	(tags "varistor SIOV")
+	(property "Reference" "REF**"
+		(at 3.75 4.15 0)
+		(layer "F.SilkS")
+		(uuid "9ec0b568-153b-465d-991e-1e553d4d4f20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RV_Disc_D12mm_W4.5mm_P7.5mm"
+		(at 3.75 -2.35 0)
+		(layer "F.Fab")
+		(uuid "f6125b3d-cd28-407e-b60e-e45d3f0231d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f920684-ac28-4e05-b3f6-551943636539")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d044dcc4-3e82-4c71-8ac4-d04fd95af54e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6692dd40-8563-4a5c-96ef-3c98666d6d69")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.25 -1.35)
+		(end -2.25 3.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87058582-7f74-4c60-b8fd-5b43c071cde4")
+	)
+	(fp_line
+		(start -2.25 -1.35)
+		(end 9.75 -1.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1218269-20b3-49f9-9807-65293f62035c")
+	)
+	(fp_line
+		(start -2.25 3.15)
+		(end 9.75 3.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1258cd03-c1ba-46d6-be78-268f99fb4057")
+	)
+	(fp_line
+		(start 9.75 -1.35)
+		(end 9.75 3.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4910609-ca02-4273-9b72-cf41c74ef990")
+	)
+	(fp_line
+		(start -2.5 -1.6)
+		(end -2.5 3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6608c1e2-2751-467f-949f-293006ac8114")
+	)
+	(fp_line
+		(start -2.5 -1.6)
+		(end 10 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "305e2ca7-89f5-4b03-84e3-429b706ab187")
+	)
+	(fp_line
+		(start -2.5 3.4)
+		(end 10 3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f6cdf9f8-f7a5-4abf-a3c4-9dd9b88d076f")
+	)
+	(fp_line
+		(start 10 -1.6)
+		(end 10 3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c085a779-6b6b-43fa-996a-9baba5ea153a")
+	)
+	(fp_line
+		(start -2.25 -1.35)
+		(end -2.25 3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14381afd-ba0a-4503-9e84-3e802fd6bb64")
+	)
+	(fp_line
+		(start -2.25 -1.35)
+		(end 9.75 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3f90dc33-b07b-49b5-bcc2-fc5bac784660")
+	)
+	(fp_line
+		(start -2.25 3.15)
+		(end 9.75 3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60fbd9df-8caa-4249-b1fc-6285a6b61bad")
+	)
+	(fp_line
+		(start 9.75 -1.35)
+		(end 9.75 3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1282f2ac-4bf9-4827-bcb3-8d63f4d8fb43")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.75 0.9 0)
+		(layer "F.Fab")
+		(uuid "a1c07b4b-b02c-4e7f-a1a4-f2999d6dee24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "742f6467-a39a-474e-a3af-7adcb12b5f91")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 1.8)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7fba5f02-e520-45a2-838d-ffe5d31b4189")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D12mm_W4.5mm_P7.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

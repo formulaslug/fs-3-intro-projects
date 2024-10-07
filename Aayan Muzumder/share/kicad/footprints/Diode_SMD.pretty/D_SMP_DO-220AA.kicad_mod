@@ -1,0 +1,223 @@
+(footprint "D_SMP_DO-220AA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMP DO-220AA (https://www.vishay.com/docs/89016/esh2pb.pdf)")
+	(tags "SMP DO-220AA")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "9a08be73-6698-45cd-89ac-7974cfcf8495")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_SMP_DO-220AA"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "66253109-7e94-453d-8dd6-af5a9143e730")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bc14250-b7d4-433a-9d5d-1a61567c9bc9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41be8d87-7505-4ef4-bfd7-80a58b2aecd0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64d003c1-79b5-4bcc-bc32-29770eae1865")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.29 -1.53)
+		(end -2.29 1.53)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "005027b6-1e95-45a1-a95b-d096fee618ad")
+	)
+	(fp_line
+		(start -2.29 -1.53)
+		(end 1.11 -1.53)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "742e3ce1-b4b4-4564-9953-35aa0a3aba2a")
+	)
+	(fp_line
+		(start -2.29 1.53)
+		(end 1.11 1.53)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "800d8b6c-a9d8-4152-a990-821c021210c4")
+	)
+	(fp_line
+		(start -2.29 -1.52)
+		(end -2.29 1.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9647b099-fdb4-4288-a406-53dfe5bd0dbe")
+	)
+	(fp_line
+		(start -2.29 1.52)
+		(end 2.29 1.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6bd3d396-93e6-4c94-afa2-3a0da3987cd8")
+	)
+	(fp_line
+		(start 2.29 -1.52)
+		(end -2.29 -1.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eed2cb23-eef9-435b-beaa-4322da268518")
+	)
+	(fp_line
+		(start 2.29 1.52)
+		(end 2.29 -1.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7cbf00fc-d763-448e-8a8b-6ef794e2a700")
+	)
+	(fp_line
+		(start -2 -1.09)
+		(end -2 1.09)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3c453ae-44d8-48b7-8569-cc17a9b8858a")
+	)
+	(fp_line
+		(start 1.97 0.265)
+		(end 1.97 -0.265)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "724605c1-883b-43cb-bdf9-e17f498481b6")
+	)
+	(fp_line
+		(start 2 -1.09)
+		(end -2 -1.09)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa7777df-1e90-4f22-8664-92985eea67d5")
+	)
+	(fp_line
+		(start 2 -1.09)
+		(end 2 1.09)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ff08da8-391e-410a-84d2-ab70fc8e9af5")
+	)
+	(fp_line
+		(start 2 1.09)
+		(end -2 1.09)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43161de7-fa14-45cc-836b-643b3950feda")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "463cafdf-e629-42ad-9829-a6d01b8272ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.6985 0)
+		(size 2.67 2.54)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(uuid "6e0290f5-c2f7-40b4-8786-001ca3c2aa41")
+	)
+	(pad "2" smd roundrect
+		(at 1.6525 0)
+		(size 0.762 1.27)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "b2562415-73e3-4ead-8b18-96472423e464")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMP_DO-220AA.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

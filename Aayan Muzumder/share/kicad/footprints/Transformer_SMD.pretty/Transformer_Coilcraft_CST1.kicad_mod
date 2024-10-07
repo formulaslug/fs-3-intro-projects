@@ -1,0 +1,319 @@
+(footprint "Transformer_Coilcraft_CST1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Current sense transformer, SMD, 8.0x8.13x5.3mm (https://www.coilcraft.com/pdfs/cst.pdf)")
+	(tags "Transformer current sense SMD")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(uuid "facfee70-c0cc-4ffd-88b2-b5f6ff4abfae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Transformer_Coilcraft_CST1"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "5ed1578a-66fd-4eba-90d1-1116ef876460")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62becc82-ccd4-4320-b8f9-5361c2605e8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "903264b8-85b8-42f3-bd7f-0833abb4ddf4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f823cee4-30e5-45bb-a46a-80a757ec5076")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.22 -3.095)
+		(end -3.22 -2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8caeeba5-a549-47e2-aabf-ff0492e75a41")
+	)
+	(fp_line
+		(start -3.22 -3.095)
+		(end -1.75 -3.095)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4abc7187-13b0-4588-8be5-28bd26ff0a58")
+	)
+	(fp_line
+		(start -3.22 3.095)
+		(end -3.22 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65f211df-d3b0-463a-9463-cf14ecb9f8a1")
+	)
+	(fp_line
+		(start -3.22 3.095)
+		(end -1.75 3.095)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8275c54-97b7-487c-ba79-625c855a05ea")
+	)
+	(fp_line
+		(start 3.22 -3.095)
+		(end 1.75 -3.095)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ca7ed1c-efa7-4587-93b6-d1c27f7c472a")
+	)
+	(fp_line
+		(start 3.22 -3.095)
+		(end 3.22 -2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "606123c2-6dab-4cd1-8ca6-3c6d855dc064")
+	)
+	(fp_line
+		(start 3.22 3.095)
+		(end 1.75 3.095)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ad32c9c-2838-4870-a515-67d0906fe39a")
+	)
+	(fp_line
+		(start 3.22 3.095)
+		(end 3.22 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c5b7048-6683-48cf-85ee-42699e3788e9")
+	)
+	(fp_poly
+		(pts
+			(xy -3.7 -2.7) (xy -3.94 -3.03) (xy -3.46 -3.03) (xy -3.7 -2.7)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "bae984ce-7d90-4de4-a500-a9cffc256fdf")
+	)
+	(fp_line
+		(start -4.65 -4.1)
+		(end -4.65 4.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21864d52-60fe-4203-ab5d-59e2bc43e70a")
+	)
+	(fp_line
+		(start -4.65 4.1)
+		(end 4.65 4.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "61856083-dd89-4529-80ca-cd4e5426bcf6")
+	)
+	(fp_line
+		(start 4.65 -4.1)
+		(end -4.65 -4.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9f31e112-6dac-414b-b22d-be4c82e12397")
+	)
+	(fp_line
+		(start 4.65 4.1)
+		(end 4.65 -4.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "795d1851-9ee9-49ee-9fd5-15765ff1bae2")
+	)
+	(fp_line
+		(start -3.11 2.985)
+		(end -3.11 -1.985)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f7568e0-7a8e-4e01-92a0-bac395459b23")
+	)
+	(fp_line
+		(start -3.11 2.985)
+		(end 3.11 2.985)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb4c423c-20d4-42d1-a0dc-c83dcf44827a")
+	)
+	(fp_line
+		(start -2.11 -2.985)
+		(end -3.11 -1.985)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "205f10f7-5e37-407a-ab24-c8ab12aaa17a")
+	)
+	(fp_line
+		(start -2.11 -2.985)
+		(end 3.11 -2.985)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a4ddd57-ffff-4f33-9a3f-b08e5013c597")
+	)
+	(fp_line
+		(start 3.11 2.985)
+		(end 3.11 -2.985)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4fcd9611-d9b3-4403-b8d0-4c110b7074e5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "880cdf5f-47f8-43fa-b2d4-afa5a1f72562")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.6 -1.85)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c6077b98-c9d8-473f-ba7e-f1186350d398")
+	)
+	(pad "2" smd rect
+		(at -3.6 0)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "87e137e3-3771-492e-aee4-58758c8acc85")
+	)
+	(pad "3" smd rect
+		(at -3.6 1.85)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "00084d33-d7fb-4c91-b20a-859e1033e368")
+	)
+	(pad "4" smd rect
+		(at 3.6 1.85)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3222893d-8ecd-4f59-b7bb-035559a5ca86")
+	)
+	(pad "5" smd rect
+		(at 3.6 0)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "aab933c1-fd37-4b25-b5e5-9046a5eb7def")
+	)
+	(pad "6" smd rect
+		(at 3.6 -1.85)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a866092f-647a-4cbf-a94f-890930c9413c")
+	)
+	(pad "7" smd rect
+		(at 0 -2.6)
+		(size 3 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1f51461e-31ef-456c-bfd0-b3090e11bf2c")
+	)
+	(pad "8" smd rect
+		(at 0 2.6)
+		(size 3 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "18961fa9-951b-4d62-a050-2458adcf9ebb")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_Coilcraft_CST.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

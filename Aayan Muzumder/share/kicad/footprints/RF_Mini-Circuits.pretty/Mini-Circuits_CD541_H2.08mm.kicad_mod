@@ -1,0 +1,287 @@
+(footprint "Mini-Circuits_CD541_H2.08mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://ww2.minicircuits.com/case_style/CD541.pdf")
+	(tags "RF Transformer")
+	(property "Reference" "REF**"
+		(at 0 -4.826 0)
+		(layer "F.SilkS")
+		(uuid "56a3296c-9662-4ce3-bd74-52096561aafe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mini-Circuits_CD541_H2.08mm"
+		(at 0 5.08 0)
+		(layer "F.Fab")
+		(uuid "0443f071-8823-471e-ba48-0ed555577f63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bc1e389-30d9-4ed8-a46e-ac25a4723a21")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c3d5fa3-a8d8-4fa2-9751-8b4a63709fec")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f1c33c1-041e-4ff4-aae7-3b8737381bc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.922 3.7)
+		(end -2.921 4.064)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9aaf41fb-7831-4c63-873c-3b584f85d90d")
+	)
+	(fp_line
+		(start -2.921 -4.064)
+		(end -2.92 -3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6ea62fb-d724-4701-9633-5013ab24fb4b")
+	)
+	(fp_line
+		(start -2.921 4.064)
+		(end 2.921 4.064)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29f7a33f-da22-4da1-9af0-f93901e1ba8b")
+	)
+	(fp_line
+		(start 2.92 3.7)
+		(end 2.921 4.064)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb126732-b678-4ccf-9ff4-07fbd4c50c54")
+	)
+	(fp_line
+		(start 2.921 -4.064)
+		(end -2.921 -4.064)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3295adb4-bd7f-4022-a152-61188f29803b")
+	)
+	(fp_line
+		(start 2.921 -4.064)
+		(end 2.922 -3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10f929b6-697e-46d3-9031-7376d1857e51")
+	)
+	(fp_poly
+		(pts
+			(xy -3.3655 -3.63) (xy -3.6055 -3.966) (xy -3.1255 -3.966) (xy -3.3655 -3.63)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "2d35c79f-6760-40fe-a2a6-a764a1e5fe2a")
+	)
+	(fp_line
+		(start -4.06 4.32)
+		(end -4.06 -4.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0995cfd9-ae1c-4457-a715-ee20d9ca58e4")
+	)
+	(fp_line
+		(start 4.06 -4.32)
+		(end -4.06 -4.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2670adbd-cfb1-432a-b2e8-714cafe41355")
+	)
+	(fp_line
+		(start 4.06 4.32)
+		(end -4.06 4.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8046eac-9af5-467d-ab82-379c8fbe7e33")
+	)
+	(fp_line
+		(start 4.06 4.32)
+		(end 4.06 -4.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98c061e4-506d-469c-ba70-df41829da92a")
+	)
+	(fp_line
+		(start -2.794 3.937)
+		(end -2.794 -2.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33a2578a-3a6a-4ac2-9190-28c5e778887f")
+	)
+	(fp_line
+		(start -1.794 -3.937)
+		(end -2.794 -2.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3e58ffd2-6835-4393-b896-e6a0c5d8093d")
+	)
+	(fp_line
+		(start -1.794 -3.937)
+		(end 2.794 -3.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a5663b6-b3a7-4fa6-8a20-aeb30cfc274e")
+	)
+	(fp_line
+		(start 2.794 -3.937)
+		(end 2.794 3.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e28d7225-de3d-4f03-9d1d-69fb5a43b36f")
+	)
+	(fp_line
+		(start 2.794 3.937)
+		(end -2.794 3.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0097ddb1-7a77-4e1a-bc36-34a878991e2a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "27c70f1b-aac0-456d-b8a4-63424278f54b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 -2.54)
+		(size 2.54 1.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1c075fec-2acf-41e7-8b5f-55ed04f5bb4d")
+	)
+	(pad "2" smd rect
+		(at -2.54 0)
+		(size 2.54 1.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3e3ef7b6-36f6-4ed6-b1d3-2f188630dd79")
+	)
+	(pad "3" smd rect
+		(at -2.54 2.54)
+		(size 2.54 1.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "56bee8be-2d4c-48b6-b1fd-87cb99a4d231")
+	)
+	(pad "4" smd rect
+		(at 2.54 2.54)
+		(size 2.54 1.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7e6605f7-5eb0-4eb1-870d-292db24ca299")
+	)
+	(pad "5" smd rect
+		(at 2.54 0)
+		(size 2.54 1.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7c5d8187-9d8b-48a8-86cf-627e950d228d")
+	)
+	(pad "6" smd rect
+		(at 2.54 -2.54)
+		(size 2.54 1.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5e322442-da23-4722-a2b5-8043c0430914")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_CD541_H2.08mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

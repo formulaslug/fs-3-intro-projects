@@ -1,0 +1,223 @@
+(footprint "CP_EIA-7343-30_AVX-N_Pad2.25x2.55mm_HandSolder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Tantalum Capacitor SMD AVX-N (7343-30 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor tantalum")
+	(property "Reference" "REF**"
+		(at 0 -3.1 0)
+		(layer "F.SilkS")
+		(uuid "65a939d2-472f-4c5f-90d0-de57a7018ac0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CP_EIA-7343-30_AVX-N_Pad2.25x2.55mm_HandSolder"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(uuid "423a98a6-5347-44e2-b47d-9b7be1c5c933")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23886efa-0938-4987-833c-ff2b158686bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31016cb0-7e11-451d-b08e-06a65876d5e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "863f18cd-5df3-42c5-b868-d818b61d9be6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.585 -2.26)
+		(end -4.585 2.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "621fed62-6043-4a07-b71e-0ddec0e7231c")
+	)
+	(fp_line
+		(start -4.585 2.26)
+		(end 3.65 2.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2edefde1-4948-4766-957e-7523d3d13c9c")
+	)
+	(fp_line
+		(start 3.65 -2.26)
+		(end -4.585 -2.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07c94566-b98c-49bc-b74b-c35eae591610")
+	)
+	(fp_line
+		(start -4.58 -2.4)
+		(end 4.58 -2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8132535b-7619-445b-bb27-ac97604368f8")
+	)
+	(fp_line
+		(start -4.58 2.4)
+		(end -4.58 -2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24d58ef2-c45c-4760-9761-93a56d762ea9")
+	)
+	(fp_line
+		(start 4.58 -2.4)
+		(end 4.58 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39ce8601-f959-4705-86fc-d27b26024044")
+	)
+	(fp_line
+		(start 4.58 2.4)
+		(end -4.58 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e031a1bf-11e7-466a-a4e4-b5f9d87f9364")
+	)
+	(fp_line
+		(start -3.65 -1.15)
+		(end -3.65 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e51bf619-e2ef-4b5c-a69a-cf67ff0aab9b")
+	)
+	(fp_line
+		(start -3.65 2.15)
+		(end 3.65 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66d61c18-4a35-4b54-84ff-9ad1b3c69250")
+	)
+	(fp_line
+		(start -2.65 -2.15)
+		(end -3.65 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1518ffe-f5e7-4e79-bad6-91df4ee070c7")
+	)
+	(fp_line
+		(start 3.65 -2.15)
+		(end -2.65 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8042937c-76fa-49c4-ac6c-74d63f5bd993")
+	)
+	(fp_line
+		(start 3.65 2.15)
+		(end 3.65 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c3c7cb7-877b-49d4-913b-c96b8844867f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "488f4d1d-270c-4ed2-955b-d5eca74b375e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.2 0)
+		(size 2.25 2.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.111111)
+		(uuid "c12b37b0-7af3-46ea-861d-86fe5e52719c")
+	)
+	(pad "2" smd roundrect
+		(at 3.2 0)
+		(size 2.25 2.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.111111)
+		(uuid "c8b27276-9da0-43d4-982d-0798a53a6ced")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-7343-30_AVX-N.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

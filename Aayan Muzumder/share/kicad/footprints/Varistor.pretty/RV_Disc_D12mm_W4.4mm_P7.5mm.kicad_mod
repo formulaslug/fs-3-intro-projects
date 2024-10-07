@@ -1,0 +1,225 @@
+(footprint "RV_Disc_D12mm_W4.4mm_P7.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Varistor, diameter 12mm, width 4.4mm, pitch 7.5mm")
+	(tags "varistor SIOV")
+	(property "Reference" "REF**"
+		(at 3.75 4.0875 0)
+		(layer "F.SilkS")
+		(uuid "e265fdda-4372-4656-9130-3fbbfe58f029")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RV_Disc_D12mm_W4.4mm_P7.5mm"
+		(at 3.75 -2.3125 0)
+		(layer "F.Fab")
+		(uuid "837b72f4-b782-48f0-9f5f-51b5519fc12d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "498d9fee-83e9-4038-88d1-24afa077cd6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "631020e1-aab3-4e70-92ec-4177f80ceba5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "854f95af-b91d-4c5a-ac73-4c47cb9579aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.25 -1.3125)
+		(end -2.25 3.0875)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fba4a59-3a48-4934-afaf-8136524a3623")
+	)
+	(fp_line
+		(start -2.25 -1.3125)
+		(end 9.75 -1.3125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9b522cb-5f84-4216-ab37-16a4f1d35753")
+	)
+	(fp_line
+		(start -2.25 3.0875)
+		(end 9.75 3.0875)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc428da8-ef9c-483a-ab2e-0e6c6dd1f4d3")
+	)
+	(fp_line
+		(start 9.75 -1.3125)
+		(end 9.75 3.0875)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82c2f6d3-a9e0-4e6a-bb51-aae2edb69be8")
+	)
+	(fp_line
+		(start -2.5 -1.56)
+		(end -2.5 3.34)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f91baaef-fe45-4021-9544-fb9801205726")
+	)
+	(fp_line
+		(start -2.5 -1.56)
+		(end 10 -1.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4e16812-ab71-4743-ad41-e9b81541c6b7")
+	)
+	(fp_line
+		(start -2.5 3.34)
+		(end 10 3.34)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "888f15e0-93c7-468f-afab-8ea1eaa71440")
+	)
+	(fp_line
+		(start 10 -1.56)
+		(end 10 3.34)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c66ef99-1f6d-4f1e-9f27-49838b414e1f")
+	)
+	(fp_line
+		(start -2.25 -1.3125)
+		(end -2.25 3.0875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e82eeec1-5e12-45d4-ac8a-0b6b6c79314f")
+	)
+	(fp_line
+		(start -2.25 -1.3125)
+		(end 9.75 -1.3125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae8eb483-980e-4a82-8109-7b3a219d50d1")
+	)
+	(fp_line
+		(start -2.25 3.0875)
+		(end 9.75 3.0875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "867d13bf-be0c-400e-8e37-10d68815d7d6")
+	)
+	(fp_line
+		(start 9.75 -1.3125)
+		(end 9.75 3.0875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03a081d8-08d2-4b5f-8066-a75dafb6443d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.75 0.887 0)
+		(layer "F.Fab")
+		(uuid "fdaff9bc-f0e8-46f5-b12c-1d7c365f7f56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b0b37ed5-8a6c-4652-8e6e-4cc4a5c99e40")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 1.775)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "718b8be5-1cea-4ff4-b289-8dda545c87f7")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D12mm_W4.4mm_P7.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

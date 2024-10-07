@@ -1,0 +1,246 @@
+(footprint "TO-46-3_Pin2Center"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-46-3, Pin2 at center of package, Thorlabs photodiodes, https://www.thorlabs.de/drawings/374b6862eb3b5a04-9360B5F6-5056-2306-D912111C06C3F830/FDGA05-SpecSheet.pdf")
+	(tags "TO-46-3 Thorlabs")
+	(property "Reference" "REF**"
+		(at 1.27 -4.02 0)
+		(layer "F.SilkS")
+		(uuid "90268682-6cdc-40e5-b96a-dcb7ad8ee837")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-46-3_Pin2Center"
+		(at 1.27 4.02 0)
+		(layer "F.Fab")
+		(uuid "40f3f4b0-3807-4bb4-80a9-fea53db40851")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b17dea8-1197-42b5-8156-fefffcd37700")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac46cf1f-1416-4255-8a40-4c96e802f5e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e4877ca-32bb-489d-914b-2780e8582219")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.58 -0.6)
+		(end -2.58 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b222e24a-8b34-4e15-a0ac-b19e480ed2dc")
+	)
+	(fp_line
+		(start -2.58 0.75)
+		(end -1.68 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c0e05ed-840d-428b-b081-dab70199cc93")
+	)
+	(fp_line
+		(start -1.68 -0.6)
+		(end -2.58 -0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8510cb35-ddcc-4c4e-ae7a-289b9b5f2479")
+	)
+	(fp_arc
+		(start -1.68 -0.6)
+		(mid 4.279362 -0.078983)
+		(end -1.644465 0.753918)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc6d2915-ff12-43ee-919f-db8412b1d7c7")
+	)
+	(fp_line
+		(start -2.73 -3.15)
+		(end -2.73 3.14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c39715b7-3cda-4e59-8dac-4613c94deda3")
+	)
+	(fp_line
+		(start -2.73 -3.15)
+		(end 4.42 -3.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6373402b-81fd-4244-b132-03fe699b1c03")
+	)
+	(fp_line
+		(start 4.42 3.14)
+		(end -2.73 3.14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6b6aab5-2330-400b-a845-45fc841089c1")
+	)
+	(fp_line
+		(start 4.42 3.14)
+		(end 4.42 -3.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5282ea7-86dd-4e99-82f6-b41cf3b69b5b")
+	)
+	(fp_line
+		(start -2.48 -0.5)
+		(end -2.48 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38e11f22-b3f9-4854-a33b-44575ba739f8")
+	)
+	(fp_line
+		(start -2.48 0.65)
+		(end -1.58 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e6f7445-7a27-4b1f-b14c-14a3d37105d8")
+	)
+	(fp_line
+		(start -1.58 -0.5)
+		(end -2.48 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a3f1a04-dcd8-4f1d-a2b0-130f3f9b49b8")
+	)
+	(fp_arc
+		(start -1.58 -0.5)
+		(mid 4.1624 -0.08076)
+		(end -1.54766 0.65825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e32e566-7144-42f3-8d23-f5033607e318")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 3.67 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "fce60ee7-6d75-4dfa-98ab-779f1cd6f654")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 -4.02 0)
+		(layer "F.Fab")
+		(uuid "0be67dd1-f136-40ee-94e4-a8004415a174")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0 90)
+		(size 1.5 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "67bbe88c-f640-453d-a6cd-da5a25492db2")
+	)
+	(pad "2" thru_hole oval
+		(at 1.27 0)
+		(size 1 1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d702ec3-6900-4147-b8e7-96de0248a369")
+	)
+	(pad "3" thru_hole oval
+		(at 2.29 -1.02 90)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9fea062b-92f3-4a92-8552-b493f93f47f2")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-46-3_Pin2Center.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

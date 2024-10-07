@@ -1,0 +1,287 @@
+(footprint "Mini-Circuits_MMM168_LandPatternPL-225"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Footprint for Mini-Circuits case MMM168, Land pattern PL-225, vias included, (case drawing: https://ww2.minicircuits.com/case_style/MMM168.pdf, land pattern drawing: https://ww2.minicircuits.com/pcb/98-pl225.pdf)")
+	(tags "pl-225")
+	(property "Reference" "REF**"
+		(at 0.0254 -3.0226 0)
+		(layer "F.SilkS")
+		(uuid "a30192ce-a37f-43de-b092-5b008c5e09ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mini-Circuits_MMM168_LandPatternPL-225"
+		(at 0.0254 3.0734 0)
+		(layer "F.Fab")
+		(uuid "1b8b4ba0-5e16-468e-a78a-51e6acd96d74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "085bcb61-7709-4ca7-993a-70d18a584747")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2631f2aa-1e27-4ec2-93a9-206561ab1e51")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bccb715b-eec0-488d-b252-5d0d1d69e227")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.762 -1.651)
+		(end -2.286 -1.651)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dcb13a68-e52e-4492-afe9-c6140f0f9771")
+	)
+	(fp_line
+		(start 0.762 1.651)
+		(end -0.762 1.651)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f09a68c2-aa27-4eed-a3e8-df7338644ec8")
+	)
+	(fp_poly
+		(pts
+			(xy -2 -1.02) (xy -2.336 -0.78) (xy -2.336 -1.26) (xy -2 -1.02)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "422ec9e4-85ab-47c7-9ee7-695aa5f3c4ab")
+	)
+	(fp_line
+		(start -3.59 -2.29)
+		(end -3.59 2.17)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6fcc20e6-fb39-4410-9db0-653ddeed6a2b")
+	)
+	(fp_line
+		(start -3.59 -2.29)
+		(end 3.62 -2.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02a87a8a-f13a-4626-b780-853545fcf087")
+	)
+	(fp_line
+		(start 3.62 2.17)
+		(end -3.59 2.17)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b9c96b6-34c0-472c-9871-146d5d0dd4f9")
+	)
+	(fp_line
+		(start 3.62 2.17)
+		(end 3.62 -2.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5028fa3-061c-4d26-8bb8-138e026f00df")
+	)
+	(fp_line
+		(start -0.6223 -1.1303)
+		(end -0.2413 -1.41605)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c20bb67-d98a-4eaa-9a9c-3f534fd35968")
+	)
+	(fp_line
+		(start -0.6223 1.44145)
+		(end -0.6223 -1.1303)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b8dd406-98e0-41c6-a730-c0bac1dd9de0")
+	)
+	(fp_line
+		(start -0.2413 -1.41605)
+		(end 0.6477 -1.41605)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27d996d5-69be-416a-b40d-9c0fbfe3556f")
+	)
+	(fp_line
+		(start 0.6477 -1.41605)
+		(end 0.6477 1.44145)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78c7e2f2-c60e-435a-b493-dd2351223900")
+	)
+	(fp_line
+		(start 0.6477 1.44145)
+		(end -0.6223 1.44145)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1135198-8fce-49fd-a5ca-5ceee9105082")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0127 0.0127 0)
+		(layer "F.Fab")
+		(uuid "3ac4d7ce-0de5-4853-846e-28e5200023b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.9083 -1.5621)
+		(size 0.808 0.808)
+		(drill 0.508)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "cfe409ce-d323-44af-a5fd-44864b4412f4")
+	)
+	(pad "1" thru_hole circle
+		(at -2.9083 -0.6477)
+		(size 0.808 0.808)
+		(drill 0.508)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "d850edcd-e93c-4335-82d7-d3dab26c12e0")
+	)
+	(pad "1" smd rect
+		(at -1.8161 -1.1049 90)
+		(size 1.8796 3.048)
+		(layers "F.Cu")
+		(zone_connect 2)
+		(uuid "3bc9542c-3038-47e0-9290-a242d3f18b2d")
+	)
+	(pad "1" smd rect
+		(at -1.0922 -0.9525 90)
+		(size 0.889 1.2954)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(uuid "10ac8321-d0fc-48b7-bb90-e52626712dd2")
+	)
+	(pad "2" smd rect
+		(at 1.1176 -0.9525 90)
+		(size 0.889 1.2954)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eb1519a1-2349-4020-89cc-5b756e239d91")
+	)
+	(pad "3" smd rect
+		(at 1.1176 0.7493 90)
+		(size 1.1938 1.2954)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(uuid "649e092a-53d1-4cc3-9072-437eb3cd264f")
+	)
+	(pad "3" smd rect
+		(at 1.8415 0.9779 90)
+		(size 1.8796 3.048)
+		(layers "F.Cu")
+		(zone_connect 2)
+		(uuid "4f2055b0-71ec-4211-84db-ee05e337001e")
+	)
+	(pad "3" thru_hole circle
+		(at 2.9337 0.5207)
+		(size 0.808 0.808)
+		(drill 0.508)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "bb747e95-1229-4042-9104-22519029bf07")
+	)
+	(pad "3" thru_hole circle
+		(at 2.9337 1.4351)
+		(size 0.808 0.808)
+		(drill 0.508)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "0fd7881c-2d2b-49eb-ae5e-7941249f5470")
+	)
+	(pad "4" smd rect
+		(at -1.0922 0.9525 90)
+		(size 0.889 1.2954)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c44f2e96-a730-49be-8608-317456d664cb")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_MMM168.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

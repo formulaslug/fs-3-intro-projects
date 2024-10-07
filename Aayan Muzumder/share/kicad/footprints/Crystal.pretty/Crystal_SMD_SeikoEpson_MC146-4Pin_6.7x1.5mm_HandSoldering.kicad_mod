@@ -1,0 +1,263 @@
+(footprint "Crystal_SMD_SeikoEpson_MC146-4Pin_6.7x1.5mm_HandSoldering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal Seiko Epson MC-146 https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-156_en.pdf, hand-soldering, 6.7x1.5mm^2 package")
+	(tags "SMD SMT crystal hand-soldering")
+	(property "Reference" "REF**"
+		(at 0 -1.95 0)
+		(layer "F.SilkS")
+		(uuid "84991fdb-30a8-45af-91b2-74c10e1b507e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_SeikoEpson_MC146-4Pin_6.7x1.5mm_HandSoldering"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "8313dfd8-5b5f-42b6-80c9-ddbf3665c292")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23757fa2-8787-4c47-be74-d48345b6e026")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07b5d0e0-4364-4b0e-8edf-86be30541ccf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4384670c-cecf-4bd2-8c35-4641f4038c4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.85 -0.95)
+		(end -4.85 0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e0f1eee-3113-49f1-b393-9540456c8ceb")
+	)
+	(fp_line
+		(start -4.85 0.95)
+		(end 4.85 0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffc8f93f-73b4-46a7-bcde-4981edad4dfe")
+	)
+	(fp_line
+		(start -4.9 -1)
+		(end -4.9 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a017958b-8918-42bc-97fb-e3bb9d67c06e")
+	)
+	(fp_line
+		(start -4.9 1)
+		(end 4.9 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd8257ce-1839-45f6-97ff-5d1fc3233df4")
+	)
+	(fp_line
+		(start 4.9 -1)
+		(end -4.9 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7068f177-4d1e-4e68-a44c-ce23d0efe787")
+	)
+	(fp_line
+		(start 4.9 1)
+		(end 4.9 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "201cc0ab-b0c9-4aca-a404-38ee3562d9b7")
+	)
+	(fp_line
+		(start -3.35 -0.35)
+		(end -2.95 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ffacb6f-8a8b-4d70-ab48-b42694682d41")
+	)
+	(fp_line
+		(start -3.35 0.35)
+		(end -3.35 -0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "910546c6-439e-43d0-a2f7-f0d833312e06")
+	)
+	(fp_line
+		(start -2.95 -0.75)
+		(end 2.95 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a05f7af-c64f-4cc9-8e99-337306444e4d")
+	)
+	(fp_line
+		(start -2.95 0.75)
+		(end -3.35 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0159eed5-7260-4dc6-91e0-c026ea61b1f5")
+	)
+	(fp_line
+		(start -2.85 -0.75)
+		(end -2.85 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0510d4d-e559-4e26-94e7-4aea5c40ecf8")
+	)
+	(fp_line
+		(start 2.95 -0.75)
+		(end 3.35 -0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c768303-57c9-430f-9585-d5569fc43a7a")
+	)
+	(fp_line
+		(start 2.95 0.75)
+		(end -2.95 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "852941e5-7dee-4bad-b645-9460de0067ad")
+	)
+	(fp_line
+		(start 3.35 -0.35)
+		(end 3.35 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21e090a9-08af-4c03-a622-4439b9979340")
+	)
+	(fp_line
+		(start 3.35 0.35)
+		(end 2.95 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "991edc74-b588-4c8b-9e5b-68b8a7e8795d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0a30ac07-fc1a-46b6-a259-30b969eaf7af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.6 0.45)
+		(size 2.1 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bd98e4fe-e448-42a5-8658-12a4b0b3833d")
+	)
+	(pad "2" smd rect
+		(at 3.6 0.45)
+		(size 2.1 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4f943390-cef2-4b25-a38b-e89139cce727")
+	)
+	(pad "3" smd rect
+		(at 3.6 -0.45)
+		(size 2.1 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ad08122f-76c5-47f0-b9de-81a87522f1ae")
+	)
+	(pad "4" smd rect
+		(at -3.6 -0.45)
+		(size 2.1 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cf323551-a29d-4359-b158-334da75adefa")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_MC146-4Pin_6.7x1.5mm_HandSoldering.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

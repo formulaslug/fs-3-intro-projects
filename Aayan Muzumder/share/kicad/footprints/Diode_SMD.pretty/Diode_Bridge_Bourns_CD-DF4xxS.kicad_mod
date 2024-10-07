@@ -1,0 +1,255 @@
+(footprint "Diode_Bridge_Bourns_CD-DF4xxS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "8.1x10.5mm, 4A, single phase bridge rectifier, https://www.bourns.com/docs/Product-Datasheets/CD-DF4xxSL.pdf")
+	(tags "Surface Mount Bridge Rectifier Diode")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(layer "F.SilkS")
+		(uuid "e7315a08-733a-421c-a88b-7cbcca67b58b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Diode_Bridge_Bourns_CD-DF4xxS"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "d0ecccf8-d09a-4156-b03e-fbee36790ca9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "775b71e0-3b19-4621-a45d-0a0be62d9e28")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fda4b973-b716-4fb1-afdc-12e3a57f4492")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c4c7be7-07d0-4fd8-b9e0-c361a19318ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.16 0)
+		(end -4.16 5.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1dfaf314-40e7-4a71-b1cd-c591e01edc29")
+	)
+	(fp_line
+		(start -1.14 5.36)
+		(end 1.13 5.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7b794c3-9154-49e1-a195-c1712410d5a3")
+	)
+	(fp_line
+		(start -0.07 -5.36)
+		(end 1.13 -5.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14734db4-221c-4919-bd26-da842f49a8c5")
+	)
+	(fp_line
+		(start 4.16 -5.36)
+		(end 4.16 5.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37217f1c-f275-4dfa-8e7e-0c85300a890f")
+	)
+	(fp_poly
+		(pts
+			(xy -4.31 -5.61) (xy -4.59 -5.61) (xy -4.31 -5.89) (xy -4.31 -5.61)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "62bf3f3b-e869-46ab-9f66-0f73468d0fb3")
+	)
+	(fp_line
+		(start -4.3 -6.3)
+		(end -4.3 6.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ea93907-cf32-4d81-a612-bd947345a272")
+	)
+	(fp_line
+		(start -4.3 -6.3)
+		(end 4.3 -6.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62442be3-0ca1-4b0f-95d7-7ec7995736b4")
+	)
+	(fp_line
+		(start 4.3 6.3)
+		(end -4.3 6.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2611175-caae-4429-bee3-efdd7721516c")
+	)
+	(fp_line
+		(start 4.3 6.3)
+		(end 4.3 -6.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba4cea5a-268f-4473-a2c0-b4cd0c617955")
+	)
+	(fp_line
+		(start -4.05 -4.25)
+		(end -3.05 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "230dc60b-ffb0-4d45-8f6b-b74c0b928d02")
+	)
+	(fp_line
+		(start -4.05 5.25)
+		(end -4.05 -4.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d27a4358-7590-4112-ba4e-47df2acb0fc7")
+	)
+	(fp_line
+		(start -3.05 -5.25)
+		(end 4.05 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7a958816-bb11-432c-bf40-6433d96c85f3")
+	)
+	(fp_line
+		(start 4.05 -5.25)
+		(end 4.05 5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4074fbcc-845c-4219-be11-4b362a5aa7b6")
+	)
+	(fp_line
+		(start 4.05 5.25)
+		(end -4.05 5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e40281d-4b93-4aa8-b971-5c2c7c1497d1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "be20cde1-29c1-4a82-9969-26834bc86c2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.6 -3.85)
+		(size 2.4 4.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a45688a7-eeea-4a09-915a-5aa4fa26f5c3")
+	)
+	(pad "2" smd rect
+		(at -2.6 3.85)
+		(size 2.4 4.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d6b2ceb1-7f99-437b-8267-f53b3e6374be")
+	)
+	(pad "3" smd rect
+		(at 2.6 3.85)
+		(size 2.4 4.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "600132b0-7c0e-4423-a9a0-0ab5b451a76d")
+	)
+	(pad "4" smd rect
+		(at 2.6 -3.85)
+		(size 2.4 4.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a82d67f5-1aed-4b59-9742-2bbe17d0a67a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Bourns_CD-DF4xxS.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

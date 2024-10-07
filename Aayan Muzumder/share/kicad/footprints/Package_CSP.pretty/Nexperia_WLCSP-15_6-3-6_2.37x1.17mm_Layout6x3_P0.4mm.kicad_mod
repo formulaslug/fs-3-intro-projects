@@ -1,0 +1,337 @@
+(footprint "Nexperia_WLCSP-15_6-3-6_2.37x1.17mm_Layout6x3_P0.4mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Nexperia wafer level chip-size package; 15 bumps (6-3-6), 2.37x1.17mm, 15 Ball, 6x3 Layout, 0.4mm Pitch, https://assets.nexperia.com/documents/data-sheet/PCMFXUSB3S_SER.pdf")
+	(tags "CSP 15 0.4")
+	(property "Reference" "REF**"
+		(at 0 -1.585 0)
+		(layer "F.SilkS")
+		(uuid "4a0ffff0-748b-43a9-bac8-46162562dd5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Nexperia_WLCSP-15_6-3-6_2.37x1.17mm_Layout6x3_P0.4mm"
+		(at 0 1.585 0)
+		(layer "F.Fab")
+		(uuid "d9b292ef-c9f8-4587-b07c-6f8798783269")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b20d64c-5ffc-4c5b-9440-d3f7c55a6b44")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b264873e-cfc5-46d3-941f-fc542b8c6fd0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d629d9eb-423a-471a-b608-ebd0114e1097")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(solder_mask_margin 0.0375)
+	(attr smd)
+	(fp_line
+		(start -1.385 0.785)
+		(end -1.385 -0.4475)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70af26af-038f-4cd2-9afd-1d0f618daca8")
+	)
+	(fp_line
+		(start -1.0475 -0.785)
+		(end 1.385 -0.785)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9e51276-e4f1-4462-949f-f81bb6d67b5c")
+	)
+	(fp_line
+		(start 1.385 -0.785)
+		(end 1.385 0.785)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a17a219-96be-4412-a7f0-5b86488d10e6")
+	)
+	(fp_line
+		(start 1.385 0.785)
+		(end -1.385 0.785)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecec1df7-52a9-439d-8cf3-8bc9c4ed0bc4")
+	)
+	(fp_poly
+		(pts
+			(xy -1.385 -0.785) (xy -1.885 -0.785) (xy -1.385 -1.285) (xy -1.385 -0.785)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "f8a09383-7ae8-4597-b1c9-fc8e12d3a73e")
+	)
+	(fp_line
+		(start -2.19 -1.59)
+		(end -2.19 1.59)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f19e0387-e881-4253-898c-8650b56e6e49")
+	)
+	(fp_line
+		(start -2.19 1.59)
+		(end 2.19 1.59)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b7b5d8e-e0f9-4cd8-aabd-59bd94ab1150")
+	)
+	(fp_line
+		(start 2.19 -1.59)
+		(end -2.19 -1.59)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0afbd66-8957-4f85-9fb5-f76f930516f2")
+	)
+	(fp_line
+		(start 2.19 1.59)
+		(end 2.19 -1.59)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20299fdc-4326-411c-bef2-22bdd3d8edca")
+	)
+	(fp_line
+		(start -1.185 -0.2925)
+		(end -0.8925 -0.585)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fdd60b6-2ea1-4d01-93c4-225163391543")
+	)
+	(fp_line
+		(start -1.185 0.585)
+		(end -1.185 -0.2925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6cb6179-23af-4a28-a1dd-5c3f515a50cc")
+	)
+	(fp_line
+		(start -0.8925 -0.585)
+		(end 1.185 -0.585)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b85c00d1-bc7e-404b-9e54-d568b60ca64e")
+	)
+	(fp_line
+		(start 1.185 -0.585)
+		(end 1.185 0.585)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55046b5b-622c-4a6c-ab79-212caecb2a16")
+	)
+	(fp_line
+		(start 1.185 0.585)
+		(end -1.185 0.585)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa82789f-53ae-4dab-bff2-a791a06b91c2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f2a10a16-ace6-40e3-ae19-3c9fbf1cd687")
+		(effects
+			(font
+				(size 0.55 0.55)
+				(thickness 0.0825)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -1 -0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bffce3a8-8b38-4ec1-8d74-f3642a7da353")
+	)
+	(pad "A2" smd circle
+		(at -0.6 -0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b17ebeda-07af-4c5a-9dd9-242d507aeabc")
+	)
+	(pad "A3" smd circle
+		(at -0.2 -0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7b53f489-d4dc-4030-af0b-1d3cce328593")
+	)
+	(pad "A4" smd circle
+		(at 0.2 -0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e515e94f-a481-424e-90a8-ddce9fe3b2b3")
+	)
+	(pad "A5" smd circle
+		(at 0.6 -0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9383cd4e-2a27-4020-9125-1be869e7de18")
+	)
+	(pad "A6" smd circle
+		(at 1 -0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "19e68711-e119-43d4-9f0a-d231f1f93ba0")
+	)
+	(pad "B1" smd circle
+		(at -0.8 0)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "227c8891-f416-4954-b07b-3a4d35a83c7d")
+	)
+	(pad "B2" smd circle
+		(at 0 0)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eacc557e-0475-4a15-a108-1fdc37d60f5c")
+	)
+	(pad "B3" smd circle
+		(at 0.8 0)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "62252b1c-ded9-404a-aab6-aed9e9bffd62")
+	)
+	(pad "C1" smd circle
+		(at -1 0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d0e4c7af-7445-48f3-b914-230a6c8a8d32")
+	)
+	(pad "C2" smd circle
+		(at -0.6 0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "93b46aa0-52bc-4792-b06a-5b566163efb1")
+	)
+	(pad "C3" smd circle
+		(at -0.2 0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f8d7bb50-cdc4-416d-872d-dcc86b17d81c")
+	)
+	(pad "C4" smd circle
+		(at 0.2 0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "51f9d816-fc1d-4273-8f51-ec45976f434d")
+	)
+	(pad "C5" smd circle
+		(at 0.6 0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "60ba0803-f579-4c75-bcee-c9df71cabc43")
+	)
+	(pad "C6" smd circle
+		(at 1 0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "316f6568-43b0-4ab4-8965-560a84a65072")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_CSP.3dshapes/Nexperia_WLCSP-15_6-3-6_2.37x1.17mm_Layout6x3_P0.4mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

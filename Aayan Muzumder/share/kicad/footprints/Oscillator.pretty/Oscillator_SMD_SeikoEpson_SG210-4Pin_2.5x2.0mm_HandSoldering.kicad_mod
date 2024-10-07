@@ -1,0 +1,267 @@
+(footprint "Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm_HandSoldering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal Oscillator Seiko Epson SG-210 https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-210SED, hand-soldering, 2.5x2.0mm^2 package")
+	(tags "SMD SMT crystal oscillator hand-soldering")
+	(property "Reference" "REF**"
+		(at 0 -2.55 0)
+		(layer "F.SilkS")
+		(uuid "4270b6e9-031d-4d9b-9d42-7700ab41f6d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm_HandSoldering"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(uuid "d6ba1a37-3b4a-4435-9ebd-76f8684c2945")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6874f541-2867-4287-99be-dfc164d593a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4c2123e-7da3-422d-a980-94eaf36c80e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c382174-53cb-4eb4-b026-d544677a4194")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0.233333 0)
+		(stroke
+			(width 0.466667)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "d9ef5414-14f2-43c3-9f51-6384d4831d74")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.533333 0)
+		(stroke
+			(width 0.333333)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "d02bb331-1833-4e04-9540-1e3537404747")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.833333 0)
+		(stroke
+			(width 0.333333)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "27b6b0ba-b142-411c-b0a1-347c0675d1c9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "ba506aae-1170-43ac-9b79-91251c1135b0")
+	)
+	(fp_line
+		(start -2.15 -1.75)
+		(end -2.15 1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdb21d5c-ab85-4f66-abce-771df7c76dfc")
+	)
+	(fp_line
+		(start -2.15 1.75)
+		(end 2.15 1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91b4980f-4027-42a2-8995-11231909a83d")
+	)
+	(fp_line
+		(start -2.2 -1.8)
+		(end -2.2 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3962365b-20aa-4270-b4f5-16bb888069de")
+	)
+	(fp_line
+		(start -2.2 1.8)
+		(end 2.2 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e6032296-9d2d-446c-aa18-9074cb6b7375")
+	)
+	(fp_line
+		(start 2.2 -1.8)
+		(end -2.2 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8aa5c9e-b8b5-41de-9275-763cf98883da")
+	)
+	(fp_line
+		(start 2.2 1.8)
+		(end 2.2 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "242d45da-4e16-4ef9-9f38-c86049416648")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e890a530-9609-4cde-a653-b378fd16cd4e")
+	)
+	(fp_line
+		(start -1.25 0)
+		(end -0.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e2caecf-9be8-4dca-8875-5123e7c6c317")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc9d9f80-5f47-4d64-9762-cfd6ed0c384d")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2675da10-792f-4088-a44d-99774f61e8fd")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3963a18-0faa-4022-975b-6a5edf8d3ff1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a4f43d5d-cd1e-4582-8a6d-05c4e361cbac")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.125 0.875)
+		(size 1.65 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dcc7fffc-3d80-4878-92f3-4f0eb443fc30")
+	)
+	(pad "2" smd rect
+		(at 1.125 0.875)
+		(size 1.65 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dab1179a-dba1-47f4-8496-2788098899c4")
+	)
+	(pad "3" smd rect
+		(at 1.125 -0.875)
+		(size 1.65 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f99e50df-5aed-4cf0-b2d0-4feb4bd46b67")
+	)
+	(pad "4" smd rect
+		(at -1.125 -0.875)
+		(size 1.65 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ba2cc0e0-4d10-4040-bc8f-e506a87cbc68")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

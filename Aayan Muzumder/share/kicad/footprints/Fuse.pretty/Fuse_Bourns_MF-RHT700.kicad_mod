@@ -1,0 +1,245 @@
+(footprint "Fuse_Bourns_MF-RHT700"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "PTC Resettable Fuse, Ihold = 7.0A, Itrip=13.0A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf")
+	(tags "ptc resettable fuse polyfuse THT")
+	(property "Reference" "REF**"
+		(at 2.55 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "faea7164-48eb-4b98-b59a-3f84830ecd42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_Bourns_MF-RHT700"
+		(at 2.55 3.1 0)
+		(layer "F.Fab")
+		(uuid "3d3072e5-aec7-4067-ae15-b9b5d587f43e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d867a45-ee0c-4c25-af5d-2f05a0fc2a19")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9257791b-08c8-482f-b58c-2acfa289ca53")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c72cf48-b8ce-4650-9e75-df87e24ef5bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.55 -1)
+		(end -4.55 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ed1b0c9-3051-4c6d-ba8e-4c1708e24409")
+	)
+	(fp_line
+		(start -4.55 -1)
+		(end -0.879 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50fcc4d1-f210-4537-81d1-1bcb1abd36ca")
+	)
+	(fp_line
+		(start -4.55 2.2)
+		(end 4.222 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5cce5d2-bd38-47b6-a9f2-7b6c3185ba2a")
+	)
+	(fp_line
+		(start 0.879 -1)
+		(end 9.65 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a2ecd84-4b21-4fe4-8b01-bfddb9bfabbb")
+	)
+	(fp_line
+		(start 5.979 2.2)
+		(end 9.65 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e3777c9-d9e5-49fd-8f30-9aa1ebb002d9")
+	)
+	(fp_line
+		(start 9.65 -1)
+		(end 9.65 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56f19762-fe41-4381-8504-bb96e36f1293")
+	)
+	(fp_line
+		(start -4.7 -1.15)
+		(end -4.7 2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "abac6217-837d-405c-b201-fbfc0218e309")
+	)
+	(fp_line
+		(start -4.7 2.35)
+		(end 9.8 2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "83b9d479-f453-4e0c-b747-5b01b694e4dd")
+	)
+	(fp_line
+		(start 9.8 -1.15)
+		(end -4.7 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4394067f-8df8-446d-825a-96a9a32b7431")
+	)
+	(fp_line
+		(start 9.8 2.35)
+		(end 9.8 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dbe01d51-9138-4e5a-9fad-eb5311e4b87b")
+	)
+	(fp_line
+		(start -4.45 -0.9)
+		(end -4.45 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b929946-e40d-49aa-954f-57ae9de56939")
+	)
+	(fp_line
+		(start -4.45 2.1)
+		(end 9.55 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b926d39c-c3c9-46a6-a72c-eb3c449a374b")
+	)
+	(fp_line
+		(start 9.55 -0.9)
+		(end -4.45 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3bcbef0c-93b8-431e-875f-ae0bd2da6563")
+	)
+	(fp_line
+		(start 9.55 2.1)
+		(end 9.55 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8edda542-3d31-4248-8178-909d3dc0e33f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.55 0.6 0)
+		(layer "F.Fab")
+		(uuid "099b6cd5-c6cc-45b8-8527-02cc2be6f2cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.01 2.01)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bfd0f0d0-6116-4687-b12c-b77ccc5e3272")
+	)
+	(pad "2" thru_hole circle
+		(at 5.1 1.2)
+		(size 2.01 2.01)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc472027-9c7e-4064-bedb-6d51a36d7052")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Bourns_MF-RHT700.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

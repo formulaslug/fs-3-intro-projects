@@ -1,0 +1,330 @@
+(footprint "L_Toroid_Horizontal_D4.1mm_P8.00mm_Diameter4-5mm_Amidon-T16"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "L_Toroid, Horizontal series, Radial, pin pitch=8.00mm, , diameter=4.064mm, Diameter4-5mm, Amidon-T16")
+	(tags "L_Toroid Horizontal series Radial pin pitch 8.00mm  diameter 4.064mm Diameter4-5mm Amidon-T16")
+	(property "Reference" "REF**"
+		(at 4 -3.282 0)
+		(layer "F.SilkS")
+		(uuid "e251e550-cd58-4658-9330-9d6fe56a4a70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Toroid_Horizontal_D4.1mm_P8.00mm_Diameter4-5mm_Amidon-T16"
+		(at 4 3.282 0)
+		(layer "F.Fab")
+		(uuid "d11100ca-1cf5-4e46-8ccf-597a80c581fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afdbd346-80e0-47f8-9c6a-0521867967ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ae6068d-78a9-4971-ae68-6250fcb2df9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a69a27b-8ec0-4f0b-b39c-e39cbb9f0a25")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start 2.255436 -1.26)
+		(mid 4 -2.152)
+		(end 5.744564 -1.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99a15baa-60d8-403c-9948-9983cb400602")
+	)
+	(fp_arc
+		(start 5.744564 1.26)
+		(mid 4 2.152)
+		(end 2.255436 1.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99a8a011-ec54-42d2-9449-9db56150cf91")
+	)
+	(fp_circle
+		(center 4 0)
+		(end 4.8706 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b54d9cdb-c67a-4f2a-9a0e-111918b3a624")
+	)
+	(fp_line
+		(start -1.25 -2.29)
+		(end -1.25 2.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0327120b-6e29-4492-97f1-f9283aac362f")
+	)
+	(fp_line
+		(start -1.25 2.29)
+		(end 9.25 2.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ea6c850-d3f9-4a68-8895-814e9d21a5ed")
+	)
+	(fp_line
+		(start 9.25 -2.29)
+		(end -1.25 -2.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5360c1d9-fbaf-4f44-a270-eb579efdc4da")
+	)
+	(fp_line
+		(start 9.25 2.29)
+		(end 9.25 -2.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "84243473-2a3b-4956-9d8d-55887b4bcb2d")
+	)
+	(fp_line
+		(start 1.89104 0.000195)
+		(end 3.142223 -0.229748)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b644efaf-1013-42b3-b188-781524220707")
+	)
+	(fp_line
+		(start 2.173473 -1.054283)
+		(end 3.372008 -0.627847)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3061d233-89f5-428c-a5f7-e6286f397303")
+	)
+	(fp_line
+		(start 2.173668 1.054621)
+		(end 3.142266 0.229907)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50d75ead-3605-4821-8ce2-d4c9e292591b")
+	)
+	(fp_line
+		(start 2.945294 -1.826283)
+		(end 3.770053 -0.857724)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93c818b1-f22e-46d6-bcda-3a7e165a7a6d")
+	)
+	(fp_line
+		(start 2.945633 1.826478)
+		(end 3.372124 0.627963)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f1c673f-fd25-4810-ba5b-f27dfc03d3d9")
+	)
+	(fp_line
+		(start 3.999707 -2.10896)
+		(end 4.229709 -0.857787)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93eae972-0380-4456-975c-1a0bdf89943d")
+	)
+	(fp_line
+		(start 4.000098 2.10896)
+		(end 3.770212 0.857766)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db752668-3d38-425d-941e-3a03cb78e85b")
+	)
+	(fp_line
+		(start 5.054198 -1.826576)
+		(end 4.627817 -0.628021)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d58e56f0-47d9-4069-978e-b972093f9d75")
+	)
+	(fp_line
+		(start 5.054536 1.82638)
+		(end 4.229868 0.857745)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7eafc45-b0b0-4fca-9a69-5f16f51eabe4")
+	)
+	(fp_line
+		(start 5.826234 -1.05479)
+		(end 4.857713 -0.229987)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd719d76-fe03-4a42-a309-529a693d7ac4")
+	)
+	(fp_line
+		(start 5.826429 1.054452)
+		(end 4.627934 0.627905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df14a6a4-498c-47ba-9109-2af004b9b0ed")
+	)
+	(fp_line
+		(start 6.10896 -0.000391)
+		(end 4.857798 0.229669)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c87dc2c-634c-4498-8260-dd0e0f2af852")
+	)
+	(fp_line
+		(start 6.10896 0)
+		(end 4.857755 0.229828)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "adce3a72-bbef-492c-b06b-3ecf73ad4412")
+	)
+	(fp_circle
+		(center 4 0)
+		(end 4.9906 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f00e9c53-2b5d-455f-8600-4708cfc1f12a")
+	)
+	(fp_circle
+		(center 4 0)
+		(end 6.032 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4a01baf5-3806-4322-9910-10c9e616d4f9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4 0 0)
+		(layer "F.Fab")
+		(uuid "0d5ca56e-1c2f-477c-834d-5c8d06a55785")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.12192)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d17ce5b-e36c-4dc1-8245-1aedc72a9088")
+	)
+	(pad "2" thru_hole circle
+		(at 8 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f4505390-fd85-4c39-a707-a1e979677156")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Toroid_Horizontal_D4.1mm_P8.00mm_Diameter4-5mm_Amidon-T16.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

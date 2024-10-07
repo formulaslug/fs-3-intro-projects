@@ -1,0 +1,353 @@
+(footprint "L_TDK_SLF10145"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, TDK, SLF10145, 10.1mmx10.1mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/catalog/datasheets/inductor_automotive_power_slf10145-h_en.pdf)")
+	(tags "Inductor TDK_SLF10145")
+	(property "Reference" "REF**"
+		(at -2.55 -6.25 0)
+		(layer "F.SilkS")
+		(uuid "91dba49c-65fb-42aa-9ef3-0dd16876d12e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_TDK_SLF10145"
+		(at 0 6.05 0)
+		(layer "F.Fab")
+		(uuid "8e632e15-568a-4f5e-b8cc-e3ebc569d5c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7d8c99b-aeae-4281-b0ad-b36da84fe3e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3ca97ec-6b85-4b30-ab02-b035e5e45337")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77c7c3ff-7d3d-4e53-9e87-76dec81cf159")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.55 -5.55)
+		(end -2.55 -5.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1df489b5-993a-43c1-a949-ab5226a5094f")
+	)
+	(fp_line
+		(start -5.55 -2.55)
+		(end -5.55 -5.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97a0fe95-73e7-4213-be90-9d38abc2133c")
+	)
+	(fp_line
+		(start -5.17 -5.17)
+		(end -5.17 -1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7838147-89ea-4cd3-aaac-a3643826ef7e")
+	)
+	(fp_line
+		(start -5.17 -5.17)
+		(end 5.17 -5.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b29cc778-f737-4d66-bbd8-44761fba0f3d")
+	)
+	(fp_line
+		(start -5.17 1.85)
+		(end -5.17 5.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f236098f-2570-4c8c-abce-6ce60ba4f1cd")
+	)
+	(fp_line
+		(start -5.17 5.17)
+		(end 5.17 5.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e42a5ef5-7ba4-4be6-a3ef-c333d4e481d1")
+	)
+	(fp_line
+		(start 5.17 -5.17)
+		(end 5.17 -1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "556dcaee-51eb-44f4-8928-5e67efba8970")
+	)
+	(fp_line
+		(start 5.17 1.85)
+		(end 5.17 5.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f481203-9e81-44b5-9c10-807f54686073")
+	)
+	(fp_line
+		(start -5.55 -1.85)
+		(end -5.55 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e12762ad-6280-4f91-b4a8-1ff9ac5d270a")
+	)
+	(fp_line
+		(start -5.55 1.85)
+		(end -5.3 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2467e00-a645-4633-b3ae-503583f564cd")
+	)
+	(fp_line
+		(start -5.3 -5.3)
+		(end -5.3 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6de5ade7-2684-4dc2-a34d-7ce033a9bb2c")
+	)
+	(fp_line
+		(start -5.3 -5.3)
+		(end 5.3 -5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfc6bba6-c5d2-419a-add6-cc4ea55ec35a")
+	)
+	(fp_line
+		(start -5.3 -1.85)
+		(end -5.55 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "375f12c6-e995-46fd-b79b-625a6953ab01")
+	)
+	(fp_line
+		(start -5.3 1.85)
+		(end -5.3 5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d3fa776b-1c4e-4a32-934b-53d41123f586")
+	)
+	(fp_line
+		(start -5.3 5.3)
+		(end 5.3 5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b478813d-8a36-457a-98f3-e7a1427bfbda")
+	)
+	(fp_line
+		(start 5.3 -5.3)
+		(end 5.3 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f015b41a-eed6-498f-b935-214dca7b35a5")
+	)
+	(fp_line
+		(start 5.3 -1.85)
+		(end 5.55 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "960350c0-8a17-4011-add4-97fa66400d59")
+	)
+	(fp_line
+		(start 5.3 1.85)
+		(end 5.3 5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d5b8c96-cb45-4a28-a16d-60c5c2541fab")
+	)
+	(fp_line
+		(start 5.55 -1.85)
+		(end 5.55 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "56b88011-8cdd-4279-942f-594a98116cb7")
+	)
+	(fp_line
+		(start 5.55 1.85)
+		(end 5.3 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d55ed653-f3e8-42d1-930f-6dac41186234")
+	)
+	(fp_line
+		(start -5.05 -4.05)
+		(end -4.05 -5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9edac257-0ed6-4815-9d15-143ab0ae9ea2")
+	)
+	(fp_line
+		(start -5.05 5.05)
+		(end -5.05 -4.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd32511e-6a1c-476b-bec0-4a7063512d62")
+	)
+	(fp_line
+		(start -4.05 -5.05)
+		(end 5.05 -5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b1dd10d-992d-4fb7-b89e-6e501ad0c75f")
+	)
+	(fp_line
+		(start 5.05 -5.05)
+		(end 5.05 5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96fd5e3d-8916-4fd4-8f89-d61daf6613dc")
+	)
+	(fp_line
+		(start 5.05 5.05)
+		(end -5.05 5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f4be97e-218e-44a4-ba1f-5c428a7f1c4c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a146fef2-6551-4f5f-86e1-93ddafdcec06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.05 0)
+		(size 2.5 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3b0a1983-e1e2-4f68-a766-c1aba32fd06c")
+	)
+	(pad "2" smd roundrect
+		(at 4.05 0)
+		(size 2.5 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "133cbc30-882e-4328-ab62-0e1423debafe")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_TDK_SLF10145.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

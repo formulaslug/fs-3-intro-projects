@@ -1,0 +1,232 @@
+(footprint "LED_PLCC-2_3.4x3.0mm_AK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED PLCC-2 SMD package, orientation marker at anode, https://dammedia.osram.info/media/resource/hires/osram-dam-5824137/SFH%204257_EN.pdf")
+	(tags "LED PLCC-2 SMD TOPLED")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "0f1271a9-e892-4537-bcc3-e007449ac967")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_PLCC-2_3.4x3.0mm_AK"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "036d4440-2636-4b3b-ae1a-b506a5b07dab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bad0fce-4ce6-46c7-8270-bfd2fa02bb05")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4bd8175-86da-4302-9492-b812cb1f6682")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfd2045f-b816-47d0-aef2-182027a24157")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.4 -1.6)
+		(end -2.4 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5105bf9-532b-4565-ab00-b632ba28973d")
+	)
+	(fp_line
+		(start 2.25 -1.6)
+		(end -2.4 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50a45df2-f2ba-4394-83b4-d1ec2472dc4f")
+	)
+	(fp_line
+		(start 2.25 1.6)
+		(end -2.4 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e4d0cb3-4a8f-4484-9400-5325e175c34b")
+	)
+	(fp_line
+		(start -2.65 -1.85)
+		(end 2.5 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a83b0f6b-dcc7-4730-b0d7-6ed388582ecb")
+	)
+	(fp_line
+		(start -2.65 1.85)
+		(end -2.65 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0e5c2cb-ec63-408e-85c8-641b0c5fc65f")
+	)
+	(fp_line
+		(start 2.5 -1.85)
+		(end 2.5 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34ea9ea4-41c1-4192-bf82-f95d2287be8b")
+	)
+	(fp_line
+		(start 2.5 1.85)
+		(end -2.65 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a7d699a-c2c4-498e-9da4-475970bc67be")
+	)
+	(fp_line
+		(start -1.7 -1.5)
+		(end -1.7 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47942947-9b69-464a-b9c3-d5e7c55b4f06")
+	)
+	(fp_line
+		(start -1.7 -0.6)
+		(end -0.8 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "130712a7-db8e-4412-8d75-9139836f8778")
+	)
+	(fp_line
+		(start -1.7 1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2f27d0a-dc41-458b-8297-c49c4f0802f0")
+	)
+	(fp_line
+		(start 1.7 -1.5)
+		(end -1.7 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34e239d6-c431-453d-ac67-7812dbcd5c10")
+	)
+	(fp_line
+		(start 1.7 1.5)
+		(end 1.7 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da3ecceb-42db-4f3a-82d6-27ea62d9d126")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f154cd92-ada3-4b27-bd09-b43d7c2de3fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "197c825c-8be5-4669-8e17-556f73f34e56")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.5 0)
+		(size 1.5 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bfae2e89-43c2-4db3-8f7d-78937bea6625")
+	)
+	(pad "2" smd rect
+		(at -1.5 0)
+		(size 1.5 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5d440233-cf4b-4d73-b2b4-08f095b9246e")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC-2_3.4x3.0mm_AK.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

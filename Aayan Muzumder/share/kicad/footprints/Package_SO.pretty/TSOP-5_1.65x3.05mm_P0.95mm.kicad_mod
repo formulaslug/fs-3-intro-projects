@@ -1,0 +1,241 @@
+(footprint "TSOP-5_1.65x3.05mm_P0.95mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TSOP-5 package (comparable to TSOT-23), https://www.vishay.com/docs/71200/71200.pdf")
+	(tags "Jedec MO-193C TSOP-5L")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "fd34d079-7285-467c-adbd-24d9c24c58ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TSOP-5_1.65x3.05mm_P0.95mm"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "2aa2b487-e80f-4556-a022-fa2a85f5fb3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "754e3e33-d726-425d-bee8-4cdc0a3c30e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb42ab28-a310-4399-9dd9-81b7060ac2cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ac954cc-2d97-40ff-8864-2eab50144504")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 -1.6)
+		(end 0.8 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "788742c4-2abe-4061-be53-cef3fa124b48")
+	)
+	(fp_line
+		(start -0.8 1.6)
+		(end 0.8 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04d4a0c0-dc3b-4407-85fa-9513a4cedb5d")
+	)
+	(fp_poly
+		(pts
+			(xy -1.25 -1.45) (xy -1.49 -1.78) (xy -1.01 -1.78) (xy -1.25 -1.45)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "a63b7d90-ea66-4a9f-8728-b07869c313e6")
+	)
+	(fp_line
+		(start -1.76 -1.78)
+		(end -1.76 1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2a87ef9-53a9-4a05-9993-3e6ffeba85ef")
+	)
+	(fp_line
+		(start -1.76 -1.78)
+		(end 1.76 -1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31e6553f-d7d6-4cb4-9290-c0a49f89f888")
+	)
+	(fp_line
+		(start 1.76 1.77)
+		(end -1.76 1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d99795e7-80cf-46c9-91ee-f999b624f373")
+	)
+	(fp_line
+		(start 1.76 1.77)
+		(end 1.76 -1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "230ee281-271b-4ac1-97ca-52415c8870a0")
+	)
+	(fp_line
+		(start -0.825 -1.1)
+		(end -0.825 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78705904-34db-4d6a-a6c5-9fbc9bdcaa34")
+	)
+	(fp_line
+		(start -0.825 -1.1)
+		(end -0.425 -1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f95611be-7c40-426d-8e1f-f22a72a1045a")
+	)
+	(fp_line
+		(start 0.825 -1.525)
+		(end -0.425 -1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7a3c288a-2c41-4d49-bcf7-b2e7b07dbc16")
+	)
+	(fp_line
+		(start 0.825 -1.525)
+		(end 0.825 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec8c6df0-8609-4175-ba2d-9d076b4326b0")
+	)
+	(fp_line
+		(start 0.825 1.525)
+		(end -0.825 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8b6523c-cadb-43df-97ff-d1e7d3b22de4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "701177a3-9068-46ec-8134-f14ac961d88a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.16 -0.95)
+		(size 0.7 0.51)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ca45f4cf-6eb5-41dc-8f6a-fe90f3e77c2c")
+	)
+	(pad "2" smd rect
+		(at -1.16 0)
+		(size 0.7 0.51)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "410d9039-a4fb-4134-99e5-2648af14709f")
+	)
+	(pad "3" smd rect
+		(at -1.16 0.95)
+		(size 0.7 0.51)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6cee9f10-ef15-44ba-a78f-a547111247fc")
+	)
+	(pad "4" smd rect
+		(at 1.16 0.95)
+		(size 0.7 0.51)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4276acb4-5f2f-4a93-a3b2-13ce2a161e3e")
+	)
+	(pad "5" smd rect
+		(at 1.16 -0.95)
+		(size 0.7 0.51)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "66889dba-eb0c-4e2a-aaaa-5318b4319af0")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TSOP-5_1.65x3.05mm_P0.95mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

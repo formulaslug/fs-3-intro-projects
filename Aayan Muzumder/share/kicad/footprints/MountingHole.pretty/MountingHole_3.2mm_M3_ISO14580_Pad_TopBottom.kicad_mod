@@ -1,0 +1,120 @@
+(footprint "MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, M3, ISO14580")
+	(tags "mounting hole 3.2mm m3 iso14580")
+	(property "Reference" "REF**"
+		(at 0 -3.75 0)
+		(layer "F.SilkS")
+		(uuid "270d0371-a9f9-450e-93b5-a226af3a8fcd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+		(at 0 3.75 0)
+		(layer "F.Fab")
+		(uuid "5ed4637c-fa30-4f72-b78d-65172d0eada8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e771c10e-ce8f-4f76-ba74-0e92a613dec2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a88c28a1-c2ca-42ea-9da5-1f1beed57ce9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3f8deb3-ee6c-41a1-8c11-11b21a1d8151")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.75 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "334797d7-2f04-4125-827c-960acf524df4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "822f91f7-9599-4844-841c-11ab85af83e4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "63d90805-94a4-4868-a563-90361aa3dba7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.6 3.6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c443f969-946e-425c-a801-3adb8313ee2c")
+	)
+	(pad "1" connect circle
+		(at 0 0)
+		(size 5.5 5.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "875e4ab7-6d02-4966-aaad-9fa47a4df7ab")
+	)
+	(pad "1" connect circle
+		(at 0 0)
+		(size 5.5 5.5)
+		(layers "B.Cu" "B.Mask")
+		(uuid "4063bd6d-877c-483d-b57f-aa4d6bdb278b")
+	)
+)

@@ -1,0 +1,258 @@
+(footprint "L_CommonModeChoke_TDK_ACM2520-3P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TDK ACM2520 common-mode filter, SMD, 2x2.5mm, height 1.2mm https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_commercial_signal_acm2520_en.pdf")
+	(tags "ACM2520 common-mode filter 6 pin")
+	(property "Reference" "REF**"
+		(at 0 -1.85 0)
+		(layer "F.SilkS")
+		(uuid "f94cbd96-a9c0-4bdb-8c4a-a11589a8f51d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_CommonModeChoke_TDK_ACM2520-3P"
+		(at 0 1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7a2a2d92-b650-4a4e-bb04-7509621d8f42")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eca9b374-4a8c-4f06-a56d-f277926a7294")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c940ada0-a39b-493d-a91c-a7944b26c1eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c989ae55-fe73-446c-b078-8243cb01762c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.825 -1.125)
+		(end -1.825 -0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b47a5fad-0c7e-45a6-86c3-06620612e4a1")
+	)
+	(fp_line
+		(start 1.25 -1.125)
+		(end -1.825 -1.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5c8a231b-2ad9-4038-be62-789998b72b73")
+	)
+	(fp_line
+		(start 1.25 1.125)
+		(end -1.25 1.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "038352f8-6e6f-44df-ac5e-73080434bdd8")
+	)
+	(fp_line
+		(start -1.8 -1.25)
+		(end 1.8 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef898012-bdbe-4005-a6bf-efbf2e5b1099")
+	)
+	(fp_line
+		(start -1.8 1.25)
+		(end -1.8 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "026d1af8-1dc7-4b6a-815e-02cc888598da")
+	)
+	(fp_line
+		(start 1.8 -1.25)
+		(end 1.8 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc52d798-626e-4584-962b-ddcefadbe2de")
+	)
+	(fp_line
+		(start 1.8 1.25)
+		(end -1.8 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "213394bf-4af2-40fe-a755-7f096952dcb4")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end -1.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7a0c75ea-6ddb-4ab3-a48b-904c030bdf4e")
+	)
+	(fp_line
+		(start -0.75 -1)
+		(end -1.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1c27ac79-891d-40c6-8464-d6c015d5e5ae")
+	)
+	(fp_line
+		(start -0.75 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8bf6bded-a579-4e48-aae1-480aca2e7da1")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bc55340e-4505-4639-9053-63a53363d430")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "342f59d5-cbcd-4312-a3f2-628f2d5c5726")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3902aba9-b7e3-4d70-8006-1bdbc9ee3cdc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.15 -0.65)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "ad81956b-dfbf-4f90-9988-51f4cca3b4fa")
+	)
+	(pad "2" smd roundrect
+		(at -1.15 0)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "15ef83c3-f7af-4f22-a70c-8a9b464b01c4")
+	)
+	(pad "3" smd roundrect
+		(at -1.15 0.65)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c26b2ffc-dffb-4372-ae0e-bf66acf2d76f")
+	)
+	(pad "4" smd roundrect
+		(at 1.15 0.65)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "44c456fc-f0d8-460e-8898-cb86dfc7ecca")
+	)
+	(pad "5" smd roundrect
+		(at 1.15 0)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "1763a46b-23ab-482a-a4cf-7e2641c723b5")
+	)
+	(pad "6" smd roundrect
+		(at 1.15 -0.65)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "759dfb66-2b1b-4dc4-9870-aa8dc3ffd3c0")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonModeChoke_TDK_ACM2520-3P.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,247 @@
+(footprint "TE_T4041037031-000_M8_03_Socket_Straight"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Shielded M8 socket 3 ways connector panel, straight and rear mount (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FT404103010X000%7FA%7Fpdf%7FEnglish%7FENG_CD_T404103010X000_A.pdf%7FT4041037041-000)")
+	(tags "three-pin M8")
+	(property "Reference" "REF**"
+		(at 1.7 -8.5 0)
+		(layer "F.SilkS")
+		(uuid "322fdaaa-70c0-4056-930f-c967e87a01da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TE_T4041037031-000_M8_03_Socket_Straight"
+		(at 1.75 8.72 180)
+		(layer "F.Fab")
+		(uuid "c4c8d5de-fb42-4ca0-9a44-b8a9996e8cc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c053705b-fd99-4ad6-a90d-2285678846ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79884479-d1e4-475f-8d5f-9627654b4eec")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7eec5a5e-7742-4eb2-ba37-fa583bebc201")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -5.358655 -2.803412)
+		(mid 1.751834 -7.641472)
+		(end 8.86 -2.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3aaa5142-8dc3-4280-903f-41de346a3b00")
+	)
+	(fp_arc
+		(start -2.446063 -6.663748)
+		(mid -2.005908 -6.921388)
+		(end -1.55 -7.149999)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d7248cdd-64d7-4b97-860b-95e3ebafef35")
+	)
+	(fp_arc
+		(start 8.858655 2.803413)
+		(mid 1.748166 7.641472)
+		(end -5.36 2.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "533d0343-b4fa-4d4e-8a18-5c92daf518c8")
+	)
+	(fp_arc
+		(start -5.79 -2.73)
+		(mid 1.75 -8.021096)
+		(end 9.29 -2.73)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "49059781-9b8a-4f37-8fb9-bfa967821ae9")
+	)
+	(fp_arc
+		(start -5.79 2.73)
+		(mid -7.519436 0)
+		(end -5.79 -2.73)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd023d0d-83bb-4c22-99b1-f9901c008951")
+	)
+	(fp_arc
+		(start 9.29 -2.73)
+		(mid 11.019437 0)
+		(end 9.29 2.73)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1b8f7a5-ea09-4f5a-9db5-d0534f017d25")
+	)
+	(fp_arc
+		(start 9.29 2.73)
+		(mid 1.75 8.02452)
+		(end -5.79 2.73)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6c83cc6-0e9b-4998-b0ab-e699ef0c8232")
+	)
+	(fp_line
+		(start -0.900056 -1.599569)
+		(end -0.431 -1.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46382ca5-de2e-4214-bdbb-adcfe3d146c7")
+	)
+	(fp_line
+		(start -0.431 -1.12)
+		(end -0.328779 -1.782986)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2bb422cb-2c21-473a-a764-d9d209a3d0a4")
+	)
+	(fp_line
+		(start -0.328779 -1.782986)
+		(end -0.900056 -1.599569)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e2cc3a7-01cb-4508-a4cc-10775f3b7b6a")
+	)
+	(fp_circle
+		(center 1.75 0)
+		(end 9.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "46d2652c-d1a3-4ee4-b6b2-b4645e50aa3c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.75 0.5 0)
+		(layer "F.Fab")
+		(uuid "e8e12fb6-97e1-4957-a261-0f5d088dba32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 17.8)
+		(size 1.74 1.74)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f57cc42b-a22d-4fdc-9803-347c7ef1cca5")
+	)
+	(pad "3" thru_hole circle
+		(at 3.5 0 180)
+		(size 1.74 1.74)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28ad556f-e45c-476d-8626-b6beb0a62108")
+	)
+	(pad "4" thru_hole circle
+		(at 1.75 1.75 180)
+		(size 1.74 1.74)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e8794da-de37-4e1e-ac23-5849d67dc20b")
+	)
+	(pad "SH" thru_hole circle
+		(at -4.5 0 180)
+		(size 5 5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8304a4c9-b2a2-46c1-83ec-4a4ebc9ab042")
+	)
+	(pad "SH" thru_hole circle
+		(at 8 0 180)
+		(size 5 5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ffd27baf-eb80-4c28-afbb-7a4c89b7373d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_TE-Connectivity.3dshapes/TE_T4041037031-000_M8_03_Socket_Straight.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

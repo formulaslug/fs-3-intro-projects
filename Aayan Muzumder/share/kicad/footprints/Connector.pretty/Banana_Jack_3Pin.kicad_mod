@@ -1,0 +1,263 @@
+(footprint "Banana_Jack_3Pin"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Triple banana socket, footprint - 3 x 6mm drills")
+	(tags "banana socket")
+	(property "Reference" "REF**"
+		(at 7.75 -6.25 0)
+		(layer "F.SilkS")
+		(uuid "a64b3cc7-e7fa-435e-9194-bc07feb25bd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Banana_Jack_3Pin"
+		(at 22.5 -6.25 0)
+		(layer "F.Fab")
+		(uuid "57e79344-fc42-48f2-98dd-4675d6c4e7b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bd47273-d8ac-4f2f-8d49-eb508d99c6f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afb9b54c-60a4-4598-9fba-1543c9dc47d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d51ef169-56b0-4274-afd3-b35f2600baf3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 5.25)
+		(end 30 5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "736b08e3-1a2e-4029-b4bb-cd1be3b29913")
+	)
+	(fp_line
+		(start 30 -5.25)
+		(end 0 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9f8c79d-5e4f-4b7e-a239-00c2879696f7")
+	)
+	(fp_arc
+		(start 0 5.25)
+		(mid -5.25 0)
+		(end 0 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a781790-263b-448e-8819-672c0db2fc9a")
+	)
+	(fp_arc
+		(start 30 -5.25)
+		(mid 35.25 0)
+		(end 30 5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc66dbe0-71c0-4c70-8790-6a6ae6f2be34")
+	)
+	(fp_line
+		(start 0 -5.5)
+		(end 30 -5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "426425f9-811d-478d-a137-6edae03e5bc3")
+	)
+	(fp_line
+		(start 30 5.5)
+		(end 0 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2950849e-a2da-4805-8db2-eb477798df83")
+	)
+	(fp_arc
+		(start 0 5.5)
+		(mid -5.5 0)
+		(end 0 -5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1abd30dd-fda3-4e02-bc58-b525b42320de")
+	)
+	(fp_arc
+		(start 30 -5.5)
+		(mid 35.5 0)
+		(end 30 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1be02a2-fac0-4f71-add0-688de2ad98eb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6d179d5a-d8ed-40f8-8e56-14e59fc6f5be")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9b991dd3-5c18-4c72-aa32-21c1b004dcef")
+	)
+	(fp_circle
+		(center 15 0)
+		(end 17 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2c458777-b9b5-4ef2-9351-43b81a8adda0")
+	)
+	(fp_circle
+		(center 15 0)
+		(end 19.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "cdca7daa-5375-4387-8b36-7110c9430d76")
+	)
+	(fp_circle
+		(center 30 0)
+		(end 30 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6f0592ae-9723-47dd-a5e3-8b411a94def7")
+	)
+	(fp_circle
+		(center 30 0)
+		(end 30 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "52e4c7a1-537e-4d36-96a7-afec2a0475e2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 14.99 0 0)
+		(layer "F.Fab")
+		(uuid "bffe4cb2-7f09-479e-af88-b5fbac7b22e0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 10.16 10.16)
+		(drill 6.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e8239f8-7afd-4bbc-b05b-f9822787c902")
+	)
+	(pad "2" thru_hole circle
+		(at 14.99 0)
+		(size 10.16 10.16)
+		(drill 6.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "395a5163-a060-40c9-bff1-133d25874e92")
+	)
+	(pad "3" thru_hole circle
+		(at 29.97 0)
+		(size 10.16 10.16)
+		(drill 6.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "710947d5-297f-4e40-ad5a-3b0c3aeea11a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector.3dshapes/Banana_Jack_3Pin.wrl"
+		(offset
+			(xyz 14.99999977 0 0)
+		)
+		(scale
+			(xyz 2 2 2)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

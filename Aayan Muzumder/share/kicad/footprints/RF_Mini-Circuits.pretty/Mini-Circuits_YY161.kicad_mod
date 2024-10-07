@@ -1,0 +1,259 @@
+(footprint "Mini-Circuits_YY161"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Footprint for Mini-Circuits case YY161 (https://ww2.minicircuits.com/case_style/YY161.pdf)")
+	(tags "Mini-Circuits YY161")
+	(property "Reference" "REF**"
+		(at 0.508 -10.4648 0)
+		(layer "F.SilkS")
+		(uuid "03f83987-5d91-4ead-b747-a84c0608fc2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mini-Circuits_YY161"
+		(at 0 11.176 0)
+		(layer "F.Fab")
+		(uuid "c869b657-3233-4fd7-aae3-9b21caa5a6f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e2ccc07-4aa7-478a-b758-7eb750c781e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "888841da-ab3e-48f7-a1e2-1406505b047f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f355d39-56ec-4c62-9e40-ad2d57aa7366")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.826 9.779)
+		(end 4.826 9.779)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44c5fde9-283e-428b-820d-f0ad93638d58")
+	)
+	(fp_line
+		(start 4.826 -9.779)
+		(end -4.25 -9.78)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4cbea31-9a0b-4476-9b2f-d3301d245ad0")
+	)
+	(fp_poly
+		(pts
+			(xy -4.89 -9.27) (xy -5.39 -9.27) (xy -4.89 -9.77) (xy -4.89 -9.27)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "14193e6d-3fae-4aa6-88c0-38814b417a03")
+	)
+	(fp_line
+		(start -6.22 -9.78)
+		(end -6.22 9.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50bf8bf8-22e3-4608-bd8e-4c1b4a957930")
+	)
+	(fp_line
+		(start -6.22 -9.78)
+		(end 6.22 -9.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc37cc0f-cb00-4ebf-8a44-829bbd4ac0e1")
+	)
+	(fp_line
+		(start 6.22 9.78)
+		(end -6.22 9.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "52f981d9-5de1-49ce-98d5-fe3721816e62")
+	)
+	(fp_line
+		(start 6.22 9.78)
+		(end 6.22 -9.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9a0399e-ad8d-44a4-99d8-040da92261a2")
+	)
+	(fp_line
+		(start -4.826 -8.255)
+		(end -4.826 9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1383fcce-f956-4f5d-81c9-e671ef5334e3")
+	)
+	(fp_line
+		(start -3.556 -9.525)
+		(end -4.826 -8.255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3a379152-0b87-4b40-bb75-9b8587122ed5")
+	)
+	(fp_line
+		(start 4.826 -9.525)
+		(end -3.556 -9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "253e7cd8-eff0-480e-a004-2615de6d1aa6")
+	)
+	(fp_line
+		(start 4.826 9.525)
+		(end -4.826 9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6852c68-b426-420b-98de-8c2385ba8513")
+	)
+	(fp_line
+		(start 4.826 9.525)
+		(end 4.826 -9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2400f4e-4428-4712-8be7-35acef8cbacb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cd6a082c-631b-4d60-9ab4-308685b46d2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.064 -7.62 270)
+		(size 2.54 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "08b2c93a-ef6b-4e15-96fe-1c043ea92cb2")
+	)
+	(pad "2" smd rect
+		(at 4.064 -7.62 270)
+		(size 2.54 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b0956024-c4c2-424a-9aca-cb41a730374e")
+	)
+	(pad "3" smd rect
+		(at -4.064 -2.54 270)
+		(size 2.54 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "26998236-cd2f-4097-84cd-5a9b53fad62f")
+	)
+	(pad "4" smd rect
+		(at 4.064 -2.54 270)
+		(size 2.54 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d62ee3ff-e7b4-4ae7-a09c-d88c5409297e")
+	)
+	(pad "5" smd rect
+		(at -4.064 2.54 270)
+		(size 2.54 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f1d8c729-b96d-4609-a7db-26530ce01959")
+	)
+	(pad "6" smd rect
+		(at 4.064 2.54 270)
+		(size 2.54 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "41b3a926-653d-43b7-95d7-6f9844452492")
+	)
+	(pad "7" smd rect
+		(at -4.064 7.62 270)
+		(size 2.54 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7595a6d4-8af0-4552-938e-04a1543d7e11")
+	)
+	(pad "8" smd rect
+		(at 4.064 7.62 270)
+		(size 2.54 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6d6af898-1823-4028-840e-846ab19f9df9")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_YY161.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

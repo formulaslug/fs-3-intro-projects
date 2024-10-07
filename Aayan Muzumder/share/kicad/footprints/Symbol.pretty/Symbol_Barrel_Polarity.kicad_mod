@@ -1,0 +1,132 @@
+(footprint "Symbol_Barrel_Polarity"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Barrel connector polarity indicator")
+	(tags "barrel polarity")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a4abccbf-4e7d-4fcc-a051-05860a6d908b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Symbol_Barrel_Polarity"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "6bab54f0-aac3-4657-af99-678216030e47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Symbol_Barrel_Polarity"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "659b0879-8315-49bb-aaf2-de3239ebe9d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30913493-f706-4f26-8e1f-96178e713791")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ca3559c-9522-4e71-b620-68ee979fccac")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_line
+		(start -2 0.075)
+		(end -1.1 0.075)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a07449f5-1258-46ac-b6fd-98a9d032fc6e")
+	)
+	(fp_line
+		(start 0 0.075)
+		(end 2 0.075)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "505e7dfd-f396-409e-bc5b-8abb785df6e5")
+	)
+	(fp_arc
+		(start 0.75 0.75)
+		(mid -1.007627 0.128033)
+		(end 0.675 -0.675)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2fa46a42-1d3e-4671-bcd5-97b6031a2f61")
+	)
+	(fp_circle
+		(center -3 0.075)
+		(end -3 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "573d6159-45a7-48d0-a830-96f8a0e928a4")
+	)
+	(fp_circle
+		(center 0 0.075)
+		(end 0 0.25)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "36ccb9a2-beb4-4f22-803d-aec3a02885ea")
+	)
+	(fp_circle
+		(center 3 0.075)
+		(end 3 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fc404c0f-53e5-4687-9a91-f8672ac8243e")
+	)
+)

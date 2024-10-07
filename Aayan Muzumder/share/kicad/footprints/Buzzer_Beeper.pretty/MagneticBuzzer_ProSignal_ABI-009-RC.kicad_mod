@@ -1,0 +1,171 @@
+(footprint "MagneticBuzzer_ProSignal_ABI-009-RC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Buzzer, Elektromagnetic Beeper, Summer, 6V-DC,")
+	(tags "Pro Signal ABI-009-RC ")
+	(property "Reference" "REF**"
+		(at 3.8 -7 0)
+		(layer "F.SilkS")
+		(uuid "46fc340c-fee7-4412-bdd5-a7f9d44ad874")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MagneticBuzzer_ProSignal_ABI-009-RC"
+		(at 3.8 7 0)
+		(layer "F.Fab")
+		(uuid "7c378787-1449-47a8-bbeb-4652d7de0b26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a34c94d4-6ed1-4f18-8220-2e857152f21d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85287415-fee7-4143-b0b9-51b02d422aac")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29529de1-f835-46ef-85e0-51bd046a7e96")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 3.8 0)
+		(end 9.9 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1e9e9dd6-6005-4f6e-a95b-085d960ee73e")
+	)
+	(fp_circle
+		(center 3.8 0)
+		(end 10.05 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3abf04f3-6fcf-4552-b8f5-d77281508d17")
+	)
+	(fp_circle
+		(center 3.8 0)
+		(end 5.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0169e1bf-b244-42f3-b803-8aad118c4db6")
+	)
+	(fp_circle
+		(center 3.8 0)
+		(end 9.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "19f2df2b-c742-415e-8c89-b037caa1484a")
+	)
+	(fp_text user "+"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "e482116c-840c-42b5-ad3e-c1a8d965ca83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.8 -7 0)
+		(layer "F.Fab")
+		(uuid "d99ae150-50d0-4c04-86a5-6de3c01b5b7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 0 -1.8 0)
+		(layer "F.Fab")
+		(uuid "e79c555d-c097-483f-a1f7-2d95a53133cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e87287e7-bb20-4b0b-ae06-093959608e17")
+	)
+	(pad "2" thru_hole circle
+		(at 7.6 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7f3735ff-109c-4674-a952-cb8a05718826")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/MagneticBuzzer_ProSignal_ABI-009-RC.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

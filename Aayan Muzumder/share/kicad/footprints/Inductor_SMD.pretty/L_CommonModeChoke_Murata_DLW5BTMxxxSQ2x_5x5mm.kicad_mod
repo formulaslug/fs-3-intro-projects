@@ -1,0 +1,257 @@
+(footprint "L_CommonModeChoke_Murata_DLW5BTMxxxSQ2x_5x5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Wire Wound Chip Common Mode Choke Coil SMD, Murata DLW5BTxxxSQ2x, https://www.murata.com/products/productdata/8796762701854/EFLC0020.pdf, manual footprint")
+	(tags "inductor common mode choke")
+	(property "Reference" "REF**"
+		(at 0 -3.7 0)
+		(layer "F.SilkS")
+		(uuid "d0e7d8e8-b161-4d6b-a823-83eeb2d1a461")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_CommonModeChoke_Murata_DLW5BTMxxxSQ2x_5x5mm"
+		(at 0 3.8 0)
+		(layer "F.Fab")
+		(uuid "102bd614-1af5-4872-b135-3796d62b37ef")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1566cbb-7ac9-47e5-881e-c33bade123cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30169079-fd9d-46ce-a953-92dffffc3160")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9511708-e314-4365-8092-590c223e4916")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.61 -2.61)
+		(end -2.61 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43865979-96ea-4cf2-86be-b91957934ec3")
+	)
+	(fp_line
+		(start -1.3 -2.61)
+		(end 1.3 -2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a5093ad-2bee-4bff-99a8-0b733a672ed8")
+	)
+	(fp_line
+		(start -1.3 2.61)
+		(end 1.3 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7fc2eda-b2bb-482b-a208-0c4a4aede836")
+	)
+	(fp_line
+		(start 2.61 -2.61)
+		(end 2.61 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a78c1272-71bc-44b2-8508-6fcc659209ee")
+	)
+	(fp_circle
+		(center -3.05 -1.65)
+		(end -3.05 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "57dd9ce9-cc1d-4e4f-9d1e-e90bf1f0d033")
+	)
+	(fp_rect
+		(start -2.75 -3)
+		(end 2.75 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4c8c8105-ba85-472e-81bb-122b5894c907")
+	)
+	(fp_rect
+		(start -2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3be01bca-bc70-44f8-bb9a-d5ce8463fe33")
+	)
+	(fp_rect
+		(start -2 -2)
+		(end -1.5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3d8dda1a-42dd-4136-8c72-efc5d8551a20")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "5a93499d-25a3-41bc-802f-6fe4dc5b02a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -1.5 -0.95 270)
+		(size 1 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.8 0.85) (xy 0.5 0.85) (xy 0.5 -0.85) (xy -0.5 -0.85) (xy -0.5 0.15) (xy -1.8 0.15)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "2ebb8eff-5078-4d54-ac5f-1580a9c6d9a1")
+	)
+	(pad "2" smd custom
+		(at -1.5 0.95 270)
+		(size 1 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.8 0.85) (xy -0.5 0.85) (xy -0.5 -0.85) (xy 0.5 -0.85) (xy 0.5 0.15) (xy 1.8 0.15)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "1bb9fc68-235e-469f-b50a-4d3f83c707a4")
+	)
+	(pad "3" smd custom
+		(at 1.5 0.95 90)
+		(size 1 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.8 0.85) (xy 0.5 0.85) (xy 0.5 -0.85) (xy -0.5 -0.85) (xy -0.5 0.15) (xy -1.8 0.15)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "28c32eb5-3460-4767-b15f-71623fb5bf21")
+	)
+	(pad "4" smd custom
+		(at 1.5 -0.95 90)
+		(size 1 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.8 0.85) (xy -0.5 0.85) (xy -0.5 -0.85) (xy 0.5 -0.85) (xy 0.5 0.15) (xy 1.8 0.15)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "566e12e6-3323-49e2-9511-5c882ef67723")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonModeChoke_Murata_DLW5BTMxxxSQ2x_5x5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

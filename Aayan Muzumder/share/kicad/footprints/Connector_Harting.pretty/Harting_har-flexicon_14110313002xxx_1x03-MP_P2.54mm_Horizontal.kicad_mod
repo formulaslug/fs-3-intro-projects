@@ -1,0 +1,313 @@
+(footprint "Harting_har-flexicon_14110313002xxx_1x03-MP_P2.54mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Harting har-flexicon series connector, 14110313002xxx (https://b2b.harting.com/files/download/PRD/PDF_TS/1411XX13002XXX_100228421DRW035C.pdf), generated with kicad-footprint-generator")
+	(tags "connector Harting har-flexicon horizontal")
+	(property "Reference" "REF**"
+		(at 0 -5.8 0)
+		(layer "F.SilkS")
+		(uuid "f9dbfb23-c9c8-4ff5-b815-8f9bd3b649bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Harting_har-flexicon_14110313002xxx_1x03-MP_P2.54mm_Horizontal"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "ed8636e0-3804-4a7b-b8e0-156d1bcf493c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a13e394-7939-496b-af7c-20a2f1f18ed9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc05190d-aa1c-4bfb-be1b-f07b5b479b1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c69b8ef-a5ee-4452-b71e-35e921e402c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.575 -4.06)
+		(end -6.575 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4ab0224-6763-4114-b760-9e15431d0abd")
+	)
+	(fp_line
+		(start -4.318 -4.06)
+		(end -3.302 -4.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8eb28ff9-20c9-49b9-a0f4-9ae7274a7da7")
+	)
+	(fp_line
+		(start -3.09 -4.8)
+		(end -1.99 -4.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7761eb84-14d2-47cb-92ee-622a59e59daf")
+	)
+	(fp_line
+		(start -1.778 -4.06)
+		(end -0.762 -4.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aee7d8c5-f106-4b9b-8897-04745d6036ce")
+	)
+	(fp_line
+		(start 0.762 -4.06)
+		(end 1.778 -4.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a57fddf-fe37-4fdd-ae1f-13a1667dee5d")
+	)
+	(fp_line
+		(start 3.302 -4.06)
+		(end 4.318 -4.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dba1ca53-51a4-466c-aba8-125a94d64c42")
+	)
+	(fp_line
+		(start 6.575 -4.06)
+		(end 6.575 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0734c677-b372-4a3a-9f6f-9fee13ed55a5")
+	)
+	(fp_line
+		(start 6.575 2.61)
+		(end -6.575 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a028e545-44d4-45b2-ad4e-63037d58a132")
+	)
+	(fp_line
+		(start -6.69 -4.8)
+		(end -6.69 13)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0fa99097-11e3-4202-b0e4-83690635de02")
+	)
+	(fp_line
+		(start -6.69 13)
+		(end 6.69 13)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31111df6-f2c4-412a-be99-72e267a66277")
+	)
+	(fp_line
+		(start 6.69 -4.8)
+		(end -6.69 -4.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "508cf585-dc26-4d83-ad59-26259246a515")
+	)
+	(fp_line
+		(start 6.69 13)
+		(end 6.69 -4.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8307f033-ea89-4407-a4cf-13e89a6293fd")
+	)
+	(fp_line
+		(start -6.465 -3.95)
+		(end -6.465 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "486c2457-3a6f-41cb-ac2f-260583a3118a")
+	)
+	(fp_line
+		(start -6.465 2.5)
+		(end 6.465 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35e79254-3d06-4261-9b4b-7f468b60b2dd")
+	)
+	(fp_line
+		(start -3.04 2.5)
+		(end -2.54 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1294e41f-44ed-4da0-9bb9-6a2488839532")
+	)
+	(fp_line
+		(start -2.54 2)
+		(end -2.04 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f22c24ef-96c0-41b1-9211-d72c32672b12")
+	)
+	(fp_line
+		(start 6.465 -3.95)
+		(end -6.465 -3.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72e44565-ae71-47bc-915d-0845512e7d4e")
+	)
+	(fp_line
+		(start 6.465 2.5)
+		(end 6.465 -3.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9245821b-f9e9-4148-a48c-4cbcc1da88bf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.3 0)
+		(layer "F.Fab")
+		(uuid "a78d687a-a404-4ded-afcf-5387eae4c897")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3.81 -1.5)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "86e21c43-b91a-4da1-8c1f-d2970b3d05ef")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.81 -0.9)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a6e9592f-7e4a-4097-aa04-fe153cea1939")
+	)
+	(pad "1" smd rect
+		(at -2.54 -1.3)
+		(size 1.1 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3a38cf1f-1053-4e6f-8480-2dec246bf2ef")
+	)
+	(pad "2" smd rect
+		(at 0 -1.3)
+		(size 1.1 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "000997a0-e387-4cdc-a5ae-c3f99fd0dde2")
+	)
+	(pad "3" smd rect
+		(at 2.54 -1.3)
+		(size 1.1 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "21846848-a289-4ecf-b05d-26f93e087d84")
+	)
+	(pad "MP" smd rect
+		(at -5.08 -1.3)
+		(size 1.1 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b44fff87-3390-4cb8-ae7a-dfdc63fb1cc4")
+	)
+	(pad "MP" smd rect
+		(at 5.08 -1.3)
+		(size 1.1 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ba9ad36d-3b17-4c0a-99bb-6815cdb0bfb7")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Harting.3dshapes/Harting_har-flexicon_14110313002xxx_1x03-MP_P2.54mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

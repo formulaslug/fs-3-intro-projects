@@ -1,0 +1,221 @@
+(footprint "L_Taiyo-Yuden_NR-10050_9.8x10.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-10050, 9.8mmx10.0mm, https://ds.yuden.co.jp/TYCOMPAS/or/specSheet?pn=NR10050T1R3N")
+	(tags "inductor taiyo-yuden nr smd")
+	(property "Reference" "REF**"
+		(at 0 -6.25 0)
+		(layer "F.SilkS")
+		(uuid "94ef52f9-8e81-4d8d-ab37-67be9901789d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Taiyo-Yuden_NR-10050_9.8x10.0mm"
+		(at 0 6.5 0)
+		(layer "F.Fab")
+		(uuid "7dddc670-5a35-4ec3-b8bc-539fed30d7b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a82bb73-82f6-4d46-8ff2-bd4c2247a5ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc55f00c-867c-4f21-8747-24c6c82dbbfc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6bda5b5-3dcd-471f-adaf-5361466ae3a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.15 -5.3)
+		(end 5.15 -5.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b626b40e-02c9-4f79-ad04-6e7277393f03")
+	)
+	(fp_line
+		(start -5.15 5.3)
+		(end 5.15 5.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97e29931-10ae-4bd7-a247-e5f37bed81df")
+	)
+	(fp_line
+		(start -5.55 -5.25)
+		(end -5.55 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f829398e-b7a5-4824-b87c-89d92b8d4cf4")
+	)
+	(fp_line
+		(start -5.55 5.25)
+		(end 5.55 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6bd849f-91ab-4d34-abbc-fd58fc9ae2a0")
+	)
+	(fp_line
+		(start 5.55 -5.25)
+		(end -5.55 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4390e01f-20f1-4c8c-9433-bc87b075b5ed")
+	)
+	(fp_line
+		(start 5.55 5.25)
+		(end 5.55 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4509f49-34f5-449e-bad7-329ca01a2d80")
+	)
+	(fp_line
+		(start -4.9 -3.85)
+		(end -4.9 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "096c8d04-3072-4d52-a2a3-046cf06e2af6")
+	)
+	(fp_line
+		(start -4.9 -3.85)
+		(end -3.75 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17b52aef-5d17-4665-94ee-3edf804726ae")
+	)
+	(fp_line
+		(start -4.9 5)
+		(end 3.75 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38609f7a-8fc1-4a75-8e8f-fafda1fe4a91")
+	)
+	(fp_line
+		(start 3.75 5)
+		(end 4.9 3.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ec9810e-e94d-4ac4-ad2a-dc51db2c667c")
+	)
+	(fp_line
+		(start 4.9 -5)
+		(end -3.75 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a230799b-3989-4ada-825d-f1f986456128")
+	)
+	(fp_line
+		(start 4.9 3.85)
+		(end 4.9 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07f6ce3d-f29e-4e59-b12f-e94c61fbc163")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a4ed58c0-bfd4-4b78-9b02-8839e9d621aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4 0)
+		(size 2.6 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eb055338-332e-48ec-8aec-a7d8a7bd23db")
+	)
+	(pad "2" smd rect
+		(at 4 0)
+		(size 2.6 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e7b994df-82fe-4c23-8d7e-5147c008677f")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Taiyo-Yuden_NR-10050_9.8x10.0mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

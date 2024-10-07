@@ -1,0 +1,355 @@
+(footprint "Infineon_PG-HSOF-8-2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "HSOF-8-2 [TOLL] power MOSFET (http://www.infineon.com/cms/en/product/packages/PG-HSOF/PG-HSOF-8-2/)")
+	(tags "mosfet hsof toll")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "3ae82fa9-2cfa-4fb2-9eda-c2815e44f5df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Infineon_PG-HSOF-8-2"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "d8192a7b-617f-4e40-8f85-554b95eebef5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a2dca84-c53a-484f-b199-4fbca4f9bd4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdf3b6a0-78a5-477a-af07-ac06ea1cd680")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a7d32b2-6904-4154-8d78-2c1a99adca87")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.3 -5.06)
+		(end 4.97 -5.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "560891bc-f000-4159-9427-0df617a9e7bd")
+	)
+	(fp_line
+		(start -5.2 5.06)
+		(end 4.97 5.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e5732e9-7304-4d7d-9985-63143a92aafe")
+	)
+	(fp_poly
+		(pts
+			(xy -5.76 -4.96) (xy -5.52 -5.29) (xy -6 -5.29) (xy -5.76 -4.96)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "9b1cc328-2086-4b16-93bc-db26ca04a70e")
+	)
+	(fp_line
+		(start -6.9 5.3)
+		(end -6.9 -5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "69415c24-3170-4c9d-a021-7e6122fee25b")
+	)
+	(fp_line
+		(start -6.9 5.3)
+		(end 6.9 5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e4c0fe5-8d60-4b67-9480-d7eadd39ea30")
+	)
+	(fp_line
+		(start 6.9 -5.3)
+		(end -6.9 -5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae2aafff-c9ff-400e-8083-57191a353110")
+	)
+	(fp_line
+		(start 6.9 -5.3)
+		(end 6.9 5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "82cbe39d-8ea7-4c33-9c9a-29c50e922f3a")
+	)
+	(fp_line
+		(start -5.1875 4.95)
+		(end -5.1875 -3.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bca31e56-52c3-4f42-8350-835274be5b9e")
+	)
+	(fp_line
+		(start -4.1875 -4.95)
+		(end -5.1875 -3.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88400826-2505-4e2c-b113-8153e5292a9b")
+	)
+	(fp_line
+		(start -4.1875 -4.95)
+		(end 5.1875 -4.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55ee675a-2756-49ee-af9a-2441c5c0827e")
+	)
+	(fp_line
+		(start 5.1875 -4.95)
+		(end 5.1875 4.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4661e4a-b761-403c-ab1e-86eef814d150")
+	)
+	(fp_line
+		(start 5.1875 4.95)
+		(end -5.1875 4.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19b9841c-8243-47cd-8c41-e841b7b9d112")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7cf1e5cc-e9e6-49ae-8f1e-db30347a6688")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at -5.4 -4.2)
+		(size 2.35 0.7)
+		(layers "F.Paste")
+		(uuid "75d822dd-cfec-49b4-b8cb-17eef46b3788")
+	)
+	(pad "" smd rect
+		(at -5.4 -3)
+		(size 2.35 0.7)
+		(layers "F.Paste")
+		(uuid "94554f88-f2cb-4446-86f9-e0225c25036c")
+	)
+	(pad "" smd rect
+		(at -5.4 -1.8)
+		(size 2.35 0.7)
+		(layers "F.Paste")
+		(uuid "258a4f83-57d0-4952-b18c-1bb58e254a46")
+	)
+	(pad "" smd rect
+		(at -5.4 -0.6)
+		(size 2.35 0.7)
+		(layers "F.Paste")
+		(uuid "bfb0f5fd-c080-468b-a9d0-08f57b3a2655")
+	)
+	(pad "" smd rect
+		(at -5.4 0.6)
+		(size 2.35 0.7)
+		(layers "F.Paste")
+		(uuid "1c435564-8156-4c5a-afa4-f820a5c2c8d7")
+	)
+	(pad "" smd rect
+		(at -5.4 1.8)
+		(size 2.35 0.7)
+		(layers "F.Paste")
+		(uuid "c8b89226-d602-41fc-a83d-d6c4d9c4cc1d")
+	)
+	(pad "" smd rect
+		(at -5.4 3)
+		(size 2.35 0.7)
+		(layers "F.Paste")
+		(uuid "ede6888c-452f-4932-9dad-224bfd12815a")
+	)
+	(pad "" smd rect
+		(at -5.4 4.2)
+		(size 2.35 0.7)
+		(layers "F.Paste")
+		(uuid "3f229382-4df0-46e3-ba89-9a1c0855bb45")
+	)
+	(pad "1" smd rect
+		(at -5.4 -4.2)
+		(size 2.5 0.8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "a39621fd-e7aa-4a85-b4fe-642da3c55aa6")
+	)
+	(pad "2" smd rect
+		(at -5.4 -3)
+		(size 2.5 0.8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6bb2ec12-b905-4151-8814-69227077fed0")
+	)
+	(pad "3" smd custom
+		(at -4.4 1.2)
+		(size 0.5 6.8)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.25 -2.6) (xy -2.25 -2.6) (xy -2.25 -3.4) (xy -0.25 -3.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.25 -1.4) (xy -2.25 -1.4) (xy -2.25 -2.2) (xy -0.25 -2.2)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.25 -0.2) (xy -2.25 -0.2) (xy -2.25 -1) (xy -0.25 -1)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.25 1) (xy -2.25 1) (xy -2.25 0.2) (xy -0.25 0.2)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.25 2.2) (xy -2.25 2.2) (xy -2.25 1.4) (xy -0.25 1.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.25 3.4) (xy -2.25 3.4) (xy -2.25 2.6) (xy -0.25 2.6)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "6f54ce94-9fa9-4a43-b3ca-2df784c0f26b")
+	)
+	(pad "4" smd custom
+		(at 3.75 0)
+		(size 2.8 8.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 2.9 5.05) (xy 1.4 5.05) (xy 1.4 -5.05) (xy 2.9 -5.05)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -1.4 4.85) (xy -5.1 4.85) (xy -5.1 -4.85) (xy -1.4 -4.85)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "18cb9e23-b07e-4a7d-9431-9c79e122201d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-2.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

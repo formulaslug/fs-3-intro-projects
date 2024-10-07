@@ -1,0 +1,240 @@
+(footprint "GaN_Systems_GaNPX-3_5x6.6mm_Drain3.76x0.6mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "GaN Systems GaNPX GS66504B Package, https://gansystems.com/wp-content/uploads/2020/04/GS66504B-DS-Rev-200402.pdf")
+	(tags "ganpx gs66504b")
+	(property "Reference" "REF**"
+		(at 0 -4.21 0)
+		(layer "F.SilkS")
+		(uuid "5bfd2036-b47c-4ed7-9738-f134c6616942")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GaN_Systems_GaNPX-3_5x6.6mm_Drain3.76x0.6mm"
+		(at 0 6.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2d8f87b5-3798-4b48-8f3e-13cc812ba205")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d8f6358-654f-4b9e-b44a-f53c78ccd443")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36e59dda-d368-4a61-ad2d-b686c75aad43")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "538454ca-f57d-46f6-8feb-61e473df06a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.69 -3.47)
+		(end -2.69 0.4325)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ffff8dbc-400c-4719-bd13-bbd71d00b096")
+	)
+	(fp_line
+		(start -2 3.47)
+		(end 2 3.47)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "116be0de-31bb-42dd-a5c0-5a7441b89df9")
+	)
+	(fp_line
+		(start 2.69 -3.47)
+		(end -2.69 -3.47)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "72f7179c-e6f4-458a-a05e-9fab5c05b0a8")
+	)
+	(fp_line
+		(start 2.69 0.375)
+		(end 2.69 -3.47)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cdeb1784-4be5-4685-9ed4-063bbaf71958")
+	)
+	(fp_rect
+		(start -2.76 -3.53)
+		(end 2.76 3.53)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c89fbf25-3318-4508-8291-00eec71477a0")
+	)
+	(fp_line
+		(start -2.505 -3.28)
+		(end -2.505 3.28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7aa9b776-c49a-460e-a7ff-8b3c8e82abe8")
+	)
+	(fp_line
+		(start -2.505 3.28)
+		(end 2.505 3.28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8c9c808f-129d-4ff1-9b84-583689ec3bea")
+	)
+	(fp_line
+		(start 1.505 -3.28)
+		(end -2.505 -3.28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b03b5564-cf70-482c-b652-bf76f9163983")
+	)
+	(fp_line
+		(start 1.505 -3.28)
+		(end 2.505 -2.28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cb6c469e-a070-4de4-ace4-8321faf64a28")
+	)
+	(fp_line
+		(start 2.505 3.28)
+		(end 2.505 -2.28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "df863b3d-c0aa-4079-a06b-3d766541a74d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "7b47e0d7-6482-42aa-b1fb-bf6079d89698")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.34 0.9525)
+		(size 1.58 1.235)
+		(layers "F.Paste")
+		(roundrect_rratio 0.2024291498)
+		(uuid "a8560678-4d94-4f0c-af9e-0ed0d8a52320")
+	)
+	(pad "" smd roundrect
+		(at -0.34 2.3875)
+		(size 1.58 1.235)
+		(layers "F.Paste")
+		(roundrect_rratio 0.2024291498)
+		(uuid "bad28ce3-0598-4f1f-8a3d-6ec979476f5e")
+	)
+	(pad "" smd roundrect
+		(at 1.44 0.9525)
+		(size 1.58 1.235)
+		(layers "F.Paste")
+		(roundrect_rratio 0.2024291498)
+		(uuid "2f2c45e6-1594-4bc7-9b40-c75a837233cf")
+	)
+	(pad "" smd roundrect
+		(at 1.44 2.3875)
+		(size 1.58 1.235)
+		(layers "F.Paste")
+		(roundrect_rratio 0.2024291498)
+		(uuid "e9095d5b-3ff8-4b25-be6e-72eb2c65a7f1")
+	)
+	(pad "1" smd roundrect
+		(at 0 -2.91)
+		(size 3.76 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "480f3f33-f186-45fc-b83d-d987ef6b437a")
+	)
+	(pad "2" smd roundrect
+		(at -2.13 1.81)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "00b71cb3-2a5d-46a4-b44f-b4c0f67004d9")
+	)
+	(pad "3" smd roundrect
+		(at 0.55 1.67)
+		(size 3.76 3.07)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.08143322476)
+		(uuid "9f79dba6-712a-4011-9450-27ecc7c93606")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Transistor_Power.3dshapes/GaN_Systems_GaNPX-3_5x6.6mm_Drain3.76x0.6mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,265 @@
+(footprint "L_Axial_L20.3mm_D12.1mm_P28.50mm_Horizontal_Vishay_IHA-101"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Axial series, Axial, Horizontal, pin pitch=28.5mm, , length*diameter=20.32*12.07mm^2, Vishay, IHA-101, http://www.vishay.com/docs/34014/iha.pdf")
+	(tags "Inductor Axial series Axial Horizontal pin pitch 28.5mm  length 20.32mm diameter 12.07mm Vishay IHA-101")
+	(property "Reference" "REF**"
+		(at 14.25 -7.155 0)
+		(layer "F.SilkS")
+		(uuid "4dd5133d-7f59-485b-a29f-f1af5be0a1c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Axial_L20.3mm_D12.1mm_P28.50mm_Horizontal_Vishay_IHA-101"
+		(at 14.25 7.155 0)
+		(layer "F.Fab")
+		(uuid "cb6ef0c3-a713-486b-b475-521d3e22ff23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0192d1e-a925-4525-b428-2b2b5affd62e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e95f5308-ba07-4ca2-9b25-211757ae9272")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f82e43d-7419-416b-b10e-b3531398404b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.44 0)
+		(end 3.97 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e2cd1f4-b49a-4069-9061-9a7cc488b478")
+	)
+	(fp_line
+		(start 3.97 -6.155)
+		(end 3.97 6.155)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76e6466b-6c38-43c6-8c83-c2991bebe717")
+	)
+	(fp_line
+		(start 3.97 6.155)
+		(end 24.53 6.155)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7222c747-cb42-4f5a-b772-b7f0763ba964")
+	)
+	(fp_line
+		(start 24.53 -6.155)
+		(end 3.97 -6.155)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75e73879-d3bd-4677-a836-037d0de357a7")
+	)
+	(fp_line
+		(start 24.53 6.155)
+		(end 24.53 -6.155)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70a430a4-cc2f-4807-acb2-a8365084f8d9")
+	)
+	(fp_line
+		(start 27.06 0)
+		(end 24.53 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f014909d-85c1-46f0-86d2-aebbd7495af1")
+	)
+	(fp_line
+		(start -1.45 -6.29)
+		(end -1.45 6.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "69aee5e9-2ce0-414a-a010-054c8d24c2e8")
+	)
+	(fp_line
+		(start -1.45 6.29)
+		(end 29.95 6.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8db1482a-9185-4e0f-bee6-b0ef865f145d")
+	)
+	(fp_line
+		(start 29.95 -6.29)
+		(end -1.45 -6.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c97eb7b-df41-4721-85cd-8d340b52d5c0")
+	)
+	(fp_line
+		(start 29.95 6.29)
+		(end 29.95 -6.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1791cffe-11ce-471d-bff7-89323dfd8523")
+	)
+	(fp_line
+		(start 0 0)
+		(end 4.09 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a65a5a5-8c95-4dfa-92e1-6f935811ca74")
+	)
+	(fp_line
+		(start 4.09 -6.035)
+		(end 4.09 6.035)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db82a668-727a-4ae8-bb27-ef74c24c1cad")
+	)
+	(fp_line
+		(start 4.09 6.035)
+		(end 24.41 6.035)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5b4fa1b-30a4-48a4-b0b1-ed2555d02c21")
+	)
+	(fp_line
+		(start 24.41 -6.035)
+		(end 4.09 -6.035)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ca39b1e-17e8-4511-b0c5-9f85d73a47a2")
+	)
+	(fp_line
+		(start 24.41 6.035)
+		(end 24.41 -6.035)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e208951f-108c-4ae1-af61-d145b14b6615")
+	)
+	(fp_line
+		(start 28.5 0)
+		(end 24.41 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "872f619c-b149-4464-a10e-15e74338b99f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 14.25 0 0)
+		(layer "F.Fab")
+		(uuid "864c57fe-6eb9-435c-bd1d-6c13a7898d53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "53189278-6709-44de-b27a-79abdfd300c6")
+	)
+	(pad "2" thru_hole oval
+		(at 28.5 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "32c421ee-4008-413e-8b77-9834f770ecea")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Axial_L20.3mm_D12.1mm_P28.50mm_Horizontal_Vishay_IHA-101.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

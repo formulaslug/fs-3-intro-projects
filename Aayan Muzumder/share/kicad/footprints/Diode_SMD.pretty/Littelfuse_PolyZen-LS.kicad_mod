@@ -1,0 +1,249 @@
+(footprint "Littelfuse_PolyZen-LS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf")
+	(tags "Diode Polymer Protected Zener Diode Littelfuse LS")
+	(property "Reference" "REF**"
+		(at 0.58 -3 0)
+		(layer "F.SilkS")
+		(uuid "28674421-2339-403c-816a-350ac3709f21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Littelfuse_PolyZen-LS"
+		(at 1.27 3.1 0)
+		(layer "F.Fab")
+		(uuid "85245e76-902e-4b36-b37c-8eb78ac598d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b2adc8b-97a6-42b1-8411-037e91a397c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f769aa21-110d-400f-99b9-c1adbb2a2e3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdcb481e-a592-4335-8a15-0c485ae1dfa7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 2.1 -2.1)
+		(end -2 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61a0c44c-ea62-46c6-be2b-a5a017264a52")
+	)
+	(fp_line
+		(start 2.1 -2.1)
+		(end 2.1 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a87013b3-1937-4ac0-aded-7687db481fef")
+	)
+	(fp_line
+		(start 2.1 2.1)
+		(end -2.1 2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5eb9dbe0-27bc-4fc4-9026-e38eda75e62e")
+	)
+	(fp_line
+		(start 2.1 2.1)
+		(end 2.1 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "256ae1b2-3f95-47d3-b8a0-15f4be794e14")
+	)
+	(fp_poly
+		(pts
+			(xy -2.14 -1.38) (xy -2.42 -1.38) (xy -2.14 -1.66) (xy -2.14 -1.38)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "b1ecacad-df6e-450e-97ce-e02a35a3cc04")
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5f1ff68-2fb1-43b5-b82d-83820c74c5aa")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5abee05-3732-4b0f-aea0-3a91f61691cb")
+	)
+	(fp_line
+		(start 2.25 -2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "273c231a-4adc-4dca-acca-68b3d0b19319")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "062ad231-b248-4bd4-99b5-e3919c129bfe")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55ca89fe-abd4-4c33-b0f1-71e950f2c93c")
+	)
+	(fp_line
+		(start -1 -2)
+		(end -2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2794644f-4c81-49ea-b2d7-5357d873fafa")
+	)
+	(fp_line
+		(start 2 -2)
+		(end -1 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c29d16b-10b2-4e1f-986d-9f02f6135ddd")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72ff839b-867c-433c-b19b-fcdb7cdcf172")
+	)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "010ffbd3-5f76-4da7-815d-0d71d188405e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.58 0 0)
+		(layer "F.Fab")
+		(uuid "080b1893-cd1f-48e4-8db7-ee8d100136de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.72 0)
+		(size 0.56 2.21)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "775abacd-035f-4eb9-b754-75999569a491")
+	)
+	(pad "2" smd rect
+		(at 1.72 -0.635)
+		(size 0.56 0.94)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d22a3228-5b0a-420e-a65c-d6b1dc96614e")
+	)
+	(pad "3" smd rect
+		(at 1.72 0.635)
+		(size 0.56 0.94)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ac035349-d51c-4306-b108-32db21307768")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/Littelfuse_PolyZen-LS.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

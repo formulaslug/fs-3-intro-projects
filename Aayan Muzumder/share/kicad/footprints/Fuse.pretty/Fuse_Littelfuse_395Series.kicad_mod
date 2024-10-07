@@ -1,0 +1,225 @@
+(footprint "Fuse_Littelfuse_395Series"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Fuse, TE5, Littelfuse/Wickmann, No. 460, No560,")
+	(tags "Fuse TE5 Littelfuse/Wickmann No. 460 No560 ")
+	(property "Reference" "REF**"
+		(at 2.65 -2.95 0)
+		(layer "F.SilkS")
+		(uuid "169d2118-1677-40ab-aa61-3487535f7c75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_Littelfuse_395Series"
+		(at 2.35 3.1 0)
+		(layer "F.Fab")
+		(uuid "f870480c-4590-40d1-b5bf-3d9c2a2e3442")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95c23d92-b724-4d31-8ef1-02657605e63e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2e1cebe-fa3c-4b57-98f7-de9436c5a8c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3e2b3e9-f2c0-4ef3-9bd3-9da8c65ee644")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.83 -2.12)
+		(end -1.83 2.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b1399d8-5dc4-4c47-b502-8fa579ff5ade")
+	)
+	(fp_line
+		(start -1.83 -2.12)
+		(end 6.91 -2.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c62c7d9a-e84a-4dd7-abf7-16d8c0b7d953")
+	)
+	(fp_line
+		(start 6.91 2.12)
+		(end -1.83 2.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2ba47b1-4a6d-4ad3-af4e-b4063fa50313")
+	)
+	(fp_line
+		(start 6.91 2.12)
+		(end 6.91 -2.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b816582f-f32c-4bff-b5e4-3ea039971c1d")
+	)
+	(fp_line
+		(start -1.96 -2.25)
+		(end -1.96 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12f4b682-a078-410d-b5cb-e652e860274b")
+	)
+	(fp_line
+		(start -1.96 -2.25)
+		(end 7.04 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba7e093b-123a-42fb-9186-40542f99df9a")
+	)
+	(fp_line
+		(start 7.04 2.25)
+		(end -1.96 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cbef48a3-da5b-46af-8a5b-1feff71f325c")
+	)
+	(fp_line
+		(start 7.04 2.25)
+		(end 7.04 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb03122b-4ff7-40b6-941a-62b8a609c27c")
+	)
+	(fp_line
+		(start -1.71 -2)
+		(end -1.71 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48c377a0-6c12-4711-8f24-ed5e38132877")
+	)
+	(fp_line
+		(start -1.71 2)
+		(end 6.79 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4e0290e-8bca-45c9-8e71-a1612d449983")
+	)
+	(fp_line
+		(start 6.79 -2)
+		(end -1.71 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70197791-ff66-4fa6-9f84-8b159c40765a")
+	)
+	(fp_line
+		(start 6.79 2)
+		(end 6.79 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50bcb149-a69e-48a9-8350-60ba101d81fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.75 -1.25 0)
+		(layer "F.Fab")
+		(uuid "cec5e544-9bc3-43b5-84f3-d340115a4642")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0555f21a-5ddd-48c8-9846-293c56b74cad")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0.01)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50448e3f-9c8a-40c2-a48f-afe2b8949a44")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse_395Series.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

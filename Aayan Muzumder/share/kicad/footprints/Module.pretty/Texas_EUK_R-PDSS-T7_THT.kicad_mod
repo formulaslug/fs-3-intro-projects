@@ -1,0 +1,266 @@
+(footprint "Texas_EUK_R-PDSS-T7_THT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Texas Instruments EUK 7 Pin Double Sided Module")
+	(tags "module pcb")
+	(property "Reference" "REF**"
+		(at 17.53 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "63689ccb-eba0-43b1-9a22-9cd8dc5f2a3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Texas_EUK_R-PDSS-T7_THT"
+		(at 17.53 21.8 0)
+		(layer "F.Fab")
+		(uuid "f7f9624c-d486-43b7-bebb-a887c7a17daf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a78351da-de03-46fa-8d07-45a4ab26c8f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d48d3255-0372-4a19-a0f1-09871d6fd836")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db6c066d-c6e1-4821-9ba3-4d303b8b7d7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.65 -1.66)
+		(end -1.65 20.705)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b381bbb-9738-4134-b2e1-092183b52412")
+	)
+	(fp_line
+		(start -1.65 -1.66)
+		(end 36.58 -1.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cf3958f-8e5a-4b6f-8306-8102ca7cd79b")
+	)
+	(fp_line
+		(start -1.65 20.705)
+		(end 36.58 20.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c2bf428-bd05-4905-bd65-bfcba97daa00")
+	)
+	(fp_line
+		(start 36.58 -1.66)
+		(end 36.58 20.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c4bc6ae-8660-46a8-8549-deb81f276fa8")
+	)
+	(fp_line
+		(start -2.03 21.08)
+		(end -2.03 -2.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "091832a1-eef5-4d9d-a8d5-cf76c89610c8")
+	)
+	(fp_line
+		(start -2.03 21.08)
+		(end 36.96 21.08)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b34adae9-e745-4954-9fa7-a0a4b6c59142")
+	)
+	(fp_line
+		(start 36.96 -2.03)
+		(end -2.03 -2.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aad95a68-bc65-4e17-9372-50511a0e3306")
+	)
+	(fp_line
+		(start 36.96 -2.03)
+		(end 36.96 21.08)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "881c56f4-0e23-425c-9de4-161ad37a7489")
+	)
+	(fp_line
+		(start -1.52 20.575)
+		(end -1.52 -1.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "452b5261-41ac-47c7-bf86-8740e6e7a2a0")
+	)
+	(fp_line
+		(start 36.45 -1.53)
+		(end -1.52 -1.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04cda973-8e6b-433b-aea8-9404255f1db8")
+	)
+	(fp_line
+		(start 36.45 20.575)
+		(end -1.52 20.575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "18738bea-31b3-4a49-82da-3ebc672d703d")
+	)
+	(fp_line
+		(start 36.45 20.575)
+		(end 36.45 -1.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f049ba77-9f73-450a-b56b-eadee4f64a2f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 17.53 10 0)
+		(layer "F.Fab")
+		(uuid "081537b6-433e-4c7e-b552-cb29338a0d5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "5bf982ff-1716-4805-8bd6-2a36a61b8b9d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 19.04)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "784541a6-eb1d-4784-b23c-5b93a338c422")
+	)
+	(pad "3" thru_hole circle
+		(at 12.7 19.05)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fbb98488-eee7-4334-bd9e-a2575f947f82")
+	)
+	(pad "4" thru_hole circle
+		(at 15.88 19.04)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "260a3fdc-a098-439e-ab7d-940f0be5a9ce")
+	)
+	(pad "5" thru_hole circle
+		(at 19.06 19.05)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d5f9eb4c-6604-4090-85a7-984d893b38ae")
+	)
+	(pad "6" thru_hole circle
+		(at 34.94 19.05)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "31a3be5e-b3d8-4212-bbb4-25d5aa3f023e")
+	)
+	(pad "7" thru_hole circle
+		(at 34.94 0)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7efd2dfb-4ed7-405d-b2f4-322781a3d76c")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Texas_EUK_R-PDSS-T7_THT.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

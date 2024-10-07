@@ -1,0 +1,223 @@
+(footprint "CP_EIA-2012-12_Kemet-R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Tantalum Capacitor SMD Kemet-R (2012-12 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor tantalum")
+	(property "Reference" "REF**"
+		(at 0 -1.58 0)
+		(layer "F.SilkS")
+		(uuid "9f72bb4e-65ab-4980-bd31-0f38469f4afa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CP_EIA-2012-12_Kemet-R"
+		(at 0 1.58 0)
+		(layer "F.Fab")
+		(uuid "fb5a2bb5-0385-4c53-b19b-23a7a5e579c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5708976-6dda-4e32-a110-80fad92b37d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a43bc3a3-5a28-4754-a488-4375618139b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fded6fc9-d7f3-4689-bd82-839870d9e682")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.71 -0.785)
+		(end -1.71 0.785)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "467c3c68-daf0-4c03-bd5a-30f594510e6f")
+	)
+	(fp_line
+		(start -1.71 0.785)
+		(end 1 0.785)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2daf839d-be42-40c6-a2da-81a249375fa6")
+	)
+	(fp_line
+		(start 1 -0.785)
+		(end -1.71 -0.785)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1be2c8ab-88ce-44fd-8e74-4de3780d87ec")
+	)
+	(fp_line
+		(start -1.7 -0.88)
+		(end 1.7 -0.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bcb5e7fe-62dc-4313-bd0b-a3bec801f94a")
+	)
+	(fp_line
+		(start -1.7 0.88)
+		(end -1.7 -0.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7168f8fb-216e-49e0-bd6f-ddfc879c5906")
+	)
+	(fp_line
+		(start 1.7 -0.88)
+		(end 1.7 0.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24df0a2c-769c-4c2a-b215-257488ebce95")
+	)
+	(fp_line
+		(start 1.7 0.88)
+		(end -1.7 0.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "858fe520-ac21-4f67-b6b5-7bc95855b705")
+	)
+	(fp_line
+		(start -1 -0.3125)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b1d6495e-add4-4e19-9005-6052bbd785d2")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05a1a359-ce6f-4904-8702-a518fe80e77a")
+	)
+	(fp_line
+		(start -0.6875 -0.625)
+		(end -1 -0.3125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4bdf00d-59f0-4faa-a1d6-8eb895600b64")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end -0.6875 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0bf5b788-89d0-4dec-80b6-4e6bb6c80914")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7590d1d2-1650-4f22-a730-892d01ce270e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8062ea99-883d-4a18-b580-cc2d83eff57e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.8875 0)
+		(size 1.125 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.238095)
+		(uuid "2d7a9bdc-2023-42da-9d06-b4b7b60e9326")
+	)
+	(pad "2" smd roundrect
+		(at 0.8875 0)
+		(size 1.125 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.238095)
+		(uuid "91710987-b0b2-42d6-a74f-0245d7862f46")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-2012-12_Kemet-R.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

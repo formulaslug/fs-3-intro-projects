@@ -1,0 +1,387 @@
+(footprint "Oscillator_SMD_TXC_7C-4Pin_5.0x3.2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Miniature Crystal Clock Oscillator TXC 7C series, http://www.txccorp.com/download/products/osc/7C_o.pdf, 5.0x3.2mm^2 package")
+	(tags "SMD SMT crystal oscillator")
+	(property "Reference" "REF**"
+		(at 0 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "963b9b23-e6e7-4a20-b1be-ebb3e3e2ced8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SMD_TXC_7C-4Pin_5.0x3.2mm"
+		(at 0 2.8 0)
+		(layer "F.Fab")
+		(uuid "e3bc1757-e6f1-483d-8a65-b9a8ff2a75bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de046062-2426-4394-a237-443ec12d8497")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34857960-811b-40e8-b335-fcd86ed4bfe2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae192111-54d7-4de3-99f8-8b3bb8ff0b1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0.116667 0)
+		(stroke
+			(width 0.233333)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "53f1482f-5ead-4b4d-8fb0-d1fd20c34e31")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.266667 0)
+		(stroke
+			(width 0.166667)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "460ebd89-111a-43e5-8498-45f730ae985c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.416667 0)
+		(stroke
+			(width 0.166667)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "cd95edc6-bbb7-41ff-a97d-f6756eb724c5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "45ea7408-8126-4b4f-bd46-e8763a7c1c9c")
+	)
+	(fp_line
+		(start -2.7 -1.8)
+		(end -2.17 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7583f5a-5239-4fe8-9e9f-f447fe6d0e55")
+	)
+	(fp_line
+		(start -2.7 1.8)
+		(end -2.7 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8dd3d7a7-db14-4a20-ab5d-9f5661df4e5a")
+	)
+	(fp_line
+		(start -2.17 1.8)
+		(end -2.7 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13fc50e9-ad63-42d5-a08d-53ba8c278b02")
+	)
+	(fp_line
+		(start -2.17 2.04)
+		(end -2.17 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16409ca3-f0e2-4766-9d7b-2bfe9294f635")
+	)
+	(fp_line
+		(start -0.37 -1.8)
+		(end 0.37 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20537d56-b2e5-425e-a260-4d39778eca2e")
+	)
+	(fp_line
+		(start -0.37 1.8)
+		(end -0.37 2.04)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28072981-1402-4d70-aaf8-3309b495ae71")
+	)
+	(fp_line
+		(start 0.37 1.8)
+		(end -0.37 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f49472bc-a5d0-4c75-8c43-70cfd6cbd11b")
+	)
+	(fp_line
+		(start 2.17 -1.8)
+		(end 2.7 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69c954bd-fac2-45c1-a4e2-af993bb92da8")
+	)
+	(fp_line
+		(start 2.7 -1.8)
+		(end 2.7 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "412a82ef-d4b1-47b7-8bc3-313c01566459")
+	)
+	(fp_line
+		(start 2.7 1.8)
+		(end 2.17 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97a887ab-8563-48e8-b58d-86d3d50a8b1b")
+	)
+	(fp_line
+		(start -2.8 -2)
+		(end -2.8 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7d8baa7e-23a1-47ea-9e5b-549ea31d3834")
+	)
+	(fp_line
+		(start -2.8 2)
+		(end 2.8 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eead9d55-23cc-4b5a-8982-704104682118")
+	)
+	(fp_line
+		(start 2.8 -2)
+		(end -2.8 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd33ef89-6110-457c-8697-802e1a3f5329")
+	)
+	(fp_line
+		(start 2.8 2)
+		(end 2.8 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae02aead-993e-437a-ac0d-73c4ea8c85ca")
+	)
+	(fp_line
+		(start -2.5 -1.4)
+		(end -2.3 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76f5a852-1b68-46e1-817c-71ad17f68b47")
+	)
+	(fp_line
+		(start -2.5 0.6)
+		(end -1.5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "942144cd-4db9-49d3-9277-ddb5f5dcdce3")
+	)
+	(fp_line
+		(start -2.5 1.4)
+		(end -2.5 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1b2ed73-a2a2-47a7-b763-a2f6d7ae0afa")
+	)
+	(fp_line
+		(start -2.3 -1.6)
+		(end 2.3 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0223ece7-48ae-4f78-a27d-fd3a25767898")
+	)
+	(fp_line
+		(start -2.3 1.6)
+		(end -2.5 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f6e2527-95fa-4365-ae03-eef143064305")
+	)
+	(fp_line
+		(start 2.3 -1.6)
+		(end 2.5 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f8a226c-5cb1-4a18-a359-6b737486f4b1")
+	)
+	(fp_line
+		(start 2.3 1.6)
+		(end -2.3 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f74065f-31e0-4cc1-83e3-101bb743a81a")
+	)
+	(fp_line
+		(start 2.5 -1.4)
+		(end 2.5 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ea01d7d-3ef6-4ef4-a587-cc0f600d2850")
+	)
+	(fp_line
+		(start 2.5 1.4)
+		(end 2.3 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "986e4006-6183-417a-86e1-9ddc2d090187")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "14b29c3b-760b-4d3a-ad96-a375e889d4d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.27 1.1)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "98c93b5f-1cdd-4444-b68f-8579a43326ff")
+	)
+	(pad "2" smd rect
+		(at 1.27 1.1)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c8b1adc2-e022-4ce0-b49c-06ea18f14058")
+	)
+	(pad "3" smd rect
+		(at 1.27 -1.1)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9c42b416-419c-4c6b-b54b-d4f4a3cb65a4")
+	)
+	(pad "4" smd rect
+		(at -1.27 -1.1)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f03f6d4b-dbd1-48d9-88e6-619a598c05b8")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_TXC_7C-4Pin_5.0x3.2mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,301 @@
+(footprint "Resonator_Murata_CSTLSxxxX-3Pin_W5.5mm_H3.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Ceramic Resomator/Filter Murata CSTLSxxxX, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p17e.ashx, length*width=5.5x3.0mm^2 package, package length=5.5mm, package width=3.0mm, 3 pins")
+	(tags "THT ceramic resonator filter CSTLSxxxX")
+	(property "Reference" "REF**"
+		(at 2.5 -2.7 0)
+		(layer "F.SilkS")
+		(uuid "c53abb4d-d6e0-4013-b8ee-145883124e90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Resonator_Murata_CSTLSxxxX-3Pin_W5.5mm_H3.0mm"
+		(at 2.5 2.7 0)
+		(layer "F.Fab")
+		(uuid "9c7f7e8d-40f1-420e-975d-66d7c08cab65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8ac6472-b5ef-48b7-9411-d997e35da248")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d833684c-4e0f-41ae-84b5-d4984e4dffc7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "deb47963-3c3f-419b-b6f4-984209c88517")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.25 -1.7)
+		(end 3.75 -1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "684cb870-b06d-4c6b-bf87-63754f873ff1")
+	)
+	(fp_line
+		(start 1.25 1.7)
+		(end 3.75 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "050ad45f-88c4-4587-adb0-a9e3270f521e")
+	)
+	(fp_arc
+		(start -0.08779 -1.048961)
+		(mid 0.506102 -1.5286)
+		(end 1.25 -1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10529e22-65e3-4734-a855-21061277cb19")
+	)
+	(fp_arc
+		(start 1.25 1.7)
+		(mid 0.506103 1.5286)
+		(end -0.08779 1.048961)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cca7fb6c-e580-44bb-88af-4df4e1653847")
+	)
+	(fp_arc
+		(start 3.75 -1.7)
+		(mid 4.493897 -1.5286)
+		(end 5.08779 -1.048961)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f48f8fe-b194-46da-a2d5-18145fe22174")
+	)
+	(fp_arc
+		(start 5.08779 1.048961)
+		(mid 4.493898 1.5286)
+		(end 3.75 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72c3635f-08b9-4a1f-9424-9dff40115f14")
+	)
+	(fp_line
+		(start -1.1 -2)
+		(end -1.1 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93291625-6c53-4334-a44b-e4d1d76965ea")
+	)
+	(fp_line
+		(start -1.1 2)
+		(end 6 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88344e9a-f5fb-46c3-bcfb-abc5ce1c7051")
+	)
+	(fp_line
+		(start 6 -2)
+		(end -1.1 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8937b9e1-85b1-4e12-8b7a-0b9fae701298")
+	)
+	(fp_line
+		(start 6 2)
+		(end 6 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37e8011b-f89f-427d-bed0-53d1f4fdaa50")
+	)
+	(fp_line
+		(start 1.25 -1.5)
+		(end 3.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7904ba5f-560f-42bb-861d-76c76b31480d")
+	)
+	(fp_line
+		(start 1.25 -1.5)
+		(end 3.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e118557c-3aea-4284-b38b-5cd031610ff9")
+	)
+	(fp_line
+		(start 1.25 1.5)
+		(end 3.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a58b1d0-7026-4d03-ad0c-6f82e33da955")
+	)
+	(fp_line
+		(start 1.25 1.5)
+		(end 3.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e438929-4e6a-4f71-8a84-05e66b9145e3")
+	)
+	(fp_arc
+		(start 1.25 1.5)
+		(mid -0.25 0)
+		(end 1.25 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a5222ab-b52e-4598-9b5d-1af2e54c0c4f")
+	)
+	(fp_arc
+		(start 1.25 1.5)
+		(mid -0.25 0)
+		(end 1.25 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f305be54-51d4-440b-a100-87bc9fd15c5f")
+	)
+	(fp_arc
+		(start 3.75 -1.5)
+		(mid 5.25 0)
+		(end 3.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02a84c84-3ee0-4dcf-83db-f2ce3c2fc7fa")
+	)
+	(fp_arc
+		(start 3.75 -1.5)
+		(mid 5.25 0)
+		(end 3.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfe57ccb-85d1-4813-a1cd-c2d897760941")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "5a9fab7f-7da1-4f3c-8cda-4e91e6f2527c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b44ce12c-a83e-4c8a-87bf-80474bfdf40b")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ce8973a-f377-4ecd-b489-835f89e9bc98")
+	)
+	(pad "3" thru_hole circle
+		(at 5 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bf752256-15cb-4f49-a33a-f0f404fe7fce")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Resonator_Murata_CSTLSxxxX-3Pin_W5.5mm_H3.0mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

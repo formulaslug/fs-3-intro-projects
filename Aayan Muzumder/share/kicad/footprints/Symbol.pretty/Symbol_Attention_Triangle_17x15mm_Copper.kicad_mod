@@ -1,0 +1,184 @@
+(footprint "Symbol_Attention_Triangle_17x15mm_Copper"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Symbol, attention, 17x15mm, copper layer")
+	(tags "warning graphic")
+	(property "Reference" "REF**"
+		(at 0 -8.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "12a46635-1af8-4fc6-942e-c876bc78ae14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Symbol_Attention_Triangle_17x15mm_Copper"
+		(at 0.381 8.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68bce5c6-ea92-48db-a098-202aeaab1438")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Symbol_Attention_Triangle_17x15mm_Copper"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4392593-8f68-48d3-8e67-3054a39fb15b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c043685c-b72f-4acb-96a5-8967bd88ed8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "408b5fdb-2405-49e0-b4e7-0a391f117498")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_line
+		(start -8 6.93)
+		(end 0 -6.93)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "0f576a63-4cdd-47f4-94e0-26a0b6339141")
+	)
+	(fp_line
+		(start -7.136839 6.704632)
+		(end -7.403161 6.295368)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "3436b1d7-9c5f-440c-878a-c041bec03f68")
+	)
+	(fp_line
+		(start -0.27 -6.08)
+		(end 0.25 -6.08)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "61f33685-565c-44b8-873b-b64875844687")
+	)
+	(fp_line
+		(start 7.096839 6.684632)
+		(end 7.363161 6.275368)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "1e21841b-23cd-40b4-9864-a9f227db3bb0")
+	)
+	(fp_line
+		(start 8 6.93)
+		(end -8 6.93)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "07ed4c89-d91f-4c57-b40d-c82304e7bf3d")
+	)
+	(fp_line
+		(start 8 6.93)
+		(end 0 -6.93)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "92c4a17d-ee23-4f4b-bd7e-babff9fec46b")
+	)
+	(fp_line
+		(start 8 6.93)
+		(end 7.55 6.15)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "91ae3839-57c3-4f81-b3e7-24f4847801e5")
+	)
+	(fp_circle
+		(center 0 -3)
+		(end 0.8 -3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "7fe75cea-2380-4a3d-a389-fa1985b26d2a")
+	)
+	(fp_circle
+		(center 0 3)
+		(end 0.4 3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "33b8ddfe-c182-407b-ace4-85acd6b362da")
+	)
+	(fp_circle
+		(center 0 5)
+		(end 0.8 5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "e34f9bce-6524-4b8a-b291-6261d6c39731")
+	)
+	(fp_poly
+		(pts
+			(xy -0.4 3) (xy 0.4 3) (xy 0.8 -3) (xy -0.8 -3)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "9dbc3571-974b-4454-ad48-f66ca182df8b")
+	)
+)

@@ -1,0 +1,209 @@
+(footprint "D_5KPW_P7.62mm_Vertical_AnodeUp"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Diode, 5KPW series, Axial, Vertical, pin pitch=7.62mm, , length*diameter=9*8mm^2, , http://www.diodes.com/_files/packages/8686949.gif")
+	(tags "Diode 5KPW series Axial Vertical pin pitch 7.62mm  length 9mm diameter 8mm")
+	(property "Reference" "REF**"
+		(at 3.81 -5.12 0)
+		(layer "F.SilkS")
+		(uuid "e66f0ce3-38ed-4a5f-a7ba-73e6eeea31b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_5KPW_P7.62mm_Vertical_AnodeUp"
+		(at 3.81 5.12 0)
+		(layer "F.Fab")
+		(uuid "13473970-b568-4063-afeb-1d2eb44b0046")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0535989e-c8bd-4964-aefa-ba07eedc07ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cb89312-dd7a-4f5a-a017-e30549851a53")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db380da2-9fbe-41d9-b81d-0e156ab80e9c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 4.12 0)
+		(end 5.72 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbdd9715-b244-4ff5-bc4e-ba115584bfef")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.12 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "45066aa6-88e3-41db-b273-d71059e747a2")
+	)
+	(fp_line
+		(start -4.25 -4.25)
+		(end -4.25 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "524f34af-72c0-4f30-9163-38f589ee5d9f")
+	)
+	(fp_line
+		(start -4.25 4.25)
+		(end 9.47 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "355c5b08-2992-4524-ba1a-3e6be18c9d51")
+	)
+	(fp_line
+		(start 9.47 -4.25)
+		(end -4.25 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa20cb24-6d91-4607-b607-b392f1a04f1d")
+	)
+	(fp_line
+		(start 9.47 4.25)
+		(end 9.47 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f777701b-e66b-48dc-a8be-806794e5a015")
+	)
+	(fp_line
+		(start 0 0)
+		(end 7.62 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82744546-42ee-4932-aeac-bbc0aaae5070")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "cd64059f-4157-4b64-88b2-2afb5f0d340a")
+	)
+	(fp_text user "A"
+		(at 7.62 2.6 0)
+		(layer "F.SilkS")
+		(uuid "7f658098-3777-4f0b-a80d-7303cf159728")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "A"
+		(at 7.62 2.6 0)
+		(layer "F.Fab")
+		(uuid "a138633c-c3db-44c2-a965-d0703ad14505")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.1 0)
+		(layer "F.Fab")
+		(uuid "be5f48c9-9535-4048-a7f6-1ccaf76ae0f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5790c463-cf81-40dc-90a0-18a245730bb2")
+	)
+	(pad "2" thru_hole oval
+		(at 7.62 0)
+		(size 3.2 3.2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d4cfab21-d360-4177-b024-b823667b1611")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_5KPW_P7.62mm_Vertical_AnodeUp.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

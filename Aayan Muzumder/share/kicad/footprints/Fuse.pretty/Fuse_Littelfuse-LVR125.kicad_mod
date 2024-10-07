@@ -1,0 +1,225 @@
+(footprint "Fuse_Littelfuse-LVR125"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Littelfuse, resettable fuse, PTC, polyswitch LVR125, Ih 1.25A, http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lvr_catalog_datasheet.pdf.pdf")
+	(tags "LVR125 PTC resettable polyswitch ")
+	(property "Reference" "REF**"
+		(at 6.5 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "76298830-72ab-4d41-bac3-e6311ddfacf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_Littelfuse-LVR125"
+		(at 5.5 3.8 0)
+		(layer "F.Fab")
+		(uuid "fa72b9c4-5d7a-4ef8-b574-91b28ab5b39b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4484e5f-d1f9-41d5-a723-f0a96df1f579")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e351339c-3723-4f66-8e87-aa4793d0467b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad75d591-137a-4248-b84a-2b3dc012d100")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5 -2.75)
+		(end -5 2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb3bea75-a4e2-4137-9149-179343d4dd57")
+	)
+	(fp_line
+		(start -5 -2.75)
+		(end 16.4 -2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00103f95-f1d3-48b5-8b1f-2b43f2172487")
+	)
+	(fp_line
+		(start 16.4 2.75)
+		(end -5 2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cf5b38c-d54c-4054-b1cb-cac5c7c51741")
+	)
+	(fp_line
+		(start 16.4 2.75)
+		(end 16.4 -2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "647f4172-f71a-4c3c-baf3-21c33edd446a")
+	)
+	(fp_line
+		(start -5.15 -2.9)
+		(end -5.15 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "29d21cd3-e939-4ee1-8780-14308d5a73f8")
+	)
+	(fp_line
+		(start -5.15 -2.9)
+		(end 16.55 -2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "681903ed-bc4b-40b2-b117-386deff06a1b")
+	)
+	(fp_line
+		(start 16.55 2.9)
+		(end -5.15 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3e9619d-8f32-4b4c-9ddc-958203f18d05")
+	)
+	(fp_line
+		(start 16.55 2.9)
+		(end 16.55 -2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "991cc276-6d47-4bb7-b15d-2941b7f0b280")
+	)
+	(fp_line
+		(start -4.9 -2.65)
+		(end -4.9 2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1be16be8-b92c-4b23-b006-3d590981646b")
+	)
+	(fp_line
+		(start -4.9 2.65)
+		(end 16.3 2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36450391-b708-43fb-8a4a-0cd3ad49d227")
+	)
+	(fp_line
+		(start 16.3 -2.65)
+		(end -4.9 -2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7782da6f-fbbd-4805-961e-53c796d5ee87")
+	)
+	(fp_line
+		(start 16.3 2.65)
+		(end 16.3 -2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "573cb674-4a28-4a7b-acd0-a6c93e420d41")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6 0 0)
+		(layer "F.Fab")
+		(uuid "9452b942-f8af-43a3-a3ee-bc049a0ed096")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa95d02e-0fca-4177-ab14-a2f8c0599ce7")
+	)
+	(pad "2" thru_hole circle
+		(at 11.4 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "426b9547-78a8-4bd0-8168-41fdd81641c0")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-LVR125.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

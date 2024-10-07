@@ -1,0 +1,195 @@
+(footprint "Osram_SFH3710"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Osram SHF3710 NPN phototransistor, SMD Chip LED package, 2.0 x 1.25mm, height 0.85mm, https://look.ams-osram.com/m/14a91a7e00106d22/original/SFH-3710.pdf")
+	(tags "phototransistor npn")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "095438c7-f16d-48c5-9d3d-91113dce2c27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Osram_SFH3710"
+		(at 0 1.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e5dde7f5-d862-4f9f-95ba-cb5880ee2b2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "767792b5-b34d-40f2-9d8a-de9ada4c3dc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff4b39f9-d75f-4d41-8a0f-93e8305417f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc512d1d-3088-4dd3-8cd0-05c9d1d9ac7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.87 0.89)
+		(end -1.87 -0.89)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5bcd7690-4f22-4f70-aa10-8d3e8d533d01")
+	)
+	(fp_line
+		(start -1.87 0.89)
+		(end 1.87 0.89)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c5626b7-f574-4145-b6fe-0df811e615fd")
+	)
+	(fp_line
+		(start 1.87 -0.89)
+		(end -1.87 -0.89)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6913120-4801-4703-9ab2-a1cb929b6a7a")
+	)
+	(fp_rect
+		(start -1.85 -0.88)
+		(end 1.85 0.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "55749106-d456-4de5-9f2d-3bad85decdab")
+	)
+	(fp_line
+		(start -1 -0.31)
+		(end -0.69 -0.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2fec7056-99d3-4246-82a2-48339b8969ff")
+	)
+	(fp_line
+		(start -1 0.62)
+		(end -1 -0.31)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "72762db3-315f-4e76-911b-76be6c487ce2")
+	)
+	(fp_line
+		(start -0.69 -0.62)
+		(end 1 -0.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6d0fd72f-4e3a-42e0-8d73-807795b9c597")
+	)
+	(fp_line
+		(start 1 -0.62)
+		(end 1 0.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4582ae38-3c7f-4245-a6ae-e416781e5fa3")
+	)
+	(fp_line
+		(start 1 0.62)
+		(end -1 0.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d897f12a-55b6-45a8-85c0-7c2ecca08227")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8a5d0e85-bb5d-4e20-90b0-b667a3b632cd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.1 0)
+		(size 1 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "19062018-dff2-4822-891d-2dd89dc61674")
+	)
+	(pad "2" smd roundrect
+		(at 1.1 0)
+		(size 1 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a53dbbd1-03a2-411f-8fff-8496f276a134")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Osram_SFH3710.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

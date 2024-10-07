@@ -1,0 +1,221 @@
+(footprint "Crystal_SMD_MicroCrystal_CC4V-T1A-2Pin_5.0x1.9mm_HandSoldering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal MicroCrystal CC4V-T1A series http://cdn-reichelt.de/documents/datenblatt/B400/CC4V-T1A.pdf, hand-soldering, 5.0x1.9mm^2 package")
+	(tags "SMD SMT crystal hand-soldering")
+	(property "Reference" "REF**"
+		(at 0 -2.15 0)
+		(layer "F.SilkS")
+		(uuid "5cee0742-7400-49e2-9f14-469635346702")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_MicroCrystal_CC4V-T1A-2Pin_5.0x1.9mm_HandSoldering"
+		(at 0 2.15 0)
+		(layer "F.Fab")
+		(uuid "1d32d69a-c71e-462e-95fc-d6f94a576445")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15fbd540-140b-4fb9-8e51-3cbe7d006e3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcdaf200-a0c9-4947-83de-cb2e323c4aea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f15a3f3a-1fb5-40f3-9d8d-b6eeefc9a575")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.925 -1.1)
+		(end -3.925 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92f4e955-0bc2-48bc-bf05-3939e34bc905")
+	)
+	(fp_line
+		(start -1.25 -1.15)
+		(end 1.25 -1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2011ac89-1e48-403f-ac5f-78b8954b1be2")
+	)
+	(fp_line
+		(start -1.25 1.15)
+		(end 1.25 1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71a6ecad-25a0-408e-bc30-2a3f90a6ea35")
+	)
+	(fp_line
+		(start -4 -1.4)
+		(end -4 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "078b9bd1-77ef-4f14-9016-dffdd260ea33")
+	)
+	(fp_line
+		(start -4 1.4)
+		(end 4 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7fdb0ea-33ca-41e6-88a6-58db1aff144c")
+	)
+	(fp_line
+		(start 4 -1.4)
+		(end -4 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab45b7bd-5863-400f-b02f-cc687cb87dab")
+	)
+	(fp_line
+		(start 4 1.4)
+		(end 4 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0710b62-4038-4b29-b49c-493ece87e210")
+	)
+	(fp_line
+		(start -2.5 -0.95)
+		(end -2.5 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "627eae7d-f88b-4714-9772-aa42238c713e")
+	)
+	(fp_line
+		(start -2.5 0.45)
+		(end -2 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8bf0f478-4fe5-4f62-a252-af41d1c6db48")
+	)
+	(fp_line
+		(start -2.5 0.95)
+		(end 2.5 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81986a75-8c91-447e-92b7-6e03b86d1eea")
+	)
+	(fp_line
+		(start 2.5 -0.95)
+		(end -2.5 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c25e98a3-ebce-4c08-9537-0ec0cbe51413")
+	)
+	(fp_line
+		(start 2.5 0.95)
+		(end 2.5 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "20a7c5ac-a708-475f-b95d-b5df05c63f53")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7547c355-e365-47a9-86ce-3c559075e5de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.5875 0)
+		(size 2.275 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1c5cd0c7-ce03-455d-a192-c7e98ed091dd")
+	)
+	(pad "2" smd rect
+		(at 2.5875 0)
+		(size 2.275 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "780d0167-c993-4677-bbf8-b650ab273efb")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_MicroCrystal_CC4V-T1A-2Pin_5.0x1.9mm_HandSoldering.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,221 @@
+(footprint "Crystal_SMD_SeikoEpson_MC405-2Pin_9.6x4.1mm_HandSoldering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal Seiko Epson MC-405 https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-306_en.pdf, hand-soldering, 9.6x4.1mm^2 package")
+	(tags "SMD SMT crystal hand-soldering")
+	(property "Reference" "REF**"
+		(at 0 -3.23 0)
+		(layer "F.SilkS")
+		(uuid "ccfc63ff-fe1c-4116-b45f-0d8fa2690b44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_SeikoEpson_MC405-2Pin_9.6x4.1mm_HandSoldering"
+		(at 0 3.23 0)
+		(layer "F.Fab")
+		(uuid "d1659a76-b68e-4e19-98f3-0d6ca98ea00a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04fad98a-df6a-4fa0-a959-7e9c4592b27b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c87fce8-a507-4e41-ad9f-892027b1b111")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c32fb6e-502a-4c39-956b-cf12ef17e308")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -9.325 -2.05)
+		(end -9.325 2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ece5632e-494e-43ba-90c3-0db732caca6f")
+	)
+	(fp_line
+		(start -1.75 -2.23)
+		(end 1.75 -2.23)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5cd7b9a8-8f4b-4ecd-8c64-fc7b8b5bb0b1")
+	)
+	(fp_line
+		(start -1.75 2.23)
+		(end 1.75 2.23)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "963c32c1-6f68-40db-9897-c7ca9c8a961c")
+	)
+	(fp_line
+		(start -9.4 -2.3)
+		(end -9.4 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee602225-e4ce-43fa-a341-7299a5221f74")
+	)
+	(fp_line
+		(start -9.4 2.3)
+		(end 9.4 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ad344ca-133b-4a1e-aceb-c4dd8454bdd8")
+	)
+	(fp_line
+		(start 9.4 -2.3)
+		(end -9.4 -2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8be202dd-4a6a-418b-979f-78c521868ed7")
+	)
+	(fp_line
+		(start 9.4 2.3)
+		(end 9.4 -2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf4fa295-69d0-42d1-927e-58d40e8b93c7")
+	)
+	(fp_line
+		(start -4.8 -2.03)
+		(end -4.8 2.03)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57e4afcb-9678-49f1-a0bd-0ced32d6ed03")
+	)
+	(fp_line
+		(start -4.8 1.03)
+		(end -3.8 2.03)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f39a5fbb-530f-462d-a943-c443fabe648f")
+	)
+	(fp_line
+		(start -4.8 2.03)
+		(end 4.8 2.03)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f96e7863-d6f5-4cc7-80b1-85f57e6cbb5d")
+	)
+	(fp_line
+		(start 4.8 -2.03)
+		(end -4.8 -2.03)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "adc2e3a0-494f-4c7f-9ebb-006ff0c13307")
+	)
+	(fp_line
+		(start 4.8 2.03)
+		(end 4.8 -2.03)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d6f988a3-1903-4dbe-b4e0-44b397435cc1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "42d5f0a6-2222-4008-b54c-62a91ba0c999")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.5375 0)
+		(size 7.175 4.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "15c9dba5-e20e-44e7-b3ad-f5f189a40937")
+	)
+	(pad "2" smd rect
+		(at 5.5375 0)
+		(size 7.175 4.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c1226186-034b-4a13-aba7-0f0d908ee694")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_MC405-2Pin_9.6x4.1mm_HandSoldering.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

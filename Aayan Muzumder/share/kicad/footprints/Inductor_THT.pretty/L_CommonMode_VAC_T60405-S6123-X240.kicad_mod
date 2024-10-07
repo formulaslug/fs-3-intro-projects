@@ -1,0 +1,226 @@
+(footprint "L_CommonMode_VAC_T60405-S6123-X240"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "40A, 3Phase, Triple Coil, CM Choke, https://vacuumschmelze.com/03_Documents/Datasheets%20-%20Drawings/Commom-Mode-Chokes/6123-X240.pdf")
+	(tags "common mode filter triple choke")
+	(property "Reference" "REF**"
+		(at -4.953071 -5.500244 0)
+		(layer "F.SilkS")
+		(uuid "e9bb29b2-2bb9-4ea2-acd9-2bb3ca677a12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_CommonMode_VAC_T60405-S6123-X240"
+		(at 26.846929 52 0)
+		(layer "F.Fab")
+		(uuid "62c076a3-d618-44a2-9042-9a08b3576787")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2e077a3-7c4f-4479-b0d7-516461ebb4e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cec80772-767c-4e86-8128-ed83df7c3d0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b27bf8f-f7c7-4d4d-86fd-ff0880bf3472")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start 27.646929 -19.582912)
+		(mid 26.846929 -18.550244)
+		(end 26.046929 -19.582912)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bc5981d-c1c1-43da-a523-6189d8475e06")
+	)
+	(fp_circle
+		(center 26.846929 15.499756)
+		(end 61.946929 15.499756)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a76fbfb4-5989-4acc-8232-260830730951")
+	)
+	(fp_circle
+		(center 26.846929 15.499756)
+		(end 36.846929 15.499756)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "3a6e1b00-aa08-416c-85dc-bf006b0a4a78")
+	)
+	(fp_circle
+		(center 26.846929 15.499756)
+		(end 57.846929 15.499756)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "33dd8803-71f2-44bd-b4cc-8dfca4a89608")
+	)
+	(fp_circle
+		(center 26.84 15.49)
+		(end 62.84 15.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3a3bfbd6-c616-42f1-9eef-1ca717dd3dba")
+	)
+	(fp_arc
+		(start -4.499999 1)
+		(mid -2.986804 -1.902003)
+		(end -1.205717 -4.647747)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b1a73b26-d3cc-4ece-b1ce-a36cfcccdddd")
+	)
+	(fp_arc
+		(start 27.846929 -19.382912)
+		(mid 26.846929 -18.382912)
+		(end 25.846929 -19.382912)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d599c6e-ce87-40a6-8808-1c09f41e6d87")
+	)
+	(fp_circle
+		(center 26.846929 15.499756)
+		(end 61.796929 15.499756)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9eb142f5-c818-4799-9b6e-f56193c12346")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 26.846929 15.499756 0)
+		(layer "F.Fab")
+		(uuid "da469d11-a8a4-414b-9449-d151eeaf4853")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0 60)
+		(size 6.2 6.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "57bd8183-01fc-4841-9978-4cec4aa82d29")
+	)
+	(pad "2" thru_hole circle
+		(at 20.422546 23.163127)
+		(size 6.2 6.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "118a9bdc-2b1f-4f3f-b4bd-5885991da4e2")
+	)
+	(pad "3" thru_hole circle
+		(at 26.846929 46.499756)
+		(size 6.2 6.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ba562460-f517-4e08-9a00-7593eb8fcd2c")
+	)
+	(pad "4" thru_hole circle
+		(at 36.694303 17.240222)
+		(size 6.2 6.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0e006e01-b151-4d6e-9611-84a495b7aa73")
+	)
+	(pad "5" thru_hole circle
+		(at 53.693621 -0.00036)
+		(size 6.2 6.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a7a1f59e-8d15-4e06-905f-22be81858b05")
+	)
+	(pad "6" thru_hole circle
+		(at 23.425836 6.103155)
+		(size 6.2 6.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0aef89f6-51fb-4509-a0eb-b9b287be1273")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_CommonMode_VAC_T60405-S6123-X240.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

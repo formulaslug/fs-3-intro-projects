@@ -1,0 +1,347 @@
+(footprint "Crystal_SMD_0603-4Pin_6.0x3.5mm_HandSoldering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal SERIES SMD0603/4 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-4.pdf, hand-soldering, 6.0x3.5mm^2 package")
+	(tags "SMD SMT crystal hand-soldering")
+	(property "Reference" "REF**"
+		(at 0 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "42765ce0-b632-4afc-8128-17e02168d29d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_0603-4Pin_6.0x3.5mm_HandSoldering"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "7c102bf6-b5d3-4ecb-8fcb-7ecee589c40a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aaa717cd-1ca6-4aa4-a439-7229bead44d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71f0319e-d112-4159-b136-848705a342ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f6947dd-a1cf-4ace-9094-446ab2b16983")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0.093333 0)
+		(stroke
+			(width 0.186667)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "752f9542-8de9-4bfb-9ebf-8a21bd055c79")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.213333 0)
+		(stroke
+			(width 0.133333)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "25a8026b-e834-4db2-89a5-c8f09b6f0715")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.333333 0)
+		(stroke
+			(width 0.133333)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "986c8bb2-04a6-4eab-a1e6-4e84da1c0a59")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "261be2b6-6d12-45cc-8b26-aa661bd9b304")
+	)
+	(fp_line
+		(start -4.2 0.3)
+		(end -3.2 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "faa1c72d-2a6f-433e-94e7-4838597dbef5")
+	)
+	(fp_line
+		(start -3.2 0.3)
+		(end -3.2 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae7a2c85-4402-4f0e-a6d7-4cb2fd0b554c")
+	)
+	(fp_line
+		(start -1.1 -1.95)
+		(end 1.1 -1.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2de5d7c-80b8-4f05-9d26-d746e2aa1d92")
+	)
+	(fp_line
+		(start -1.1 1.95)
+		(end -1.1 2.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9bcd5b2-1509-49a9-98c5-cd7c9393509b")
+	)
+	(fp_line
+		(start 1.1 1.95)
+		(end -1.1 1.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7b0fb97-2e9d-42e9-8d9c-6a7307927a9f")
+	)
+	(fp_line
+		(start 3.2 -0.3)
+		(end 3.2 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1ff65d2-9907-4451-8d01-bcd8255d031d")
+	)
+	(fp_line
+		(start -4.3 -2.9)
+		(end -4.3 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "366f35c8-14db-4581-bc0c-924312aa4a72")
+	)
+	(fp_line
+		(start -4.3 2.9)
+		(end 4.3 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c273aa9-c4b6-477e-bdf6-0c55918add67")
+	)
+	(fp_line
+		(start 4.3 -2.9)
+		(end -4.3 -2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "191f254d-0b6d-4e3c-af8d-8f4b4e9f23a0")
+	)
+	(fp_line
+		(start 4.3 2.9)
+		(end 4.3 -2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a7d4895-84cf-40db-ad5d-838975f06e8f")
+	)
+	(fp_line
+		(start -3 -1.65)
+		(end -2.9 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e1fe379-22c4-40df-9d62-cec4105fe181")
+	)
+	(fp_line
+		(start -3 0.75)
+		(end -2 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02658963-b86a-4cea-8246-f684149d7a67")
+	)
+	(fp_line
+		(start -3 1.65)
+		(end -3 -1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d236e08e-e41a-440a-9c23-07609b87f2ad")
+	)
+	(fp_line
+		(start -2.9 -1.75)
+		(end 2.9 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a928e607-f051-4ec5-87c4-28417a68529a")
+	)
+	(fp_line
+		(start -2.9 1.75)
+		(end -3 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d33c3c3-e931-4fe4-a6b5-9fc89c05d9ae")
+	)
+	(fp_line
+		(start 2.9 -1.75)
+		(end 3 -1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35fe3c63-70e6-4d0c-a90e-1b9bd7035969")
+	)
+	(fp_line
+		(start 2.9 1.75)
+		(end -2.9 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30b97ba0-f321-40c5-b3ab-35686c4b2b31")
+	)
+	(fp_line
+		(start 3 -1.65)
+		(end 3 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e50b382f-2ae3-43f9-beb8-c78c451c19c1")
+	)
+	(fp_line
+		(start 3 1.65)
+		(end 2.9 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3d6562c-9955-4b71-aa91-f70a374f3ee6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bf89d1da-b9f8-45f9-a415-8e43bc24d36e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.65 1.55)
+		(size 2.7 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "577d34b8-3ab8-4639-9940-a3ff7a57e8d9")
+	)
+	(pad "2" smd rect
+		(at 2.65 1.55)
+		(size 2.7 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "61e6c60f-8a9a-490b-a0d0-1f506356ad4b")
+	)
+	(pad "3" smd rect
+		(at 2.65 -1.55)
+		(size 2.7 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7aeea62d-1baa-4d46-9ed0-b4dc7aacc3e2")
+	)
+	(pad "4" smd rect
+		(at -2.65 -1.55)
+		(size 2.7 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "385a1e79-5227-4677-b5fa-590b9f4212ea")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_0603-4Pin_6.0x3.5mm_HandSoldering.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,146 @@
+(footprint "L_Radial_D16.0mm_P10.00mm_Panasonic_15E-L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Panasonic ELC Type 15E-L inductor, radial, shielded, pin pitch=10.00mm, diameter=16.0mm, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AGB0000/AGB0000CE10.pdf")
+	(tags "ELC15ExxxL")
+	(property "Reference" "REF**"
+		(at 5 -9.25 0)
+		(layer "F.SilkS")
+		(uuid "cf7e5ee3-d9a6-4d27-9504-733d2426637d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Radial_D16.0mm_P10.00mm_Panasonic_15E-L"
+		(at 5 9.175 0)
+		(layer "F.Fab")
+		(uuid "b126f2ac-10e3-4f9f-a5f7-5b355e22e560")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c437b6b-306d-4dfe-be65-35cd5634ec17")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4dc84441-54bf-4dea-8c7a-391fab6be238")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20f96b6b-b8a8-4b4b-801a-53506806e8cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 5 0)
+		(end 13.12 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2acdb8b2-53f5-4dff-853e-e2180b4fe480")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 13.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "45f4ff38-d539-4bee-8e92-2613366c8562")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 13 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "abe4a267-ed8c-44ce-815d-1cdc50ce8587")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 0 0)
+		(layer "F.Fab")
+		(uuid "7c88e308-612d-4b76-95fc-bee0f4bf027d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a715a998-bbe4-4895-9712-2efd10716166")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b68172a-a049-4c77-a2d4-319ed2cf8afc")
+	)
+	(pad "MP" thru_hole circle
+		(at 5 -5 90)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4c2631da-aa4b-427c-8475-0f86b489339e")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D16.0mm_P10.00mm_Panasonic_15E-L.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

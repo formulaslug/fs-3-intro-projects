@@ -1,0 +1,361 @@
+(footprint "Hirose_DF3EA-14P-2H_1x14-1MP_P2.00mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Hirose  series connector, DF3EA-14P-2H (https://www.hirose.com/product/document?clcode=CL0543-0332-0-51&productname=DF3EA-5P-2H(51)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001163317), generated with kicad-footprint-generator")
+	(tags "connector Hirose  top entry")
+	(property "Reference" "REF**"
+		(at 0 -5.6 0)
+		(layer "F.SilkS")
+		(uuid "decc61a3-50ed-4076-b927-95711ce1595e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Hirose_DF3EA-14P-2H_1x14-1MP_P2.00mm_Horizontal"
+		(at 0 6.05 0)
+		(layer "F.Fab")
+		(uuid "0a099f37-ec4e-43ee-82d1-a458aa5d6a4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fe9315e-2f26-4e96-8278-c9ad6259b9cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0eb108af-dfd1-487c-970f-184641019239")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fbcf6d5-a64c-4e09-bd5c-e4512deb3535")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -16.36 -1.16)
+		(end -13.86 -1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "355db410-feac-4634-95ca-5ec2e61e6cb5")
+	)
+	(fp_line
+		(start -16.36 0.84)
+		(end -16.36 -1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58f594d2-2878-415b-bbda-650f5ba1a8fc")
+	)
+	(fp_line
+		(start -16.25 4.96)
+		(end 16.25 4.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c15a922f-1d5b-4aa8-bb40-7efdbdda47f9")
+	)
+	(fp_line
+		(start -13.86 -1.16)
+		(end -13.86 -4.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59ec4275-8e7a-43e2-aeed-20b37b46ed2a")
+	)
+	(fp_line
+		(start 16.36 -1.16)
+		(end 13.86 -1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8912e38f-8071-47bb-a7ac-39ef249d7ef9")
+	)
+	(fp_line
+		(start 16.36 0.84)
+		(end 16.36 -1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8ba950f-dc6f-4f09-96f5-4e1aea9cec95")
+	)
+	(fp_line
+		(start -19.17 -4.9)
+		(end -19.17 5.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c89a1fea-a1ed-4d38-986b-5e2bd84c1ae7")
+	)
+	(fp_line
+		(start -19.17 5.35)
+		(end 19.17 5.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b7de7e1-728f-4013-975c-91e421d6b90e")
+	)
+	(fp_line
+		(start 19.17 -4.9)
+		(end -19.17 -4.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "07c65d73-fce4-4e44-8113-2356f29fd967")
+	)
+	(fp_line
+		(start 19.17 5.35)
+		(end 19.17 -4.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a64cb5e1-9470-444e-819a-a7bcd93ce1fb")
+	)
+	(fp_line
+		(start -16.25 -1.05)
+		(end -16.25 4.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f3047c8-cdc0-4946-953e-570e5f762000")
+	)
+	(fp_line
+		(start -16.25 -1.05)
+		(end 16.25 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49b90c7b-c62e-4e02-bde4-052ebf5daa32")
+	)
+	(fp_line
+		(start -16.25 4.85)
+		(end 16.25 4.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b382183d-00ec-4392-9d60-8607347233b6")
+	)
+	(fp_line
+		(start -13.5 -1.05)
+		(end -13 -0.342893)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a92fdf23-adc3-44e9-a208-27c236125521")
+	)
+	(fp_line
+		(start -13 -0.342893)
+		(end -12.5 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d091762f-7846-4654-8970-3cc72c0e4cd0")
+	)
+	(fp_line
+		(start 16.25 -1.05)
+		(end 16.25 4.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f461927-91e9-448a-898a-0b63cbf33223")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(uuid "e8b519bd-0081-4f82-b0ef-81035fb8c340")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -13 -2.85)
+		(size 1.2 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "c4d2b7f2-6465-4522-a4a6-c80e2ba6a0d2")
+	)
+	(pad "2" smd roundrect
+		(at -11 -2.85)
+		(size 1.2 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "59a8a5c8-5960-4f29-9701-04c5727cf39f")
+	)
+	(pad "3" smd roundrect
+		(at -9 -2.85)
+		(size 1.2 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "38fc7c24-2b33-41db-bc7e-20bf2e9226e5")
+	)
+	(pad "4" smd roundrect
+		(at -7 -2.85)
+		(size 1.2 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "27c5e9f9-304a-4c36-bdc8-765e9bdbbcaf")
+	)
+	(pad "5" smd roundrect
+		(at -5 -2.85)
+		(size 1.2 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "be8f6ff1-5c38-4985-ba50-7d318fed752e")
+	)
+	(pad "6" smd roundrect
+		(at -3 -2.85)
+		(size 1.2 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "1f260bb5-18fc-45ba-b682-dc3a7adac8e8")
+	)
+	(pad "7" smd roundrect
+		(at -1 -2.85)
+		(size 1.2 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "925eb301-5110-4999-910a-8997daf5a821")
+	)
+	(pad "8" smd roundrect
+		(at 1 -2.85)
+		(size 1.2 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "f26683fa-66aa-49e4-b2a6-7dfddce6009c")
+	)
+	(pad "9" smd roundrect
+		(at 3 -2.85)
+		(size 1.2 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "b8aee3bd-302a-4839-ac7c-d91279dba32e")
+	)
+	(pad "10" smd roundrect
+		(at 5 -2.85)
+		(size 1.2 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "631f48a1-c7aa-4124-9ab0-91c613105d14")
+	)
+	(pad "11" smd roundrect
+		(at 7 -2.85)
+		(size 1.2 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "229a0b78-edad-4e04-809c-a93666068dcb")
+	)
+	(pad "12" smd roundrect
+		(at 9 -2.85)
+		(size 1.2 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "ebac561a-a961-4f73-943a-a6849a9d63bb")
+	)
+	(pad "13" smd roundrect
+		(at 11 -2.85)
+		(size 1.2 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "cb6defed-d037-4a44-9927-3a4d69176555")
+	)
+	(pad "14" smd roundrect
+		(at 13 -2.85)
+		(size 1.2 3.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "5c19b58e-a9bd-40ea-9bd7-9a76e0953e91")
+	)
+	(pad "MP" smd roundrect
+		(at -17.52 2.75)
+		(size 2.3 3.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.108696)
+		(uuid "01f69f93-9228-4985-bd6e-2c8ac7609d12")
+	)
+	(pad "MP" smd roundrect
+		(at 17.52 2.75)
+		(size 2.3 3.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.108696)
+		(uuid "6f35ebdd-0ccf-4713-bb00-c881dff64c3a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Hirose.3dshapes/Hirose_DF3EA-14P-2H_1x14-1MP_P2.00mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

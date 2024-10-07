@@ -1,0 +1,223 @@
+(footprint "LED_2010_5025Metric"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at 0 -2.28 0)
+		(layer "F.SilkS")
+		(uuid "f208087c-21d6-4622-9d39-05c02e4518ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_2010_5025Metric"
+		(at 0 2.28 0)
+		(layer "F.Fab")
+		(uuid "3fbc2ab9-fa67-4dd5-b994-1be19fe6209e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8aace3e1-3bb2-4dc2-8773-4909b4f02b2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3ab9cc6-ba9c-44c9-b7cb-34fe01c4acbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a12ece03-9d8c-4073-a115-445db2e22bf7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.185 -1.585)
+		(end -3.185 1.585)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d55eb080-3ffd-437e-bedf-9bf292b10d2b")
+	)
+	(fp_line
+		(start -3.185 1.585)
+		(end 2.5 1.585)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1b09ad5-33e6-4c0e-83b6-1f65b276c765")
+	)
+	(fp_line
+		(start 2.5 -1.585)
+		(end -3.185 -1.585)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4fb2332-5f1c-4ae8-9596-1e4f2d831f0f")
+	)
+	(fp_line
+		(start -3.18 -1.58)
+		(end 3.18 -1.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "25483211-e403-46db-93a4-e09cdf4a992c")
+	)
+	(fp_line
+		(start -3.18 1.58)
+		(end -3.18 -1.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2cac3e62-957a-49a3-bde6-f41652a1b8f9")
+	)
+	(fp_line
+		(start 3.18 -1.58)
+		(end 3.18 1.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a64e319-313a-435c-a48b-4c8c2e50d96e")
+	)
+	(fp_line
+		(start 3.18 1.58)
+		(end -3.18 1.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43d107a1-d912-4449-959e-dd37ae38d0ab")
+	)
+	(fp_line
+		(start -2.5 -0.625)
+		(end -2.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dcc0ec7c-aca3-469c-b185-edf04588cfc5")
+	)
+	(fp_line
+		(start -2.5 1.25)
+		(end 2.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c35c8aa-b05a-4c5d-99f2-92f4d4233b4c")
+	)
+	(fp_line
+		(start -1.875 -1.25)
+		(end -2.5 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cca8beb5-aa74-4fed-bb3c-a7500c021f38")
+	)
+	(fp_line
+		(start 2.5 -1.25)
+		(end -1.875 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fcde06c-4fb3-401e-8ab6-a45f75028809")
+	)
+	(fp_line
+		(start 2.5 1.25)
+		(end 2.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e245b89-d53a-45e3-af3d-af61c486eee4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cb1777b1-938e-4c72-b32b-5f79e748f890")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.25 0)
+		(size 1.35 2.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.185185)
+		(uuid "a18b6366-8379-4665-8246-dbe04aa81de4")
+	)
+	(pad "2" smd roundrect
+		(at 2.25 0)
+		(size 1.35 2.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.185185)
+		(uuid "deec7271-01c8-4b52-8364-f30b77fbf9ff")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_2010_5025Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

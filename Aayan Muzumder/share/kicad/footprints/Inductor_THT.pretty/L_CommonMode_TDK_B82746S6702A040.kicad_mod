@@ -1,0 +1,246 @@
+(footprint "L_CommonMode_TDK_B82746S6702A040"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "8A, 3Phase, Triple Coil, CM Choke, https://www.tdk-electronics.tdk.com/inf/30/ds/b82746s.pdf")
+	(tags "common mode filter triple choke")
+	(property "Reference" "REF**"
+		(at 1.918584 -10.5 0)
+		(layer "F.SilkS")
+		(uuid "6dc6f982-00cb-4f24-8da3-9ca19d8ce67f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_CommonMode_TDK_B82746S6702A040"
+		(at 20 39 0)
+		(layer "F.Fab")
+		(uuid "f4362868-2064-4c64-95a2-fcdb51a435b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8082c22-3a78-4450-a0bc-07d48b491bcf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d652c4ec-3bcc-4110-beee-c88bc9c89020")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d87ad802-e6a4-4c1a-abdc-0aba8aa58a0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 14.58 -14.14)
+		(end 25.28 -14.14)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8893a701-6343-45f1-9555-990a5f1be78d")
+	)
+	(fp_arc
+		(start -3.981416 0)
+		(mid -3.038806 -1.782253)
+		(end -1.963537 -3.487754)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d80df412-e7af-4629-850b-8c2addb8ad54")
+	)
+	(fp_circle
+		(center 19.918584 11.5)
+		(end 46.118584 11.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "754031ae-9e80-48bc-84be-df54bf148ccb")
+	)
+	(fp_circle
+		(center 19.918584 11.5)
+		(end 27.918584 11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "7718820f-121e-4db7-8da7-724c0b65d678")
+	)
+	(fp_circle
+		(center 19.918584 11.5)
+		(end 42.918584 11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "264771c3-08c9-44da-8d8a-570662a14dd0")
+	)
+	(fp_circle
+		(center 19.91 11.5)
+		(end 46.91 11.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "704e038c-ed09-4432-96b9-d69a34c6b431")
+	)
+	(fp_line
+		(start 26.65 -13.6)
+		(end 13.15 -13.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a3cbafdf-c02e-4bac-92d4-8e1ff9a9e1cf")
+	)
+	(fp_arc
+		(start -2.999999 0)
+		(mid -2.308522 -1.285429)
+		(end -1.545025 -2.52943)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "39defcf6-9237-4b15-afbf-888323d67964")
+	)
+	(fp_circle
+		(center 19.918584 11.5)
+		(end 44.918584 11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "11554c17-1618-4564-a72f-a002950859a4")
+	)
+	(fp_circle
+		(center 19.918584 11.5)
+		(end 45.918584 11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3eb7746a-1078-4c33-bb4e-00a38a14b7ff")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 19.918584 11.5 0)
+		(layer "F.Fab")
+		(uuid "4cd34dbe-3614-40d5-adc9-08557e3be624")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0 150)
+		(size 2.5 2.5)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "2ffe7405-77db-47fb-a642-660472621632")
+	)
+	(pad "2" thru_hole circle
+		(at 19.918584 34.5 20)
+		(size 2.5 2.5)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "55e75865-cd96-40b9-a3ca-f2f6a016dabf")
+	)
+	(pad "3" thru_hole circle
+		(at 39.837168 0 260)
+		(size 2.5 2.5)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "69bb0c6e-78c4-46ca-9e53-b0c48dd657da")
+	)
+	(pad "4" thru_hole circle
+		(at 26.4718 16.088611 52)
+		(size 2.5 2.5)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de732f13-85f0-4489-8cce-e28a829b4793")
+	)
+	(pad "5" thru_hole circle
+		(at 12.668122 14.880946 292)
+		(size 2.5 2.5)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e3850e6-2aff-4334-b353-6f0a05d9026f")
+	)
+	(pad "6" thru_hole circle
+		(at 20.61583 3.530442 172)
+		(size 2.5 2.5)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "45fed03f-6fd0-474f-b7e3-f2fbfe8ded41")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_CommonMode_TDK_B82746S6702A040.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

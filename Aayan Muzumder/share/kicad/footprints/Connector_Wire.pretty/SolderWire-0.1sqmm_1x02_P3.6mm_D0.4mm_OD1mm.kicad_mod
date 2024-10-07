@@ -1,0 +1,208 @@
+(footprint "SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Soldered wire connection, for 2 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+	(tags "connector wire 0.1sqmm")
+	(property "Reference" "REF**"
+		(at 1.8 -2 0)
+		(layer "F.SilkS")
+		(uuid "e724070c-6b7d-4817-bee6-2ff041c35a1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
+		(at 1.8 2 0)
+		(layer "F.Fab")
+		(uuid "79f536f1-1848-4a04-afa6-2638f4bf5766")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3021fdf0-ab71-47ba-b7e5-f50ca5d9b66c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95b3abbb-bed6-4a39-8d8c-99f2be85c533")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b4229d0-1d21-4069-80c4-ff09528f517c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -1.3 -1.3)
+		(end -1.3 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "258dd94e-b922-4801-9796-0272cc1eff38")
+	)
+	(fp_line
+		(start -1.3 1.3)
+		(end 1.3 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2e1f0e1-98ba-4628-a47f-83794c1f5907")
+	)
+	(fp_line
+		(start 1.3 -1.3)
+		(end -1.3 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d7b809d-6514-4552-857e-e386ec2ca486")
+	)
+	(fp_line
+		(start 1.3 1.3)
+		(end 1.3 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d67287d-dfc1-47e0-887e-600506f3d33c")
+	)
+	(fp_line
+		(start 2.3 -1.3)
+		(end 2.3 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8afe0cd-5e3b-4520-af3e-210db7d11d63")
+	)
+	(fp_line
+		(start 2.3 1.3)
+		(end 4.9 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be40f174-c14c-43e4-9e1b-cd8921b4381a")
+	)
+	(fp_line
+		(start 4.9 -1.3)
+		(end 2.3 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7cb5e019-e6a9-4881-9f32-e2e856505c54")
+	)
+	(fp_line
+		(start 4.9 1.3)
+		(end 4.9 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d8405599-bc5f-446f-9045-5386f27d71c9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "00c09254-90dd-4a11-93a0-210ccac2f2eb")
+	)
+	(fp_circle
+		(center 3.6 0)
+		(end 4.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6c39e0b4-27ba-4537-a62d-07ce17fc1480")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.8 0 90)
+		(layer "F.Fab")
+		(uuid "6de71d5d-a721-4231-9dde-be4d20e8b2c6")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "69e8f095-149c-45c7-9973-ae523f77141c")
+	)
+	(pad "2" thru_hole circle
+		(at 3.6 0)
+		(size 1.6 1.6)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8f624618-7a00-4a17-be8d-44feedc6fdfc")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

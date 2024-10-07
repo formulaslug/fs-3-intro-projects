@@ -1,0 +1,332 @@
+(footprint "C_Trimmer_Sprague-Goodman_SGC3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "trimmer capacitor SMD horizontal, http://media.wix.com/ugd/d86717_38d9821e12823a7aa9cef38c6c2a73cc.pdf")
+	(tags " Sprague Goodman SGC3")
+	(property "Reference" "REF**"
+		(at 0 -2.85 0)
+		(layer "F.SilkS")
+		(uuid "b3f9542d-da8f-4268-ac89-d10c3a1ba50d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Trimmer_Sprague-Goodman_SGC3"
+		(at 0 2.85 0)
+		(layer "F.Fab")
+		(uuid "0980fc9f-e8cd-4794-b5cd-7328554b6ab0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "116652c7-585d-46cb-8c49-140e9e9ede2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8dca648a-5e21-4cac-acf2-5f654536721c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c61ff31-8be8-49ac-84b8-69677540fa1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.45 -1.3)
+		(end -1.95 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a675cbbc-c352-47f5-9c23-c5d04d94df96")
+	)
+	(fp_line
+		(start -2.45 1.3)
+		(end -1.95 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84b17a44-660e-49be-babd-2d2b190f57bc")
+	)
+	(fp_line
+		(start 2.45 -1.8)
+		(end 1.95 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91e839dc-77da-437b-92b7-61d5e33de13b")
+	)
+	(fp_line
+		(start 2.45 -1.8)
+		(end 2.45 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ceb9e6a5-6e3f-4a27-a4e7-34f70f5e2260")
+	)
+	(fp_line
+		(start 2.45 1.8)
+		(end 1.95 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b467596-90af-436c-bc55-841fdb4a2cc4")
+	)
+	(fp_line
+		(start 2.45 1.8)
+		(end 2.45 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4e93892-6071-451b-8f32-0a3f84778383")
+	)
+	(fp_line
+		(start -2.63 -1.85)
+		(end -2.63 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ec884a1-df8e-4277-bfa3-a2d925418f1a")
+	)
+	(fp_line
+		(start -2.63 1.85)
+		(end 2.63 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a30cb2ef-4225-4fc0-b52a-439fafe39fd8")
+	)
+	(fp_line
+		(start 2.63 -1.85)
+		(end -2.63 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35fc49eb-76c5-40e0-8632-5c410360cbf8")
+	)
+	(fp_line
+		(start 2.63 1.85)
+		(end 2.63 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2226e0db-3365-4bea-81df-fdb77bb6c020")
+	)
+	(fp_line
+		(start -2.25 -1)
+		(end -1.95 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8c92a8e-db5b-45df-9039-9618d6d0d9d4")
+	)
+	(fp_line
+		(start -2.25 1)
+		(end -2.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad8bcab2-e081-4243-b667-476a16de8623")
+	)
+	(fp_line
+		(start -1.95 -1.3)
+		(end -1.65 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65cda1f5-f3b2-4c20-8c91-ce0a804a8a9b")
+	)
+	(fp_line
+		(start -1.95 1.3)
+		(end -2.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1714b42f-0ae5-4c5e-ae64-4e601cfbddd4")
+	)
+	(fp_line
+		(start -1.65 -1.6)
+		(end 2.24 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5416569-3784-41ef-b7a0-7a186f6cd6e4")
+	)
+	(fp_line
+		(start -1.65 1.6)
+		(end -1.95 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb0a8119-24a8-4009-bff9-f0af0f5ffe19")
+	)
+	(fp_line
+		(start 2.24 -1.6)
+		(end 2.25 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b1e5aa8-37cd-468b-8e5b-d042a2b1f48f")
+	)
+	(fp_line
+		(start 2.24 1.6)
+		(end -1.65 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80a2c3a6-037c-4b62-b02d-f267861356b3")
+	)
+	(fp_line
+		(start 2.25 -1.6)
+		(end 2.25 -1.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d1cfe80-df28-4bd0-b854-292713c537db")
+	)
+	(fp_line
+		(start 2.25 -1.59)
+		(end 2.25 1.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e77f0ad-f062-432a-b668-7a42ecaf3af1")
+	)
+	(fp_line
+		(start 2.25 1.59)
+		(end 2.25 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a9694cb-070d-41fa-aa55-0b36e62def4f")
+	)
+	(fp_line
+		(start 2.25 1.6)
+		(end 2.24 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb607790-753b-474d-9cb6-85b4f955f37a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "26cf7ccf-2cb2-4dba-a321-5745a3497c2f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ac454ff0-4443-4cf6-ac49-ae4a2a92cc40")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.8375 0)
+		(size 1.075 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1443545d-1689-40e6-860c-ac76c675db06")
+	)
+	(pad "2" smd rect
+		(at 1.8375 0)
+		(size 1.075 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4c123c62-f7c4-4d0a-8d19-0b0e144f8faf")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_Trimmer_Sprague-Goodman_SGC3.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

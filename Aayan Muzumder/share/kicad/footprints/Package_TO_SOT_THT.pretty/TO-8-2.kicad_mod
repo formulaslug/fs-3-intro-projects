@@ -1,0 +1,149 @@
+(footprint "TO-8-2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-8-2")
+	(tags "TO-8-2")
+	(property "Reference" "REF**"
+		(at 3.55 -8.32 0)
+		(layer "F.SilkS")
+		(uuid "dba8a3bd-137e-4735-a8c1-e670a297094f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-8-2"
+		(at 3.55 8.32 0)
+		(layer "F.Fab")
+		(uuid "dd84aa39-aac6-4393-bad9-5d20923b5616")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f57f7454-5180-4d19-84dd-d2d36c19ad59")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed2a59af-160c-4592-8ca6-f2963bf72389")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f1d01f5-1659-4eea-98d9-09969b006703")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 3.55 0)
+		(end 10.87 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f7cb34c0-905d-4515-a536-479b76772525")
+	)
+	(fp_circle
+		(center 3.55 -0.01)
+		(end 11 -0.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "aba212d3-896c-47f1-8466-81756bc3e87f")
+	)
+	(fp_circle
+		(center 3.55 0)
+		(end 10.15 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "51b376c7-fe94-4c52-a4d8-992a5eaa9003")
+	)
+	(fp_circle
+		(center 3.55 0)
+		(end 10.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "abc4af32-20ef-47c4-b5f0-8dad7209080c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.55 -8.32 0)
+		(layer "F.Fab")
+		(uuid "5ad8600d-2362-4248-b7ff-3fefb114bba5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 2.1 1.6)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "842bdd0c-cbf0-4a50-92b8-ee6bda34da0b")
+	)
+	(pad "2" thru_hole oval
+		(at 7.1 0)
+		(size 1.6 1.6)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d87f0a5f-0450-434d-af13-10bf4d0aadb9")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-8-2.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

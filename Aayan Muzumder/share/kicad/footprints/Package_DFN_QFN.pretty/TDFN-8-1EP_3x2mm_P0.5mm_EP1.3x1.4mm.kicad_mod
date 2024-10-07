@@ -1,0 +1,303 @@
+(footprint "TDFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.4mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TDFN, 8 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6V66-Family-Data-Sheet-DS20006266A.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "TDFN NoLead")
+	(property "Reference" "REF**"
+		(at 0 -1.95 0)
+		(layer "F.SilkS")
+		(uuid "b59d6d80-2faa-4347-9223-869d6ed1159b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TDFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.4mm"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "f31b7294-fdc2-43aa-b73e-4a2f90b1b466")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d9b9286-c15a-4c35-8994-be90b18af4e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e90aa6bd-0876-41bc-a9ce-c6af16067690")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fe76a70-5eca-4ac8-93ed-0f1e728f097f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -1.135)
+		(end 1.5 -1.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ead6bff-07f3-4ef0-848c-ff0d065d359a")
+	)
+	(fp_line
+		(start -1.5 1.135)
+		(end 1.5 1.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df06569d-aada-4828-a902-2d39bec0a160")
+	)
+	(fp_poly
+		(pts
+			(xy -2.02 -1.05) (xy -2.3 -1.05) (xy -2.02 -1.33) (xy -2.02 -1.05)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "b995be09-d584-4936-bad0-9e45d590c2d2")
+	)
+	(fp_line
+		(start -2.1 -1.25)
+		(end -2.1 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4af03690-b829-4827-81af-a780a4bc38df")
+	)
+	(fp_line
+		(start -2.1 1.25)
+		(end 2.1 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60df654e-0fc3-41b7-a03b-8a27055cf073")
+	)
+	(fp_line
+		(start 2.1 -1.25)
+		(end -2.1 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d24dbac-1bfc-4e95-8c69-700042776240")
+	)
+	(fp_line
+		(start 2.1 1.25)
+		(end 2.1 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e915aef-ad47-4329-bb3b-238beddaa355")
+	)
+	(fp_line
+		(start -1.5 -0.5)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8883e5d8-2d71-4330-aae3-f8b171fefaab")
+	)
+	(fp_line
+		(start -1.5 1)
+		(end -1.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5738b1d1-1de8-4808-a358-5d5bb97a5a8c")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4bf2d90-12ea-46bc-b790-fcdf8d6c56d4")
+	)
+	(fp_line
+		(start 1.5 -1)
+		(end 1.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6898d92-0148-46af-b7b8-19b4aa76ff37")
+	)
+	(fp_line
+		(start 1.5 1)
+		(end -1.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a9367a3-9ca5-48ac-a5dd-74624c7550fb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "57c01058-c15b-462e-b8d9-b63edde9c472")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.325 -0.35)
+		(size 0.52 0.56)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f974641f-3d59-4dd4-97f8-8bad6aae1e76")
+	)
+	(pad "" smd roundrect
+		(at -0.325 0.35)
+		(size 0.52 0.56)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8ef73576-d78e-474b-88e1-4260bff6f78b")
+	)
+	(pad "" smd roundrect
+		(at 0.325 -0.35)
+		(size 0.52 0.56)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2e0de5f9-41cc-4baf-b622-b30017039f0e")
+	)
+	(pad "" smd roundrect
+		(at 0.325 0.35)
+		(size 0.52 0.56)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0a69ff31-050e-4b1e-851d-a578e7574cde")
+	)
+	(pad "1" smd roundrect
+		(at -1.4625 -0.75)
+		(size 0.775 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3629d28c-7a88-4c88-92d4-34c150f2523f")
+	)
+	(pad "2" smd roundrect
+		(at -1.4625 -0.25)
+		(size 0.775 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a89bc3fa-3690-4e40-9d88-96b8bcef2016")
+	)
+	(pad "3" smd roundrect
+		(at -1.4625 0.25)
+		(size 0.775 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a46e3623-ff27-48e8-8de4-11f7d3d8f6f5")
+	)
+	(pad "4" smd roundrect
+		(at -1.4625 0.75)
+		(size 0.775 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3b88bbba-f64f-4bf6-8e19-cbc3ff8f1b5e")
+	)
+	(pad "5" smd roundrect
+		(at 1.4625 0.75)
+		(size 0.775 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9d6a9889-48b1-47ba-b09e-20436afcd6c7")
+	)
+	(pad "6" smd roundrect
+		(at 1.4625 0.25)
+		(size 0.775 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "329c1cd5-a351-4318-8397-49255697ec14")
+	)
+	(pad "7" smd roundrect
+		(at 1.4625 -0.25)
+		(size 0.775 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "613ac2fe-c52a-4d60-a1c5-cd6fdd71ed4a")
+	)
+	(pad "8" smd roundrect
+		(at 1.4625 -0.75)
+		(size 0.775 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1cbcf56f-764e-4932-a7f6-b182c67644de")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.3 1.4)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "406d7cb8-483e-43c3-883b-ce701d02d07a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/TDFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.4mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

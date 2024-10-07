@@ -1,0 +1,187 @@
+(footprint "L_Axial_L24.0mm_D7.1mm_P5.08mm_Vertical_Vishay_IM-10-28"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Axial series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=24*7.1mm^2, Vishay, IM-10-28, http://www.vishay.com/docs/34035/im10.pdf")
+	(tags "Inductor Axial series Axial Vertical pin pitch 5.08mm  length 24mm diameter 7.1mm Vishay IM-10-28")
+	(property "Reference" "REF**"
+		(at 2.54 -4.67 0)
+		(layer "F.SilkS")
+		(uuid "c9941fc6-b27f-4d83-b20a-54e3c3be7eae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Axial_L24.0mm_D7.1mm_P5.08mm_Vertical_Vishay_IM-10-28"
+		(at 2.54 4.67 0)
+		(layer "F.Fab")
+		(uuid "dc0ec829-ec78-4fed-9e23-e62ad0716bc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13435ce7-3f57-49b4-963d-18c6aca595d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98ddcb9e-39ac-4721-9d1e-d16651f1fd9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d941cee-83c8-4aa5-8300-819e47b7e437")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 3.67 0)
+		(end 3.78 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b055cf7-906b-4861-a2f2-faa31a161d4e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.67 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "dc8ae5cb-1b5f-4716-a24f-1ace7645b8bf")
+	)
+	(fp_line
+		(start -3.8 -3.8)
+		(end -3.8 3.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70ee2d78-4f06-4ae0-91c0-c6ae1e790e13")
+	)
+	(fp_line
+		(start -3.8 3.8)
+		(end 6.33 3.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43e30b65-2767-4cc4-a486-8114e7d40067")
+	)
+	(fp_line
+		(start 6.33 -3.8)
+		(end -3.8 -3.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4872a547-60e8-446a-9067-6ebd985a8d7c")
+	)
+	(fp_line
+		(start 6.33 3.8)
+		(end 6.33 -3.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc68462a-5594-4c74-9ba4-eff5289096c5")
+	)
+	(fp_line
+		(start 0 0)
+		(end 5.08 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "196c8a23-2a15-4fa0-8f40-a3f63b49b482")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.55 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a58e1206-b377-4f69-87b6-f871dc047d0b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.5 0)
+		(layer "F.Fab")
+		(uuid "d2be197e-18a0-46da-b2a6-6e112adf5fb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79c0f71c-ff50-4618-994a-5bd611d2009e")
+	)
+	(pad "2" thru_hole oval
+		(at 5.08 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "48dcdee6-4be1-42d0-ad03-0aef2e2078b4")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Axial_L24.0mm_D7.1mm_P5.08mm_Vertical_Vishay_IM-10-28.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

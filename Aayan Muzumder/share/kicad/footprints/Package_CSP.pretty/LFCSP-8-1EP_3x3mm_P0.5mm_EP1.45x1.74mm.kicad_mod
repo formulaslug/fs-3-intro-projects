@@ -1,0 +1,303 @@
+(footprint "LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LFCSP, 8 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-8/CP_8_13.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "LFCSP NoLead")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "876cbcdb-ef6b-4721-8fc0-eac31a583a85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm"
+		(at 0 2.45 0)
+		(layer "F.Fab")
+		(uuid "4641ce27-26e0-4d97-9674-a3f170dcbe04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b3c9172-d495-4e57-a90a-db97fc852c56")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f580d3c-f949-4df9-8a98-c01161b698df")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f270ee50-8672-4918-8329-e1f59e1a88a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -1.61)
+		(end 1.5 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2811aeaf-052e-4416-90ea-c356e2280170")
+	)
+	(fp_line
+		(start -1.5 1.61)
+		(end 1.5 1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac58ceae-273c-41ce-af46-8312c6d42db0")
+	)
+	(fp_poly
+		(pts
+			(xy -1.74 -1.09) (xy -2.02 -1.09) (xy -1.74 -1.37) (xy -1.74 -1.09)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e757e616-74f9-416f-a180-be5f1e129a7f")
+	)
+	(fp_line
+		(start -1.83 -1.75)
+		(end -1.83 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63c3d1a4-8ca1-4f2e-b207-12fa183dd930")
+	)
+	(fp_line
+		(start -1.83 1.75)
+		(end 1.83 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d1ef26a-3c41-491f-b875-de6c60738462")
+	)
+	(fp_line
+		(start 1.83 -1.75)
+		(end -1.83 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "195d2abb-6456-47e4-a0fc-fb54b240391c")
+	)
+	(fp_line
+		(start 1.83 1.75)
+		(end 1.83 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5bde16ce-c0fa-4230-b226-cb75dc040bd7")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "acafb59d-ec66-4c35-b308-e6e68b9cfb0b")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "797494e0-d936-4703-9a02-e2684392a694")
+	)
+	(fp_line
+		(start -0.75 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "478372e3-de91-40a0-a8c7-450db625d755")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a736a48-0f08-487c-b638-a5cea7d45f07")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8aaed3a1-487d-41a9-a7ff-e3753d9c4898")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "188c0a4e-a8e2-40dd-bf2c-22a29516d6aa")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.365 -0.435)
+		(size 0.58 0.7)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4685b74a-a133-4562-be91-9d68da8c5d6f")
+	)
+	(pad "" smd roundrect
+		(at -0.365 0.435)
+		(size 0.58 0.7)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "fde8041f-8811-4ffe-8e6e-fcfb7baad61c")
+	)
+	(pad "" smd roundrect
+		(at 0.365 -0.435)
+		(size 0.58 0.7)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "33d48c65-b464-44c6-8467-7d1545e6ddf5")
+	)
+	(pad "" smd roundrect
+		(at 0.365 0.435)
+		(size 0.58 0.7)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a50c2ab3-d04c-49bb-8200-61a485834ce9")
+	)
+	(pad "1" smd roundrect
+		(at -1.2875 -0.75)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "2a5d3c9f-e5b6-4263-812c-2ae69026bd6c")
+	)
+	(pad "2" smd roundrect
+		(at -1.2875 -0.25)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3d8afa04-7002-439d-abcf-a599bad74961")
+	)
+	(pad "3" smd roundrect
+		(at -1.2875 0.25)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "48c968a1-873c-4023-bccf-596073cec415")
+	)
+	(pad "4" smd roundrect
+		(at -1.2875 0.75)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "e15dacd7-3269-48ba-86ad-407e27df2a38")
+	)
+	(pad "5" smd roundrect
+		(at 1.2875 0.75)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "88b5bbb9-2131-4d13-9278-495c4b0d8377")
+	)
+	(pad "6" smd roundrect
+		(at 1.2875 0.25)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "24833c14-588d-4d25-aa9e-4bbfe07a158f")
+	)
+	(pad "7" smd roundrect
+		(at 1.2875 -0.25)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "65ee4cd6-c31b-4ff0-991e-cd97fa9a1a49")
+	)
+	(pad "8" smd roundrect
+		(at 1.2875 -0.75)
+		(size 0.575 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "2f916243-c9e1-4e8d-be4d-d0e74c92fe3a")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.45 1.74)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "4e474d76-afc8-4449-81ef-7e058329f4da")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_CSP.3dshapes/LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

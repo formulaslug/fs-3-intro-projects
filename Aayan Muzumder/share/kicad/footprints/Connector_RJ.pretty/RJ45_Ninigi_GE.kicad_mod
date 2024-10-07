@@ -1,0 +1,363 @@
+(footprint "RJ45_Ninigi_GE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "1 port ethernet throughhole connector, https://en.ninigi.com/product/rj45ge/pdf")
+	(tags "RJ45 ethernet 8p8c")
+	(property "Reference" "REF**"
+		(at 4.445 -5.34 0)
+		(layer "F.SilkS")
+		(uuid "c27e09dc-a13e-4cd6-a87d-efb7cb6f21dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RJ45_Ninigi_GE"
+		(at 4.455 13.26 0)
+		(layer "F.Fab")
+		(uuid "3c65663d-68bf-4041-8d98-97a22db86ef2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d772b3c-2469-4a1b-975b-ff3823dd92aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "086739de-5900-4734-bdaa-53d277813f19")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f7bc3f1-04bb-4bd8-85e4-0fcc59084cfe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.441 -0.508)
+		(end -4.441 0.508)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8374005b-3262-4fc7-be7e-7548b4bffc99")
+	)
+	(fp_line
+		(start -4.441 0.508)
+		(end -3.933 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "690c757c-4fd1-4f29-85b0-8f36ad5af661")
+	)
+	(fp_line
+		(start -3.933 0)
+		(end -4.441 -0.508)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a46237e4-fc82-40bc-b4c9-66898777f035")
+	)
+	(fp_line
+		(start -3.565 -4.28)
+		(end -3.565 7.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "865426be-6cd7-4c28-b384-4e92bb4e2368")
+	)
+	(fp_line
+		(start -3.565 11.15)
+		(end -3.565 14.59)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "233ff76a-4dca-4d7b-ab43-4c59de217f1a")
+	)
+	(fp_line
+		(start 12.455 -4.28)
+		(end -3.565 -4.28)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e1be0bc-cdfe-4d12-96e9-f3a8d55eec9e")
+	)
+	(fp_line
+		(start 12.455 -4.28)
+		(end 12.455 7.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38187b88-4d9b-401c-b6ad-fb3e61038931")
+	)
+	(fp_line
+		(start 12.455 11.15)
+		(end 12.455 14.59)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6fae7fa5-ac44-4f8c-8bc9-ba3caf279a15")
+	)
+	(fp_line
+		(start 12.455 14.59)
+		(end -3.565 14.59)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55339550-87cf-428f-92f0-3bf5ba4bcba3")
+	)
+	(fp_line
+		(start -5.33 -4.67)
+		(end 14.22 -4.67)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a4b7d81-4a0e-442b-996a-95e8984e6f1e")
+	)
+	(fp_line
+		(start -5.33 14.98)
+		(end -5.33 -4.67)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0fd09e42-c246-4e41-b810-956f099a7e59")
+	)
+	(fp_line
+		(start 14.22 -4.67)
+		(end 14.22 14.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "229b7d9e-1114-42a5-853f-7c0171ba14e3")
+	)
+	(fp_line
+		(start 14.22 14.98)
+		(end -5.33 14.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6beaa289-4bd6-4722-9cf2-1699c2882d09")
+	)
+	(fp_line
+		(start -3.455 -2.84)
+		(end -3.455 14.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2a642d7-f316-4b75-a860-a1b4c23925cb")
+	)
+	(fp_line
+		(start -3.455 -2.84)
+		(end -2.125 -4.17)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf844633-37ba-4777-872c-2cc70edc91ae")
+	)
+	(fp_line
+		(start 12.345 -4.17)
+		(end -2.125 -4.17)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f86ce990-394b-4600-8b6f-d7030e8ffb7a")
+	)
+	(fp_line
+		(start 12.345 14.48)
+		(end -3.455 14.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc32b9c1-b785-4574-b38f-e900a51cff0c")
+	)
+	(fp_line
+		(start 12.345 14.48)
+		(end 12.345 -4.17)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc7a2e11-1a80-4967-b6d5-76c8479f6e1e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.445 6.36 0)
+		(layer "F.Fab")
+		(uuid "67af0cfe-87ca-4309-99ea-a91097403405")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.27 6.35)
+		(size 3.25 3.25)
+		(drill 3.25)
+		(layers "*.Cu" "*.Mask")
+		(uuid "83bf98e0-c547-43fa-8e7a-34874ebf63fb")
+	)
+	(pad "" np_thru_hole circle
+		(at 10.16 6.35 180)
+		(size 3.25 3.25)
+		(drill 3.25)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b7673cfd-329e-4af6-933d-fe0c17104c4f")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 180)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "17f5671d-2e97-4b9f-987a-ad66a053982b")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 -2.54 180)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b353ffd6-edaa-49d9-8b95-e8b557870593")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0 180)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3ac81920-d481-4ae5-ba08-b05e86fb7b9d")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 -2.54 180)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3efa3cb8-2aa7-47ba-92c3-7782604d0329")
+	)
+	(pad "5" thru_hole circle
+		(at 5.08 0 180)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "48fd3f51-e102-4376-b0aa-2d5258e35f68")
+	)
+	(pad "6" thru_hole circle
+		(at 6.35 -2.54 180)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "619c6959-c0bb-4c68-82e2-6ca4012096fc")
+	)
+	(pad "7" thru_hole circle
+		(at 7.62 0 180)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "246b3ed7-ec17-4959-afd8-ab64e9597bb6")
+	)
+	(pad "8" thru_hole circle
+		(at 8.89 -2.54 180)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f49d35a4-3e93-40b9-8fb5-a96ce26f3cc3")
+	)
+	(pad "SH" thru_hole circle
+		(at -3.325 9.4)
+		(size 3 3)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9eb6770e-b684-4286-a819-a1b3b4982479")
+	)
+	(pad "SH" thru_hole circle
+		(at 12.215 9.4 180)
+		(size 3 3)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6c563a81-13cb-4281-9bdd-a48057e6115f")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Ninigi_GE.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
