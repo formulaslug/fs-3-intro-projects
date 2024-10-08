@@ -2,12 +2,12 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "82c7e301-d45a-4e60-8f99-f5b3fedd1c66")
+	(uuid "f91cd4dc-0353-4775-8190-28df6c52a7a9")
 	(paper "A4")
 	(title_block
-		(title "Demo LED Board")
-		(date "2024-10-07")
-		(rev "0.0")
+		(title "Intro LED Project")
+		(date "2024-10-08")
+		(rev "1.0.0")
 	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
@@ -182,7 +182,7 @@
 				)
 			)
 		)
-		(symbol "Device:D"
+		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -197,7 +197,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "LED"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -223,7 +223,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode"
+			(property "Description" "Light emitting diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -232,7 +232,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
+			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -241,7 +241,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -250,28 +250,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
+			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -283,7 +265,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.27 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -295,7 +277,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -305,8 +287,32 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "D_1_1"
+			(symbol "LED_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -469,154 +475,94 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 21.59) (xy 35.56 21.59)
+			(xy 107.95 104.14) (xy 118.11 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22b3dd95-dab0-44a9-ade8-cdb394928b86")
+		(uuid "01889edb-8f3c-40af-9ecf-1bc3b1990837")
 	)
 	(wire
 		(pts
-			(xy 55.88 34.29) (xy 31.75 34.29)
+			(xy 134.62 85.09) (xy 125.73 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5065046f-b971-4380-8c28-2134bd6551b0")
+		(uuid "09ed849f-7b62-4968-b552-08352692d408")
 	)
 	(wire
 		(pts
-			(xy 31.75 26.67) (xy 31.75 21.59)
+			(xy 107.95 85.09) (xy 107.95 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71915378-1573-4a2b-acf2-f82c25efd705")
+		(uuid "44f5bbc9-ca8e-4da3-b0cc-df47958b77dc")
 	)
 	(wire
 		(pts
-			(xy 54.61 21.59) (xy 55.88 21.59)
+			(xy 134.62 85.09) (xy 134.62 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "879248d2-b56c-4084-bd4d-18eec992a525")
+		(uuid "7789553c-48b8-496d-973f-5dec3e0eb56a")
 	)
 	(wire
 		(pts
-			(xy 43.18 21.59) (xy 46.99 21.59)
+			(xy 134.62 104.14) (xy 125.73 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92f3d58a-94f8-4dc0-ba22-9c7ab4f7ecfc")
+		(uuid "92e6840e-9dd3-4676-bd4f-a9e4d6bb7b98")
 	)
 	(wire
 		(pts
-			(xy 55.88 21.59) (xy 55.88 34.29)
+			(xy 107.95 97.79) (xy 107.95 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5a78152-7b68-4910-80e4-2a6d9786d45f")
+		(uuid "abae8dcd-e84b-4549-b321-65ecabb04a4e")
 	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 31.75 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90cf454a-99b7-4407-9362-eb456b056e63")
-		(property "Reference" "BT1"
-			(at 35.56 28.6384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+	(wire
+		(pts
+			(xy 107.95 85.09) (xy 118.11 85.09)
 		)
-		(property "Value" "Battery_Cell"
-			(at 35.56 31.1784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Seiko_MS621F"
-			(at 31.75 30.226 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 30.226 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 31.75 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fd95052f-c1e5-4a29-8943-0e78a895e9de")
-		)
-		(pin "1"
-			(uuid "e8a79865-9e1c-4b50-b056-48abc6d59b0d")
-		)
-		(instances
-			(project ""
-				(path "/82c7e301-d45a-4e60-8f99-f5b3fedd1c66"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "d499fe4e-694d-4590-ac91-4fb647f4d946")
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 21.59 90)
+		(at 121.92 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92a01378-c2f2-41b6-9bfe-6e1d58b9aa44")
+		(uuid "493f9340-eeaa-4438-888f-0c44b940b368")
 		(property "Reference" "R1"
-			(at 39.37 15.24 90)
+			(at 121.92 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100R"
-			(at 39.37 17.78 90)
+		(property "Value" "R"
+			(at 121.92 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -624,7 +570,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 39.37 23.368 90)
+			(at 121.92 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -633,7 +579,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 21.59 0)
+			(at 121.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -642,7 +588,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 39.37 21.59 0)
+			(at 121.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -651,14 +597,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9dc7ffe-c101-4213-af3f-2740f281da35")
+			(uuid "ca16d35f-f29b-4df6-9bb5-d42f8626ee9d")
 		)
 		(pin "2"
-			(uuid "4b047963-9e61-43ae-8698-c83c9875befc")
+			(uuid "eae640fd-e9ea-4cd6-841a-89b554470852")
 		)
 		(instances
 			(project ""
-				(path "/82c7e301-d45a-4e60-8f99-f5b3fedd1c66"
+				(path "/f91cd4dc-0353-4775-8190-28df6c52a7a9"
 					(reference "R1")
 					(unit 1)
 				)
@@ -666,33 +612,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 50.8 21.59 180)
+		(lib_id "Device:Battery_Cell")
+		(at 107.95 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe64d8ea-4154-4b2a-8e4a-a49dfa2bf253")
-		(property "Reference" "D1"
-			(at 50.8 15.24 0)
+		(uuid "a5c8ddf2-81b0-4643-9f39-5997156ea4a4")
+		(property "Reference" "BT1"
+			(at 101.6 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 50.8 17.78 0)
+		(property "Value" "Battery_Cell"
+			(at 93.726 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 50.8 21.59 0)
+		(property "Footprint" "FS_3_Global_Footprint_Library:MS621FE-FL11E_SEC"
+			(at 107.95 93.726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,7 +648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 21.59 0)
+			(at 107.95 93.726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -709,42 +656,92 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 50.8 21.59 0)
+		(property "Description" "Single-cell battery"
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Device" "D"
-			(at 50.8 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 50.8 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52a543bf-d745-4950-ba13-7fb5180b551f")
 		)
 		(pin "2"
-			(uuid "1f9a7068-271c-401e-8f72-50f30c813120")
+			(uuid "16687865-dc93-4644-976a-85d4c69fd3a6")
+		)
+		(pin "1"
+			(uuid "e7731caf-c944-4ce9-a2e5-586f75a297ec")
 		)
 		(instances
 			(project ""
-				(path "/82c7e301-d45a-4e60-8f99-f5b3fedd1c66"
+				(path "/f91cd4dc-0353-4775-8190-28df6c52a7a9"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 121.92 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0fa505c-335b-421e-a7c2-ad11939c2f8c")
+		(property "Reference" "D1"
+			(at 120.3325 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 120.3325 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d184f67d-4adb-42fb-81d8-9d2c1f419dd7")
+		)
+		(pin "1"
+			(uuid "13c3c4eb-2c44-4c8e-b9a4-0346c9215748")
+		)
+		(instances
+			(project ""
+				(path "/f91cd4dc-0353-4775-8190-28df6c52a7a9"
 					(reference "D1")
 					(unit 1)
 				)
