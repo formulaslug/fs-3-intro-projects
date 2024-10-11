@@ -1,0 +1,248 @@
+(footprint "Relay_3PST_COTO_3660"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Low thermal EMF 3PST-NO reed relay, 150V 0.25A, similar to 3650 but with shared shield/contact, https://cotorelay.com/wp-content/uploads/2014/09/3600_series_reed_relay_datasheet.pdf")
+	(tags "reed relay low thermal emf")
+	(property "Reference" "REF**"
+		(at 12.7 -4.445 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "389430b2-9e1c-4149-92ed-97bc85173470")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Relay_3PST_COTO_3660"
+		(at 12.7 4.445 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bce7d2b8-e51a-4229-bbae-ab90ed4f2f2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c400dd68-efa6-4390-b139-40d6e02370e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc05c451-4d9c-43d0-80c6-5258ef0de929")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b0b093d-fdde-454e-b51a-8298c4ad4f5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.89 -3.652)
+		(end 0 -3.652)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30f0d37d-17b2-4a18-b649-02aee523c95d")
+	)
+	(fp_line
+		(start -2.89 0)
+		(end -2.89 -3.652)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cbc3d70a-d719-42d0-86d9-98cb8360ab65")
+	)
+	(fp_rect
+		(start -2.65 13.572)
+		(end 28.05 -3.412)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f53f7a82-627d-4980-ae42-de1680050477")
+	)
+	(fp_rect
+		(start -2.79 -3.56)
+		(end 28.19 13.72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f8ed1623-e70d-4651-ba34-9ce2fbdad8d7")
+	)
+	(fp_line
+		(start -2.54 -2.302)
+		(end -2.54 13.462)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fc107c2a-02fa-4c9f-8d61-bfb8cb3a5066")
+	)
+	(fp_line
+		(start -2.54 13.462)
+		(end 27.94 13.462)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "07ad00b0-834a-4af1-a7d7-93a063c72778")
+	)
+	(fp_line
+		(start -1.54 -3.302)
+		(end -2.54 -2.302)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "20943ba3-4724-4d12-9e98-ac82f32e2aec")
+	)
+	(fp_line
+		(start 27.94 -3.302)
+		(end -1.54 -3.302)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4a801042-8598-4534-9efd-97df49c08d9a")
+	)
+	(fp_line
+		(start 27.94 13.462)
+		(end 27.94 -3.302)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ab73227b-24fa-4c38-b309-abc10979beaf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.7 5.715 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6864dd32-d790-469f-a848-1d46cf22b328")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "13" thru_hole circle
+		(at 0 5.08 90)
+		(size 1.36 1.36)
+		(drill 0.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "62a0d882-3169-46a4-89ae-7ee5028bc6f5")
+	)
+	(pad "14" thru_hole circle
+		(at 25.4 5.08 90)
+		(size 1.36 1.36)
+		(drill 0.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eae6b3ee-b07a-4d1d-b8bb-ecfee267818f")
+	)
+	(pad "23" thru_hole circle
+		(at 0 7.62 90)
+		(size 1.36 1.36)
+		(drill 0.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ea39c70d-8a1d-42c0-99e5-1579c791c012")
+	)
+	(pad "24" thru_hole circle
+		(at 25.4 7.62 90)
+		(size 1.36 1.36)
+		(drill 0.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de6100ef-2d0a-4ac5-a61b-3bcf72df678f")
+	)
+	(pad "33" thru_hole circle
+		(at 0 10.16 90)
+		(size 1.36 1.36)
+		(drill 0.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fada5104-638d-4879-a6b2-1ef57346b265")
+	)
+	(pad "34" thru_hole circle
+		(at 25.4 10.16 90)
+		(size 1.36 1.36)
+		(drill 0.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ba18a839-2c65-4d5e-acf8-77f354351c6d")
+	)
+	(pad "A1" thru_hole rect
+		(at 0 0 90)
+		(size 1.36 1.36)
+		(drill 0.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "19f9eb80-cec7-4a48-87c6-ee8cf1632aab")
+	)
+	(pad "A2" thru_hole circle
+		(at 25.4 0 90)
+		(size 1.36 1.36)
+		(drill 0.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a8b9ac7e-bf80-4d94-8376-cc2a55943493")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_3PST_COTO_3660.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

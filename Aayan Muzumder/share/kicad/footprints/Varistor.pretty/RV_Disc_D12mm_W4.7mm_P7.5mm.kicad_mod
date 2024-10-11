@@ -1,0 +1,225 @@
+(footprint "RV_Disc_D12mm_W4.7mm_P7.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Varistor, diameter 12mm, width 4.7mm, pitch 7.5mm")
+	(tags "varistor SIOV")
+	(property "Reference" "REF**"
+		(at 3.75 4.35 0)
+		(layer "F.SilkS")
+		(uuid "88e67eea-0966-47c0-8ae3-54fdbacef4c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RV_Disc_D12mm_W4.7mm_P7.5mm"
+		(at 3.75 -2.35 0)
+		(layer "F.Fab")
+		(uuid "d53e3985-f48f-4696-aba7-fae201eafe76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8526b970-c32a-4206-b1b7-879ce44c9165")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01864246-9bc6-4cdc-baa4-86b9ffa95e26")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bf5fe2a-7284-4f00-8631-df5a4fef3003")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.25 -1.35)
+		(end -2.25 3.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f4eb995-78ae-455f-86ed-ee1d42a2671c")
+	)
+	(fp_line
+		(start -2.25 -1.35)
+		(end 9.75 -1.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d24ff93-2e6b-4bd0-9a6d-38fdb8b8d6d1")
+	)
+	(fp_line
+		(start -2.25 3.35)
+		(end 9.75 3.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eed979dd-5a87-45ff-81a9-e7eb4dab0b21")
+	)
+	(fp_line
+		(start 9.75 -1.35)
+		(end 9.75 3.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d582fc2-b38e-43fb-b008-b7d688f67226")
+	)
+	(fp_line
+		(start -2.5 -1.6)
+		(end -2.5 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c565dd9-a33b-4a8c-8cec-f841ac26bacc")
+	)
+	(fp_line
+		(start -2.5 -1.6)
+		(end 10 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d227acc-2229-4199-8c0c-b976cfd2a277")
+	)
+	(fp_line
+		(start -2.5 3.6)
+		(end 10 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "302b04c6-1e47-4d02-b3e4-089aaacc7d7b")
+	)
+	(fp_line
+		(start 10 -1.6)
+		(end 10 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "674efc77-bd03-44f0-9fb2-1d8718075b6e")
+	)
+	(fp_line
+		(start -2.25 -1.35)
+		(end -2.25 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e69a147f-52d0-4a5c-9bd6-c1c7ab4c5a62")
+	)
+	(fp_line
+		(start -2.25 -1.35)
+		(end 9.75 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45c61188-09a3-478c-aa43-4ebfa510b727")
+	)
+	(fp_line
+		(start -2.25 3.35)
+		(end 9.75 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31681f27-22d8-4c80-a387-b67b445f4ce4")
+	)
+	(fp_line
+		(start 9.75 -1.35)
+		(end 9.75 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2a57090-9cbe-4e99-ab7d-ebeeb3d3feba")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.75 1 0)
+		(layer "F.Fab")
+		(uuid "702611e2-3b93-4c1e-a48b-d17d9ebc1aee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9cdd9a8e-95bf-4398-8884-6d1fd8e130d8")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 2)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "48c73aab-d907-47c3-8aca-75912de2ee22")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D12mm_W4.7mm_P7.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

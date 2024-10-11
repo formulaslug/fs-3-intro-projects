@@ -1,0 +1,259 @@
+(footprint "Kingbright_KRC011_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Subminiature Reflective Optical Sensor, http://www.kingbright.com/attachments/file/psearch/000/00/00/KRC011(Ver.15).pdf")
+	(tags "Subminiature Reflective Optical Sensor")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "07f24823-0830-4756-ad8d-dbfa2ea5bbe7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Kingbright_KRC011_Vertical"
+		(at 0 2.8 0)
+		(layer "F.Fab")
+		(uuid "7af989c6-700a-4ddf-80f0-d9337d292406")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9273cced-27cd-482d-8c14-c511b185b17c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93cb1557-f034-4a87-ac1d-58bc7623d088")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4676f9e6-75a4-4646-a001-f65155b5e43a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.15 -1.48)
+		(end -3.15 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74cc28aa-183d-4647-ab97-d3cbdb7c7189")
+	)
+	(fp_line
+		(start 3.15 -1.48)
+		(end -3.15 -1.48)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b5ed803-b632-44cd-856f-26a21ad06692")
+	)
+	(fp_line
+		(start 3.15 -1.48)
+		(end 3.15 1.48)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34525b3b-52ae-4f72-9012-2c1efd17d212")
+	)
+	(fp_line
+		(start 3.15 1.48)
+		(end 2.75 1.48)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e086bb9e-b416-4e52-9174-fd2860a28e40")
+	)
+	(fp_poly
+		(pts
+			(xy -2.82 1.52) (xy -2.82 1.8) (xy -3.1 1.52) (xy -2.82 1.52)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "740d678e-9092-4934-bb37-391b9673859f")
+	)
+	(fp_line
+		(start -3.35 -1.65)
+		(end -3.35 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7e35d0b-7aae-47f3-b4cc-3e6b6ec02480")
+	)
+	(fp_line
+		(start -3.35 -1.65)
+		(end 3.35 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8423599c-be25-4489-a471-c4e7b844ecbb")
+	)
+	(fp_line
+		(start -3.35 1.95)
+		(end 3.35 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b91e1a22-f600-4807-87ca-5c03fe98da79")
+	)
+	(fp_line
+		(start 3.35 1.95)
+		(end 3.35 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "230481ff-3126-404d-ab3b-dc597504793a")
+	)
+	(fp_line
+		(start -3.05 -1.375)
+		(end 3.05 -1.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3e02fc2-68d2-46d6-96f2-fc8e67909c39")
+	)
+	(fp_line
+		(start -3.05 0.675)
+		(end -3.05 -1.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3deb3cc-6625-441e-ae0f-f772c6545081")
+	)
+	(fp_line
+		(start -3.05 0.675)
+		(end -2.35 1.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "100dc18b-5466-4802-a4f7-f47cb0e058f5")
+	)
+	(fp_line
+		(start 3.05 -1.375)
+		(end 3.05 1.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66eee29b-7cfd-489a-bf96-b4d7f7675d27")
+	)
+	(fp_line
+		(start 3.05 1.375)
+		(end -2.35 1.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1f3a02a-b45c-4c41-a221-2219c4b5c6b6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b319de25-d217-494e-9b22-2ddef752f3ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.1 0.975)
+		(size 0.8 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9c8d579a-99f5-444a-8ef7-376aee72d57e")
+	)
+	(pad "2" smd roundrect
+		(at -0.7 0.975)
+		(size 0.8 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "b2927a2a-94a3-4b07-b6a3-291f8d6bcdb4")
+	)
+	(pad "3" smd roundrect
+		(at 0.7 0.975)
+		(size 0.8 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8dfcffdb-1e36-48e9-9207-a33ed2b3bd58")
+	)
+	(pad "4" smd roundrect
+		(at 2.1 0.975)
+		(size 0.8 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ec329789-089b-4ec5-a712-00200135844a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Kingbright_KRC011_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

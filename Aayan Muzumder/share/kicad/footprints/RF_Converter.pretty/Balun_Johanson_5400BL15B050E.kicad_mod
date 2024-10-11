@@ -1,0 +1,251 @@
+(footprint "Balun_Johanson_5400BL15B050E"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://www.johansontechnology.com/datasheets/5400BL15B050/5400BL15B050.pdf")
+	(tags "balun RF")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "f2a90c77-5115-4d50-a3c4-3dc0d1f98694")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Balun_Johanson_5400BL15B050E"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "92f21a00-c695-4894-bcca-d5918b1282e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86266fc3-cc49-4759-9272-3d2f62a97b39")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4977235f-3283-4799-974a-a7b66f64fae9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "534b9ae2-88f1-41b8-a5c7-93e23d98dd2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.6 1.1)
+		(end 0.6 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39a702cb-4d70-436c-90c9-cdc510c94d0f")
+	)
+	(fp_line
+		(start -0.34 -1.1)
+		(end 0.6 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be096f4c-ff1c-4ca1-af80-5e7420c30edb")
+	)
+	(fp_poly
+		(pts
+			(xy -0.84 -1.09) (xy -1.12 -1.09) (xy -0.84 -1.37) (xy -0.84 -1.09)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "394b5e19-3910-4a45-af83-fa7c3331d19f")
+	)
+	(fp_line
+		(start -1.65 -1.25)
+		(end -1.65 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b68924e-9217-49d5-b188-59de96c303ef")
+	)
+	(fp_line
+		(start -1.65 1.25)
+		(end 1.65 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3dcad58-1513-4a30-8bb9-b878b888e953")
+	)
+	(fp_line
+		(start 1.65 -1.25)
+		(end -1.65 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae6e9920-e193-48ac-b068-b32b6619623d")
+	)
+	(fp_line
+		(start 1.65 1.25)
+		(end 1.65 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e78937ee-1ae7-409e-9b64-4df7ed48827a")
+	)
+	(fp_line
+		(start -0.625 1)
+		(end -0.625 -0.6875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9a2c666-7f35-4b6e-b7cf-2a628b627e02")
+	)
+	(fp_line
+		(start -0.3125 -1)
+		(end -0.625 -0.6875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10d4a513-c9d4-4998-a920-185fb71dac11")
+	)
+	(fp_line
+		(start -0.3125 -1)
+		(end 0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e837c296-8220-4cdc-82c9-9cf59445e03b")
+	)
+	(fp_line
+		(start 0.625 -1)
+		(end 0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60b17f73-40d8-458f-8ad2-82bde81126de")
+	)
+	(fp_line
+		(start 0.625 1)
+		(end -0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b7cf181-eea3-4ca9-8ae4-0adbb0574277")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 -0.1 90)
+		(layer "F.Fab")
+		(uuid "8fd55b7c-d155-4d5e-9d0a-de0cca0c2fdf")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 -0.65)
+		(size 1 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "5ad6aa36-5d76-482f-8efe-7f706e332def")
+	)
+	(pad "2" smd rect
+		(at -0.9 0)
+		(size 1 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eb425021-41bc-4643-b88a-ebf5b0a448a0")
+	)
+	(pad "3" smd rect
+		(at -0.9 0.65)
+		(size 1 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "a98c6af2-2382-4da4-ba22-1bda45e01cb7")
+	)
+	(pad "4" smd rect
+		(at 0.9 0.65)
+		(size 1 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "d14b1c39-9154-42a2-9051-bc4dfb1b26b6")
+	)
+	(pad "5" smd rect
+		(at 0.9 0)
+		(size 1 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b4d4b648-aca2-4cbe-8205-6b79560e4953")
+	)
+	(pad "6" smd rect
+		(at 0.9 -0.65)
+		(size 1 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "b3fadbdd-9683-4225-a786-c8d24c4d2132")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RF_Converter.3dshapes/Balun_Johanson_5400BL15B050E.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

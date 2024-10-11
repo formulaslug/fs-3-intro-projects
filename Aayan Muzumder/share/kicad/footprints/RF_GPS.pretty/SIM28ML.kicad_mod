@@ -1,0 +1,319 @@
+(footprint "SIM28ML"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://simcom.ee/documents/SIM28ML/SIM28ML_Hardware%20Design_V1.01.pdf")
+	(tags "SIM28ML GPS")
+	(property "Reference" "REF**"
+		(at 0.05 -6.5 0)
+		(layer "F.SilkS")
+		(uuid "fc5caf04-372c-4f24-8e7f-ba0b9bdf8840")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SIM28ML"
+		(at 0 6.2 0)
+		(layer "F.Fab")
+		(uuid "1ef3c9ad-9f77-46ac-8edf-2ccec7d56352")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4948d6ff-79a8-4c8b-bcff-c37042b6136d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad159d8f-b81b-4cec-9623-e6dc2d676228")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eafa0961-cda2-48de-9981-a72495e10881")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.86 -5.16)
+		(end 4.84 -5.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66ffccde-5ca4-4a3d-a115-2bd81500d33b")
+	)
+	(fp_line
+		(start -4.85 5.16)
+		(end 4.85 5.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00a5f409-94d8-46c0-ae44-401cbd0b1fef")
+	)
+	(fp_poly
+		(pts
+			(xy -5.44 -5.01) (xy -5.68 -5.34) (xy -5.2 -5.34) (xy -5.44 -5.01)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "35ddc71d-1547-4471-8963-504614b2cb37")
+	)
+	(fp_line
+		(start -6.1 -5.3)
+		(end 6.1 -5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3963cf5-0ec2-424b-961a-31b31b63d080")
+	)
+	(fp_line
+		(start -6.1 5.3)
+		(end -6.1 -5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd4d94ae-1ab6-470d-bf51-d6e71d735c49")
+	)
+	(fp_line
+		(start 6.1 -5.3)
+		(end 6.1 5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4bebbea-1bef-46a9-a7b1-b9da2564020a")
+	)
+	(fp_line
+		(start 6.1 5.3)
+		(end -6.1 5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b3bea6d-fe6e-4197-9597-d630cb2ffa79")
+	)
+	(fp_line
+		(start -4.85 5.05)
+		(end -4.85 -4.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21d1bd17-109d-464f-bff1-bfd217192f62")
+	)
+	(fp_line
+		(start -3.85 -5.05)
+		(end -4.85 -4.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e61c45c6-ca28-4f42-8ea6-6e2be2a57263")
+	)
+	(fp_line
+		(start -3.85 -5.05)
+		(end 4.85 -5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd0fcf34-3619-4bff-9314-43513df4b271")
+	)
+	(fp_line
+		(start 4.85 -5.05)
+		(end 4.85 5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55bc2a20-638a-40ad-b457-5585cd4ee2a6")
+	)
+	(fp_line
+		(start 4.85 5.05)
+		(end -4.85 5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "031a700c-c9cc-45c2-b10e-113d337fdb2a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c4f55593-b4bf-402e-b43b-265f3aa30133")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.85 -4.4)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "66467980-69af-441c-a37c-fc09d1a2ad76")
+	)
+	(pad "2" smd rect
+		(at -4.85 -3.3)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "25deddb2-9dc2-4d51-a6dd-8b00d84cd566")
+	)
+	(pad "3" smd rect
+		(at -4.85 -2.2)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4bf9281f-2265-4715-a394-767442721076")
+	)
+	(pad "4" smd rect
+		(at -4.85 -1.1)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "adb74744-cdc3-4bfd-b32f-9909b7872f6e")
+	)
+	(pad "5" smd rect
+		(at -4.85 0)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "408c1c1e-a68c-4912-a585-3a4d217fd033")
+	)
+	(pad "6" smd rect
+		(at -4.85 1.1)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e0466531-5b16-4c76-94a9-ca53fdb36d6f")
+	)
+	(pad "7" smd rect
+		(at -4.85 2.2)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3db79918-0a6c-46f2-8b16-eedf25145588")
+	)
+	(pad "8" smd rect
+		(at -4.85 3.3)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b26ad0ab-acbe-4521-9e70-c25697a2d614")
+	)
+	(pad "9" smd rect
+		(at -4.85 4.4)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8b17f5bc-1fed-4785-b0b4-011df3c67487")
+	)
+	(pad "10" smd rect
+		(at 4.85 4.4)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b3f0de7e-57ac-42f6-b069-a00e142228a8")
+	)
+	(pad "11" smd rect
+		(at 4.85 3.3)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2c708df3-78dd-48cf-9b3f-35c1631defdc")
+	)
+	(pad "12" smd rect
+		(at 4.85 2.2)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "97cda705-4a8c-4302-8e3f-e912ce3a3e77")
+	)
+	(pad "13" smd rect
+		(at 4.85 1.1)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9a334f1c-5e20-4e8e-ac21-9c41f58b337d")
+	)
+	(pad "14" smd rect
+		(at 4.85 0)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8eb4350e-0f40-470a-8e42-7b53e8b7aab1")
+	)
+	(pad "15" smd rect
+		(at 4.85 -1.1)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ff404367-9826-45f4-8ca3-6bcdd97b5974")
+	)
+	(pad "16" smd rect
+		(at 4.85 -2.2)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ee34e8f7-bc33-4e11-bc02-fe22adf95d54")
+	)
+	(pad "17" smd rect
+		(at 4.85 -3.3)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2b921312-d3b4-4009-b6df-1dd42fe9bf7a")
+	)
+	(pad "18" smd rect
+		(at 4.85 -4.4)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d9ef63c2-a9ec-48f3-8bf3-8b53fce7c793")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RF_GPS.3dshapes/SIM28ML.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

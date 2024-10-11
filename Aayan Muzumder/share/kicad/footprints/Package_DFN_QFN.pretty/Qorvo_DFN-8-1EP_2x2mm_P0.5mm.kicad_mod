@@ -1,0 +1,267 @@
+(footprint "Qorvo_DFN-8-1EP_2x2mm_P0.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DFN 8 2x2mm, 0.5mm http://www.qorvo.com/products/d/da000896")
+	(tags "DFN 0.5 Qorvo 2x2mm")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "9b0f0c07-926a-42e4-aa79-54d21cc63804")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Qorvo_DFN-8-1EP_2x2mm_P0.5mm"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "475e3f00-615b-4ce4-b820-1e17c4a6dede")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4add051-3651-43ef-bc84-8279628d6f90")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec50fef9-6dc1-4130-9558-bec99612683e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "956bd8f7-0456-416f-8c53-2240b1e51b1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(solder_mask_margin 0.07)
+	(solder_paste_ratio -0.05)
+	(attr smd)
+	(fp_line
+		(start -1 -1.14)
+		(end 1 -1.14)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5b0fac1-cea7-4bca-843a-4676c1a1f1cb")
+	)
+	(fp_line
+		(start -1 1.14)
+		(end 1 1.14)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d5e5994-ce9c-4cdd-9341-8785f6c60cec")
+	)
+	(fp_poly
+		(pts
+			(xy -1.32 -1.07) (xy -1.6 -1.07) (xy -1.32 -1.35) (xy -1.32 -1.07)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "08a8fb19-f8a7-44da-95e3-56efcefb1a13")
+	)
+	(fp_line
+		(start -1.4 -1.25)
+		(end -1.4 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "365ed2d7-0022-419a-9098-11ace2cf54ef")
+	)
+	(fp_line
+		(start -1.4 -1.25)
+		(end 1.4 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9eee07d6-60d0-409e-a9dd-3a7b6463f71a")
+	)
+	(fp_line
+		(start -1.4 1.25)
+		(end 1.4 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4de5ee63-1284-4b64-bb91-ae31c613bf6f")
+	)
+	(fp_line
+		(start 1.4 -1.25)
+		(end 1.4 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d2a0f871-2031-440c-b2fe-08cb7c0a480b")
+	)
+	(fp_line
+		(start -1 -0.5)
+		(end -0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35fc0e3f-9bbf-4494-9aab-034a81b472d7")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2ac77a5-b4e4-4aed-8696-552709bbaa50")
+	)
+	(fp_line
+		(start -0.5 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59ac11bc-ad49-4426-a6d1-295348940079")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da68e8eb-3b74-4a00-94f9-480dd1e5d889")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1cd67381-2ca6-4bab-b1dd-42f78eabf15d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "58fee52d-b360-4857-b664-b7fb2696af3a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.89 -0.75)
+		(size 0.48 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a9608319-9af9-419c-bb16-5fdeeab4eafc")
+	)
+	(pad "2" smd rect
+		(at -0.89 -0.25)
+		(size 0.48 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b4e53e85-c27e-49e6-a59e-95ebe3c00fa9")
+	)
+	(pad "3" smd rect
+		(at -0.89 0.25)
+		(size 0.48 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "277281a2-58b8-46df-9ea7-2c76a0564984")
+	)
+	(pad "4" smd rect
+		(at -0.89 0.75)
+		(size 0.48 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b4490360-c502-4cd3-88f6-330b8dd87a94")
+	)
+	(pad "5" smd rect
+		(at 0.89 0.75)
+		(size 0.48 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "828517ac-c65b-4dcb-87d1-3543817ad244")
+	)
+	(pad "6" smd rect
+		(at 0.89 0.25)
+		(size 0.48 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "79247647-a31b-4949-ac65-a7147fdfa354")
+	)
+	(pad "7" smd rect
+		(at 0.89 -0.25)
+		(size 0.48 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3a49bc1d-6279-4934-8e11-42fc5782a3a2")
+	)
+	(pad "8" smd rect
+		(at 0.89 -0.75)
+		(size 0.48 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9df68111-e8ce-43f6-a523-dff46e02a047")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "504853ca-5b04-425e-8347-9b91f21e18f2")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Qorvo_DFN-8-1EP_2x2mm_P0.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

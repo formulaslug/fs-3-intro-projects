@@ -1,0 +1,227 @@
+(footprint "Crystal_SMD_SeikoEpson_FA128-4Pin_2.0x1.6mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "crystal Epson Toyocom FA-128 (https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-128&lang=en), 2x1.6mm^2 package")
+	(tags "SMD SMT crystal")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "5f5e01d8-9d8d-4443-a209-6125dd425c9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_SeikoEpson_FA128-4Pin_2.0x1.6mm"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "11d05367-caf3-4ce6-ad30-324fe6c8f655")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "326f1b8d-ba2b-4926-a527-f183ebc15acb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc9eeef5-7db2-444d-967d-96d065f85a38")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14c2cad9-18b9-4035-9890-f6263dc8cfb5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4 -1.2)
+		(end -1.4 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d4e5054-1ea8-4447-a374-cc871a70fb67")
+	)
+	(fp_line
+		(start -1.4 1.2)
+		(end 1.4 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3ddc131-349e-484f-bc56-0bf0736cafa5")
+	)
+	(fp_line
+		(start -1.5 -1.3)
+		(end -1.5 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3cf55d7f-695b-4bf8-a5ce-e512c3a3dc2a")
+	)
+	(fp_line
+		(start -1.5 1.3)
+		(end 1.5 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ddb9a7d-d2a8-4751-baf2-7d175211ce92")
+	)
+	(fp_line
+		(start 1.5 -1.3)
+		(end -1.5 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63a7a4ce-6c5a-431b-92c8-db7cf241167e")
+	)
+	(fp_line
+		(start 1.5 1.3)
+		(end 1.5 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb86dc2d-6981-491a-98c7-4a7fec541d9e")
+	)
+	(fp_line
+		(start -1 -0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ae6bf33-82fc-4219-8842-031340933f0a")
+	)
+	(fp_line
+		(start -1 0.4)
+		(end -1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a748639f-b71e-4259-a8db-e457693bb542")
+	)
+	(fp_line
+		(start -1 0.4)
+		(end -0.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d99237b-b00f-44c2-bac4-f776c8c1ffab")
+	)
+	(fp_line
+		(start 1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58f07a38-11a5-422f-af3d-fb8f3cd22490")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end -0.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e41db710-f5c2-4645-8470-1585b4c67ac3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1004a732-1e38-4a14-bc5e-29d57b1f8922")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.725 0.575)
+		(size 0.95 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.12)
+		(uuid "1b45d612-87af-40c6-a2b0-9b7a8eaaf98b")
+	)
+	(pad "2" smd roundrect
+		(at 0.725 0.575)
+		(size 0.95 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.12)
+		(uuid "38164aea-0b07-4bba-84d7-dd38e0c46901")
+	)
+	(pad "3" smd roundrect
+		(at 0.725 -0.575)
+		(size 0.95 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.12)
+		(uuid "0b381e54-8b5b-4508-bc4c-8fc5d306a037")
+	)
+	(pad "4" smd roundrect
+		(at -0.725 -0.575)
+		(size 0.95 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.12)
+		(uuid "bd182b0d-704a-4530-a469-572b5c66ee0d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_FA128-4Pin_2.0x1.6mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

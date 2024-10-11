@@ -1,0 +1,329 @@
+(footprint "Antenova_SR4G013_GPS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "GPS/GLONASS/Galileo/BeiDou antenna, 1559-1609Mhz, SMD, https://www.application-datasheet.com/pdf/antenova/sr4g013.pdf")
+	(tags "antenna GPS Antenova Beltii")
+	(property "Reference" "REF**"
+		(at 0 2.8 180)
+		(layer "F.SilkS")
+		(uuid "d1240344-bcbd-436c-a72c-5209e409215b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Antenova_SR4G013_GPS"
+		(at 0 3.04 0)
+		(layer "F.Fab")
+		(uuid "f7bca303-e05f-4b1c-8df2-8c4c090ffe60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "614f39d6-a5e2-42fa-b66e-0c4b1e2b07b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ddb15ed-a322-49c9-8b93-7521ef489a0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56e17902-8ee5-47bc-9d77-c1f9eaaeae50")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(net_tie_pad_groups "1, 2")
+	(fp_line
+		(start -8.05 0)
+		(end -6.9 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "65123b5c-415f-4adb-8dfe-beb2aadc0f1b")
+	)
+	(fp_line
+		(start -8.15 1.06)
+		(end -8.15 2.06)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "146e812c-4c3b-4343-9314-12707968ec26")
+	)
+	(fp_line
+		(start -8.15 2.06)
+		(end -7.15 2.06)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0bcd7e4a-d2ec-4971-8e7d-f9d20fe43bf1")
+	)
+	(fp_line
+		(start -7.95 -1.86)
+		(end -7.95 1.86)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5a5c9e12-4605-47b7-9a5a-bf3cc424c7de")
+	)
+	(fp_line
+		(start -7.95 -1.86)
+		(end 7.05 -1.86)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "88057ccb-68ad-4ac3-bd46-4a1cbd73b830")
+	)
+	(fp_line
+		(start -7.95 1.86)
+		(end 7.05 1.86)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8eaa596b-b538-49e7-807a-ef70684256e9")
+	)
+	(fp_line
+		(start -8.05 -1.9)
+		(end -8.05 -0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6864052-065b-47f0-bae4-7315cfe9f7d6")
+	)
+	(fp_line
+		(start -8.05 0.5)
+		(end -8.05 1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8b926d2-16b5-457c-8704-73063ac4a0bb")
+	)
+	(fp_line
+		(start -8.05 1.9)
+		(end 8.05 1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e9c2b8e-da9b-472f-8628-4ee6366c60d1")
+	)
+	(fp_line
+		(start 8.05 -1.9)
+		(end -8.05 -1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1cc7800-f519-4f6f-bed7-903cab199ecb")
+	)
+	(fp_line
+		(start 8.05 1.9)
+		(end 8.05 -1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0308db9b-dcfd-4e88-a167-0c1a5aef2550")
+	)
+	(fp_arc
+		(start -8.05 0.5)
+		(mid -8.55 0)
+		(end -8.05 -0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "148201fd-1ea4-48e3-8de6-8226e3355f89")
+	)
+	(fp_line
+		(start -7.8 -1.65)
+		(end 7.8 -1.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "48c53cc8-4458-4eeb-be71-7651344fcc59")
+	)
+	(fp_line
+		(start -7.8 0.65)
+		(end -7.8 -1.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "582ca345-5c5c-49cd-bcad-52403b24b09b")
+	)
+	(fp_line
+		(start -7.8 0.65)
+		(end -6.8 1.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3b95f3e3-77d9-4eb6-8094-fa4546d3105f")
+	)
+	(fp_line
+		(start 7.8 -1.65)
+		(end 7.8 1.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d5c2016c-b62f-48f9-a9d1-f7066abd34ed")
+	)
+	(fp_line
+		(start 7.8 1.65)
+		(end -6.8 1.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "27e65f55-57b4-4d24-8acb-1c77d1db7ac8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0015ff7c-76da-4e8f-80a9-57efb1b773da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -6.9 0)
+		(size 1.2 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
+		(uuid "13c2e7fe-f34a-4f66-bb08-1c8e7c162231")
+	)
+	(pad "2" smd roundrect
+		(at -8.05 0)
+		(size 0.3 0.3)
+		(layers "F.Cu")
+		(roundrect_rratio 0.25)
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(uuid "d6c430eb-5f29-4668-8fb3-1b559021692b")
+	)
+	(pad "2" smd roundrect
+		(at -2.3 0)
+		(size 1.2 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
+		(thermal_bridge_width 0.5)
+		(uuid "2744e7a7-6ae6-4411-a8b2-fa8b79f84c88")
+	)
+	(pad "2" smd roundrect
+		(at 2.3 0)
+		(size 1.2 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
+		(thermal_bridge_width 0.5)
+		(uuid "1f071203-5a7a-4b9b-9c1a-9bc457f4452f")
+	)
+	(pad "2" smd roundrect
+		(at 6.9 0)
+		(size 1.2 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
+		(thermal_bridge_width 0.5)
+		(uuid "5534aa24-0016-4dd4-9a8a-e6f984beb5e6")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "c26e1f8a-17d3-4099-890c-a3a77c1ac86a")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -7.45 -1.65) (xy -6.25 -1.65) (xy -6.25 1.6) (xy -6.15 1.6) (xy -6.15 -1.75) (xy -7.45 -1.75)
+			)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RF_Antenna.3dshapes/Antenova_SR4G013_GPS.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

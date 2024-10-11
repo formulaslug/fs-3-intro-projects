@@ -1,0 +1,138 @@
+(footprint "L_Radial_D18.0mm_P10.00mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Radial series, Radial, pin pitch=10.00mm, , diameter=18mm, http://www.abracon.com/Magnetics/radial/AIUR-15.pdf")
+	(tags "Inductor Radial series Radial pin pitch 10.00mm  diameter 18mm")
+	(property "Reference" "REF**"
+		(at 5 -10.25 0)
+		(layer "F.SilkS")
+		(uuid "262584b0-a525-4581-b006-ff8c32229340")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Radial_D18.0mm_P10.00mm"
+		(at 5 10.25 0)
+		(layer "F.Fab")
+		(uuid "34dc533c-a589-443c-9e24-b61dcb0f98b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e96ab550-56e9-415d-9ef8-c235ac5a50c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e4c953a-24ee-45ca-9522-983fde5762ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcad1ae9-ceae-44aa-8775-7c6bb2d7fc90")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 5 0)
+		(end 14.12 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "cf749d83-fa7f-4ffd-bd51-102ebc009f65")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 14.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "60a5337c-1dfa-41cf-8b43-22746540b355")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 14 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "01235e26-a984-4213-bad4-489b8cf88e5e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 0 0)
+		(layer "F.Fab")
+		(uuid "52269bb0-1e66-4404-9621-2690f26c633d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94fdb014-0891-49eb-aa01-ffdbdab55c77")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "41b689a4-0fb5-4e3c-8e13-e318cc0aad87")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D18.0mm_P10.00mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

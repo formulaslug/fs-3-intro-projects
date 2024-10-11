@@ -1,0 +1,295 @@
+(footprint "Diode_Bridge_OnSemi_SDIP-4L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD diode bridge OnSemi SDIP-4L, see https://www.onsemi.com/pdf/datasheet/df10s1-d.pdf")
+	(tags "OnSemi Diode Bridge SDIP-4L")
+	(property "Reference" "REF**"
+		(at 0 -5.1 0)
+		(layer "F.SilkS")
+		(uuid "8caeff30-55a2-458a-945d-4ce8015836ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Diode_Bridge_OnSemi_SDIP-4L"
+		(at 0 5.2 0)
+		(layer "F.Fab")
+		(uuid "66f1576f-6137-4fe6-922e-f710674d0098")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03eaf3b4-21fa-4d30-8e55-d5ba974b1d34")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "162fcb34-5c98-46a0-97f8-8e4b8cc9e6f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2149323c-852f-4ff9-9ed1-0f41a00f417a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.285 -4.25)
+		(end -3.285 -3.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2451606c-d257-4586-8aef-1673702923c6")
+	)
+	(fp_line
+		(start -3.285 -1.64)
+		(end -3.285 1.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24baf0a6-528d-4ad7-bf05-02b79ab20ee9")
+	)
+	(fp_line
+		(start -3.285 3.46)
+		(end -3.285 4.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47d4c4db-ac58-4084-a39a-dd85dfb5cec7")
+	)
+	(fp_line
+		(start -3.285 4.25)
+		(end 3.285 4.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b281a56-d3a6-4277-85bb-64edf93ed382")
+	)
+	(fp_line
+		(start -3.275 -4.25)
+		(end 3.275 -4.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c1e505e-2bc2-4435-96a9-bed53d0b642f")
+	)
+	(fp_line
+		(start 3.285 -3.46)
+		(end 3.285 -4.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2897bfef-566b-4966-affd-989ef4d8c6a0")
+	)
+	(fp_line
+		(start 3.285 -1.64)
+		(end 3.285 1.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f19c8ce4-0e97-4429-a042-6ec1a0602e36")
+	)
+	(fp_line
+		(start 3.285 4.25)
+		(end 3.285 3.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "836669a3-abd4-452d-86a2-1991e3e1c1e2")
+	)
+	(fp_poly
+		(pts
+			(xy -4.2125 -3.46) (xy -4.4925 -3.46) (xy -4.2125 -3.74) (xy -4.2125 -3.46)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "69683ea2-2357-4f2c-83e8-be502d874fc3")
+	)
+	(fp_line
+		(start -5.45 -4.39)
+		(end -5.45 4.39)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "253af544-a6e5-4321-886d-a23684a0011c")
+	)
+	(fp_line
+		(start -5.45 -4.39)
+		(end 5.45 -4.39)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cfc328ae-107c-4afd-a2b9-2bd444667da9")
+	)
+	(fp_line
+		(start 5.45 4.39)
+		(end -5.45 4.39)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47181244-b748-4a52-b225-07e68e18ac30")
+	)
+	(fp_line
+		(start 5.45 4.39)
+		(end 5.45 -4.39)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0c7f66b-a524-4dbc-8878-8318e36eafff")
+	)
+	(fp_line
+		(start -3.175 -3.14)
+		(end -2.175 -4.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05aae5e1-887c-423c-b464-f29466991270")
+	)
+	(fp_line
+		(start -3.175 4.14)
+		(end -3.175 -3.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b69c6e5-bdc6-46e0-9011-d63d07b16f0e")
+	)
+	(fp_line
+		(start -2.175 -4.14)
+		(end 3.175 -4.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9f31a20-9585-4997-aa6d-6dd6bd0c2f30")
+	)
+	(fp_line
+		(start 3.175 -4.14)
+		(end 3.175 4.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ee646c8-ac76-493f-b670-50a453f8413a")
+	)
+	(fp_line
+		(start 3.175 4.14)
+		(end -3.175 4.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "759e1e8f-139f-4061-bfa7-9c926366bf68")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cab8d824-1f84-497a-9a8f-bd7367347a1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.45 -2.55)
+		(size 1.5 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4878f954-aa0b-4b1b-a737-ec125a8d4cb0")
+	)
+	(pad "2" smd rect
+		(at -4.45 2.55)
+		(size 1.5 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9b3d2ccc-3c4a-4a55-bab9-01d695d93f19")
+	)
+	(pad "3" smd rect
+		(at 4.45 2.55)
+		(size 1.5 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c33f3d48-c06e-427f-8e47-59bd2aee4cc9")
+	)
+	(pad "4" smd rect
+		(at 4.45 -2.55)
+		(size 1.5 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b71614b5-b468-490d-b8f3-f7ec06e9d7a4")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_OnSemi_SDIP-4L.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,279 @@
+(footprint "Resonator-3Pin_W7.0mm_H2.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Ceramic Resomator/Filter 7.0x2.5mm^2, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins")
+	(tags "THT ceramic resonator filter")
+	(property "Reference" "REF**"
+		(at 2.5 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "f83a4d77-7178-4329-b47e-41aa93cba273")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Resonator-3Pin_W7.0mm_H2.5mm"
+		(at 2.5 2.45 0)
+		(layer "F.Fab")
+		(uuid "b2711d27-997d-42ae-b226-eb3559a5ee84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "123d034f-31de-4ef9-862e-db7d9d4c9433")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf59035e-d51c-4b3d-bdc3-a966b93349eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0ebfe29-90e3-4a7c-a316-71c99b681c4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.25 -1.45)
+		(end 4.75 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9869a41b-d224-4360-892c-638de6656e42")
+	)
+	(fp_line
+		(start 0.25 1.45)
+		(end 4.75 1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6daa4ef4-c8f4-4c86-8836-e8d7ebf7aecf")
+	)
+	(fp_arc
+		(start 0.25 1.45)
+		(mid -1.2 0)
+		(end 0.25 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7f27398-cf5e-4a02-9ab7-acdd1e3d1512")
+	)
+	(fp_arc
+		(start 4.75 -1.45)
+		(mid 6.2 0)
+		(end 4.75 1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09b0e2a7-7a56-4794-9016-02649db74a44")
+	)
+	(fp_line
+		(start -1.5 -1.7)
+		(end -1.5 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43cf4aec-5133-491d-8c1c-3aabd1e3fbe3")
+	)
+	(fp_line
+		(start -1.5 1.7)
+		(end 6.5 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "28eaba4b-20f0-441c-9165-29b4c6a4828a")
+	)
+	(fp_line
+		(start 6.5 -1.7)
+		(end -1.5 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "28a7faac-b54c-4359-9085-771f636a5fef")
+	)
+	(fp_line
+		(start 6.5 1.7)
+		(end 6.5 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0543b4dc-f349-47bc-bce1-3bc223b2c062")
+	)
+	(fp_line
+		(start 0.25 -1.25)
+		(end 4.75 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22457526-3f1f-459d-a2ce-155edea3b327")
+	)
+	(fp_line
+		(start 0.25 -1.25)
+		(end 4.75 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c54a9444-d2d3-4602-8661-73ecc9c1096a")
+	)
+	(fp_line
+		(start 0.25 1.25)
+		(end 4.75 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29001355-a432-499d-9d9d-2346c48968fd")
+	)
+	(fp_line
+		(start 0.25 1.25)
+		(end 4.75 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0ad5e27-bb4a-47fb-b496-3dfdbd4a109a")
+	)
+	(fp_arc
+		(start 0.25 1.25)
+		(mid -1 0)
+		(end 0.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23183e20-d0bb-440b-9f00-b09dae9fab86")
+	)
+	(fp_arc
+		(start 0.25 1.25)
+		(mid -1 0)
+		(end 0.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44b84d11-8ccf-47de-b20c-fa385e9b770a")
+	)
+	(fp_arc
+		(start 4.75 -1.25)
+		(mid 6 0)
+		(end 4.75 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8b67e2b-d27d-4922-8f3b-607182a1b66b")
+	)
+	(fp_arc
+		(start 4.75 -1.25)
+		(mid 6 0)
+		(end 4.75 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4e2aa2e-c8a0-4316-a505-7ad4118b31db")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "71a9485e-7105-4430-bc19-10690fd64900")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80076f1d-203b-4676-a970-772c74d65531")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "676a6852-c429-48ec-8cc2-a43fa28139a8")
+	)
+	(pad "3" thru_hole circle
+		(at 5 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "820cd7a9-b987-4969-851f-b5407634803d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Resonator-3Pin_W7.0mm_H2.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

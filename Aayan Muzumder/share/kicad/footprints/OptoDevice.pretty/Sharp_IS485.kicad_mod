@@ -1,0 +1,297 @@
+(footprint "Sharp_IS485"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Sharp OPIC, IS485, IS486, see http://microrato.ua.pt/main/Actividades/Estagios/Docs/IS485_6.pdf")
+	(tags "Sharp OPIC IS485 IS486")
+	(property "Reference" "REF**"
+		(at 1.17 -2.7 0)
+		(layer "F.SilkS")
+		(uuid "532284e8-1d2d-4e85-91c8-dffa4ceed0ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Sharp_IS485"
+		(at 1.27 2.4 0)
+		(layer "F.Fab")
+		(uuid "a1cdd7bf-8309-46f6-9bc3-e1768151d4e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edc2bf5b-6605-4b5f-b3d3-dd7755c1c78c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0059d4da-70c3-4f44-8d57-e8864c90e5b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38881e6d-ac1a-44cc-9245-c6fbfa9f1d90")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.22 1.1)
+		(end 0.37 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "362cab49-493a-4db7-821f-1c229465ded0")
+	)
+	(fp_line
+		(start 0.47 -1.1)
+		(end -0.22 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32440564-de0d-4321-a519-1e78d6654a76")
+	)
+	(fp_line
+		(start 2.07 -1.1)
+		(end 2.87 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7ffa385-17d5-47c1-82a8-37367c1562a2")
+	)
+	(fp_line
+		(start 2.17 1.1)
+		(end 2.87 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c6e17f4-95e1-4429-af45-eef4e4ac628d")
+	)
+	(fp_line
+		(start 2.87 -0.7)
+		(end 2.87 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6c1d811-728c-4ec5-89a9-509ff5ee4db9")
+	)
+	(fp_line
+		(start 2.87 1.1)
+		(end 2.87 0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbd5e5eb-c189-4b4c-a638-1e7c254b77d9")
+	)
+	(fp_arc
+		(start 2.17 1.1)
+		(mid 1.288329 1.905353)
+		(end 0.374785 1.136345)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94fb03cf-bbac-4947-81f2-84759db3303d")
+	)
+	(fp_line
+		(start -0.85 -2.12)
+		(end 3.39 -2.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c371d6c-5621-41e3-924e-fefe197a0c08")
+	)
+	(fp_line
+		(start -0.85 2.05)
+		(end -0.85 -2.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37c2e22d-ed0d-4841-a98e-0c618bba12cb")
+	)
+	(fp_line
+		(start 3.39 -2.12)
+		(end 3.38 2.38)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b181c492-bdca-49fe-adf3-ec55cf3a2198")
+	)
+	(fp_line
+		(start 3.77 2.05)
+		(end -0.85 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "457392fc-ee84-4283-b48d-352409c5b0f1")
+	)
+	(fp_line
+		(start -0.23 -0.5)
+		(end -0.23 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46cbb51a-f23b-4453-8573-0a8930ca721b")
+	)
+	(fp_line
+		(start -0.23 -0.5)
+		(end 0.27 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7655d355-2ccb-423e-b894-0ba0d8bc9afe")
+	)
+	(fp_line
+		(start -0.23 1)
+		(end 2.77 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74b3c013-42fa-412d-b1e2-871c5cd87d6a")
+	)
+	(fp_line
+		(start 2.77 -1)
+		(end 0.27 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82652d6b-58eb-4afc-8006-37e7b10164e2")
+	)
+	(fp_line
+		(start 2.77 1)
+		(end 2.77 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c72742a5-de83-41c6-a73c-0df4bd6133c1")
+	)
+	(fp_arc
+		(start 1.27 1.8)
+		(mid 0.704315 1.565685)
+		(end 0.47 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8599276-3326-459e-8931-500970695d2a")
+	)
+	(fp_arc
+		(start 2.07 1)
+		(mid 1.835685 1.565685)
+		(end 1.27 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e247678-489f-40b5-bd50-3130db9baf4d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 0.4 0)
+		(layer "F.Fab")
+		(uuid "f75592ce-3c84-4e1b-bd6e-8f10b423b539")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.208)
+		(uuid "5cb55d0c-2163-4500-9c2f-871069e2cc6e")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 -1.27)
+		(size 1.2 1.2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "45927d0f-e063-41b9-bd0b-1ac7f0b8bae8")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.2 1.2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "441a69c8-a526-4a1e-8e7a-955e666bbcec")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Sharp_IS485.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

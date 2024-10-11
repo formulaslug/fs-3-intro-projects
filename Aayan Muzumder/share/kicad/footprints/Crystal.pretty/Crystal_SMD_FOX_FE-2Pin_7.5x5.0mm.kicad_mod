@@ -1,0 +1,265 @@
+(footprint "Crystal_SMD_FOX_FE-2Pin_7.5x5.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "crystal Ceramic Resin Sealed SMD http://www.foxonline.com/pdfs/fe.pdf, 7.5x5.0mm^2 package")
+	(tags "SMD SMT crystal")
+	(property "Reference" "REF**"
+		(at 0 -3.7 0)
+		(layer "F.SilkS")
+		(uuid "aadb5d20-64e7-49f3-8edd-15f72955d5bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_FOX_FE-2Pin_7.5x5.0mm"
+		(at 0 3.7 0)
+		(layer "F.Fab")
+		(uuid "0a428b9b-8787-42f5-92f0-8955c412998a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e702bc2c-a15a-4ab4-8265-c38e156a0fa1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37a471d8-256f-4286-87bc-42646e4a7a69")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7806d115-d95a-41c8-9763-a3fa871fe3b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0.093333 0)
+		(stroke
+			(width 0.186667)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "b176af31-97c8-487b-9e32-bb5a5ba2e1d5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.213333 0)
+		(stroke
+			(width 0.133333)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "d19a36d9-216e-4af5-8cb3-b41d5daf10b7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.333333 0)
+		(stroke
+			(width 0.133333)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "9ebfd8b8-4d59-4e13-91cc-d3398d8b2cce")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Adhes")
+		(uuid "0a428c85-b7ee-4d8e-b2e0-3d279c67b1d8")
+	)
+	(fp_line
+		(start -4.45 -2.7)
+		(end -4.45 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff249afa-6268-4592-a942-637b56b2432f")
+	)
+	(fp_line
+		(start -4.45 2.7)
+		(end 3.95 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4425c8fe-5be6-4e4f-944f-42c276f6b1dd")
+	)
+	(fp_line
+		(start 3.95 -2.7)
+		(end -4.45 -2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fec7c8c4-5e30-4264-8146-1561d367825c")
+	)
+	(fp_line
+		(start -4.5 -2.8)
+		(end -4.5 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd5fa8d6-40be-46a8-af3d-6a0425aff974")
+	)
+	(fp_line
+		(start -4.5 2.8)
+		(end 4.5 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60ab8b6c-8928-40db-ab97-62c40d9a7ce0")
+	)
+	(fp_line
+		(start 4.5 -2.8)
+		(end -4.5 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a3fd072-c191-49b9-a9c7-d712d157f892")
+	)
+	(fp_line
+		(start 4.5 2.8)
+		(end 4.5 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb5ba8eb-e712-46b9-8527-725fbd343fea")
+	)
+	(fp_line
+		(start -3.75 -2.5)
+		(end -3.75 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6906398d-2aa1-4582-a4ae-e2755f611e18")
+	)
+	(fp_line
+		(start -3.75 1.5)
+		(end -2.75 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9de4e01-103b-4a6a-ac1e-945b80977ec0")
+	)
+	(fp_line
+		(start -3.75 2.5)
+		(end 3.75 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "283c1c42-430b-4347-9148-8db18534214c")
+	)
+	(fp_line
+		(start 3.75 -2.5)
+		(end -3.75 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d507753-a490-424a-889d-076d81249479")
+	)
+	(fp_line
+		(start 3.75 2.5)
+		(end 3.75 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ddb3351-05cb-493a-b6ad-b63414abb0cc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2f759c03-b4d4-4fb0-8d0a-e889fe391851")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.15 0)
+		(size 2.2 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cf46404f-f830-4cdc-a930-9297d66efe06")
+	)
+	(pad "2" smd rect
+		(at 3.15 0)
+		(size 2.2 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6a0734c2-81ab-4492-96d3-1527b958a0b3")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_FOX_FE-2Pin_7.5x5.0mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

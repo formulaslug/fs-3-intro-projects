@@ -1,0 +1,114 @@
+(footprint "MountingHole_5.3mm_M5_Pad_TopOnly"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 5.3mm, M5")
+	(tags "mounting hole 5.3mm m5")
+	(property "Reference" "REF**"
+		(at 0 -6.3 0)
+		(layer "F.SilkS")
+		(uuid "eac7a80e-d638-4206-8d79-96c52db8055f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_5.3mm_M5_Pad_TopOnly"
+		(at 0 6.3 0)
+		(layer "F.Fab")
+		(uuid "e55d4830-0665-40da-a1e5-8ec4b986e0ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fbd2e32-6ad6-4baf-a97c-7c6333f5b46f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d11c0c09-c1fe-4522-aadf-8d3e6e5c0990")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8f7ccb7-9a70-43c7-ae9d-38b071d1ab6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 5.3 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "7bb9cf1c-50ff-4681-842b-3d289c4ce09c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.55 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "36035440-0b61-4b87-ade6-a59fea9851ae")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "90907b9e-0d75-4ad0-9ba4-9f9d1de5d6f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 5.7 5.7)
+		(drill 5.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec5d0891-c5ef-46ff-82f5-7e19c3a0c0e6")
+	)
+	(pad "1" connect circle
+		(at 0 0)
+		(size 10.6 10.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "851bce1e-c712-455a-8598-130abd54df42")
+	)
+)

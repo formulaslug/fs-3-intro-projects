@@ -1,0 +1,241 @@
+(footprint "L_Taiyo-Yuden_NR-80xx"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-80xx, 8.0mmx8.0mm")
+	(tags "inductor taiyo-yuden nr smd")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(uuid "c7af16e0-05ca-4272-9be6-3bafb9dad6d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Taiyo-Yuden_NR-80xx"
+		(at 0 5.5 0)
+		(layer "F.Fab")
+		(uuid "57e035da-beea-4ae6-9f47-59bfd7ad3c81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fdb6733-590d-4ebb-bd57-744e5240fad6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b1b291f-eadd-4c49-a0f4-822791da852e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c87c84d-5627-45fb-b19a-2cee0baa27dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4 -4.1)
+		(end 4 -4.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4205ea62-6a43-4309-a816-45801649f9f7")
+	)
+	(fp_line
+		(start -4 4.1)
+		(end 4 4.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "044b04a5-514a-4843-93e8-8a1e4f9e9085")
+	)
+	(fp_line
+		(start -4.25 -4.25)
+		(end -4.25 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1fa6f35-035c-4f1b-ac2e-e5d7476203e1")
+	)
+	(fp_line
+		(start -4.25 4.25)
+		(end 4.25 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6729e745-1c80-4e27-9ad8-ff008ef5f792")
+	)
+	(fp_line
+		(start 4.25 -4.25)
+		(end -4.25 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7fa4b46-9f5e-42e5-ac01-4f8d279ac005")
+	)
+	(fp_line
+		(start 4.25 4.25)
+		(end 4.25 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20c6b465-3678-4b56-bfa2-c5f9f3d35295")
+	)
+	(fp_line
+		(start -4 -2.8)
+		(end -2.8 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93498ebc-8a9d-4a9d-8457-a3ed8167d0e6")
+	)
+	(fp_line
+		(start -4 2.8)
+		(end -4 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d31c8ac-6b43-42e5-935d-db4b029fb028")
+	)
+	(fp_line
+		(start -4 2.8)
+		(end -2.8 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5981d7f-a385-439b-a5cb-8636e2ffa78e")
+	)
+	(fp_line
+		(start -2.8 -4)
+		(end 2.8 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5833c348-694f-4c3d-84d3-01f8a6ba27a9")
+	)
+	(fp_line
+		(start -2.8 4)
+		(end 2.8 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79c44bbf-1f85-4cf5-8e98-f1b9190b4569")
+	)
+	(fp_line
+		(start 4 -2.8)
+		(end 2.8 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2537cc43-d6f8-40c1-aab0-539c6a976aba")
+	)
+	(fp_line
+		(start 4 2.8)
+		(end 2.8 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf910fbb-6de2-45bf-91a7-7fddef1effb6")
+	)
+	(fp_line
+		(start 4 2.8)
+		(end 4 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1351a973-caaf-446c-b5a9-add9a9fd9a37")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9fcb1be3-7092-436b-8acf-4eb4382df4ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.8 0)
+		(size 1.8 7.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7b9f7c5c-e882-4097-a016-0fbb4b323bfa")
+	)
+	(pad "2" smd rect
+		(at 2.8 0)
+		(size 1.8 7.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f6c016b0-2b4e-4b75-968e-c96f88c01029")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Taiyo-Yuden_NR-80xx.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

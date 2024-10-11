@@ -1,0 +1,329 @@
+(footprint "Molex_47948-0001_2.4Ghz"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD antenna 2400-2500Mhz, 3.7dBi, https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/productspecificationpdf/479/47948/PS-47948-001-001.pdf?inline")
+	(tags "rf antenna")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d9a0a2fc-cf93-40e7-a14e-5d5548b58aaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Molex_47948-0001_2.4Ghz"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "501c76b6-a6fb-4ccf-8d07-ab8c5a41a895")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5b95f98-0089-4d83-b0ca-0adf6cdd225f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a0cbea4-5450-4386-ad18-a6ff314197c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "974a0e5d-6556-4a11-b072-e257635b9c13")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 0.14)
+		(end -1.7 -0.14)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f2450da-7708-4c9b-8773-55f864f0e491")
+	)
+	(fp_line
+		(start -0.14 -1.7)
+		(end 0.14 -1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c9e18c74-c52a-4ea0-acf7-3d0de25d2ba5")
+	)
+	(fp_line
+		(start -0.14 1.7)
+		(end 0.14 1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "879d4299-800c-4ed1-8d6d-1db549455602")
+	)
+	(fp_line
+		(start 1.7 0.14)
+		(end 1.7 -0.14)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "84ee18bd-c534-423b-9fd8-d4f3a20d87f4")
+	)
+	(fp_line
+		(start 2.01 0.75)
+		(end 2.01 -0.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2bbd1434-9bd7-43be-b1d0-3d4cff992881")
+	)
+	(fp_rect
+		(start -2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "2c351eff-9323-4d6d-aada-46096c28e2fa")
+	)
+	(fp_line
+		(start 1.35 -0.75)
+		(end 1.6 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e1450abd-4f3b-4c0e-87fd-fce88bd27a9c")
+	)
+	(fp_line
+		(start 1.35 0.75)
+		(end 1.6 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "75830d35-3cba-4c59-93b3-2bde76ccedd5")
+	)
+	(fp_rect
+		(start -1.6 -1.6)
+		(end 1.6 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "edd878e6-b4db-42fe-9f55-b9b737b5f714")
+	)
+	(fp_rect
+		(start -1.35 -1.35)
+		(end 1.35 1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4f7e52e0-c536-4044-9542-90375aacd62c")
+	)
+	(fp_rect
+		(start -0.4 -1.6)
+		(end -0.4 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1046d291-3417-4234-ae9b-4778ce3db1d4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5c4316e5-4ac1-494d-b8a7-45531102f659")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.075 -1.075)
+		(size 1.35 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1851851852)
+		(thermal_bridge_angle 45)
+		(uuid "28b8e807-69a8-46c7-bd98-0135dd000d73")
+	)
+	(pad "MP" smd roundrect
+		(at -1.075 1.075)
+		(size 1.35 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1851851852)
+		(thermal_bridge_angle 45)
+		(uuid "27fce22f-6f56-4329-bcf7-163e8f9f479c")
+	)
+	(pad "MP" smd roundrect
+		(at 1.075 -1.075)
+		(size 1.35 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1851851852)
+		(thermal_bridge_angle 45)
+		(uuid "40d62e5e-e62e-445b-9f0a-04341ae699c1")
+	)
+	(pad "MP" smd roundrect
+		(at 1.075 1.075)
+		(size 1.35 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1851851852)
+		(thermal_bridge_angle 45)
+		(uuid "20ce750e-6bca-49f3-9d74-cf93d8aba406")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "a93000c4-0be4-4e40-b0a3-4b12ccbbd0d1")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -2.25 -2.25) (xy -2.25 2.25) (xy 2.25 2.25) (xy 2.25 -2.25) (xy -0.4 -2.25) (xy -0.4 -1.8) (xy 1.8 -1.8)
+				(xy 1.8 1.8) (xy -1.8 1.85) (xy -1.8 -2.25)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "cdbc0c76-4055-4ee4-8597-5ba1d5c61e8e")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.35 -1.75) (xy -0.35 -0.35) (xy -1.75 -0.35) (xy -1.75 0.35) (xy -0.35 0.35) (xy -0.35 1.75)
+				(xy 0.35 1.75) (xy 0.35 0.35) (xy 1.75 0.35) (xy 1.75 -0.35) (xy 0.35 -0.35) (xy 0.35 -1.75)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
+			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+			"In30.Cu" "B.Cu" "F.SilkS"
+		)
+		(uuid "4a1aafeb-6076-496e-97bb-3da23a57987f")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -1.8 -2.25) (xy -1.8 -0.35) (xy -0.35 -0.35) (xy -0.35 -2.25)
+			)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RF_Antenna.3dshapes/Molex_47948-0001_2.4Ghz.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

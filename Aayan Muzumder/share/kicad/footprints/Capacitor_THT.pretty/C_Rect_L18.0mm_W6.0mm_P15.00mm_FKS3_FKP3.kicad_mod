@@ -1,0 +1,225 @@
+(footprint "C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=15.00mm, , length*width=18*6mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
+	(tags "C Rect series Radial pin pitch 15.00mm  length 18mm width 6mm Capacitor")
+	(property "Reference" "REF**"
+		(at 7.5 -4.25 0)
+		(layer "F.SilkS")
+		(uuid "3fa14150-ff6b-433e-a1f5-332035da27c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3"
+		(at 7.5 4.25 0)
+		(layer "F.Fab")
+		(uuid "dfb539ef-58fd-4a57-8c5d-2896b18ff024")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6611ecfe-acca-4ba1-9f6b-ff77294bde84")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8926e36f-6256-4498-937c-91623ffaf1e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7201cb40-3033-4daa-857f-4d3aeffca87c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.62 -3.12)
+		(end -1.62 3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f01844c-a676-464e-bbb3-69a28a8fa194")
+	)
+	(fp_line
+		(start -1.62 -3.12)
+		(end 16.62 -3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a89f9c0-60b5-4b6c-ae12-f4cdc10f456f")
+	)
+	(fp_line
+		(start -1.62 3.12)
+		(end 16.62 3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15e8753f-fcb2-4e6b-8b93-a35dd71ca612")
+	)
+	(fp_line
+		(start 16.62 -3.12)
+		(end 16.62 3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c320d9a-2151-4a9e-81a6-441757019dc5")
+	)
+	(fp_line
+		(start -1.75 -3.25)
+		(end -1.75 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "800eb2cc-9c2c-4ed6-993a-c553a737eaec")
+	)
+	(fp_line
+		(start -1.75 3.25)
+		(end 16.75 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed072739-3446-47e1-835a-bb47fdd77934")
+	)
+	(fp_line
+		(start 16.75 -3.25)
+		(end -1.75 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7bcc403a-e709-4aa7-89f6-75b88b9c236c")
+	)
+	(fp_line
+		(start 16.75 3.25)
+		(end 16.75 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4047bb1-6d4e-423b-8e45-8e38ebccf1f7")
+	)
+	(fp_line
+		(start -1.5 -3)
+		(end -1.5 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4be9d51-d5c4-4387-9ef6-546d6c58826e")
+	)
+	(fp_line
+		(start -1.5 3)
+		(end 16.5 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19e63744-acee-4ab1-b7f0-9d0a4e600776")
+	)
+	(fp_line
+		(start 16.5 -3)
+		(end -1.5 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79664cb1-ce90-4cc0-8155-48f9b455eb67")
+	)
+	(fp_line
+		(start 16.5 3)
+		(end 16.5 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4afd0654-c75e-4c1a-b6c4-ec451079c896")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 0 0)
+		(layer "F.Fab")
+		(uuid "92289240-06fc-42fc-b7e4-115ef9c143ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7ea3160-89a9-420b-adff-cd5f18446394")
+	)
+	(pad "2" thru_hole circle
+		(at 15 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8566259b-63c3-4bc0-9207-26d3b78eeb47")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

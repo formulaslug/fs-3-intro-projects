@@ -1,0 +1,303 @@
+(footprint "ST_PowerFLAT-6L_5x6mm_P1.27mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Thermally-enhanced 5x6mm 6-pin package, https://www.st.com/resource/en/datasheet/stl40dn3llh5.pdf")
+	(tags "PowerFLAT5x6")
+	(property "Reference" "REF**"
+		(at 0 -3.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5a94e04f-6a89-4cfb-9c70-9aa33c7e3865")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ST_PowerFLAT-6L_5x6mm_P1.27mm"
+		(at 0 3.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b36e0db8-d77e-40a4-92c4-28f6f932c438")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fd82de4-1c1d-4906-85aa-f9e773581fbb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfedd6ed-d1e6-4835-bbf8-c3dc0d99cd63")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6096f20-d945-4ac6-b486-94b2ba5ec49b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.25 -2.96)
+		(end 3.56 -2.96)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "95c3bfce-c677-4edf-aa60-ea6d8f822bd0")
+	)
+	(fp_line
+		(start 3.56 -2.96)
+		(end 3.56 2.96)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dcc3be64-8291-4ea1-b216-1c95b18c26c6")
+	)
+	(fp_line
+		(start 3.56 2.96)
+		(end -3.44 2.96)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "344e8400-7221-4301-8a4f-3c50e00b1ff4")
+	)
+	(fp_poly
+		(pts
+			(xy -2.83 -2.62) (xy -3.07 -2.95) (xy -2.59 -2.95) (xy -2.83 -2.62)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "ca437bd3-cd05-4806-83fe-d7ebf5a071d0")
+	)
+	(fp_rect
+		(start 3.55 -2.95)
+		(end -3.55 2.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "724e1042-b29c-4b44-a2db-09b3555281d8")
+	)
+	(fp_line
+		(start -3 -1.5)
+		(end -3 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f7fbf3c1-e618-456c-930f-9044e8b07573")
+	)
+	(fp_line
+		(start -3 2.5)
+		(end 3 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "929bd977-4e98-4bff-be34-18b762344bae")
+	)
+	(fp_line
+		(start -2 -2.5)
+		(end -3 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "82e92e8a-e2a8-49f6-b3c3-cf9dc9421f3c")
+	)
+	(fp_line
+		(start 3 -2.5)
+		(end -2 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "32b8704d-9ef2-47f1-b292-3bb9bd7079d6")
+	)
+	(fp_line
+		(start 3 2.5)
+		(end 3 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8dc48b90-4346-4e66-85c9-57e41722efe2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "758bdf61-a133-4a96-955d-a012262913ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.175 -1.25 270)
+		(size 1.68 1.68)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "7a983f29-0b95-429f-bc31-c36c95afa682")
+	)
+	(pad "" smd roundrect
+		(at -0.175 1.25 270)
+		(size 1.68 1.68)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "cb5a5f6f-18ce-4439-b332-a6643adbe11d")
+	)
+	(pad "" smd roundrect
+		(at 1.775 -1.25 270)
+		(size 1.68 1.68)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0a12ae15-f5ab-4acc-8190-2eb84cf94305")
+	)
+	(pad "" smd roundrect
+		(at 1.775 1.25 270)
+		(size 1.68 1.68)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "1907a328-0b75-45a5-abfd-c1b993f3f5f8")
+	)
+	(pad "1" smd roundrect
+		(at -2.675 -1.905 270)
+		(size 0.65 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "71b7fa46-bf11-4cfe-8a9a-6f3cb36e2be1")
+	)
+	(pad "2" smd roundrect
+		(at -2.675 -0.635 270)
+		(size 0.65 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "90b63d50-6fcf-4940-a404-f9f2519cfe04")
+	)
+	(pad "3" smd roundrect
+		(at -2.675 0.635 270)
+		(size 0.65 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "4b4f3a72-a239-4800-9957-dfdf8d2c4eeb")
+	)
+	(pad "4" smd roundrect
+		(at -2.675 1.905 270)
+		(size 0.65 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0dabe15b-a453-4188-a12f-3e3c5c6cd361")
+	)
+	(pad "5" smd custom
+		(at 0.665 1.25 270)
+		(size 0.5 0.5)
+		(layers "F.Cu" "B.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.3 -2.635) (xy -0.3 -2.085) (xy 0.325 -2.085) (xy 0.325 -2.635) (xy 1.05 -2.635) (xy 1.05 -1.625)
+					(xy 1.45 -1.625) (xy 1.45 -0.825) (xy 1.05 -0.825) (xy 1.05 0.825) (xy 1.45 0.825) (xy 1.45 1.625)
+					(xy 1.05 1.625) (xy 1.05 1.815) (xy -1.05 1.815) (xy -1.05 -2.635)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b0c17d50-3831-42d9-a5e9-1077bd84787b")
+	)
+	(pad "7" smd custom
+		(at 0.665 -1.25 270)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.3 -2.635) (xy 0.3 -2.085) (xy -0.325 -2.085) (xy -0.325 -2.635) (xy -1.05 -2.635) (xy -1.05 -1.625)
+					(xy -1.45 -1.625) (xy -1.45 -0.825) (xy -1.05 -0.825) (xy -1.05 0.825) (xy -1.45 0.825) (xy -1.45 1.625)
+					(xy -1.05 1.625) (xy -1.05 1.815) (xy 1.05 1.815) (xy 1.05 -2.635)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "4de21bfc-e3aa-4b3f-a744-ed85c6d28a08")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/ST_PowerFLAT-6L_5x6mm_P1.27mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

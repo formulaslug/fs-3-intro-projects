@@ -1,0 +1,213 @@
+(footprint "R_Array_Convex_2x0606"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Precision Thin Film Chip Resistor Array, VISHAY (see http://www.vishay.com/docs/28770/acasat.pdf)")
+	(tags "resistor array")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(layer "F.SilkS")
+		(uuid "f9363ed1-8217-42fb-af14-925e869ea85d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Array_Convex_2x0606"
+		(at 0 2.1 0)
+		(layer "F.Fab")
+		(uuid "8740703e-1379-47c5-bcae-060872e88ec4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "946d6414-5729-4caf-8887-77e3fa3eedb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a240167-d6c0-4c05-b6ef-a94b593a129a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e69c380-458f-4ab6-a116-95644632fc51")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.5 -0.97)
+		(end -0.5 -0.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db8b5544-487e-4444-b8ec-bb8397ee6d4b")
+	)
+	(fp_line
+		(start 0.5 0.97)
+		(end -0.5 0.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5dfb5128-6fc3-4230-80bf-1f7882ff0613")
+	)
+	(fp_line
+		(start -1.3 -1.05)
+		(end -1.3 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "481c462c-426c-4cc6-a15a-038ea89a0d55")
+	)
+	(fp_line
+		(start -1.3 -1.05)
+		(end 1.3 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "76e1f283-936a-4e1e-a0ce-c9dae7411826")
+	)
+	(fp_line
+		(start 1.3 1.05)
+		(end -1.3 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2bafe7b8-4f7b-4613-af7a-d1723c0ed1e6")
+	)
+	(fp_line
+		(start 1.3 1.05)
+		(end 1.3 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d54e05a8-89ab-4f85-8903-bd5eba42b7a0")
+	)
+	(fp_line
+		(start -0.8 -0.8)
+		(end 0.8 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75c943f5-6f84-4a04-b247-6a22e0a47858")
+	)
+	(fp_line
+		(start -0.8 0.8)
+		(end -0.8 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51e10f2b-b25a-494c-b3da-7b26e2b599a3")
+	)
+	(fp_line
+		(start 0.8 -0.8)
+		(end 0.8 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02531c1f-7806-4b14-b69f-1c64ea788880")
+	)
+	(fp_line
+		(start 0.8 0.8)
+		(end -0.8 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bdf19484-709b-47c8-9bce-0f3f6726f9cb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.75 0)
+		(layer "F.Fab")
+		(uuid "10e87ab6-90da-48a2-9e1f-4ae9d0d62d5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7 -0.47)
+		(size 0.7 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4d023ee5-fb4c-4175-9931-3034e3a49469")
+	)
+	(pad "2" smd rect
+		(at -0.7 0.47)
+		(size 0.7 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b5556266-477b-4c1a-8d3a-626ee3984666")
+	)
+	(pad "3" smd rect
+		(at 0.7 0.47)
+		(size 0.7 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ba307330-966b-480a-be36-9a4dea8e96f6")
+	)
+	(pad "4" smd rect
+		(at 0.7 -0.47)
+		(size 0.7 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "625028a1-18cf-46d0-ac8a-ec971d71189d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Convex_2x0606.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

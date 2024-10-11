@@ -1,0 +1,327 @@
+(footprint "Potentiometer_Vishay_T93XA_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, horizontal, Vishay, https://www.vishay.com/docs/51026/t93.pdf, 3/8\" x 3/8\" x 3/16\" (9.7 x 9.8 x 5mm max.)")
+	(tags "Potentiometer horizontal vishay")
+	(property "Reference" "REF**"
+		(at 3.4 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "5fa1a1ab-2f49-46c1-aad0-82585e5400c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Vishay_T93XA_Horizontal"
+		(at 2.4 3.725 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "abc2c8c8-57b1-4460-a8a5-84b5da6396db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e99051e-ee0a-45b7-814b-608e90b9a7c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9553bcc5-cc0a-4f5e-b297-45a98aa8133d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0285d41-7826-41cf-90ed-a2d16a7cf6ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.42 -2.61)
+		(end -2.42 2.61)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b71caff2-b11d-4453-8d34-9fcb2e7afc7d")
+	)
+	(fp_line
+		(start -2.42 2.61)
+		(end 7.5 2.61)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7e49b1b0-29e9-47c9-a32f-eab3f1cc73d4")
+	)
+	(fp_line
+		(start -0.5 -2.61)
+		(end -2.42 -2.61)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "15a849b5-27f3-49c9-905e-e49aa113995d")
+	)
+	(fp_line
+		(start 7.5 -2.61)
+		(end 0.5 -2.61)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b7172a74-be5e-4ddc-abe2-0a2365b5339c")
+	)
+	(fp_line
+		(start 7.5 2.61)
+		(end 7.5 -2.61)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5f527094-2c35-4dba-8bac-73f25bf2732e")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -2.6) (xy -0.24 -2.93) (xy 0.24 -2.93) (xy 0 -2.6)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d5a2358a-5e17-4235-a775-31c747b740e9")
+	)
+	(fp_line
+		(start -2.56 -2.75)
+		(end -2.56 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7aaf2d06-c4c4-418d-9edb-8daefcaf7652")
+	)
+	(fp_line
+		(start -2.56 -2.75)
+		(end 7.64 -2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a69b55e-a1de-4825-b5cd-6d0964929f10")
+	)
+	(fp_line
+		(start 7.64 0.15)
+		(end 7.64 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2818bdb-11b7-489b-b43f-c3b88dc555dc")
+	)
+	(fp_line
+		(start 7.64 0.15)
+		(end 8.94 0.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "63c4bb5f-ff68-476d-8dfe-62682ed5dffc")
+	)
+	(fp_line
+		(start 7.64 2.75)
+		(end -2.56 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "026dd6d9-9831-422b-bf3f-9a490fc96182")
+	)
+	(fp_line
+		(start 8.94 -2.75)
+		(end 7.64 -2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "46551ec0-3d61-430e-8b31-446439389de8")
+	)
+	(fp_line
+		(start 8.94 0.15)
+		(end 8.94 -2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3698d3f0-8634-4653-8b2d-4ad021314359")
+	)
+	(fp_line
+		(start -2.3 -1.5)
+		(end -2.3 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ed2423cd-0cb4-4054-9cca-222c1007f880")
+	)
+	(fp_line
+		(start -2.3 -1.5)
+		(end -1.3 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0b438b17-035f-4f5e-9e51-d27ce344b1fb")
+	)
+	(fp_line
+		(start -2.3 2.5)
+		(end 7.39 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "44055130-9fc1-4ce1-9782-fb34a92fc5cb")
+	)
+	(fp_line
+		(start 7.39 -2.5)
+		(end -1.3 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1a0e125b-8587-4ccb-8066-d8ee9233b3f5")
+	)
+	(fp_line
+		(start 7.39 -2.5)
+		(end 8.69 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d752586f-3ef5-48e5-a8f5-8431bfb73716")
+	)
+	(fp_line
+		(start 7.39 -0.1)
+		(end 7.39 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "13f253ee-d847-422d-8eca-ea3524cd369b")
+	)
+	(fp_line
+		(start 7.39 -0.1)
+		(end 8.69 -0.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d14fcf22-7e57-4162-b191-846a16692fd5")
+	)
+	(fp_line
+		(start 8.69 -0.1)
+		(end 8.69 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "62d998b7-a1a0-4be9-97cd-c0d9cba27175")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(uuid "95bed0aa-8513-4bad-84cd-2ab679837018")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.65 1.65)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "fff8826e-d005-4a5b-8a76-c058995ba1e6")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.65 1.65)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "644619ff-9707-45e0-a3b2-35eb10caa363")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.65 1.65)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "98abf4c1-4f5c-4d4b-b47e-f6776f66d236")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Vishay_T93XA_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

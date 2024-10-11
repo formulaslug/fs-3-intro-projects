@@ -1,0 +1,247 @@
+(footprint "Mini-Circuits_HZ1198"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Footprint for Mini-Circuits case HZ1198 (https://ww2.minicircuits.com/case_style/HZ1198.pdf)")
+	(tags "Mini-Circuits HZ1198")
+	(property "Reference" "REF**"
+		(at 0 -8.128 0)
+		(layer "F.SilkS")
+		(uuid "e5ecb293-a68b-46d9-bc51-0903455571e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mini-Circuits_HZ1198"
+		(at -0.1 8 0)
+		(layer "F.Fab")
+		(uuid "67f470fd-6bf6-4f5f-85d0-d3649631792f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49ff47d7-0513-4d4d-b29d-f8a238e9ab29")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70206267-a056-4342-a9ba-47dd8acdf380")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58f56c11-d467-4d66-8e52-af8ca8d5bff5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -11.303 -6.2738)
+		(end -11.303 6.0452)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85636451-f4ab-41aa-b765-dc843402987b")
+	)
+	(fp_line
+		(start 11.303 -6.0198)
+		(end 11.303 6.0452)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8dc6a01e-987c-48b0-9897-8f06fea37535")
+	)
+	(fp_poly
+		(pts
+			(xy -10.66 -5.86) (xy -10.996 -5.62) (xy -10.996 -6.1) (xy -10.66 -5.86)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "2546712c-1264-4e21-ab7d-c96a9bd44602")
+	)
+	(fp_line
+		(start -11.25 -6.75)
+		(end -11.25 6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd12f6f2-4d4d-4bae-8aa2-8ac02d572fc7")
+	)
+	(fp_line
+		(start -11.25 -6.75)
+		(end 11.25 -6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "254e99d1-ccdf-4887-98fc-6ff9f629c47d")
+	)
+	(fp_line
+		(start 11.25 6.75)
+		(end -11.25 6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8aa5348f-8876-4ba5-98f3-6d4da02360ab")
+	)
+	(fp_line
+		(start 11.25 6.75)
+		(end 11.25 -6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93bdd98d-5f26-4aee-94f6-99b5f84e3e81")
+	)
+	(fp_line
+		(start -10.4902 -4.7244)
+		(end -9.2202 -5.9944)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81e7db22-48a4-40b8-8960-45051c58ead8")
+	)
+	(fp_line
+		(start -10.4902 5.9944)
+		(end -10.4902 -4.7244)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f5883f1-e03e-4014-92bd-8d85774718cf")
+	)
+	(fp_line
+		(start -9.2202 -5.9944)
+		(end 10.4902 -5.9944)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a0ed1db-f4fa-435f-a0ca-57688b1a4bbc")
+	)
+	(fp_line
+		(start 10.4902 -5.9944)
+		(end 10.4902 5.9944)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "caa35842-53aa-43cf-ad96-488fdc63cf5e")
+	)
+	(fp_line
+		(start 10.4902 5.9944)
+		(end -10.4902 5.9944)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e321ccfa-ceac-4689-9d96-70a1d4e81c28")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.2 0)
+		(layer "F.Fab")
+		(uuid "ed58c46a-7464-44f8-8719-0521b26b3baf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -6.9977 -5.6515)
+		(size 2.9972 1.7018)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "af25fe1b-ebf9-4384-91d2-4f8e3fedc020")
+	)
+	(pad "2" smd rect
+		(at 6.9977 -5.6515)
+		(size 2.9972 1.7018)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0e4cafd1-8a19-4416-ad7f-ff788b8dbdfd")
+	)
+	(pad "3" smd rect
+		(at 9.779 0)
+		(size 2.4384 1.9812)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5bbc5b4b-43b7-4ba2-b452-e838a6ca5489")
+	)
+	(pad "4" smd rect
+		(at 6.8961 5.2578)
+		(size 1.9812 2.4892)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "01b563f0-847e-4e91-80e7-4ba960ec99d6")
+	)
+	(pad "5" smd rect
+		(at -6.8961 5.2578)
+		(size 1.9812 2.4892)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3dfc3825-1b8f-4568-8138-dc7a708da9b9")
+	)
+	(pad "6" smd rect
+		(at -9.779 0)
+		(size 2.4384 1.9812)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d387795b-e847-4594-9751-4ec14397e309")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_HZ1198.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

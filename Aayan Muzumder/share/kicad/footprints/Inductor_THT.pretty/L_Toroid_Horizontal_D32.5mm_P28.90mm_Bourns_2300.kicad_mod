@@ -1,0 +1,319 @@
+(footprint "L_Toroid_Horizontal_D32.5mm_P28.90mm_Bourns_2300"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "L_Toroid, Horizontal series, Radial, pin pitch=28.90mm, , diameter=32.5mm, Bourns, 2300, http://www.bourns.com/docs/Product-Datasheets/2300_series.pdf?sfvrsn=3")
+	(tags "L_Toroid Horizontal series Radial pin pitch 28.90mm  diameter 32.5mm Bourns 2300")
+	(property "Reference" "REF**"
+		(at 14.45 -17.5 0)
+		(layer "F.SilkS")
+		(uuid "1e8f28d4-35e1-4d6f-9acf-9a02fb51c906")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Toroid_Horizontal_D32.5mm_P28.90mm_Bourns_2300"
+		(at 14.45 17.5 0)
+		(layer "F.Fab")
+		(uuid "a5241d13-15b4-4a6e-9c1a-2bb20924316e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b70f2901-c5b8-4b6f-b2a7-4d096623a9fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46386491-b801-49cc-9077-bbe8051d66b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "253424e4-8266-4046-b0a0-bb1d4f2ffb69")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 14.45 0)
+		(end 19.746667 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5057a150-4e0b-4947-8e75-52937ae7462b")
+	)
+	(fp_circle
+		(center 14.45 0)
+		(end 30.82 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d344ee35-283c-4d0f-b26b-f704c2402377")
+	)
+	(fp_line
+		(start -2.06 -16.5)
+		(end -2.06 16.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73ea00ac-a33c-4a7f-8035-dd2b6d2ac805")
+	)
+	(fp_line
+		(start -2.06 16.5)
+		(end 30.95 16.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "019b02ed-5864-479c-9490-1ba80ef0771e")
+	)
+	(fp_line
+		(start 30.95 -16.5)
+		(end -2.06 -16.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7290cf8a-d275-4e60-9b61-e2333b7d7174")
+	)
+	(fp_line
+		(start 30.95 16.5)
+		(end 30.95 -16.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "866431c7-4eef-4124-8576-bfc8f2070140")
+	)
+	(fp_line
+		(start -1.5926 0.001486)
+		(end 9.231349 -1.397772)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af770380-541b-4871-9767-24b9c603eb54")
+	)
+	(fp_line
+		(start 0.555834 -8.019798)
+		(end 10.629342 -3.819773)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28aa942c-845a-4b90-999a-1ff20bf7580e")
+	)
+	(fp_line
+		(start 0.55732 8.022373)
+		(end 9.231608 1.398739)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3bebb76-8791-4d0a-9b41-55988b7e1244")
+	)
+	(fp_line
+		(start 6.426984 -13.892308)
+		(end 13.051019 -5.218327)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c204f24d-9132-4dfd-ad72-d19ab70bbdac")
+	)
+	(fp_line
+		(start 6.429558 13.893795)
+		(end 10.63005 3.820481)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "591ba1b0-a324-4deb-a9c2-7719f0989c72")
+	)
+	(fp_line
+		(start 14.44777 -16.0426)
+		(end 15.84753 -5.218716)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1bbebefb-a174-4b57-9633-1ed69a882974")
+	)
+	(fp_line
+		(start 14.450743 16.0426)
+		(end 13.051986 5.218586)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1d1b319-5e40-4911-a6d2-908db1a42993")
+	)
+	(fp_line
+		(start 22.469154 -13.894538)
+		(end 18.269596 -3.820834)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba49aa96-58d6-4c94-83c2-0f6b1b1eccfb")
+	)
+	(fp_line
+		(start 22.471729 13.893051)
+		(end 15.848497 5.218457)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f866a52-6438-4e08-bd38-43054ed9d947")
+	)
+	(fp_line
+		(start 28.341936 -8.02366)
+		(end 19.668262 -1.399222)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4755deab-0b48-4343-950b-05090905e491")
+	)
+	(fp_line
+		(start 28.343423 8.021085)
+		(end 18.270304 3.820127)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d5c903ea-e4c3-4f30-9290-cc36a33ab93a")
+	)
+	(fp_line
+		(start 30.4926 -0.002973)
+		(end 19.668781 1.397288)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43f2b583-2f9a-4e53-95af-da5eedcfd711")
+	)
+	(fp_line
+		(start 30.4926 0)
+		(end 19.668522 1.398255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0599d01-5481-41b9-b33d-76923178e4ff")
+	)
+	(fp_circle
+		(center 14.45 0)
+		(end 19.866667 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1d8e0e7f-cb5d-4b57-8409-8698ba48d2ee")
+	)
+	(fp_circle
+		(center 14.45 0)
+		(end 30.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9da900eb-f59d-4ddb-98fc-4031692c8bef")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 14.45 0 0)
+		(layer "F.Fab")
+		(uuid "e6e50b38-3043-454a-9afc-26a60eda7cc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13e69605-b1e8-482d-b871-ff829a8351b1")
+	)
+	(pad "2" thru_hole circle
+		(at 28.9 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "00cb9a60-1a52-4f8a-9169-c24b181f7751")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Toroid_Horizontal_D32.5mm_P28.90mm_Bourns_2300.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

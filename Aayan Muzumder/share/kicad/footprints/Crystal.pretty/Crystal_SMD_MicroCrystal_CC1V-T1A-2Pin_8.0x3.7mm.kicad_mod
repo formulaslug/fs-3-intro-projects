@@ -1,0 +1,221 @@
+(footprint "Crystal_SMD_MicroCrystal_CC1V-T1A-2Pin_8.0x3.7mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal MicroCrystal CC1V-T1A series https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC1V-T1A.pdf, 8.0x3.7mm^2 package")
+	(tags "SMD SMT crystal")
+	(property "Reference" "REF**"
+		(at 0 -3.1 0)
+		(layer "F.SilkS")
+		(uuid "c17f2762-3920-4b8b-8557-e4e92e8ca19e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_MicroCrystal_CC1V-T1A-2Pin_8.0x3.7mm"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(uuid "a1d0cd82-217f-4961-af78-005a8cc3af3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa72974e-869c-4f57-b47d-0b5487f632a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23e38605-3b49-467a-9107-0fcde61f9599")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ed06d88-9267-4c3b-91d6-2e8ee6ae20c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.5 -2.1)
+		(end -4.5 2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09b6d05c-a49e-4444-b18e-55c3685b0b7b")
+	)
+	(fp_line
+		(start -1.8 -2.05)
+		(end 1.8 -2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "198c7cc5-1eb0-4ee0-b475-e13f4bc7b31f")
+	)
+	(fp_line
+		(start -1.8 2.05)
+		(end 1.8 2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59c3d65d-7a16-4803-85fd-591cf89dba71")
+	)
+	(fp_line
+		(start -4.6 -2.4)
+		(end -4.6 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a86db61b-511c-4d51-a915-4be34782fd4e")
+	)
+	(fp_line
+		(start -4.6 2.4)
+		(end 4.6 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70aa6bbe-b051-47cd-9f2e-736653a0d611")
+	)
+	(fp_line
+		(start 4.6 -2.4)
+		(end -4.6 -2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88267f01-c3d4-4f57-bf42-6b4c6942905a")
+	)
+	(fp_line
+		(start 4.6 2.4)
+		(end 4.6 -2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f51cdfe2-42f7-41e7-9985-7e72902f2541")
+	)
+	(fp_line
+		(start -4 -1.85)
+		(end -4 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a647a92-c164-453f-b088-3a085f1badea")
+	)
+	(fp_line
+		(start -4 0.85)
+		(end -3 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6b649bd-0cfe-4cdf-b098-c0c04ecc4739")
+	)
+	(fp_line
+		(start -4 1.85)
+		(end 4 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0d59325-16c1-4042-8eec-c178b3dfec97")
+	)
+	(fp_line
+		(start 4 -1.85)
+		(end -4 -1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7958c0e-9156-41bf-b929-2d101262c875")
+	)
+	(fp_line
+		(start 4 1.85)
+		(end 4 -1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f90668f-1247-4b18-8242-fe25919eea3c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4cd92c59-105f-4ad3-89cf-ae9afc2f05a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.15 0)
+		(size 2.3 4.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "24babda9-395f-4bf8-9d9f-a4e0bf727482")
+	)
+	(pad "2" smd rect
+		(at 3.15 0)
+		(size 2.3 4.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a5063fbc-cacc-4515-b8b2-dd6bfc05fd4c")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_MicroCrystal_CC1V-T1A-2Pin_8.0x3.7mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,310 @@
+(footprint "Converter_ACDC_ZETTLER_ZPI03Sxx00WC_THT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "PCB mounted switching power module, AC input voltage range: 90VAC-264VAC, Class II Construction, https://www.zettlermagnetics.com/pdfs/ZPI03SXX00WC.pdf")
+	(tags "ACDC-Converter 3W ZETTLER ZPI")
+	(property "Reference" "REF**"
+		(at 7.5 7.24 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6e3fc030-caec-487f-9e2b-c3b12a80dec9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_ACDC_ZETTLER_ZPI03Sxx00WC_THT"
+		(at 7.5 8.74 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2bf53eeb-ccc5-4ecd-8367-8f100d865fb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 7.5 7.74 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d8a2098-f607-466c-bca3-45a11f774ae3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 7.5 7.74 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1ddc2ff-5e63-4f64-b3c3-ad9a57c09526")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 7.5 7.74 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "195b2647-b6ae-498c-8c23-ce433a8fadf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.9 -20.9)
+		(end -5.9 0.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "83e0a555-0722-45a3-b64d-70e99c2aa677")
+	)
+	(fp_line
+		(start -5.9 -20.9)
+		(end 20.9 -20.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8fdd0f5e-70a6-47e9-86c4-492eeeaa6628")
+	)
+	(fp_line
+		(start -0.9 5.9)
+		(end -5.9 0.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8f5b5192-be59-4329-82cf-c94db54d3460")
+	)
+	(fp_line
+		(start 20.9 -20.9)
+		(end 20.9 5.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f3465d69-aafe-4610-82b5-865ab5f598f9")
+	)
+	(fp_line
+		(start 20.9 5.9)
+		(end -0.9 5.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a11ce952-c7dc-457d-b0a1-f59d599d065b")
+	)
+	(fp_line
+		(start -5.65 -20.65)
+		(end -5.65 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "596fa1dd-74b6-4d6b-92dc-b02c96d0381a")
+	)
+	(fp_line
+		(start -5.65 -20.65)
+		(end 20.65 -20.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7e1d41f-3428-46dd-ac01-56dadb436b81")
+	)
+	(fp_line
+		(start -5.65 0.7)
+		(end -0.7 5.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5d35e72-1c2a-499d-b97e-61b183a43536")
+	)
+	(fp_line
+		(start 20.65 -20.65)
+		(end 20.65 5.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c3e094d-ad99-480d-955f-983a24a952f5")
+	)
+	(fp_line
+		(start 20.65 5.65)
+		(end -0.7 5.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d905eb71-6e04-4c90-9d4f-d6e8ffd5ed41")
+	)
+	(fp_line
+		(start -5.4 -19.4)
+		(end -5.4 0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a51fc10f-ed64-4d61-827e-e1094be2019f")
+	)
+	(fp_line
+		(start -5.4 0.45)
+		(end -0.45 5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "56ff7b83-9a71-4534-87a0-462ee209b204")
+	)
+	(fp_line
+		(start -4.4 -20.4)
+		(end 19.4 -20.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "00ee92bb-6240-408b-ae9e-0e2e6b4dc514")
+	)
+	(fp_line
+		(start 19.4 5.4)
+		(end -0.45 5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "daee5288-7cad-4d9d-aed0-7b0a8184b0ce")
+	)
+	(fp_line
+		(start 20.4 -19.4)
+		(end 20.4 4.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0e03131a-55aa-4a61-b313-fac8bfa77ba3")
+	)
+	(fp_arc
+		(start -5.4 -19.4)
+		(mid -5.118767 -20.118767)
+		(end -4.4 -20.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "92acf794-3472-4e8a-b332-75ec2cffc0fa")
+	)
+	(fp_arc
+		(start 19.4 -20.4)
+		(mid 20.118767 -20.118767)
+		(end 20.4 -19.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3a7a405b-181f-4aef-bb17-a663b6782cd1")
+	)
+	(fp_arc
+		(start 20.4 4.4)
+		(mid 20.118767 5.118767)
+		(end 19.4 5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "25ff6daa-dcbb-480e-be11-b4aec7c617f6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 10.24 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0132d962-721d-40a2-88f1-098398bd9e74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d1c36ec-bd07-4584-a0a9-818e8251910d")
+	)
+	(pad "2" thru_hole circle
+		(at 15 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa9eedfc-8885-4028-874d-5a4e9d23b8ac")
+	)
+	(pad "3" thru_hole circle
+		(at 10 -15)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c38b620e-93e9-4ba5-ad59-5cb347265a3f")
+	)
+	(pad "4" thru_hole circle
+		(at 5 -15)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e501364-fd38-4ffa-a0fa-bcdeec752555")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_ZETTLER_ZPI03Sxx00WC_THT.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

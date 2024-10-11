@@ -1,0 +1,246 @@
+(footprint "Hamamatsu_S13360-30CS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SiPM, 2pin")
+	(tags "Hamamatsu SiPM")
+	(property "Reference" "REF**"
+		(at -3.556 -2.794 0)
+		(layer "F.SilkS")
+		(uuid "4a71ce03-4167-4512-b0bf-1ed015708252")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Hamamatsu_S13360-30CS"
+		(at -2.032 5.37 0)
+		(layer "F.Fab")
+		(uuid "4d2e5aaa-c017-497f-9bde-ab214894b685")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ed4a3bb-492c-4dd2-9ed1-19e953da5ed9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "212123c9-d9a5-4fd4-9da2-0fd7a520dba3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31b0822a-7511-4a3d-9846-aeb51f58b9a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.46 -1.86)
+		(end 0.46 -1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84167c44-e590-463b-8c83-81be89028c68")
+	)
+	(fp_line
+		(start -5.46 4.4)
+		(end -5.46 -1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9033c2b3-e779-43b0-b05e-59924b9ecc3c")
+	)
+	(fp_line
+		(start 0.46 -1.86)
+		(end 1.46 -0.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5d949a4-bc77-4602-aa47-e4d4f3cdfd77")
+	)
+	(fp_line
+		(start 1.46 -0.86)
+		(end 1.46 4.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "890b3f7f-3b51-4e9e-9789-93007ba343b0")
+	)
+	(fp_line
+		(start 1.46 4.4)
+		(end -5.46 4.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91efb9a8-041f-43ac-9bf0-d93d501e0f1d")
+	)
+	(fp_line
+		(start -5.6 -2.01)
+		(end -5.6 4.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b8becbbf-91a4-45d5-9af5-f4caeeb83532")
+	)
+	(fp_line
+		(start -5.6 -2.01)
+		(end 1.6 -2.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d5758a9-f4e5-4122-9a9b-9b2731d0b7a3")
+	)
+	(fp_line
+		(start 1.6 4.55)
+		(end -5.6 4.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31fc72d2-0eb5-4444-a1cd-4cc57817eb1c")
+	)
+	(fp_line
+		(start 1.6 4.55)
+		(end 1.6 -2.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1b19c64-3732-4ccd-9524-faf69976cdc4")
+	)
+	(fp_line
+		(start -5.35 -1.755)
+		(end 0.35 -1.755)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1dbee26-ee75-46bd-a59c-dafbe1ddb3c8")
+	)
+	(fp_line
+		(start -5.35 4.295)
+		(end -5.35 -1.755)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a57d6d7d-2150-496b-92b0-237e8754134e")
+	)
+	(fp_line
+		(start 0.35 -1.755)
+		(end 1.35 -0.755)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6359ea17-2059-4505-9ef7-40d3f6c08a94")
+	)
+	(fp_line
+		(start 1.35 -0.755)
+		(end 1.35 4.295)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93998d6b-6804-4246-a7b7-b829a5f549bf")
+	)
+	(fp_line
+		(start 1.35 4.295)
+		(end -5.35 4.295)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abdca30d-5755-40fa-9c30-f5548e024185")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.54 1.27 0)
+		(layer "F.Fab")
+		(uuid "c543f233-50ea-4c14-9152-6fd8dc9aaf8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 0.66)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.208)
+		(uuid "893e4799-2d9a-48af-a1b6-e9574acaa50a")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.2 1.2)
+		(drill 0.66)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7c974cd3-def8-44a8-b7df-1b7255421cb4")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Hamamatsu_S13360-30CS.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

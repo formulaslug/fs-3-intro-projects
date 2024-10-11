@@ -1,0 +1,337 @@
+(footprint "Transformer_Ethernet_Bel_S558-5999-T7-F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Ethernet Transformer, Bel S558-5999-T7-F, https://www.belfuse.com/resources/ICMs/lan-/S558-5999-T7-F.pdf")
+	(tags "Ethernet Transformer")
+	(property "Reference" "REF**"
+		(at 0 -7.3 0)
+		(layer "F.SilkS")
+		(uuid "397b810e-afb4-444c-b653-f81c59caec68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Transformer_Ethernet_Bel_S558-5999-T7-F"
+		(at 0 7.5 0)
+		(layer "F.Fab")
+		(uuid "33071bb0-d8f4-41d2-ae38-9e88a310c110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "581fd86d-5ce9-41b3-9402-929008cf7ca8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66fd7122-b8ff-4138-98b2-27264fd4303d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aefc9c9e-493a-4227-afad-d0dd758e162a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.73 -6.27)
+		(end -3.73 -4.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a694f351-b126-441b-8b10-7c17230ef51d")
+	)
+	(fp_line
+		(start -3.73 -6.27)
+		(end 3.73 -6.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0508fa32-a202-4582-ba5d-31705ab18219")
+	)
+	(fp_line
+		(start -3.73 6.27)
+		(end -3.73 4.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd12da47-ccfc-4a41-aab3-1166081a3669")
+	)
+	(fp_line
+		(start -3.73 6.27)
+		(end 3.73 6.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2ec8481-51b5-496c-b953-c06268b706f0")
+	)
+	(fp_line
+		(start 3.73 -6.27)
+		(end 3.73 -4.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17a152b0-61a5-4936-a94f-0b8cf55b52d9")
+	)
+	(fp_line
+		(start 3.73 6.27)
+		(end 3.73 4.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cec9a792-7820-4d93-90c6-bacbd03b21fd")
+	)
+	(fp_poly
+		(pts
+			(xy -4.7 -4.95) (xy -4.94 -5.28) (xy -4.46 -5.28) (xy -4.7 -4.95)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "17427cc5-2cc8-4894-be65-1eccc0dbcf73")
+	)
+	(fp_line
+		(start -5.65 -6.41)
+		(end -5.65 6.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff930489-6559-4d98-9e67-5db5dd117a98")
+	)
+	(fp_line
+		(start -5.65 -6.41)
+		(end 5.65 -6.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3dd9027f-0524-4f43-a755-0b3cdd1c7b01")
+	)
+	(fp_line
+		(start -5.65 6.41)
+		(end 5.65 6.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae0dee6f-8f83-4bc8-890f-9031db18104e")
+	)
+	(fp_line
+		(start 5.65 -6.41)
+		(end 5.65 6.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d98346d-7946-4a90-aa7c-a79766a44eb9")
+	)
+	(fp_line
+		(start -3.62 -6.16)
+		(end -3.62 6.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3362455-6613-4844-80f0-3f381255d0ec")
+	)
+	(fp_line
+		(start -3.62 -6.16)
+		(end 3.62 -6.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0df9b16a-f735-4fa6-b700-a3ad3a2d0e9d")
+	)
+	(fp_line
+		(start -3.62 6.16)
+		(end 3.62 6.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43d89340-49fd-4635-9acd-13ddc6f948a8")
+	)
+	(fp_line
+		(start 3.62 -6.16)
+		(end 3.62 6.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8e988ad-15ad-4913-b0b3-027d80d867a9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.3 0)
+		(layer "F.Fab")
+		(uuid "4c2b4565-a0f0-4ae5-81fe-010adb5a2090")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.51 -4.445)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f4a0b152-307a-429e-9927-258b77f3ce9c")
+	)
+	(pad "2" smd rect
+		(at -4.51 -3.175)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e0cad6e4-cdb6-4a96-abbe-4c1e55871b0e")
+	)
+	(pad "3" smd rect
+		(at -4.51 -1.905)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "053f8eee-a524-4b62-b368-4428e7f38682")
+	)
+	(pad "4" smd rect
+		(at -4.51 -0.635)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "00629de9-3600-4e9d-8c2f-14a2de5024af")
+	)
+	(pad "5" smd rect
+		(at -4.51 0.635)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "17ff4068-bd47-4c30-ae98-b3e2a5c0111f")
+	)
+	(pad "6" smd rect
+		(at -4.51 1.905)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3be1275d-97c2-4cec-a931-93827cdd91ef")
+	)
+	(pad "7" smd rect
+		(at -4.51 3.175)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7329974e-bcea-421c-a83a-7579983e51d6")
+	)
+	(pad "8" smd rect
+		(at -4.51 4.445)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8b6353ac-4a81-4734-bd71-243d1f530847")
+	)
+	(pad "9" smd rect
+		(at 4.51 4.445)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "423215ca-b044-4432-831c-17b37f0cf07a")
+	)
+	(pad "10" smd rect
+		(at 4.51 3.175)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d39423a0-5fb9-4c0d-8928-259541ed7137")
+	)
+	(pad "11" smd rect
+		(at 4.51 1.905)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9f22e7bd-354a-4a81-8c33-1a0955d89cbb")
+	)
+	(pad "12" smd rect
+		(at 4.51 0.635)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "85127617-7d0d-4114-afca-692617eacc75")
+	)
+	(pad "13" smd rect
+		(at 4.51 -0.635)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "425914cd-131e-466a-80b0-b46893e1f59f")
+	)
+	(pad "14" smd rect
+		(at 4.51 -1.905)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9f23d251-3ccb-4139-9cb1-1905dc8a4cac")
+	)
+	(pad "15" smd rect
+		(at 4.51 -3.175)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cc4e4128-48fe-4897-bc84-cb6c481aecfe")
+	)
+	(pad "16" smd rect
+		(at 4.51 -4.445)
+		(size 1.78 0.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2629b2ce-f3f8-4c5b-9cbf-7b3d08530e0d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_Ethernet_Bel_S558-5999-T7-F.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

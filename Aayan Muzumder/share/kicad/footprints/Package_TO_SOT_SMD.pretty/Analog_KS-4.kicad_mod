@@ -1,0 +1,239 @@
+(footprint "Analog_KS-4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Analog Devices KS-4, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sc70ks/ks_4.pdf")
+	(tags "Analog Devices KS-4 (like EIAJ SC-82)")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "469b3bd0-3d62-41d8-99b4-0f98376c4c82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Analog_KS-4"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "ab31a2b5-3317-475b-90d7-573735074bab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77d951de-07cb-42a1-9c47-e9a359670229")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13105f63-8c69-432c-9856-25dd8709da80")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3423174a-ee47-4475-8dd0-faf40ed0f536")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 1.16)
+		(end 0.7 1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd7ef028-7496-4bef-80d8-6e726f6f172a")
+	)
+	(fp_line
+		(start -0.45 -1.16)
+		(end 0.7 -1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c51ce8f-3645-4379-b434-c8ebda825391")
+	)
+	(fp_poly
+		(pts
+			(xy -0.87 -1.11) (xy -0.63 -1.44) (xy -1.11 -1.44) (xy -0.87 -1.11)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "eb2bf1e3-9932-4780-8061-abfe0649482f")
+	)
+	(fp_line
+		(start -1.5 -1.4)
+		(end -1.5 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd69ced6-b725-4551-b89e-ce08bed4deca")
+	)
+	(fp_line
+		(start -1.5 -1.4)
+		(end 1.5 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "365d173f-93bb-4de8-8c7d-a5842797fa7d")
+	)
+	(fp_line
+		(start -1.5 1.4)
+		(end 1.5 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c1e106c-5258-46cc-80bd-a798b62a0874")
+	)
+	(fp_line
+		(start 1.5 1.4)
+		(end 1.5 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d53dab1-63a1-4311-ad34-18d2f8a50e42")
+	)
+	(fp_line
+		(start -0.675 -0.6)
+		(end -0.675 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79a47c7e-9428-476e-b0c8-a41dfde0f7ca")
+	)
+	(fp_line
+		(start -0.175 -1.1)
+		(end -0.675 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e5564e7-0b6a-4765-845b-28c86e8a0423")
+	)
+	(fp_line
+		(start 0.675 -1.1)
+		(end -0.175 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6e0046f-cd8f-40a6-ad00-1e91165aea19")
+	)
+	(fp_line
+		(start 0.675 -1.1)
+		(end 0.675 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc32dc39-2bd8-4aaa-b3e6-5286565445aa")
+	)
+	(fp_line
+		(start 0.675 1.1)
+		(end -0.675 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6ca3896-f3ea-49fe-8a26-12185769576e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "e4339ebe-6cfe-4720-a932-721fc79d20a9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.825 -0.65)
+		(size 0.75 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c352365b-3685-4f8b-8e45-693a60a8f9bc")
+	)
+	(pad "2" smd roundrect
+		(at -0.825 0.5)
+		(size 0.75 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "dfd23b5f-9005-49fb-9711-4c885c0dd7ac")
+	)
+	(pad "3" smd roundrect
+		(at 0.825 0.65)
+		(size 0.75 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "59237f1f-f100-4b12-a830-f2a29791ad82")
+	)
+	(pad "4" smd roundrect
+		(at 0.825 -0.65)
+		(size 0.75 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "e0553567-593c-4e62-aaf7-178881853023")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Analog_KS-4.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

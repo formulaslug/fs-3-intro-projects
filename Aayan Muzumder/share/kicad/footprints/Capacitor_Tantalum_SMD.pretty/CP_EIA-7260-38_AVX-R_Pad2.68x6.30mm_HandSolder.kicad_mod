@@ -1,0 +1,223 @@
+(footprint "CP_EIA-7260-38_AVX-R_Pad2.68x6.30mm_HandSolder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Tantalum Capacitor SMD AVX-R (7260-38 Metric), IPC_7351 nominal, (Body size from: http://datasheets.avx.com/F72-F75.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor tantalum")
+	(property "Reference" "REF**"
+		(at 0 -4.1 0)
+		(layer "F.SilkS")
+		(uuid "a11815b6-d1e4-4c3b-a4e3-c62b3b7d0bfd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CP_EIA-7260-38_AVX-R_Pad2.68x6.30mm_HandSolder"
+		(at 0 4.1 0)
+		(layer "F.Fab")
+		(uuid "9056a594-c516-4674-b8f1-f53cd6935a2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da14e32b-f6a7-40cb-9dd2-ef0676f2032a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c3e018f-286d-4ac9-b881-61686364b769")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59a2fe10-8db2-4f3e-918c-83e1c961ba5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.535 -3.41)
+		(end -4.535 3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52712030-a136-45b1-b5f2-4e60fd87cadb")
+	)
+	(fp_line
+		(start -4.535 3.41)
+		(end 3.6 3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4cefe86-447d-4d48-9a95-23d7dd9d263f")
+	)
+	(fp_line
+		(start 3.6 -3.41)
+		(end -4.535 -3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34a4463a-f187-416f-92e1-19a598e5b375")
+	)
+	(fp_line
+		(start -4.52 -3.4)
+		(end 4.52 -3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6283163-37d5-4da7-b859-4163471c2ebe")
+	)
+	(fp_line
+		(start -4.52 3.4)
+		(end -4.52 -3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d3d0d59e-dde4-4cc4-a1f0-4be6a3aec77e")
+	)
+	(fp_line
+		(start 4.52 -3.4)
+		(end 4.52 3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e885ef7-1a38-474b-b50b-ed2f18d5c5c9")
+	)
+	(fp_line
+		(start 4.52 3.4)
+		(end -4.52 3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3463ca5b-b168-406a-9836-c5bf4901e067")
+	)
+	(fp_line
+		(start -3.6 -2)
+		(end -3.6 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c114c46a-dba9-4bf6-831f-57001a79a29e")
+	)
+	(fp_line
+		(start -3.6 3)
+		(end 3.6 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47b6c255-9d0b-4c22-ae94-17d877170c4d")
+	)
+	(fp_line
+		(start -2.6 -3)
+		(end -3.6 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8be060ff-4fc2-45da-898d-f605998909c9")
+	)
+	(fp_line
+		(start 3.6 -3)
+		(end -2.6 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65349e5e-e3ee-4fdb-8eca-6bf28f89acde")
+	)
+	(fp_line
+		(start 3.6 3)
+		(end 3.6 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25e04e2f-0f8f-4525-9df3-ced23b13d96a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b4c13760-7bb6-42a0-87d1-464e5b3b3da6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.9375 0)
+		(size 2.675 6.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.093458)
+		(uuid "f819fa40-02b6-459b-b9fb-db473e00a52a")
+	)
+	(pad "2" smd roundrect
+		(at 2.9375 0)
+		(size 2.675 6.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.093458)
+		(uuid "63c3aa4b-07ac-4af9-881d-9fed5dbe9330")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-7260-38_AVX-R.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

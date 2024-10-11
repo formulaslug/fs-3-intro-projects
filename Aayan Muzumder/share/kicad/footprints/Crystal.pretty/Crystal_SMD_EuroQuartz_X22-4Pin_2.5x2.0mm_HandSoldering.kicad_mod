@@ -1,0 +1,263 @@
+(footprint "Crystal_SMD_EuroQuartz_X22-4Pin_2.5x2.0mm_HandSoldering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal EuroQuartz X22 series http://cdn-reichelt.de/documents/datenblatt/B400/DS_X22.pdf, hand-soldering, 2.5x2.0mm^2 package")
+	(tags "SMD SMT crystal hand-soldering")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "10b2ca68-d431-45e8-9dcd-ad1d5662a7bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_EuroQuartz_X22-4Pin_2.5x2.0mm_HandSoldering"
+		(at 0 2.6 0)
+		(layer "F.Fab")
+		(uuid "e61b0ae6-1330-45e1-9583-c355c75e7524")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e1c575c-6185-4be6-8010-2277a10689dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e33788d-ba7d-4469-87b7-05c0002e6d20")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7a7644b-9b2d-414b-99f5-a331410d1f2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 -1.8)
+		(end -2.2 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7883e620-4dd6-4e69-9c09-9d472809c955")
+	)
+	(fp_line
+		(start -2.2 1.8)
+		(end 2.2 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c6edc9b-ab57-40c8-8b34-2819e73e3ea2")
+	)
+	(fp_line
+		(start -2.3 -1.9)
+		(end -2.3 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e26293a-2b7d-4aba-b672-5396789e62ab")
+	)
+	(fp_line
+		(start -2.3 1.9)
+		(end 2.3 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75ebd4ac-a4c3-434a-ad76-499def978338")
+	)
+	(fp_line
+		(start 2.3 -1.9)
+		(end -2.3 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "89e88850-abcf-4352-938a-f5c25221da79")
+	)
+	(fp_line
+		(start 2.3 1.9)
+		(end 2.3 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "487f23c5-1978-4c4c-8b67-08c7fd44a631")
+	)
+	(fp_line
+		(start -1.25 -0.9)
+		(end -1.15 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69935cdd-d3ba-4838-83b9-b9760cfe68c1")
+	)
+	(fp_line
+		(start -1.25 0)
+		(end -0.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6784a136-3f53-4cfa-9865-0c50dee32d75")
+	)
+	(fp_line
+		(start -1.25 0.9)
+		(end -1.25 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a0d5338-c148-494c-a3e1-a8eca4def8b1")
+	)
+	(fp_line
+		(start -1.15 -1)
+		(end 1.15 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e70e7866-1600-41e3-af24-d8e1696f7fbc")
+	)
+	(fp_line
+		(start -1.15 1)
+		(end -1.25 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90be0925-e5f1-4a59-8908-ca816dbb2bb5")
+	)
+	(fp_line
+		(start 1.15 -1)
+		(end 1.25 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "107fabff-d2fc-453a-b52c-b9cd37a4c90c")
+	)
+	(fp_line
+		(start 1.15 1)
+		(end -1.15 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17ecd91d-0718-4611-b6e1-a6c1c5f596f3")
+	)
+	(fp_line
+		(start 1.25 -0.9)
+		(end 1.25 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1da305e-b469-4833-8b8e-70381d23398b")
+	)
+	(fp_line
+		(start 1.25 0.9)
+		(end 1.15 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad2863c6-9390-4b78-ab9c-f04b05fd6846")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bd3367c7-f4a6-4f4b-87e7-c97695b8c81d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.1 0.85)
+		(size 1.8 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8162eb5d-3efa-4c6e-a589-eed174c5ebe6")
+	)
+	(pad "2" smd rect
+		(at 1.1 0.85)
+		(size 1.8 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4f63e282-39ea-4ce7-ad15-6c69cd9fff54")
+	)
+	(pad "3" smd rect
+		(at 1.1 -0.85)
+		(size 1.8 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5cac6d3c-61c2-4c4c-b5ad-8b8780c821d3")
+	)
+	(pad "4" smd rect
+		(at -1.1 -0.85)
+		(size 1.8 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1f1ea9b0-a8ca-4f73-ad02-8a27186b901e")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_EuroQuartz_X22-4Pin_2.5x2.0mm_HandSoldering.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

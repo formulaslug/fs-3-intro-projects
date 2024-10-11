@@ -1,0 +1,241 @@
+(footprint "L_Wuerth_HCI-1335"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Wuerth Elektronik, Wuerth_HCI-1335, 12.8mmx12.8mm")
+	(tags "inductor Wuerth hci smd")
+	(property "Reference" "REF**"
+		(at 0 -7.4 0)
+		(layer "F.SilkS")
+		(uuid "e58e4967-e3d4-4ead-a4b9-7efe3ab91e87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wuerth_HCI-1335"
+		(at 0 7.9 0)
+		(layer "F.Fab")
+		(uuid "7bcb559f-c7fa-4fb4-b29d-7591636ce176")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "797f74de-d2d3-4dfa-ad32-1629bb59e6d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06b4c250-ad2b-45c7-be6d-41ef810f5df0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cf0c951-ca8f-4dc5-b6cd-dca19ce2770b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.5 -6.5)
+		(end 6.5 -6.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2ff3005-bcdd-460a-b1aa-aeea6e7afa71")
+	)
+	(fp_line
+		(start -6.5 -2.9)
+		(end -6.5 -6.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7325c44-b1f4-47f2-8a30-9f8660f34fc1")
+	)
+	(fp_line
+		(start -6.5 2.9)
+		(end -6.5 6.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe20afed-7b39-4790-9e88-87b1a5c8897f")
+	)
+	(fp_line
+		(start -6.5 6.5)
+		(end 6.5 6.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1545f69-66cb-4bd1-bcd4-a07e41aaa74f")
+	)
+	(fp_line
+		(start 6.5 -6.5)
+		(end 6.5 -2.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d007b98f-21a3-4a2b-bb2e-ac4e73042a88")
+	)
+	(fp_line
+		(start 6.5 6.5)
+		(end 6.5 2.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cae9157-dc5c-4c01-885a-be4923510766")
+	)
+	(fp_line
+		(start -7.3 -6.7)
+		(end -7.3 6.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca7458ee-d34c-4b92-9924-928eaf60ad78")
+	)
+	(fp_line
+		(start -7.3 6.7)
+		(end 7.3 6.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99031492-eddf-417f-9b4e-7e94c972021c")
+	)
+	(fp_line
+		(start 7.3 -6.7)
+		(end -7.3 -6.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ea545a4-7060-469d-9252-5f70a8bdd4d7")
+	)
+	(fp_line
+		(start 7.3 6.7)
+		(end 7.3 -6.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b20dca2-9bfd-483b-9a7b-0e96f23b298a")
+	)
+	(fp_line
+		(start -6.4 -6.4)
+		(end -6.4 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f6d32e0-c4ac-4cd1-b729-01d2a3d28a62")
+	)
+	(fp_line
+		(start -6.4 6.4)
+		(end 6.4 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75eb0147-8aaa-4631-8ee8-b4ca50eb2005")
+	)
+	(fp_line
+		(start 6.4 -6.4)
+		(end -6.4 -6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6ace84e-4774-4e88-84a5-81a31d902090")
+	)
+	(fp_line
+		(start 6.4 6.4)
+		(end 6.4 -6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "654dceeb-a0e7-48de-b648-3fdb48319c67")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "54ad640a-d1fa-4303-b795-5b467e87fd74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.075 0)
+		(size 3.85 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3a1053b6-921f-457a-ba45-a2e5436c611f")
+	)
+	(pad "2" smd rect
+		(at 5.075 0)
+		(size 3.85 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ea4e5ccc-2706-42df-b8d4-0928473babb3")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_HCI-1335.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

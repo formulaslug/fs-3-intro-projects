@@ -1,0 +1,232 @@
+(footprint "Kodenshi_SG105F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "package for Kodenshi SG-105F, see http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105F.pdf")
+	(tags "refective opto couple photo coupler")
+	(property "Reference" "REF**"
+		(at -1.5 2 90)
+		(layer "F.SilkS")
+		(uuid "c5a77afb-d51e-4482-ae13-d694ba8a5775")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Kodenshi_SG105F"
+		(at 0.8 5.5 0)
+		(layer "F.Fab")
+		(uuid "7b0e5588-a5d8-4355-b5d4-db94307f0422")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75f92c85-80cf-424c-bd68-96dbb57f4dc0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff01890b-3057-43ff-b3ca-ceca94e9f74c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3132b0bf-262c-4616-a69b-a02016d79fb3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.8 1.92)
+		(end -0.8 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67c45ef0-3ebd-46e4-89c0-79cd84a11155")
+	)
+	(fp_line
+		(start 2.6 3.3)
+		(end 2.6 0.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c808e647-3584-4cbb-ba23-66944ddf7e04")
+	)
+	(fp_line
+		(start -0.95 -1)
+		(end -0.95 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c167288-bfaf-46c9-9467-e12ca4ed3cbf")
+	)
+	(fp_line
+		(start -0.95 -1)
+		(end 2.75 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a58d305c-8367-4342-9b1f-4bf91d394b5a")
+	)
+	(fp_line
+		(start 2.75 5)
+		(end -0.95 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b777eea-410e-4f42-b0ad-4ee7bdaaa307")
+	)
+	(fp_line
+		(start 2.75 5)
+		(end 2.75 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13e74ea6-4f89-4a1c-a218-809d1d293193")
+	)
+	(fp_line
+		(start -0.7 1.2)
+		(end -0.2 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "619da258-297d-4b44-8f7c-50288b40a39b")
+	)
+	(fp_line
+		(start -0.7 3.3)
+		(end -0.7 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90dbcfbb-f286-4253-9de0-ca8d28859458")
+	)
+	(fp_line
+		(start -0.2 0.7)
+		(end 2.5 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6af8637d-b2b4-4a8f-a7b2-b7fcf0c01a57")
+	)
+	(fp_line
+		(start 2.5 0.7)
+		(end 2.5 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c81a00e-5cce-4de2-9eb0-cc4fd3502fe0")
+	)
+	(fp_line
+		(start 2.5 3.3)
+		(end -0.7 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17d64122-d51e-4f4a-a23d-dcd947a7b279")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.9 2.2 0)
+		(layer "F.Fab")
+		(uuid "48e5f2dd-e6e1-4fe5-b7c5-6965fea2b587")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.1 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.227)
+		(uuid "cfdc45fd-ccbb-4fc0-ba5f-20cf53103980")
+	)
+	(pad "2" thru_hole oval
+		(at 0 4)
+		(size 1.1 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "138817fc-a84c-47d3-9422-a4ad48cb0d21")
+	)
+	(pad "3" thru_hole oval
+		(at 1.8 4)
+		(size 1.1 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f497142c-d36e-4466-be0b-dbd5a20e90c1")
+	)
+	(pad "4" thru_hole oval
+		(at 1.8 0)
+		(size 1.1 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d5fc382a-08ef-4d08-af49-e1a7e65c5412")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Kodenshi_SG105F.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

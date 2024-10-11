@@ -1,0 +1,217 @@
+(footprint "Pin_D1.3mm_L10.0mm_W3.5mm_Flat"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "solder Pin_ with flat with hole, hole diameter 1.3mm, length 10.0mm, width 3.5mm, e.g. Ettinger 13.13.865, https://katalog.ettinger.de/#p=434")
+	(tags "solder Pin_ with flat fork")
+	(property "Reference" "REF**"
+		(at 0 2.25 0)
+		(layer "F.SilkS")
+		(uuid "05e43bc8-fa37-44c8-89bd-ec58a69f599c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pin_D1.3mm_L10.0mm_W3.5mm_Flat"
+		(at 0 -2.05 0)
+		(layer "F.Fab")
+		(uuid "b107113d-c7ee-40d2-9e71-a995ff0cc62f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfa97eec-dbf6-4cc0-9b3b-342498b17161")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a935123c-8b68-48b0-835c-4d67cdaf83ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3727ef43-381f-480d-95d9-24e6c7145d26")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.85 -1.5)
+		(end -1.85 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ff78bf3-ddd8-48f2-a7d8-7cbf2ff8dec7")
+	)
+	(fp_line
+		(start -1.85 -1.5)
+		(end 1.85 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd725fe5-3fea-4621-bfeb-239b3f5b5813")
+	)
+	(fp_line
+		(start 1.85 -1.5)
+		(end 1.85 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3bb9a93-7c67-4300-8296-f6da30a66ad3")
+	)
+	(fp_line
+		(start 1.85 1.5)
+		(end -1.85 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f56f18b0-5bad-496b-a666-01dba44e2c6d")
+	)
+	(fp_line
+		(start -2.25 -1.8)
+		(end -2.25 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14d8a9d7-8781-4853-b5f3-583e657c7e4e")
+	)
+	(fp_line
+		(start -2.25 -1.8)
+		(end 2.25 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dade04d4-9002-420a-8609-f51fd1c18c27")
+	)
+	(fp_line
+		(start 2.25 1.8)
+		(end -2.25 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ad23b3d-c444-4321-9def-c7a6d95f2649")
+	)
+	(fp_line
+		(start 2.25 1.8)
+		(end 2.25 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "def0f9fb-09c8-48cb-af7a-143955c12043")
+	)
+	(fp_line
+		(start -1.75 -0.3)
+		(end 1.75 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d47408b-bedb-46d0-9d77-02a5e3829d45")
+	)
+	(fp_line
+		(start -1.75 0.3)
+		(end -1.75 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5fb97de-94b5-4dc8-9480-bd66a6fda7f2")
+	)
+	(fp_line
+		(start 1.75 -0.3)
+		(end 1.75 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c8810447-d5b1-4843-80e9-387ef856a305")
+	)
+	(fp_line
+		(start 1.75 0.3)
+		(end -1.75 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90de23f9-2127-4a30-b921-ace581201184")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.25 0)
+		(layer "F.Fab")
+		(uuid "454335f3-de3f-4e9e-9168-27f7cba30d94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.6 2.6)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3dc3fc83-7d04-45c1-abd0-b946ca40e240")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.3mm_L10.0mm_W3.5mm_Flat.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

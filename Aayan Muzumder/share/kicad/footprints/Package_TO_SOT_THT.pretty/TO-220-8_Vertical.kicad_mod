@@ -1,0 +1,333 @@
+(footprint "TO-220-8_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-220-8 (Multiwatt8), Vertical, 2.54mm Pitch (http://www.st.com/resource/en/datasheet/tda7264.pdf)")
+	(tags "TO-220-9 Vertical 2.54mm Pitch Multiwatt 8")
+	(property "Reference" "REF**"
+		(at 8.89 -3.8 0)
+		(layer "F.SilkS")
+		(uuid "7d8b1764-ae59-4304-9b17-904981416974")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-220-8_Vertical"
+		(at 8.89 3.1 0)
+		(layer "F.Fab")
+		(uuid "cbb237a9-bf57-4b9f-853e-e21b2b09e5e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e194e130-54ba-4a9e-a47a-1830957ad9a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "385a243e-3892-42c9-bbbe-b7e0413da2d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9eaa370f-1929-4a15-878a-20e29c8204e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.18 -3.03)
+		(end -1.18 2.211)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28f3240c-81ea-43bf-a7b3-1c6e64dae46c")
+	)
+	(fp_line
+		(start -1.18 -3.03)
+		(end 18.96 -3.03)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fefc9b5-5302-4abe-9fde-f1f6b8e9bf42")
+	)
+	(fp_line
+		(start -1.18 -1.19)
+		(end 18.96 -1.19)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56d44856-7b15-4323-8560-aac902e52bbb")
+	)
+	(fp_line
+		(start -1.18 2.21)
+		(end 18.96 2.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fccb7be4-cccd-4438-81e8-e8d43669b175")
+	)
+	(fp_line
+		(start 7.015 -3.03)
+		(end 7.015 -1.19)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a2abbdc-461c-41fa-95d5-d04255080e0d")
+	)
+	(fp_line
+		(start 10.765 -3.03)
+		(end 10.765 -1.19)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6489068f-cda8-435e-a4ec-1044efbba0f9")
+	)
+	(fp_line
+		(start 18.96 -3.03)
+		(end 18.96 2.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3505b795-9723-4bdd-b922-5f6f457a6d5d")
+	)
+	(fp_line
+		(start -1.31 -3.16)
+		(end -1.31 2.34)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "377be7eb-a7f3-4b32-88c0-b2d634d087c8")
+	)
+	(fp_line
+		(start -1.31 2.34)
+		(end 19.09 2.34)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dbe38dbc-9566-4f81-8013-462ff02345c3")
+	)
+	(fp_line
+		(start 19.09 -3.16)
+		(end -1.31 -3.16)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75fae065-a5a0-4155-868a-df02eb90b14f")
+	)
+	(fp_line
+		(start 19.09 2.34)
+		(end 19.09 -3.16)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27fac657-f877-431a-8c08-b02b72ee5400")
+	)
+	(fp_line
+		(start -1.06 -2.91)
+		(end -1.06 2.09)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1018607-119e-4b03-ba27-5a86ec2b7829")
+	)
+	(fp_line
+		(start -1.06 -1.31)
+		(end 18.84 -1.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d37a0f0-76df-49fb-8bb1-aa80f275d549")
+	)
+	(fp_line
+		(start -1.06 2.09)
+		(end 18.84 2.09)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc75b760-9a17-4f84-8688-1ba10f090b24")
+	)
+	(fp_line
+		(start 7.015 -2.91)
+		(end 7.015 -1.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57dd37b6-d209-4187-b187-06f26f331046")
+	)
+	(fp_line
+		(start 10.765 -2.91)
+		(end 10.765 -1.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03eda3af-518e-4714-8a7e-f25423709ec6")
+	)
+	(fp_line
+		(start 18.84 -2.91)
+		(end -1.06 -2.91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13838407-e0d8-4b8b-9c25-4bc64291cc95")
+	)
+	(fp_line
+		(start 18.84 2.09)
+		(end 18.84 -2.91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ae6f43b-87f2-45e2-a240-04f8f45d17ae")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 8.89 0 0)
+		(layer "F.Fab")
+		(uuid "e038cc98-2a43-490b-87d6-c7b0774a58ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a619f386-dd1e-47d4-b71e-7dfd9570a00f")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9444b1d-3d65-44e3-bcaa-624e13dbe431")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 1.5 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "58097b4c-f09b-4874-a39c-12072d8b6341")
+	)
+	(pad "4" thru_hole oval
+		(at 7.62 0)
+		(size 1.5 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0e663494-e6ac-47ed-b5b9-4cde20f13270")
+	)
+	(pad "5" thru_hole oval
+		(at 10.16 0)
+		(size 1.5 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6d1f3505-b82f-4f71-b426-0c896cb2b75f")
+	)
+	(pad "6" thru_hole oval
+		(at 12.7 0)
+		(size 1.5 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5700546-955c-42a6-9af1-9e744f319465")
+	)
+	(pad "7" thru_hole oval
+		(at 15.24 0)
+		(size 1.5 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8bad1e2e-58ba-46ee-9b68-b2eeed33f973")
+	)
+	(pad "8" thru_hole oval
+		(at 17.78 0)
+		(size 1.5 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6faf813a-fbfa-4de9-9262-ddb27cf43e6a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-8_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

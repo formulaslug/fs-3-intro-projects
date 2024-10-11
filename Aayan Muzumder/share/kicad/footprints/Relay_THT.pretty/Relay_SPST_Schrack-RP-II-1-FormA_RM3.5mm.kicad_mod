@@ -1,0 +1,351 @@
+(footprint "Relay_SPST_Schrack-RP-II-1-FormA_RM3.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Relay SPST Schrack-RP-II/1 RM3.5mm 8A 250V AC Form A")
+	(tags "Relay SPST Schrack-RP-II/1 RM3.5mm 8A 250V AC Relay")
+	(property "Reference" "REF**"
+		(at 13.97 -3.81 0)
+		(layer "F.SilkS")
+		(uuid "60550868-d440-401b-856f-1e67810e9be0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Relay_SPST_Schrack-RP-II-1-FormA_RM3.5mm"
+		(at 12.192 11.43 0)
+		(layer "F.Fab")
+		(uuid "176adec9-279c-4640-825c-af8d0c75bdfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac369bcc-60c4-44e4-97db-73e6e4b440f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59fedb74-b59a-48a6-a5fe-560552c62172")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bab8fb70-c057-462d-9936-96ea2cea373d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -2.54)
+		(end 27.94 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fdfb9b6c-499e-4f7a-8efc-a58dad9dc6bf")
+	)
+	(fp_line
+		(start -2.54 10.16)
+		(end -2.54 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8740affb-2880-4900-8274-164fb316f9bc")
+	)
+	(fp_line
+		(start 2.54 0)
+		(end 3.81 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24f895aa-0f5f-4088-98b9-f6a593cf5315")
+	)
+	(fp_line
+		(start 2.54 1.27)
+		(end 3.81 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ab99521-78d0-41e7-98b8-70f0ca98b2d5")
+	)
+	(fp_line
+		(start 2.54 2.54)
+		(end 5.08 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51162396-cd55-4760-906b-c673f86c9d4b")
+	)
+	(fp_line
+		(start 2.54 6.35)
+		(end 2.54 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60982214-f963-402f-a2ff-c7d64fa31734")
+	)
+	(fp_line
+		(start 3.81 0)
+		(end 3.81 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de6705e8-2162-4c3b-8eeb-67a9971479fe")
+	)
+	(fp_line
+		(start 3.81 1.27)
+		(end 5.08 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2480fb4-6c80-4984-9542-fd0e7d491af6")
+	)
+	(fp_line
+		(start 3.81 6.35)
+		(end 3.81 7.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e7ed4e8-e77f-456a-b850-23ab3659035c")
+	)
+	(fp_line
+		(start 3.81 7.62)
+		(end 2.54 7.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9cad84f-4e39-4561-a869-a051861995cf")
+	)
+	(fp_line
+		(start 5.08 1.27)
+		(end 5.08 6.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39049895-2e56-4427-8234-c4557af6c852")
+	)
+	(fp_line
+		(start 5.08 6.35)
+		(end 2.54 6.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf7d6a0d-eafa-472c-9116-78fc6855b538")
+	)
+	(fp_line
+		(start 27.94 -2.54)
+		(end 27.94 10.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba5313c3-9580-4c7e-a7a5-94c315235d61")
+	)
+	(fp_line
+		(start 27.94 10.16)
+		(end -2.54 10.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69fd16d2-84c5-44b2-8a1e-6f02d897c326")
+	)
+	(fp_line
+		(start -2.8 -2.78)
+		(end 28.2 -2.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1fe3a6fa-d45b-4d69-87e9-3610e5376810")
+	)
+	(fp_line
+		(start -2.8 10.42)
+		(end -2.8 -2.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9761dfc-0853-4bb2-8086-470521bf51c6")
+	)
+	(fp_line
+		(start 28.2 -2.78)
+		(end 28.2 10.42)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfbc1135-8593-4a2f-8d3a-ea80de0bfb16")
+	)
+	(fp_line
+		(start 28.2 10.42)
+		(end -2.8 10.42)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e47c3748-1d44-40d9-be7e-a960b4692c94")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 27.5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f857c0cc-3b33-4fd7-afaa-1523edbd4d1e")
+	)
+	(fp_line
+		(start -2.5 10.1)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1b76a58-977a-4df0-95d6-e21edc7dde7a")
+	)
+	(fp_line
+		(start 0 1.8)
+		(end 0 5.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36adfb6e-020a-4769-b92a-b748a9e9da28")
+	)
+	(fp_line
+		(start 27.5 -2.5)
+		(end 27.5 10.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "012e93a7-b230-4add-92ce-dc86013e1265")
+	)
+	(fp_line
+		(start 27.5 10.1)
+		(end -2.5 10.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9ce6963-854e-443a-ba29-a27d12457940")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.065 3.81 0)
+		(layer "F.Fab")
+		(uuid "312d876a-0d4a-498e-a12e-3e07768dbf97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "11" thru_hole circle
+		(at 20.32 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fd139cd6-2b49-4adf-9254-2f2c4c4f65c8")
+	)
+	(pad "14" thru_hole circle
+		(at 23.82 7.62)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ad33c03d-448c-4c39-b48e-2ccda435ffed")
+	)
+	(pad "A1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fd68e0b5-55b7-4f87-9741-b6674103121c")
+	)
+	(pad "A2" thru_hole circle
+		(at 0 7.62)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "500d8c55-9922-4db5-863c-b4132d698bb8")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPST_Schrack-RP-II-1-FormA_RM3.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

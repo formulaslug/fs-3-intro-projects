@@ -1,0 +1,225 @@
+(footprint "C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=7.50mm, , length*width=10*4.0mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
+	(tags "C Rect series Radial pin pitch 7.50mm  length 10mm width 4.0mm Capacitor")
+	(property "Reference" "REF**"
+		(at 3.75 -3.25 0)
+		(layer "F.SilkS")
+		(uuid "ec351f0b-1f7a-46d2-b765-e531f2ed3642")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4"
+		(at 3.75 3.25 0)
+		(layer "F.Fab")
+		(uuid "1e7c55b9-b719-441d-b293-045bacec362b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e94d27a-271a-4122-9331-c672698a1df9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f752741a-29cd-46eb-9568-08dbb0a00f11")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da6e81dc-447b-4842-8d3e-ffa1cb9094db")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.37 -2.12)
+		(end -1.37 2.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4263048e-7fc6-459e-b8c5-7f971f649e31")
+	)
+	(fp_line
+		(start -1.37 -2.12)
+		(end 8.87 -2.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f15172ac-af26-4083-95ac-e2c65c072fc4")
+	)
+	(fp_line
+		(start -1.37 2.12)
+		(end 8.87 2.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "259994aa-a364-4aae-b929-f9b6d0c4d33a")
+	)
+	(fp_line
+		(start 8.87 -2.12)
+		(end 8.87 2.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e022685-0ea2-4899-9bb1-80503575ded6")
+	)
+	(fp_line
+		(start -1.5 -2.25)
+		(end -1.5 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95db6ea4-3b3a-4c5c-92b8-54efee5ea6cd")
+	)
+	(fp_line
+		(start -1.5 2.25)
+		(end 9 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "76a26687-c15a-4364-a8a5-17815991bb03")
+	)
+	(fp_line
+		(start 9 -2.25)
+		(end -1.5 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b29f369-83f6-4c15-80c9-60b16b000c0c")
+	)
+	(fp_line
+		(start 9 2.25)
+		(end 9 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0aecdb62-03f9-4e21-9f4a-fe3dd6be36df")
+	)
+	(fp_line
+		(start -1.25 -2)
+		(end -1.25 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de202392-1a6c-4634-b86d-c7a9c1895e48")
+	)
+	(fp_line
+		(start -1.25 2)
+		(end 8.75 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b789f8ff-5b73-4913-bb6b-98472c5c38b8")
+	)
+	(fp_line
+		(start 8.75 -2)
+		(end -1.25 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "866edf4a-5017-4a1f-a3d8-cee4da1f8475")
+	)
+	(fp_line
+		(start 8.75 2)
+		(end 8.75 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46e607da-471d-4ee5-9141-977eb35f5128")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.75 0 0)
+		(layer "F.Fab")
+		(uuid "11eae05d-8a70-460f-8ff9-d4fc1dcec8c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1791f58-6930-40bf-a064-ec1c62e6addc")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "07470a76-1126-4940-a61d-5a91b2dbf9e0")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

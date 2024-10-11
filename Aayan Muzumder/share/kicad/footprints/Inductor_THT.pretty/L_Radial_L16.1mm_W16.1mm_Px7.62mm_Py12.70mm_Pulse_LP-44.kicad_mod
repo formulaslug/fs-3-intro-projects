@@ -1,0 +1,225 @@
+(footprint "L_Radial_L16.1mm_W16.1mm_Px7.62mm_Py12.70mm_Pulse_LP-44"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Radial series, Radial, pin pitch=7.62*12.70mm^2, , length*width=16.13*16.13mm^2, Pulse, LP-44, http://datasheet.octopart.com/PE-54044NL-Pulse-datasheet-5313493.pdf")
+	(tags "Inductor Radial series Radial pin pitch 7.62*12.70mm^2  length 16.13mm width 16.13mm Pulse LP-44")
+	(property "Reference" "REF**"
+		(at 3.81 -15.665 0)
+		(layer "F.SilkS")
+		(uuid "11950450-9805-4844-b9e8-19ce6f4d4d7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Radial_L16.1mm_W16.1mm_Px7.62mm_Py12.70mm_Pulse_LP-44"
+		(at 3.81 2.965 0)
+		(layer "F.Fab")
+		(uuid "98625624-7789-48ac-939c-9cf0cd8af5c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcec4431-fe21-4439-9621-c0c59c9da2b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "400ca4d2-8341-4fb9-9a12-ba8be8088493")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e10808a7-fb00-46bd-85a6-ed25a96bb107")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.375 -14.535)
+		(end -4.375 1.835)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1920ed25-0b48-4b3d-91ae-4bc05af64802")
+	)
+	(fp_line
+		(start -4.375 -14.535)
+		(end 11.995 -14.535)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03ffaf7c-7a08-4e47-8f1b-78a980f3d1eb")
+	)
+	(fp_line
+		(start -4.375 1.835)
+		(end 11.995 1.835)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cd3771e-9652-44ee-8478-66de609f6641")
+	)
+	(fp_line
+		(start 11.995 -14.535)
+		(end 11.995 1.835)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b57daaf-d66d-406b-911c-d7c250dc7607")
+	)
+	(fp_line
+		(start -4.51 -14.67)
+		(end -4.51 1.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51225e21-1882-456e-9a92-12165772df47")
+	)
+	(fp_line
+		(start -4.51 1.97)
+		(end 12.13 1.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2137f444-d015-4127-8581-c02b1bc7eb50")
+	)
+	(fp_line
+		(start 12.13 -14.67)
+		(end -4.51 -14.67)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e0817a9a-c62a-4aa3-8095-a428e7316f35")
+	)
+	(fp_line
+		(start 12.13 1.97)
+		(end 12.13 -14.67)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88d98818-b91d-4999-a55d-d9e497d62334")
+	)
+	(fp_line
+		(start -4.255 -14.415)
+		(end -4.255 1.715)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b13b803-cd9e-457f-8286-391bd02125cb")
+	)
+	(fp_line
+		(start -4.255 1.715)
+		(end 11.875 1.715)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00b48a56-a746-48df-b0ae-17868d6a6584")
+	)
+	(fp_line
+		(start 11.875 -14.415)
+		(end -4.255 -14.415)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef0ca5f6-0dab-4d13-93b1-81ec3ca3cac6")
+	)
+	(fp_line
+		(start 11.875 1.715)
+		(end 11.875 -14.415)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d5c18d0-d764-4fc6-8450-d8f65263d980")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 0 0)
+		(layer "F.Fab")
+		(uuid "0bdd0ecc-ee60-433a-ad11-fd94561f2f3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "09b157eb-f798-4675-8fa4-9cfd0f582125")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 -12.7)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "36a1b988-d727-4d6c-a027-f94f44e639e9")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_L16.1mm_W16.1mm_Px7.62mm_Py12.70mm_Pulse_LP-44.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

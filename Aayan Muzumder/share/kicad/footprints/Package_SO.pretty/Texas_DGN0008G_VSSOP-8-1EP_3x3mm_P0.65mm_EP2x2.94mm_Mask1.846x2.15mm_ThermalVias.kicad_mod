@@ -1,0 +1,417 @@
+(footprint "Texas_DGN0008G_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.846x2.15mm_ThermalVias"
+	(version 20240108)
+	(generator "kicad-footprint-generator")
+	(layer "F.Cu")
+	(descr "Texas DGN0008G VSSOP, 8 Pin (https://www.ti.com/lit/ds/symlink/tpa711.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "Texas VSSOP SO")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Texas_DGN0008G_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.846x2.15mm_ThermalVias"
+		(at 0 2.45 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.18 -1.75)
+		(end -3.18 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -3.18 1.75)
+		(end 3.18 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.18 1.75)
+		(end 3.18 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.18 -1.75)
+		(end -3.18 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.219089 1.61)
+		(end 1.5 1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.219089 1.61)
+		(end -1.5 1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.219089 -1.61)
+		(end 1.5 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.219089 -1.61)
+		(end -1.5 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -0.75 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(pad "1" smd roundrect
+		(at -2.2 -0.975)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+	)
+	(pad "2" smd roundrect
+		(at -2.2 -0.325)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+	)
+	(pad "3" smd roundrect
+		(at -2.2 0.325)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+	)
+	(pad "4" smd roundrect
+		(at -2.2 0.975)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+	)
+	(pad "5" smd roundrect
+		(at 2.2 0.975)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+	)
+	(pad "6" smd roundrect
+		(at 2.2 0.325)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+	)
+	(pad "7" smd roundrect
+		(at 2.2 -0.325)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+	)
+	(pad "8" smd roundrect
+		(at 2.2 -0.975)
+		(size 1.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+	)
+	(pad "" smd rect
+		(at 0 0)
+		(size 1.846 2.15)
+		(layers "F.Mask")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 2 2.94)
+		(property pad_prop_heatsink)
+		(layers "F.Cu")
+		(zone_connect 2)
+	)
+	(pad "9" thru_hole circle
+		(at -0.55 -1.22)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+	)
+	(pad "9" thru_hole circle
+		(at 0.55 -1.22)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+	)
+	(pad "9" thru_hole circle
+		(at -0.55 0)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+	)
+	(pad "9" thru_hole circle
+		(at 0.55 0)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+	)
+	(pad "9" thru_hole circle
+		(at -0.55 1.22)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+	)
+	(pad "9" thru_hole circle
+		(at 0.55 1.22)
+		(size 0.5 0.5)
+		(drill 0.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.6 2.94)
+		(property pad_prop_heatsink)
+		(layers "B.Cu")
+		(zone_connect 2)
+	)
+	(pad "" smd custom
+		(at 0 -0.5375)
+		(size 0.834001 0.834001)
+		(layers "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.379338 -0.368512)
+					(xy 0.379338 -0.368512)
+					(xy 0.379338 0.288174)
+					(xy 0.299 0.368512)
+					(xy -0.299 0.368512)
+					(xy -0.379338 0.288174)
+				)
+				(width 0.193953)
+			)
+		)
+	)
+	(pad "" smd custom
+		(at 0 0.5375)
+		(size 0.834001 0.834001)
+		(layers "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.379338 -0.288174)
+					(xy -0.299 -0.368512)
+					(xy 0.299 -0.368512)
+					(xy 0.379338 -0.288174)
+					(xy 0.379338 0.368512)
+					(xy -0.379338 0.368512)
+				)
+				(width 0.193953)
+			)
+		)
+	)
+	(pad "" smd custom
+		(at -0.7365 -0.5375)
+		(size 0.191615 0.191615)
+		(layers "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.092923 -0.396897)
+					(xy 0.092923 -0.396897)
+					(xy 0.092923 0.251232)
+					(xy -0.052743 0.396897)
+					(xy -0.092923 0.396897)
+				)
+				(width 0.137182)
+			)
+		)
+	)
+	(pad "" smd custom
+		(at -0.7365 0.5375)
+		(size 0.191615 0.191615)
+		(layers "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.092923 -0.396897)
+					(xy -0.052743 -0.396897)
+					(xy 0.092923 -0.251232)
+					(xy 0.092923 0.396897)
+					(xy -0.092923 0.396897)
+				)
+				(width 0.137182)
+			)
+		)
+	)
+	(pad "" smd custom
+		(at 0.7365 -0.5375)
+		(size 0.191615 0.191615)
+		(layers "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.092923 -0.396897)
+					(xy 0.092923 -0.396897)
+					(xy 0.092923 0.396897)
+					(xy 0.052743 0.396897)
+					(xy -0.092923 0.251232)
+				)
+				(width 0.137182)
+			)
+		)
+	)
+	(pad "" smd custom
+		(at 0.7365 0.5375)
+		(size 0.191615 0.191615)
+		(layers "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.092923 -0.251232)
+					(xy 0.052743 -0.396897)
+					(xy 0.092923 -0.396897)
+					(xy 0.092923 0.396897)
+					(xy -0.092923 0.396897)
+				)
+				(width 0.137182)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy -2.2125 -1.485)
+			(xy -2.4525 -1.815)
+			(xy -1.9725 -1.815)
+			(xy -2.2125 -1.485)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/Texas_DGN0008G_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.846x2.15mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

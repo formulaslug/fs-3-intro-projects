@@ -1,0 +1,241 @@
+(footprint "L_SXN_SMDRI124"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, SXN, SMDRI124, 12.3x12.3x4.5mm, https://www.sxndz.com/upload/202108/16/202108161607454319.pdf")
+	(tags "Inductor sxn smdri")
+	(property "Reference" "REF**"
+		(at 0 -7.15 0)
+		(layer "F.SilkS")
+		(uuid "f3aac05a-f29f-4e52-a09a-4446145423d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_SXN_SMDRI124"
+		(at 0 7.15 0)
+		(layer "F.Fab")
+		(uuid "8f0c1f0e-8b17-4e71-ac60-7ac286c2cd10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36215f8d-3714-42a4-9034-ae4e1a61dae7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53d36074-3027-4bee-a35a-70d0c169f98f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b427b38-d664-4726-8270-c75bb70873c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.41 -6.41)
+		(end -6.41 -2.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "154400a0-edf4-4926-a4fa-3584d6278990")
+	)
+	(fp_line
+		(start -6.41 -6.41)
+		(end 6.41 -6.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "433c323a-9854-4959-b959-12148460ed41")
+	)
+	(fp_line
+		(start -6.41 6.41)
+		(end -6.41 2.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b742e2e-e000-4846-bd6a-b8e9bcb8f521")
+	)
+	(fp_line
+		(start -6.41 6.41)
+		(end 6.41 6.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16b74c1c-ed81-4d7e-b107-ca2d08ab6e09")
+	)
+	(fp_line
+		(start 6.41 -6.41)
+		(end 6.41 -2.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3cb53f7-76b8-4aaa-be76-76a9b0b9d4c6")
+	)
+	(fp_line
+		(start 6.41 6.41)
+		(end 6.41 2.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28bd60e1-58ef-4efe-a773-f7713bb45f72")
+	)
+	(fp_line
+		(start -6.65 -6.4)
+		(end -6.65 6.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d6ccc70-4054-44a0-9227-013b523e0e56")
+	)
+	(fp_line
+		(start -6.65 6.4)
+		(end 6.65 6.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24a9b055-033a-4aa1-b335-ed2b14ae0c2a")
+	)
+	(fp_line
+		(start 6.65 -6.4)
+		(end -6.65 -6.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a851e369-1136-4ce1-8f5a-7dd5c17d32ec")
+	)
+	(fp_line
+		(start 6.65 6.4)
+		(end 6.65 -6.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0c29849-a484-431c-a9d3-c547307732be")
+	)
+	(fp_line
+		(start -6.15 -6.15)
+		(end -6.15 6.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f553951c-f79d-4152-ae8e-8953fc0b122e")
+	)
+	(fp_line
+		(start -6.15 6.15)
+		(end 6.15 6.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e984cbd-f112-4644-a25f-c65b5db53df4")
+	)
+	(fp_line
+		(start 6.15 -6.15)
+		(end -6.15 -6.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fc2326b-ebc6-432a-b1bd-d6cc71bf2a56")
+	)
+	(fp_line
+		(start 6.15 6.15)
+		(end 6.15 -6.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03666bbe-d6b9-4d30-a0bf-063755c7c11b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "81c0fcb5-4e0e-4785-a867-3368c686b82a")
+		(effects
+			(font
+				(size 0.966667 0.966667)
+				(thickness 0.145)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.95 0)
+		(size 2.9 5.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3be0d734-8a9d-4db1-96e3-48a919d08114")
+	)
+	(pad "2" smd rect
+		(at 4.95 0)
+		(size 2.9 5.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "89dcba58-beec-44a5-a285-e6372f949519")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_SXN_SMDRI124.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

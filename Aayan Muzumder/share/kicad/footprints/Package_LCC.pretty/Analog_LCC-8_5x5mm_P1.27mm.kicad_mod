@@ -1,0 +1,307 @@
+(footprint "Analog_LCC-8_5x5mm_P1.27mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LCC, ceramic leaded chip carrier, 8 pins, surface mount, Analog Devices LS8, 5x5mm, height 1.45mm, https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6655-6655ln.pdf")
+	(tags "lcc smt")
+	(property "Reference" "REF**"
+		(at -0.8 -4.2 0)
+		(layer "F.SilkS")
+		(uuid "1a9b6f91-29e1-429d-8d53-d92eb0fbe7de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Analog_LCC-8_5x5mm_P1.27mm"
+		(at -0.1 4 0)
+		(layer "F.Fab")
+		(uuid "baf55600-aeb5-4fba-8819-f08caaa7c2e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c1735bb-c2b3-4555-9e09-97445224d27c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87dd736d-1660-4c50-a0d1-a8c53e7e4685")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "477d99e1-b46a-45fe-bacf-73448fc3e6d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.7 2.7)
+		(end -2.7 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7024ae69-76a7-4eaa-954f-a5e731888f23")
+	)
+	(fp_line
+		(start -1.6 2.7)
+		(end -2.7 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca8f8a71-d023-4479-9835-0fc99ff539a0")
+	)
+	(fp_line
+		(start 1.6 -2.7)
+		(end 2.7 -2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44757c43-4a8f-4aae-b7f4-ee40c1f25cd0")
+	)
+	(fp_line
+		(start 2.7 -2.7)
+		(end 2.7 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24b02086-c2d0-4a44-857c-864b9af4bd27")
+	)
+	(fp_line
+		(start 2.7 2)
+		(end 2.7 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e957e1a8-95be-4e72-9da5-df93f9cea425")
+	)
+	(fp_line
+		(start 2.7 2.7)
+		(end 1.6 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2bf3c830-364e-4d0d-a9ae-7d19c0c4a83a")
+	)
+	(fp_poly
+		(pts
+			(xy -2.6 -2.6) (xy -2.9 -3) (xy -2.3 -3)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "9daeeb23-9ac2-4339-b29c-89a90ee73d54")
+	)
+	(fp_line
+		(start -3.15 -3.25)
+		(end -3.15 3.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b40317a-d802-4f02-9bdd-fc79764b622c")
+	)
+	(fp_line
+		(start -3.15 3.15)
+		(end 3.15 3.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5f494ab-2227-4b75-8b20-a35b49233f79")
+	)
+	(fp_line
+		(start 3.15 -3.25)
+		(end -3.15 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ae2d0ab-b500-431b-ae8d-253016fc379b")
+	)
+	(fp_line
+		(start 3.15 3.15)
+		(end 3.15 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eba8de8b-2bcd-4b01-ae77-956f5d43c2f2")
+	)
+	(fp_line
+		(start -2.5 -1.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2cbe0d6-4d8a-40d9-b46d-bdbd50d336d9")
+	)
+	(fp_line
+		(start -2.5 -1.5)
+		(end -1.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e63fbf18-32cb-49a9-af99-3579e8ee8165")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d4c816b-3cc6-42bf-8633-f608f6dab6bb")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end -1.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d655e54c-8162-407e-9e1e-d153999b21cc")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb8d4c22-b120-4636-8f6f-05c980a8e3bf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "93f6f141-d4e0-4ef4-9822-308a3828995c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.15 -1.27 90)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "596b464d-20bf-48ac-a560-8de2de4082a1")
+	)
+	(pad "2" smd roundrect
+		(at -2.15 0 90)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "30813738-74e5-44e4-8192-f0a9773956f1")
+	)
+	(pad "3" smd roundrect
+		(at -2.15 1.27 90)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3392df4c-689e-41e9-b47e-4ba4982f7db9")
+	)
+	(pad "4" smd roundrect
+		(at 0 2.15 90)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ea4547f0-4c20-4e8d-9a75-7c63ec1fb834")
+	)
+	(pad "5" smd roundrect
+		(at 2.15 1.27)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "21d07cba-7aa4-45b1-ba51-d60c04151953")
+	)
+	(pad "6" smd roundrect
+		(at 2.15 0)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ee252a85-9315-4f4b-8e97-d27b4b0b4df3")
+	)
+	(pad "7" smd roundrect
+		(at 2.15 -1.27)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "042a886c-0f55-4f40-99f3-2a2509c96e28")
+	)
+	(pad "8" smd roundrect
+		(at 0 -1.75 90)
+		(size 2.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "5a68636b-fa79-4a21-bf3d-84e57ffcdf21")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_LCC.3dshapes/Analog_LCC-8_5x5mm_P1.27mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

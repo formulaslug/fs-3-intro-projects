@@ -1,0 +1,253 @@
+(footprint "PowerIntegrations_SO-8B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Power-Integrations variant of 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC], see https://www.mouser.com/ds/2/328/linkswitch-pl_family_datasheet-12517.pdf")
+	(tags "SOIC 1.27")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "a196bbd0-0f54-4c7e-a769-a5d9a7539fb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PowerIntegrations_SO-8B"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "95638233-5ee6-4130-973d-47a46e852bcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df14ebf9-4a8f-4ee3-ad5e-469bc749b179")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2166e9c5-a66e-4a81-8162-9ee2cca233e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3f54297-2616-4c79-bfa3-d853d7ece656")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.075 -2.575)
+		(end 2.075 -2.575)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e7916ce-1546-425c-ad21-c676e544cc1a")
+	)
+	(fp_line
+		(start -2.075 2.575)
+		(end 2.075 2.575)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c80ddf6a-8b96-4939-b3b9-a0aa350918ad")
+	)
+	(fp_poly
+		(pts
+			(xy -2.75 -2.5) (xy -2.51 -2.83) (xy -2.99 -2.83) (xy -2.75 -2.5)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "32714462-a7b2-46da-8f30-3565a39083b3")
+	)
+	(fp_line
+		(start -3.7 -2.7)
+		(end -3.7 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6492f3a0-69f1-472b-9d7d-e9d2cc07a5f2")
+	)
+	(fp_line
+		(start -3.7 -2.7)
+		(end 3.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "591f4836-fcf3-4ba4-8e64-447c4528d67d")
+	)
+	(fp_line
+		(start 3.7 2.7)
+		(end -3.7 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c118044f-694c-4fd3-9006-34c08c3a5a30")
+	)
+	(fp_line
+		(start 3.7 2.7)
+		(end 3.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34922a13-c6f3-43f7-aca2-a713ee9f9a01")
+	)
+	(fp_line
+		(start -1.95 -1.45)
+		(end -0.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0835654b-b049-48fc-87bf-3b5d8d5d9dc7")
+	)
+	(fp_line
+		(start -1.95 2.45)
+		(end -1.95 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96d5cbdb-b52e-4827-96a0-6dc552ff0adb")
+	)
+	(fp_line
+		(start -0.95 -2.45)
+		(end 1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e16dbcf3-52d1-4ffa-ba74-b4f797f7c9f6")
+	)
+	(fp_line
+		(start 1.95 -2.45)
+		(end 1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa550250-6767-445b-8632-bb1d7083090d")
+	)
+	(fp_line
+		(start 1.95 2.45)
+		(end -1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "965e586e-5b7a-46a2-8b3f-817dff83bc2f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cb29cb97-e0c3-414a-a752-0d3c0e055565")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.45 -1.905)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "35afd705-4839-4968-b36e-6dd2a7e11a2e")
+	)
+	(pad "2" smd rect
+		(at -2.45 -0.635)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5cf4a449-31fa-40c7-a6fe-70550c80d79d")
+	)
+	(pad "3" smd rect
+		(at -2.45 0.635)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9ca2331c-896d-47ee-a263-c8dfb5ec8657")
+	)
+	(pad "4" smd rect
+		(at -2.45 1.905)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "de6ce286-ac7e-4a86-8448-2e955b19ddc6")
+	)
+	(pad "5" smd rect
+		(at 2.45 1.905)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1dd06cc0-9afd-4ecf-9bf2-6ded1ab2d775")
+	)
+	(pad "7" smd rect
+		(at 2.45 -0.635)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "075445bc-39bc-4137-a44f-361b9957dcad")
+	)
+	(pad "8" smd rect
+		(at 2.45 -1.905)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "094e1ebf-2c29-4715-8d77-8e71d488fb2a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/PowerIntegrations_SO-8B.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

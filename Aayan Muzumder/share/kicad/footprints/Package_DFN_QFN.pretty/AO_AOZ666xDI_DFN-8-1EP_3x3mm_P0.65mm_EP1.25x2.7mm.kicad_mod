@@ -1,0 +1,303 @@
+(footprint "AO_AOZ666xDI_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.7mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "AO AOZ666xDI DFN, 8 Pin (https://aosmd.com/res/data_sheets/AOZ6663DI-01.pdf#page=15), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "AO DFN NoLead")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "4e186441-75d3-4bab-be41-4259cb34eae0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AO_AOZ666xDI_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.7mm"
+		(at 0 2.45 0)
+		(layer "F.Fab")
+		(uuid "2bdb5e62-7e57-42a2-84f1-f3c78137794e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b702928-4ecc-4287-8aa9-af39727b9508")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "252b22e1-62d0-4f4c-a50d-dc3cda5c2c70")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e44967bd-4b6a-4e17-8a62-d3822c8590dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -1.61)
+		(end 1.5 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1d6909f-d263-4e61-b0d3-e61732c13764")
+	)
+	(fp_line
+		(start -1.5 1.61)
+		(end 1.5 1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4f02199-e777-4312-9ac4-24a958382182")
+	)
+	(fp_poly
+		(pts
+			(xy -2.04 -1.29) (xy -2.52 -1.29) (xy -2.04 -1.77) (xy -2.04 -1.29)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "90d38773-c01d-430d-b77c-510484ca9ef5")
+	)
+	(fp_line
+		(start -2.13 -1.75)
+		(end -2.13 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b82bccc3-eb77-4249-90a0-26999c3831e3")
+	)
+	(fp_line
+		(start -2.13 1.75)
+		(end 2.13 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3bce6dc-41f6-41be-9d26-aa559aeb1a5a")
+	)
+	(fp_line
+		(start 2.13 -1.75)
+		(end -2.13 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a73ff522-2a8b-40a9-a1a8-a0485af3098d")
+	)
+	(fp_line
+		(start 2.13 1.75)
+		(end 2.13 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba4669f2-21ce-46a3-80fd-90e0f2a39d03")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21093dca-86f6-49f6-8e63-6ebd0711940e")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43859a34-d9c0-4488-8ce1-628f31429cc9")
+	)
+	(fp_line
+		(start -0.75 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b86c3d67-0a39-4ccc-97ba-631d39e6adaf")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e43e298-8acc-4f82-a4f9-cce8446e0552")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9fc725c4-1a6b-47ed-a96e-5c538e3275df")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ace11786-89f0-4971-9523-511eebf01e7f")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.31 -0.675)
+		(size 0.5 1.09)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7c904476-7043-4d2e-84b2-689e2b34d317")
+	)
+	(pad "" smd roundrect
+		(at -0.31 0.675)
+		(size 0.5 1.09)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6fec6c16-2f60-4703-a192-e15150db8d5e")
+	)
+	(pad "" smd roundrect
+		(at 0.31 -0.675)
+		(size 0.5 1.09)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9b137c3d-c8fa-4c2a-b24b-76931486bee2")
+	)
+	(pad "" smd roundrect
+		(at 0.31 0.675)
+		(size 0.5 1.09)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7eaf6bec-9086-48a6-be1a-60ea533b9f5d")
+	)
+	(pad "1" smd roundrect
+		(at -1.4375 -0.975)
+		(size 0.875 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "24104770-f3fa-4351-91c8-d0ac6b6472b9")
+	)
+	(pad "2" smd roundrect
+		(at -1.4375 -0.325)
+		(size 0.875 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "79587507-43b2-4fc6-8a08-a6015e6aec0a")
+	)
+	(pad "3" smd roundrect
+		(at -1.4375 0.325)
+		(size 0.875 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "7a9a69fc-3f76-44a2-add1-6bf5f481e73d")
+	)
+	(pad "4" smd roundrect
+		(at -1.4375 0.975)
+		(size 0.875 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f4472fd7-9400-4bb4-aece-14319d482014")
+	)
+	(pad "5" smd roundrect
+		(at 1.4375 0.975)
+		(size 0.875 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f0d68d73-4374-4a43-8304-68f9d47f530a")
+	)
+	(pad "6" smd roundrect
+		(at 1.4375 0.325)
+		(size 0.875 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "b61408ed-1087-46fb-8a9e-273bb92c7646")
+	)
+	(pad "7" smd roundrect
+		(at 1.4375 -0.325)
+		(size 0.875 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9a95a647-faa1-48e0-ab2b-c51952bcc5e2")
+	)
+	(pad "8" smd roundrect
+		(at 1.4375 -0.975)
+		(size 0.875 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "fc0e92b4-c7ab-46f5-9a89-1522ef4cf4df")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.25 2.7)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "6379d2ec-2632-47f4-9951-9dd43e5d0a0c")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/AO_AOZ666xDI_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.7mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

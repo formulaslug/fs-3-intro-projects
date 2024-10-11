@@ -1,0 +1,203 @@
+(footprint "L_Ferrocore_DLG-0302"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Ferrocore DLG-0302 unshielded SMD power inductor, 3.0x2.8x2.5mm, https://www.tme.eu/Document/bda580f72a60a2225c2f6576c2740ae1/dlg-0504.pdf")
+	(tags "smd inductor dlg-0302")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "3ba5e145-56e0-4d13-97de-902429ef82c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Ferrocore_DLG-0302"
+		(at 0 2.45 0)
+		(layer "F.Fab")
+		(uuid "288e46df-0169-4d0f-8560-277ff0ba3002")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9ca67e0-e7aa-4efd-b13e-b1bff344c12c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7005bb53-2f9b-45a7-9249-b49f24e4ff73")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be1a9607-ed70-4c5f-9ccc-6e9a53c88c3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.2 -1.51)
+		(end 0.2 -1.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5920e832-4b03-45e6-b7ca-a2ec18bb3dba")
+	)
+	(fp_line
+		(start -0.2 1.51)
+		(end 0.2 1.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95c75b06-870c-4a19-9309-9e4e6f082549")
+	)
+	(fp_line
+		(start -2.05 -1.75)
+		(end -2.05 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a08447bb-6e1d-4d67-a42a-b63c26927344")
+	)
+	(fp_line
+		(start -2.05 1.75)
+		(end 2.05 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc972612-3cfe-4036-8489-3160b12cef5b")
+	)
+	(fp_line
+		(start 2.05 -1.75)
+		(end -2.05 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8cac830-b48b-4b8b-b71f-506050da024d")
+	)
+	(fp_line
+		(start 2.05 1.75)
+		(end 2.05 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8652e448-fa86-4d26-86ee-22a7fd1a7cdc")
+	)
+	(fp_line
+		(start -0.4 -1.4)
+		(end 0.4 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f922664b-7f7c-4af9-bbdf-831ed12bf673")
+	)
+	(fp_line
+		(start -0.4 1.4)
+		(end 0.4 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "112e4c42-86d2-4991-b62a-63538125c523")
+	)
+	(fp_arc
+		(start -0.4 1.4)
+		(mid -1.5 0)
+		(end -0.4 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d6d5c8c5-62a2-4377-8a28-34ba30f46e1a")
+	)
+	(fp_arc
+		(start 0.4 -1.4)
+		(mid 1.5 0)
+		(end 0.4 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "822059b8-f7ed-46ff-a8e3-f60574400902")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "71a9c494-c3de-40e3-89c2-f7696b96e1f8")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.14)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.1 0)
+		(size 1.4 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5f9ae16a-df64-4758-a354-8b1a320de734")
+	)
+	(pad "2" smd rect
+		(at 1.1 0)
+		(size 1.4 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "aedf0a05-1b57-4805-bfa1-032ef9295047")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Ferrocore_DLG-0302.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

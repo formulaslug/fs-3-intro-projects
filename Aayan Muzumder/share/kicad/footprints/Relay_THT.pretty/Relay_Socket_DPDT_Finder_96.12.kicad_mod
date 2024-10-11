@@ -1,0 +1,275 @@
+(footprint "Relay_Socket_DPDT_Finder_96.12"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DPDT relay socket, 15A max 10A per contact, 2kV AC Isolation, https://gfinder.findernet.com/public/attachments/56/DE/S56DE.pdf")
+	(tags "finder relay socket 96.12 56.32")
+	(property "Reference" "REF**"
+		(at -4.48 -3.83 180)
+		(layer "F.SilkS")
+		(uuid "6940a3c6-9566-4cee-95b5-7ce4edc26a1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Relay_Socket_DPDT_Finder_96.12"
+		(at 8.35 20.32 0)
+		(layer "F.Fab")
+		(uuid "d0811c9d-651d-48ff-8e51-48f9ef421f6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5178f802-a6b8-4cbe-bbb3-ddf9add5a5a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08344b24-2e05-4ed6-aaa5-05b9933fe676")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ad78b95-d024-4f59-b00f-f20a81b38826")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.9 -2.95)
+		(end -5 -2.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5bb93aa-266d-4aec-8679-1fef0cdb6398")
+	)
+	(fp_line
+		(start -6.9 -1)
+		(end -6.9 -2.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4dae095b-c9f2-44dc-941c-a8e08db3d643")
+	)
+	(fp_line
+		(start -6.52 -2.57)
+		(end 23.22 -2.57)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7a95976-00f0-404d-bc34-241bd5f06f58")
+	)
+	(fp_line
+		(start -6.52 -2.55)
+		(end -6.52 19.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26b3e24f-4188-4437-84d3-fca1cc345d69")
+	)
+	(fp_line
+		(start -6.52 19.17)
+		(end 23.22 19.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e88779e-6589-4cd0-bc6c-e770809e70eb")
+	)
+	(fp_line
+		(start 23.22 -2.57)
+		(end 23.22 19.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0015ecac-2671-4654-84c1-2c28f273fbb2")
+	)
+	(fp_rect
+		(start -6.9 -2.95)
+		(end 23.6 19.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5319f68a-e5db-4280-8622-89c42312fd41")
+	)
+	(fp_line
+		(start -6.4 -1.45)
+		(end -6.4 19.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53c41670-226a-461b-a3a6-9f6888c5e054")
+	)
+	(fp_line
+		(start -6.4 -1.45)
+		(end -5.4 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02bbda07-9c83-4467-98ba-ec3e03e25235")
+	)
+	(fp_line
+		(start -5.4 -2.45)
+		(end 23.1 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1bee0708-6d51-40e4-b6f4-c48a52d516ca")
+	)
+	(fp_line
+		(start 23.1 -2.45)
+		(end 23.1 19.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e350d766-8295-4fe2-b1fe-dc1491991712")
+	)
+	(fp_line
+		(start 23.1 19.05)
+		(end -6.4 19.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa8f37ca-9334-4051-9709-fd75898eb68f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.065 8.4 0)
+		(layer "F.Fab")
+		(uuid "49433c11-fba2-4059-9f50-ed829f766d2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "11" thru_hole circle
+		(at 6.1 3.3)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "231cd81f-0ee1-43c3-a7bb-d553e5e7970e")
+	)
+	(pad "12" thru_hole circle
+		(at 16.7 3.3)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2862d205-ba99-48ce-9d8e-90c15149c1d9")
+	)
+	(pad "14" thru_hole circle
+		(at 12 3.3)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d14232cb-ec61-4ed0-bf49-6cdc8f30a1ed")
+	)
+	(pad "21" thru_hole circle
+		(at 6.1 13.3)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e5dfad6c-884c-4308-a802-3f478ee6949e")
+	)
+	(pad "22" thru_hole circle
+		(at 16.7 13.3)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1186590a-8bde-40cd-bba7-68d5916872f6")
+	)
+	(pad "24" thru_hole circle
+		(at 12 13.3)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0bc1f4db-1454-461f-a17f-debfc0453265")
+	)
+	(pad "A1" thru_hole roundrect
+		(at 0 0)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "ee2a10b5-13a8-4329-903f-3522f118d693")
+	)
+	(pad "A2" thru_hole circle
+		(at 0 16.6)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f685560-f472-4201-b0c2-120de3bf8251")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_Socket_DPDT_Finder_96.12.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

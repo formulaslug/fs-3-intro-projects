@@ -1,0 +1,384 @@
+(footprint "CERDIP-8_W7.62mm_SideBrazed_LongPads_Socket"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "8-lead through-hole mounted CERDIP, JEDEC MS-015-AA package, row spacing 7.62mm (300 mils), SideBrazed, LongPads, Socket, https://www.jedec.org/system/files/docs/Ms-015a.pdf")
+	(tags "THT DIP DIL CERDIP ceramic 2.54mm 7.62mm 300mil SideBrazed LongPads Socket")
+	(property "Reference" "REF**"
+		(at 3.81 -3.855 0)
+		(layer "F.SilkS")
+		(uuid "9b661eb2-c01e-43e8-91f8-988435eaba5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CERDIP-8_W7.62mm_SideBrazed_LongPads_Socket"
+		(at 3.81 11.475 0)
+		(layer "F.Fab")
+		(uuid "ecbb2d43-94fc-41bb-9728-c156d4d94299")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05d14648-6287-42a4-9292-685124f65e03")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27d0fc0d-c1b2-4ceb-8e68-3c8cc5541edf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "322ae798-0350-4eb5-88a1-b13a2b134716")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.44 -2.915)
+		(end -1.44 10.535)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cee0d090-eeab-4202-a10a-29653ff6c9a9")
+	)
+	(fp_line
+		(start -1.44 10.535)
+		(end 9.06 10.535)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbcbbc4f-9b0d-49f6-aa92-aac6902173da")
+	)
+	(fp_line
+		(start 1.56 -2.855)
+		(end 1.56 10.475)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d2b214e-b63b-459c-9ca3-3281acf49237")
+	)
+	(fp_line
+		(start 1.56 10.475)
+		(end 6.06 10.475)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1be9a67b-3b07-4282-bba4-37df267653c1")
+	)
+	(fp_line
+		(start 2.81 -2.855)
+		(end 1.56 -2.855)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40c1ce26-e870-4361-be1c-b3dcdff28e7e")
+	)
+	(fp_line
+		(start 6.06 -2.855)
+		(end 4.81 -2.855)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60372f6d-2ab5-48dd-8cac-6442997fc7d4")
+	)
+	(fp_line
+		(start 6.06 10.475)
+		(end 6.06 -2.855)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3bc45484-3cb7-4a12-8bc2-6f4fe4179b1a")
+	)
+	(fp_line
+		(start 9.06 -2.915)
+		(end -1.44 -2.915)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a6b0da2-ed2a-4e6d-a35a-08c42c3225a7")
+	)
+	(fp_line
+		(start 9.06 10.535)
+		(end 9.06 -2.915)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e71fe64-491e-400e-9587-b9733c475dd4")
+	)
+	(fp_arc
+		(start 4.81 -2.855)
+		(mid 3.81 -1.855)
+		(end 2.81 -2.855)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07d2980e-7036-41e1-97aa-8c14d101dec6")
+	)
+	(fp_line
+		(start -1.52 -3.11)
+		(end -1.52 10.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf653925-16c5-4d8a-8ddf-d70c7bf5edf6")
+	)
+	(fp_line
+		(start -1.52 10.73)
+		(end 9.14 10.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2501dd0b-a147-40cb-a90a-928d05bbabe0")
+	)
+	(fp_line
+		(start 9.14 -3.11)
+		(end -1.52 -3.11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01633112-183a-493d-8744-73d335927ddd")
+	)
+	(fp_line
+		(start 9.14 10.73)
+		(end 9.14 -3.11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a6eea6b-05e2-4110-ae8e-281ac8893512")
+	)
+	(fp_line
+		(start -1.27 -2.855)
+		(end -1.27 10.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f241e260-2756-4811-9705-203c15c79239")
+	)
+	(fp_line
+		(start -1.27 10.475)
+		(end 8.89 10.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12afc9ef-e13c-4384-bbf5-8b62c9c10cd0")
+	)
+	(fp_line
+		(start 0.065 -1.795)
+		(end 1.065 -2.795)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "326e75ce-e9f8-4044-9d2b-0ce289dc2638")
+	)
+	(fp_line
+		(start 0.065 10.415)
+		(end 0.065 -1.795)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "062d3e4c-8406-44ba-9a1c-162eb94e3d09")
+	)
+	(fp_line
+		(start 1.065 -2.795)
+		(end 7.555 -2.795)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9dc5c755-f84d-4c7d-b744-1b97066b6bf9")
+	)
+	(fp_line
+		(start 7.555 -2.795)
+		(end 7.555 10.415)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66c4cc15-2e1f-4a2f-a740-018a67bd5cf7")
+	)
+	(fp_line
+		(start 7.555 10.415)
+		(end 0.065 10.415)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "772c3f6b-f199-4575-82b1-742d3e545515")
+	)
+	(fp_line
+		(start 8.89 -2.855)
+		(end -1.27 -2.855)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0f2d029-c159-4360-a865-ba9c73521237")
+	)
+	(fp_line
+		(start 8.89 10.475)
+		(end 8.89 -2.855)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2fa496d3-c038-4b7f-a10b-cb081336bd59")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 3.81 90)
+		(layer "F.Fab")
+		(uuid "e9fe2fe0-1d13-4381-985c-a00b131b68e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc62e95a-eadb-465b-85be-0864309acf70")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2.54)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a4d0052-6c6a-40b2-8161-765d98dd0e89")
+	)
+	(pad "3" thru_hole oval
+		(at 0 5.08)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c41d9834-bd0c-4444-85de-c6c7ff971836")
+	)
+	(pad "4" thru_hole oval
+		(at 0 7.62)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71bd1ce5-2aa1-41fb-8b3f-0430823cced9")
+	)
+	(pad "5" thru_hole oval
+		(at 7.62 7.62)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e6d4b3ca-bdcb-44ed-9eeb-e2d26c410c7c")
+	)
+	(pad "6" thru_hole oval
+		(at 7.62 5.08)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2963dba7-fa4f-450b-91d7-9f280bb8da53")
+	)
+	(pad "7" thru_hole oval
+		(at 7.62 2.54)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d944ff7-a8ff-4709-9d2b-4ee64b917e40")
+	)
+	(pad "8" thru_hole oval
+		(at 7.62 0)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9325194d-176a-4068-ac95-23e05d927171")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/CERDIP-8_W7.62mm_SideBrazed_LongPads_Socket.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

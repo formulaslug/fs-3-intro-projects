@@ -1,0 +1,272 @@
+(footprint "Oscillator_SeikoEpson_SG-8002DB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "14-lead dip package, row spacing 7.62 mm (300 mils)")
+	(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil")
+	(property "Reference" "REF**"
+		(at 3.81 -3.39 0)
+		(layer "F.SilkS")
+		(uuid "b8c8a81e-f8cc-41ec-9c92-99f51c16b65b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SeikoEpson_SG-8002DB"
+		(at 3.81 18.63 0)
+		(layer "F.Fab")
+		(uuid "71cba9fd-a132-447d-9ebc-7e3e3c4e85ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d514a52-2de4-4d10-8444-ccbc7c31c0ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "352d7c10-58e2-4380-8ab6-9e8181acb596")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21533b99-df1f-4254-98aa-c695db0ccff0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.04 -2.39)
+		(end 1.04 17.63)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0435d078-88d2-4c49-a1b4-8e4279d0546d")
+	)
+	(fp_line
+		(start 1.04 17.63)
+		(end 6.58 17.63)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "755d87e5-891e-4b19-9282-6ac8a32fac7b")
+	)
+	(fp_line
+		(start 2.81 -2.39)
+		(end 1.04 -2.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72e93a09-f4e5-4bb8-b143-74d399b44e3a")
+	)
+	(fp_line
+		(start 6.58 -2.39)
+		(end 4.81 -2.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2998f9c-0141-45e0-ad86-c5e79e081fca")
+	)
+	(fp_line
+		(start 6.58 17.63)
+		(end 6.58 -2.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e6efbec-4c51-441e-a929-43302a2902a1")
+	)
+	(fp_arc
+		(start 4.81 -2.39)
+		(mid 3.81 -1.39)
+		(end 2.81 -2.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc7789ba-a944-4a7c-a6c1-bbe23123454e")
+	)
+	(fp_line
+		(start -1.1 -2.6)
+		(end -1.1 17.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db3b5ea0-6af6-44a7-af04-51ed5f732874")
+	)
+	(fp_line
+		(start -1.1 17.8)
+		(end 8.7 17.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00bc76c5-ea86-4b12-a2cd-dd8ce148f40f")
+	)
+	(fp_line
+		(start 8.7 -2.6)
+		(end -1.1 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0592f937-f27f-4041-ac41-c7cd36292cda")
+	)
+	(fp_line
+		(start 8.7 17.8)
+		(end 8.7 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "902ee969-942b-4d2f-b4f2-d7dfb821346d")
+	)
+	(fp_line
+		(start 0.64 -1.27)
+		(end 1.64 -2.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16bea5f7-8b43-4f16-b4e5-b8433f6ed948")
+	)
+	(fp_line
+		(start 0.64 17.51)
+		(end 0.64 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00187b99-08c7-41f8-8e63-cee1a2b66dd1")
+	)
+	(fp_line
+		(start 1.64 -2.27)
+		(end 6.99 -2.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9734e4f1-c77c-4d16-8b14-aea4024b0f0a")
+	)
+	(fp_line
+		(start 6.99 -2.27)
+		(end 6.99 17.51)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6dd0eada-9bbb-4f7b-a4fa-6f98fd210e1d")
+	)
+	(fp_line
+		(start 6.99 17.51)
+		(end 0.64 17.51)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7f6a11c-6a55-4d25-8528-ac2bf43c479b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.815 7.62 0)
+		(layer "F.Fab")
+		(uuid "d223f92b-42ab-4c3e-9b04-8e4fb83e39e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "315dea5e-ba62-4c40-83cd-a8a020326026")
+	)
+	(pad "7" thru_hole oval
+		(at 0 15.24)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0166eacf-e137-409b-8e85-25e6467a3d3f")
+	)
+	(pad "8" thru_hole oval
+		(at 7.62 15.24)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "93d72172-7b6e-4e24-8553-09d2caa56d32")
+	)
+	(pad "14" thru_hole oval
+		(at 7.62 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "500f6465-8998-4f7e-aae4-6e5d7162ea50")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SeikoEpson_SG-8002DB.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

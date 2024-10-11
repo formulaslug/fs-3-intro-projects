@@ -1,0 +1,267 @@
+(footprint "Broadcom_LGA-8_2x2mm_P0.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Broadcom  LGA, 8 Pin (https://docs.broadcom.com/doc/APDS-9251-001-DS#page=19), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "Broadcom LGA NoLead")
+	(property "Reference" "REF**"
+		(at 0 -1.95 0)
+		(layer "F.SilkS")
+		(uuid "2fde23e5-465d-4c94-9722-7998c49edad6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Broadcom_LGA-8_2x2mm_P0.5mm"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "8487cf85-6327-4bd0-9ddb-0ad1c81883ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c689e6f-a6c0-43d4-8111-22118e77b244")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8e57a11-51ba-4c3a-ac56-f2e93852820e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b2159c3-2944-43c3-b267-232a7fc43e72")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 1.185)
+		(end 1 1.185)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0b5f3da-6280-44cc-b6ae-be7965999656")
+	)
+	(fp_line
+		(start -0.95 -1.185)
+		(end 1 -1.185)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd5ece66-67aa-4c9f-b463-616e67a638aa")
+	)
+	(fp_poly
+		(pts
+			(xy -1.19 -1.09) (xy -1.47 -1.09) (xy -1.19 -1.37) (xy -1.19 -1.09)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "07bc5177-57c0-4921-9e09-239314a11670")
+	)
+	(fp_line
+		(start -1.28 -1.25)
+		(end -1.28 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88c52265-aa5a-4740-9330-3df9e2f00fa1")
+	)
+	(fp_line
+		(start -1.28 1.25)
+		(end 1.28 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e805c2be-dd8c-49f9-afbb-8af0f13fdf50")
+	)
+	(fp_line
+		(start 1.28 -1.25)
+		(end -1.28 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "16793c45-1c8f-4355-9a7f-49f21f340f02")
+	)
+	(fp_line
+		(start 1.28 1.25)
+		(end 1.28 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71327cd7-9f5c-4ce8-b332-2d0d0343e32a")
+	)
+	(fp_line
+		(start -1 -0.5)
+		(end -0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5be24902-3d31-4155-8b58-8bdea3545bb5")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2a90000-d1f5-4f44-96ba-1c48c874e8be")
+	)
+	(fp_line
+		(start -0.5 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a761cec2-fdfa-4e8c-9f60-1c0ca597db11")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c09ca579-1ccb-48dc-8ad8-edd5efe3bd65")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9bde9768-c2fc-4eb5-b106-24ef6b8a86e2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0987a104-c8e5-4bfa-a95e-347bd5794d20")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.7625 -0.75)
+		(size 0.525 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "82837a09-8687-4f2b-8c88-b604e5b2b9db")
+	)
+	(pad "2" smd roundrect
+		(at -0.7625 -0.25)
+		(size 0.525 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "6d636204-9701-469a-81c6-fcbade7a8058")
+	)
+	(pad "3" smd roundrect
+		(at -0.7625 0.25)
+		(size 0.525 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ee50d227-b562-497b-8a2e-f1fe6d0117fc")
+	)
+	(pad "4" smd roundrect
+		(at -0.7625 0.75)
+		(size 0.525 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "e9796191-1dbf-4550-8776-c1ca9c95c4e6")
+	)
+	(pad "5" smd roundrect
+		(at 0.7625 0.75)
+		(size 0.525 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8adc9007-6681-41be-bc4f-de0dfb27d90a")
+	)
+	(pad "6" smd roundrect
+		(at 0.7625 0.25)
+		(size 0.525 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "5f58a06e-7bd9-4e70-8570-27a89da65808")
+	)
+	(pad "7" smd roundrect
+		(at 0.7625 -0.25)
+		(size 0.525 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ba8e4f1a-eeae-4e87-b304-cad49fc1866a")
+	)
+	(pad "8" smd roundrect
+		(at 0.7625 -0.75)
+		(size 0.525 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "70ba4450-0353-4a18-9630-294c8a371f85")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Broadcom_LGA-8_2x2mm_P0.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

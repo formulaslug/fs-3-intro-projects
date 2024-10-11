@@ -1,0 +1,343 @@
+(footprint "Varistor_Panasonic_VF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf")
+	(tags "Varistor VF")
+	(property "Reference" "REF**"
+		(at 0.07 -3.89 0)
+		(layer "F.SilkS")
+		(uuid "2abe5fd5-abb2-4296-8e3d-68113b443b58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Varistor_Panasonic_VF"
+		(at 0 3.8 0)
+		(layer "F.Fab")
+		(uuid "82053b4e-afea-45e5-8ed9-bd7dbb4f5967")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee6e4d46-0f94-458a-870e-2e50b8dd6cad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f417982b-7792-4e64-a70e-94a5a9559277")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfc87d7a-564c-4223-9973-05bb6b0b13a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.1 -3.1)
+		(end 4.1 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6214f17-4fcc-4e95-82f4-87382aee4261")
+	)
+	(fp_line
+		(start -4.1 -1.76)
+		(end -5.1 -1.76)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bcda796f-44e4-4477-91d8-134886f16494")
+	)
+	(fp_line
+		(start -4.1 -1.76)
+		(end -4.1 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aff6bd18-4c06-495a-81f7-4ef3f58a8574")
+	)
+	(fp_line
+		(start -4.1 1.76)
+		(end -4.1 3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48b64eb8-13d6-4fc8-84ba-8f04643d6a40")
+	)
+	(fp_line
+		(start -4.1 3.1)
+		(end 4.1 3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77b99c70-a6ea-4d39-bc56-479977b88a32")
+	)
+	(fp_line
+		(start 4.1 -3.1)
+		(end 4.1 -1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76992f5c-c114-4d1f-bd30-5abe58470692")
+	)
+	(fp_line
+		(start 4.1 3.1)
+		(end 4.1 1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e920adcf-ad95-45e0-a5c9-f505e7b3b071")
+	)
+	(fp_line
+		(start -5.25 -1.75)
+		(end -4.25 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3eba1ff-5fbe-47ca-9fe0-fae3513d8d2a")
+	)
+	(fp_line
+		(start -5.25 1.75)
+		(end -5.25 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a1905b4-adf1-40bf-bad0-21687ff22c7f")
+	)
+	(fp_line
+		(start -4.25 -3.25)
+		(end 4.25 -3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb4d5367-1020-498e-ac47-51b0adb6511f")
+	)
+	(fp_line
+		(start -4.25 -1.75)
+		(end -4.25 -3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab574877-9e85-4891-acc3-47910e7cb45e")
+	)
+	(fp_line
+		(start -4.25 1.75)
+		(end -5.25 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "166508ee-a9d7-410c-ae81-ca3755f6c387")
+	)
+	(fp_line
+		(start -4.25 3.25)
+		(end -4.25 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd64805d-0c9b-4f3e-90f3-caadf66833c6")
+	)
+	(fp_line
+		(start 4.25 -3.25)
+		(end 4.25 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "28327874-3067-4b2f-b7aa-f1c7119398a8")
+	)
+	(fp_line
+		(start 4.25 -1.75)
+		(end 5.25 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d108d86-85d0-4194-b2ec-33fa998c45c6")
+	)
+	(fp_line
+		(start 4.25 1.75)
+		(end 4.25 3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7003e792-4751-4bcf-9f0c-fd07f2ed74cd")
+	)
+	(fp_line
+		(start 4.25 3.25)
+		(end -4.25 3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e85df8a-1f00-4c5f-935e-ddbf5a91fed1")
+	)
+	(fp_line
+		(start 5.25 -1.75)
+		(end 5.25 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd9b9950-a488-4153-8b55-f9a834640c3f")
+	)
+	(fp_line
+		(start 5.25 1.75)
+		(end 4.25 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4eb5f044-854f-43c9-a8f0-005ba0beee0a")
+	)
+	(fp_line
+		(start -4 -2)
+		(end -3 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5d791afe-d5e8-4e11-8827-6a48bde98ef3")
+	)
+	(fp_line
+		(start -4 3)
+		(end -4 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de2c9602-8228-4197-8829-1cdb65228554")
+	)
+	(fp_line
+		(start -3 -3)
+		(end 4 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7d3d523-dad9-4a63-abb4-cd82ea751aa8")
+	)
+	(fp_line
+		(start 4 -3)
+		(end 4 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fefda824-ca28-467d-bccb-7deb171b21af")
+	)
+	(fp_line
+		(start 4 3)
+		(end -4 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb6d09af-25e1-447c-aa8a-8aa836fbff28")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b338249a-800d-4cfd-b9f8-22e57a0a0913")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.75 0)
+		(size 2.5 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "96e3f881-26fa-4d42-bf1f-3da5ccb4cec6")
+	)
+	(pad "2" smd roundrect
+		(at 3.75 0)
+		(size 2.5 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "13fea49b-0e82-4e68-be5e-5b71a5effb98")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Varistor.3dshapes/Varistor_Panasonic_VF.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

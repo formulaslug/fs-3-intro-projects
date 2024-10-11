@@ -1,0 +1,135 @@
+(footprint "Symbol_CC-Attribution_CopperTop_Big"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Creative Commons symbol, CC-BY, copper layer, 10mm")
+	(tags "attribution license graphic")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5c989c49-8c27-4303-8401-37138eccb2ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Symbol_CC-Attribution_CopperTop_Big"
+		(at 0 6.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b266199e-9644-4c5f-beae-13f503237dcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Symbol_CC-Attribution_CopperTop_Big"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0ff3045-bc40-4dcf-8908-253f50929d6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8159374f-68d0-4be5-9212-81ff537561a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a858f180-da7f-4a08-b808-74762ec232f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_rect
+		(start -1.6 0.4)
+		(end 1.6 0.8)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "79bee8de-2591-4415-aab4-922cb5f3d519")
+	)
+	(fp_rect
+		(start -1.2 -1.6)
+		(end 1.2 0.4)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "97569704-ae11-4d7e-b8f1-65a2e314a9cf")
+	)
+	(fp_rect
+		(start -0.9 0)
+		(end 0.9 3.7)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "4b67d64d-d0ac-454d-9074-abdc585a35db")
+	)
+	(fp_circle
+		(center 0 -3.175)
+		(end 0.7 -3.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "bf2938dc-9f44-4ed4-a6a2-c2b83b47d4c9")
+	)
+	(fp_circle
+		(center 0 -1.59)
+		(end 0.322025 -1.59)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "33702ce6-87d7-42b6-90d6-0bf1ede85e75")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.8)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Cu")
+		(uuid "f1ea570d-b347-4908-8317-40d4bad4dd77")
+	)
+)

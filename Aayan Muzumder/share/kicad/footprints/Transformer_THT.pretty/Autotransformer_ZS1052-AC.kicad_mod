@@ -1,0 +1,314 @@
+(footprint "Autotransformer_ZS1052-AC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Ignition coil for xenon flash, http://www.excelitas.com/downloads/ZS1052ACH.pdf")
+	(tags "ignition coil autotransformer")
+	(property "Reference" "REF**"
+		(at 19 3.77 90)
+		(layer "F.SilkS")
+		(uuid "889db86f-6546-4184-86e6-34cefd5a3e2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Autotransformer_ZS1052-AC"
+		(at 10 7.5 0)
+		(layer "F.Fab")
+		(uuid "d5d12cec-894b-423a-bc56-780b98e6a1d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6729a602-caa8-4775-8542-3b4d72ab6d40")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a69aea55-ca58-4c4e-93f1-f2d5d862c64e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e1a69c6-327a-4b87-bdc9-3dc697f958f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.8 5)
+		(end 1.9 5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "272deb18-a0ed-45d0-a5b2-48d46a5357bc")
+	)
+	(fp_line
+		(start 0.9 0)
+		(end 1.9 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f57ea826-dc5d-42c4-9903-bbbfc5ac458f")
+	)
+	(fp_line
+		(start 1.9 -1.6)
+		(end 1.9 6.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9dac5537-775d-4206-97e7-989e02a7956c")
+	)
+	(fp_line
+		(start 1.9 6.6)
+		(end 18.1 6.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cff0db3a-1d6c-4abb-af01-8069fa6d3ae2")
+	)
+	(fp_line
+		(start 18.1 -1.6)
+		(end 1.9 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0abcf0f-2b33-44c1-b4f7-020497d420b2")
+	)
+	(fp_line
+		(start 18.1 6.6)
+		(end 18.1 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c529861c-4344-44ef-9023-b8fba324378f")
+	)
+	(fp_line
+		(start 19.2 0)
+		(end 18.1 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0db38538-8a38-4638-83d8-50c288f4d2f5")
+	)
+	(fp_arc
+		(start 0 -0.9)
+		(mid 0.9 0)
+		(end 0 0.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a78b1e71-90f5-48d9-acac-272f50639929")
+	)
+	(fp_line
+		(start -0.85 -1.85)
+		(end -0.85 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5808a683-1388-49fd-9c39-34865f771bb7")
+	)
+	(fp_line
+		(start -0.85 6.85)
+		(end 20.85 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0779da2b-1ca7-445e-a233-de364417399e")
+	)
+	(fp_line
+		(start 20.85 -1.85)
+		(end -0.85 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b3c6700-324a-464c-aeb5-57b122f66d04")
+	)
+	(fp_line
+		(start 20.85 6.85)
+		(end 20.85 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "16e9f427-fc6b-4ff5-9714-c555ae450245")
+	)
+	(fp_line
+		(start 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2dbcb95f-f868-459b-9ea2-04a67d0f06f9")
+	)
+	(fp_line
+		(start 0 5)
+		(end 2 5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6cae2b4-98f0-4a42-bd16-58cda9068660")
+	)
+	(fp_line
+		(start 2 -0.5)
+		(end 2 6.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a744c6c2-38cc-44fb-b68d-2521c79ed8d3")
+	)
+	(fp_line
+		(start 2 -0.5)
+		(end 3 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33c822a9-eb26-4247-9da8-3ab57a83253c")
+	)
+	(fp_line
+		(start 2 6.5)
+		(end 18 6.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cb586dd-cff2-4195-a074-2950be2d3ee0")
+	)
+	(fp_line
+		(start 18 -1.5)
+		(end 3 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d384fe0-5aef-427f-a166-6bb4e2ceb33a")
+	)
+	(fp_line
+		(start 18 6.5)
+		(end 18 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2fec914b-9f1f-42c1-ab30-6415a53d3ac7")
+	)
+	(fp_line
+		(start 20 0)
+		(end 18 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0bdcbc81-078a-45f5-8955-fa04c872af4c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10 2.5 0)
+		(layer "F.Fab")
+		(uuid "0848610c-3d47-491c-8e05-7900cc7b4b3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 270)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6ef83382-67af-415c-b86b-00f106582724")
+	)
+	(pad "2" thru_hole circle
+		(at 20 0 270)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ed38596-a81b-4abd-a920-dbae37871965")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5 270)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1dec099a-0ea9-4b80-a4ff-bc1db26b3bd9")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Transformer_THT.3dshapes/Autotransformer_ZS1052-AC.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

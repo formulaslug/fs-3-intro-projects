@@ -1,0 +1,337 @@
+(footprint "Lightpipe_LPF-C013301S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://www.lumex.com/spec/LPF-C013301S.pdf")
+	(tags "lightpipe triple tower right angle 3mm")
+	(property "Reference" "REF**"
+		(at -4.5 9.3 -90)
+		(layer "F.SilkS")
+		(uuid "697eec27-7cec-44b1-9092-fa8179cece29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Lightpipe_LPF-C013301S"
+		(at 2.6 8.2 -90)
+		(layer "F.Fab")
+		(uuid "0197dea7-2c08-4af2-9653-583e489a3485")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65111512-c6ff-4f0e-b092-532df6073743")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2600123-9450-4414-b628-bf0c37f60dc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3acab1cd-b7b2-4ddb-b779-158ca42ced8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_rect
+		(start -3.4 -0.15)
+		(end 3.4 17.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "92a20b96-7a61-4d91-ab3a-68dbbabda22f")
+	)
+	(fp_line
+		(start 0 3.85)
+		(end 0 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8f3846c3-84f9-496b-be02-0f11fa326ce3")
+	)
+	(fp_line
+		(start 0 9.9)
+		(end 0 7.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4ed7524e-b21a-41a4-a087-15cd216864f5")
+	)
+	(fp_line
+		(start 0 15.95)
+		(end 0 13.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "dc5f9d47-fd12-4078-a7f7-105e8c5337a4")
+	)
+	(fp_line
+		(start 1 2.85)
+		(end -1 2.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0feda9a4-bd27-4d2d-93a4-b039ae6fc511")
+	)
+	(fp_line
+		(start 1 8.9)
+		(end -1 8.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8c89d05b-752a-4fbb-8783-bc103fcc511c")
+	)
+	(fp_line
+		(start 1 14.95)
+		(end -1 14.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "90bd8114-6378-410e-8b4f-8d53478dd1da")
+	)
+	(fp_circle
+		(center 0 2.85)
+		(end 1 2.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "829c81f8-2ad5-487a-bc3b-4fae13d1ac63")
+	)
+	(fp_circle
+		(center 0 8.9)
+		(end 1 8.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "9a6f86fe-976b-41ae-8267-301e89ce5e17")
+	)
+	(fp_circle
+		(center 0 14.95)
+		(end 1 14.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "83f787a0-e184-462c-a53f-6070e3a2d009")
+	)
+	(fp_line
+		(start -3.5 -0.25)
+		(end 3.5 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "05d2e28c-fddc-498b-8b3f-1b20e68b256d")
+	)
+	(fp_line
+		(start -3.5 18.05)
+		(end -3.5 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "19b47e18-10dd-4195-8d7e-2fb4bc401897")
+	)
+	(fp_line
+		(start 3.5 -0.25)
+		(end 3.5 18.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "375c3f41-c032-43a5-805e-cd945afdc8d2")
+	)
+	(fp_line
+		(start 3.5 18.05)
+		(end -3.5 18.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a102959-84c0-4025-b7f6-ac6ddc132426")
+	)
+	(fp_line
+		(start -3.25 17.8)
+		(end -3.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08ece67e-398e-46f9-b0b2-64414b2cf576")
+	)
+	(fp_line
+		(start -1.8 17.8)
+		(end -1.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e7dba74-5bf6-4910-99c5-c228a9d57e3f")
+	)
+	(fp_line
+		(start -1.5 -4)
+		(end -1.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7db49145-19aa-43bf-9587-0dce212616a2")
+	)
+	(fp_line
+		(start 1.5 -4)
+		(end -1.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36a7870c-d9c4-4986-b89c-d6032be5d356")
+	)
+	(fp_line
+		(start 1.5 0)
+		(end 1.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e86bfe9-878d-42e2-83a0-24ca2cd6b804")
+	)
+	(fp_line
+		(start 1.8 17.8)
+		(end 1.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "374b17f6-3490-4a43-92c5-8dc6127013e5")
+	)
+	(fp_line
+		(start 3.25 0)
+		(end -3.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7b4aedc-b397-42cd-bcc1-bc684362f2d0")
+	)
+	(fp_line
+		(start 3.25 17.8)
+		(end -3.25 17.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a34f1da5-27f3-41d8-b167-0e38c1299db8")
+	)
+	(fp_line
+		(start 3.25 17.8)
+		(end 3.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4b62cda-f159-41ac-8319-1437bd1f6ba4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.5 9.3 90)
+		(layer "F.Fab")
+		(uuid "c82913cd-3fcf-43d8-93ba-10e85a779635")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.6 0.7 180)
+		(size 1.25 1.25)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a12d2aad-e557-461e-bb72-dc15f26deac3")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.6 17.1 180)
+		(size 1.25 1.25)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d66c0449-cfea-449c-992e-f9763261b0fa")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Lightpipe_LPF-C013301S.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

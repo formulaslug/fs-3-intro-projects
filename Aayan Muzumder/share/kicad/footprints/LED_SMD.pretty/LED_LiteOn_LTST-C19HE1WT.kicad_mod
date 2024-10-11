@@ -1,0 +1,223 @@
+(footprint "LED_LiteOn_LTST-C19HE1WT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LiteOn RGB LED; https://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf")
+	(tags "LED RGB Chip SMD")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "3d4770ad-fa16-4381-b393-1d0e380b591b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_LiteOn_LTST-C19HE1WT"
+		(at 0 1.6 0)
+		(layer "F.Fab")
+		(uuid "89484cab-8560-4673-b368-9a067dd7b65d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a2fc817-fe22-4711-941e-4f077f96e352")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d744bb62-12ca-4704-b403-a28d09f72528")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3a0ceb2-d0bd-4876-b282-0b1d3ce4b2f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.95 -0.35)
+		(end -0.95 0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f240baf-4534-400d-a988-11cf7c0f273c")
+	)
+	(fp_line
+		(start 0.95 -0.8)
+		(end 0.95 0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2eb1e67d-ec7a-44fb-b574-5c0d83bc8779")
+	)
+	(fp_line
+		(start -1.05 -1.4)
+		(end 1.05 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "892dbf40-9fb0-48c0-9818-2eed33c68dd4")
+	)
+	(fp_line
+		(start -1.05 1.4)
+		(end -1.05 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95d635fd-8516-425d-ac9f-a582e8f55546")
+	)
+	(fp_line
+		(start 1.05 -1.4)
+		(end 1.05 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7fcb997d-2c34-4615-a806-9f82bca29fdb")
+	)
+	(fp_line
+		(start 1.05 1.4)
+		(end -1.05 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4256a4c-30b1-4920-9e4f-26d31d1a96fd")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end -0.8 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6228feda-c03c-4e9c-9d21-4b3025454adf")
+	)
+	(fp_line
+		(start -0.8 0.8)
+		(end 0.8 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d58f7e56-79fd-42cb-9337-7ca7fe153e5a")
+	)
+	(fp_line
+		(start -0.4 -0.8)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b64ce876-339a-4a86-a12b-4c4deacb493d")
+	)
+	(fp_line
+		(start 0.8 -0.8)
+		(end -0.4 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "335eac3d-3b3a-4347-a90b-3d7dca95dd9b")
+	)
+	(fp_line
+		(start 0.8 0.8)
+		(end 0.8 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfa4af6a-fd0b-4665-a763-668dbfa69fa2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "20fa7d49-d239-4992-91ad-6f3918969adc")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.425 -0.725)
+		(size 0.65 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fbd6e93c-48b9-4642-bb46-7200d6ab8306")
+	)
+	(pad "2" smd rect
+		(at 0.425 -0.725)
+		(size 0.65 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e55cdb9d-3284-4978-a1a3-be6e686b2e6f")
+	)
+	(pad "3" smd rect
+		(at 0.425 0.725)
+		(size 0.65 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ad3514ea-4ef8-4b5f-a2c5-ec24809aa761")
+	)
+	(pad "4" smd rect
+		(at -0.425 0.725)
+		(size 0.65 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3f1298c8-8458-4b0c-8158-9562de729d2a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_LiteOn_LTST-C19HE1WT.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

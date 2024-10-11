@@ -1,0 +1,221 @@
+(footprint "Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal MicroCrystal CC7V-T1A/CM7V-T1A series http://www.microcrystal.com/images/_Product-Documentation/01_TF_ceramic_Packages/01_Datasheet/CC1V-T1A.pdf, hand-soldering, 3.2x1.5mm^2 package")
+	(tags "SMD SMT crystal hand-soldering")
+	(property "Reference" "REF**"
+		(at 0 -1.95 0)
+		(layer "F.SilkS")
+		(uuid "0ad3e90b-4c81-4a12-8f00-12efec55becf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "b8e6a705-774b-4690-8d6b-ef688774ef25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57768c06-3b22-4304-aa81-9be83b5064f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1f36da0-5ba6-4418-8df6-9844a97585cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f265c31f-7a10-41dc-8593-8cc1b7c79351")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.7 -0.9)
+		(end -2.7 0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40556dcd-f10c-41fd-a5b6-98584c290f2b")
+	)
+	(fp_line
+		(start -0.55 -0.95)
+		(end 0.55 -0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f490b90e-f366-4696-b027-a01924e2f7c5")
+	)
+	(fp_line
+		(start -0.55 0.95)
+		(end 0.55 0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "857b1b5b-a2f9-410e-9063-e6e2a6f32fdc")
+	)
+	(fp_line
+		(start -2.8 -1.2)
+		(end -2.8 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9c97a9b-8d73-4bfb-bd22-4dfed81d8845")
+	)
+	(fp_line
+		(start -2.8 1.2)
+		(end 2.8 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df10744e-54d6-424b-8965-a48582290acc")
+	)
+	(fp_line
+		(start 2.8 -1.2)
+		(end -2.8 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "79b69fb7-809e-42f1-b900-86748cbc214f")
+	)
+	(fp_line
+		(start 2.8 1.2)
+		(end 2.8 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1810ba2e-2761-4af7-b83d-19c1c4d14bdc")
+	)
+	(fp_line
+		(start -1.6 -0.75)
+		(end -1.6 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d822cff-c432-49dd-895b-3f3daef83269")
+	)
+	(fp_line
+		(start -1.6 0.25)
+		(end -1.1 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf761b58-e268-4164-a961-8387d17f3896")
+	)
+	(fp_line
+		(start -1.6 0.75)
+		(end 1.6 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bdd3e9e3-b08d-420b-82cf-4eb6c104e425")
+	)
+	(fp_line
+		(start 1.6 -0.75)
+		(end -1.6 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23f3eb31-002a-4f10-b86a-f1f0521aeee4")
+	)
+	(fp_line
+		(start 1.6 0.75)
+		(end 1.6 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d99a0f3-377e-4a08-ae7d-8c4d635b88ad")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "473ee6e0-4113-4ca0-a375-a6a289fe8a1a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.625 0)
+		(size 1.75 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d6191131-97f0-4fb3-9c8b-3fee20018b3b")
+	)
+	(pad "2" smd rect
+		(at 1.625 0)
+		(size 1.75 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0688d147-925b-48f7-b5d4-206db763d627")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

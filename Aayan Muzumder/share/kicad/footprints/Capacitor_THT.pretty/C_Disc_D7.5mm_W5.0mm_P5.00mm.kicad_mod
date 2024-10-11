@@ -1,0 +1,225 @@
+(footprint "C_Disc_D7.5mm_W5.0mm_P5.00mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
+	(tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
+	(property "Reference" "REF**"
+		(at 2.5 -3.75 0)
+		(layer "F.SilkS")
+		(uuid "fcb81aef-c3e9-4231-a858-eee4305d54d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(at 2.5 3.75 0)
+		(layer "F.Fab")
+		(uuid "7a0e190c-726f-4707-a437-967474cd4286")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03e62bbb-a841-4162-9968-a751259ef2c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec028752-49d9-443b-97df-db2e51bbf296")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73e66b18-71f3-41dd-a216-277359da968e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.37 -2.62)
+		(end -1.37 2.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73ab8aae-391b-41af-a614-1de76267b4cc")
+	)
+	(fp_line
+		(start -1.37 -2.62)
+		(end 6.37 -2.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d27f59c-c4dc-47d6-9493-906d2a77d9ce")
+	)
+	(fp_line
+		(start -1.37 2.62)
+		(end 6.37 2.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52a230e8-536b-454c-b5fa-af89b85fec42")
+	)
+	(fp_line
+		(start 6.37 -2.62)
+		(end 6.37 2.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3178c63-cc72-4346-9839-e7d8bdede3c4")
+	)
+	(fp_line
+		(start -1.5 -2.75)
+		(end -1.5 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3cf0fc03-78ec-4e1e-ac0d-b9c15ce5dfb0")
+	)
+	(fp_line
+		(start -1.5 2.75)
+		(end 6.5 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "690e60f8-65cf-41e0-9b5a-ce4df0d5dc32")
+	)
+	(fp_line
+		(start 6.5 -2.75)
+		(end -1.5 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aba7c762-3f9e-4720-bd4f-55eaffb8015a")
+	)
+	(fp_line
+		(start 6.5 2.75)
+		(end 6.5 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4547fc02-0f0b-43c1-80c3-af662efddff4")
+	)
+	(fp_line
+		(start -1.25 -2.5)
+		(end -1.25 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3d2878a-5f3f-4806-8454-ddd3d643b1b1")
+	)
+	(fp_line
+		(start -1.25 2.5)
+		(end 6.25 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bac0f15f-c071-43ad-9abf-ab858a7c76af")
+	)
+	(fp_line
+		(start 6.25 -2.5)
+		(end -1.25 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad2bd237-e59a-4284-8f1d-ac26e8bccb56")
+	)
+	(fp_line
+		(start 6.25 2.5)
+		(end 6.25 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8cc8ee54-9e4a-4385-871b-250cb218b46e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "8ab3ec1b-1549-4616-a7b0-82a10da54ebd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef6af573-eee9-43b7-b323-b410a7c72dbc")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "188ec318-f320-47cb-b5ce-f7609262d4ab")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D7.5mm_W5.0mm_P5.00mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

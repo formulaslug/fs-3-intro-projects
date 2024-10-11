@@ -1,0 +1,295 @@
+(footprint "Samtec_HPM-07-05-x-S_Straight_1x07_Pitch5.08mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight Samtec HPM power header series 3.81mm post length, 1x07, 5.08mm pitch, single row")
+	(tags "Through hole Samtec HPM power header series 3.81mm post length THT 1x07 5.08mm single row")
+	(property "Reference" "REF**"
+		(at 0 -3.65 0)
+		(layer "F.SilkS")
+		(uuid "81077cd7-9ab2-4385-81b8-b41701561b2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Samtec_HPM-07-05-x-S_Straight_1x07_Pitch5.08mm"
+		(at 0 34.13 0)
+		(layer "F.Fab")
+		(uuid "94c4a0f5-60bc-42bb-b88f-135c3e377ab2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3c0a15b-f1b1-48b8-8e76-cbc979cf3e6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a70a9326-4e56-4121-8eb3-609b6032e759")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39e70858-1534-4be3-82c6-6309fc027848")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.285 -2.65)
+		(end 0 -2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "302eef37-3b69-453a-8c21-c5a5fa5616d2")
+	)
+	(fp_line
+		(start -3.285 0)
+		(end -3.285 -2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a9ff20e-82b4-4824-bcba-e5b99dc8ea63")
+	)
+	(fp_line
+		(start -3.285 2.54)
+		(end -3.285 33.13)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84609145-9666-4777-81be-3b5bb672f583")
+	)
+	(fp_line
+		(start -3.285 2.54)
+		(end 3.285 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bfebcece-0f66-4b56-8a21-a3bbae9b18d3")
+	)
+	(fp_line
+		(start -3.285 33.13)
+		(end 3.285 33.13)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0e3ec94-879a-4605-8c03-65adf9dda86f")
+	)
+	(fp_line
+		(start 3.285 2.54)
+		(end 3.285 33.13)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "443a5dec-cc48-42a2-a24f-5ada943101a1")
+	)
+	(fp_line
+		(start -3.68 -3.05)
+		(end -3.68 33.53)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85c638de-e533-40f9-a23f-ccf435ab2a18")
+	)
+	(fp_line
+		(start -3.68 33.53)
+		(end 3.68 33.53)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a97e81d5-2280-4d2c-9fc4-5977b482ebaa")
+	)
+	(fp_line
+		(start 3.68 -3.05)
+		(end -3.68 -3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b699c4e-f35e-4913-9bcb-879604038a67")
+	)
+	(fp_line
+		(start 3.68 33.53)
+		(end 3.68 -3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "904d04e5-c98f-43be-808f-193aabb2b5af")
+	)
+	(fp_line
+		(start -3.175 -0.9525)
+		(end -1.5875 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "817d1826-f80b-4c7e-b08a-e2a94613e96b")
+	)
+	(fp_line
+		(start -3.175 33.02)
+		(end -3.175 -0.9525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76112176-e9e4-4044-9197-6c23352fc976")
+	)
+	(fp_line
+		(start -1.5875 -2.54)
+		(end 3.175 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22cd4c45-f151-4e1a-aff7-4466eb58e4a0")
+	)
+	(fp_line
+		(start 3.175 -2.54)
+		(end 3.175 33.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd835774-4c93-4f70-b51a-aead36315626")
+	)
+	(fp_line
+		(start 3.175 33.02)
+		(end -3.175 33.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39bc3b49-1cb2-48db-adc6-959901fdf518")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 15.24 90)
+		(layer "F.Fab")
+		(uuid "733da9ad-0ccd-4db6-8aae-fa14020e3c1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.8 2.8)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "906ce74c-a342-4098-a375-8a2f36cbbaf2")
+	)
+	(pad "2" thru_hole circle
+		(at 0 5.08)
+		(size 2.8 2.8)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3023ea3c-ac23-4448-ac7f-12407e88861a")
+	)
+	(pad "3" thru_hole circle
+		(at 0 10.16)
+		(size 2.8 2.8)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9e3b82ec-a89f-4355-a6ed-c08a85140489")
+	)
+	(pad "4" thru_hole circle
+		(at 0 15.24)
+		(size 2.8 2.8)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec5c36c5-8e8c-45e1-a82d-c5919bf3cfcb")
+	)
+	(pad "5" thru_hole circle
+		(at 0 20.32)
+		(size 2.8 2.8)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "baad5d24-57b1-434a-b0c5-a3fb3d3e7795")
+	)
+	(pad "6" thru_hole circle
+		(at 0 25.4)
+		(size 2.8 2.8)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "12610787-3b03-47ab-ae47-326145a493a4")
+	)
+	(pad "7" thru_hole circle
+		(at 0 30.48)
+		(size 2.8 2.8)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d0a7bb5-7ae2-4d99-bf03-6268310286b0")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Samtec_HPM_THT.3dshapes/Samtec_HPM-07-05-x-S_Straight_1x07_Pitch5.08mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

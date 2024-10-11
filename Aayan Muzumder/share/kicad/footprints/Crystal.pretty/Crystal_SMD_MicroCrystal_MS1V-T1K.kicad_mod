@@ -1,0 +1,297 @@
+(footprint "Crystal_SMD_MicroCrystal_MS1V-T1K"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Watch Crystal MicroCrystal MS1V-T1K 6.1mm length 2.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/MS1V-T1K.pdf")
+	(tags "['MS1V-T1K']")
+	(property "Reference" "REF**"
+		(at -3.02 -2.275 90)
+		(layer "F.SilkS")
+		(uuid "e1958908-ba3b-45bc-ba3c-16fa9c0621ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_MicroCrystal_MS1V-T1K"
+		(at 3.02 -2.275 90)
+		(layer "F.Fab")
+		(uuid "15299eaa-de0c-43a0-9b13-a9e65e0048c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75364e8d-c18a-4950-829d-71c735c59d3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38cb1be6-f2e7-43e6-aea8-e68e76a5ef6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89b9bab6-dd14-4ac0-b630-af1b1d6fd26d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 -2.1)
+		(end 1.7 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88da49d4-d018-41e7-9c8c-53e35f6251b3")
+	)
+	(fp_line
+		(start -1.7 1.6)
+		(end -1.7 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3bc25a9-871d-4c57-9e30-75359f497b04")
+	)
+	(fp_line
+		(start -1.27 -2.5)
+		(end -1.27 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bebf563-3888-4605-8e05-af0e4d310d85")
+	)
+	(fp_line
+		(start -0.5 -2.1)
+		(end -1.27 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69932516-1286-4dc9-8944-a3f99eca7674")
+	)
+	(fp_line
+		(start 0.5 -2.1)
+		(end 1.27 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eabd9fa9-e3aa-4f69-a6d8-52e8f9c99ac0")
+	)
+	(fp_line
+		(start 1.27 -2.5)
+		(end 1.27 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3073770e-c54c-47e0-8cb8-161ac6a04178")
+	)
+	(fp_line
+		(start 1.7 -2.1)
+		(end 1.7 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "616bb518-d1e4-41d9-9138-60a00439b3b7")
+	)
+	(fp_line
+		(start -2.1 -4.63)
+		(end -2.1 4.57)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ac3c9d4-d1e7-4404-8e73-31b434580398")
+	)
+	(fp_line
+		(start -2.1 4.57)
+		(end 2.1 4.57)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46288d1e-625a-47ab-975f-9396c051fd70")
+	)
+	(fp_line
+		(start 2.1 -4.63)
+		(end -2.1 -4.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "58600b9c-6f7d-42ef-870f-99437e574ff2")
+	)
+	(fp_line
+		(start 2.1 4.57)
+		(end 2.1 -4.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae6b8607-8731-495b-9b06-a77f8128ca03")
+	)
+	(fp_line
+		(start -1.27 -2.7)
+		(end -1.27 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6eb444a-2cf8-49cc-808b-0f84c511d2bb")
+	)
+	(fp_line
+		(start -1 -1.9)
+		(end -1 4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b390249c-a62e-46c6-a41c-7beb92337f13")
+	)
+	(fp_line
+		(start -1 4.2)
+		(end 1 4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c48becb2-e9c4-4437-b7b0-04b65ab7833a")
+	)
+	(fp_line
+		(start -0.5 -1.9)
+		(end -1.27 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26bf617f-c4b7-4daa-8ed3-eaa68199f007")
+	)
+	(fp_line
+		(start 0.5 -1.9)
+		(end 1.27 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf7bc62c-9f2a-437e-a7a0-7911dbcf6ca6")
+	)
+	(fp_line
+		(start 1 -1.9)
+		(end -1 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "341e0ac5-dbb3-4c98-9d8d-0e68dee378e3")
+	)
+	(fp_line
+		(start 1 4.2)
+		(end 1 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10849196-31db-42dc-88f0-b34c677b89b0")
+	)
+	(fp_line
+		(start 1.27 -2.7)
+		(end 1.27 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "577c2588-40d9-4130-8e3e-10619ebd69dd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.35 0)
+		(layer "F.Fab")
+		(uuid "0f4ab4e5-1832-43f4-8b32-6ae1b9cfa512")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.27 -3.5)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fe69f543-d3c1-4a5a-8725-5c426c7fd184")
+	)
+	(pad "2" smd rect
+		(at 1.27 -3.5)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "61e28808-8ba3-4e98-a65b-b0fdfe58e8bd")
+	)
+	(pad "3" smd rect
+		(at 0 3.05)
+		(size 3 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a32b98f6-f83a-4609-a3bc-6ea649a25586")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_MicroCrystal_MS1V-T1K.wrl"
+		(offset
+			(xyz 0 0.2249999962 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

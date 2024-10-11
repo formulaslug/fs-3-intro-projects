@@ -1,0 +1,253 @@
+(footprint "Filter_Murata_SFECF-6"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Type 10.7MHz Ceramic Filter https://www.murata.com/en-us/products/filter/cerafil/sfecf")
+	(tags "10.7MHz smd ceramic")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "368c3d49-e46b-495b-bb95-783ae11f183a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Filter_Murata_SFECF-6"
+		(at 0 2.48 0)
+		(layer "F.Fab")
+		(uuid "936a19f5-3004-4c32-814b-e0d6c55596e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd0d2651-7bab-4668-8516-6fd10d9fea88")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "569de4cd-0b9e-4240-a176-c75acb5ecf5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4472140f-e332-4ebb-8f7e-e8f427f666a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.01 1.73)
+		(end -2.01 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8063c927-ad5a-4441-b25c-771242edd78d")
+	)
+	(fp_line
+		(start 2.01 1.73)
+		(end 2.01 -1.73)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05bc58ba-a98c-4078-b403-9d33e578761f")
+	)
+	(fp_poly
+		(pts
+			(xy -2.01 -1.43) (xy -2.29 -1.43) (xy -2.01 -1.71) (xy -2.01 -1.43)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "0fd75058-cc19-499b-9e33-fb677e80e410")
+	)
+	(fp_line
+		(start -2 -2.05)
+		(end -2 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe111254-0da1-4473-b29b-7a8e76149ce6")
+	)
+	(fp_line
+		(start -2 2.05)
+		(end 2 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a289768a-e4f2-4d6f-a6c7-c2dc866dd7c2")
+	)
+	(fp_line
+		(start 2 -2.05)
+		(end -2 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dfabc89f-d92c-414d-a6be-792de32b0cf5")
+	)
+	(fp_line
+		(start 2 -2.05)
+		(end 2 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15aacb63-02d1-46ce-9190-2df4c7d894db")
+	)
+	(fp_line
+		(start -1.55 -0.9)
+		(end -1.55 1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "289be63e-88c6-494f-aabe-9dd6c1085c41")
+	)
+	(fp_line
+		(start -1.55 1.725)
+		(end 1.55 1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35533659-5449-41c1-a510-7cb2387d8df1")
+	)
+	(fp_line
+		(start -0.8 -1.725)
+		(end -1.55 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff3a1215-462b-447a-8ca5-189f504fabe6")
+	)
+	(fp_line
+		(start 1.55 -1.725)
+		(end -0.8 -1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9907013c-b8f8-4303-aabd-fc8d4aca144d")
+	)
+	(fp_line
+		(start 1.55 -1.725)
+		(end 1.55 1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc1efbd4-9b13-4785-ab52-dea16024ceca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "b39735b9-9810-4692-8098-612280489d20")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.225 -1.4)
+		(size 1.05 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.0625)
+		(uuid "1b7ee876-063c-4055-94c6-18ccda241115")
+	)
+	(pad "2" smd roundrect
+		(at -1.225 0)
+		(size 1.05 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.0625)
+		(uuid "2f84c5db-2347-44de-aa10-c1397e15ee7c")
+	)
+	(pad "3" smd roundrect
+		(at -1.225 1.4)
+		(size 1.05 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.0625)
+		(uuid "8a44e0d1-6734-465b-8fe1-a711acabaf5d")
+	)
+	(pad "4" smd roundrect
+		(at 1.225 1.4)
+		(size 1.05 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.0625)
+		(uuid "1a9eeaab-2862-4c26-a40f-6f08669f946c")
+	)
+	(pad "5" smd roundrect
+		(at 1.225 0)
+		(size 1.05 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.0625)
+		(uuid "c221fa04-560e-41e7-bdc2-3f674dd1ece6")
+	)
+	(pad "6" smd roundrect
+		(at 1.225 -1.4)
+		(size 1.05 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.0625)
+		(uuid "0a686345-39c8-4cbc-ac83-b8a133847bf8")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Filter.3dshapes/Filter_Murata_SFECF-6.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

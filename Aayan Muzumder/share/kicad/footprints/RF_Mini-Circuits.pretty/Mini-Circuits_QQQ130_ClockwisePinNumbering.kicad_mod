@@ -1,0 +1,257 @@
+(footprint "Mini-Circuits_QQQ130_ClockwisePinNumbering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Footprint for Mini-Circuits case QQQ130 (https://ww2.minicircuits.com/case_style/QQQ130.pdf)")
+	(tags "Mini-Circuits QQQ130")
+	(property "Reference" "REF**"
+		(at -5.207 0 90)
+		(layer "F.SilkS")
+		(uuid "2c191b5e-df7c-43a0-a5a0-a63ca5cbf7c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mini-Circuits_QQQ130_ClockwisePinNumbering"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "d791a13e-b600-4998-ac3d-7c35344f9310")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e7ee3cc-de47-4165-b459-2036c9642807")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f538b07-2e26-4fa1-940a-64377db0e214")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d38ad30-c762-44d1-992c-550e0df892c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.191 -3.81)
+		(end -4.191 3.302)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2519b6b1-a6e6-467d-9fa8-90a55fc4210b")
+	)
+	(fp_line
+		(start -3.57 -3.81)
+		(end -4.191 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2c82242-d8a1-4c6a-822a-9786c9355e6f")
+	)
+	(fp_line
+		(start 4.191 -3.302)
+		(end 4.191 3.302)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfc7c676-b241-4bf3-a0a9-bdab63454143")
+	)
+	(fp_poly
+		(pts
+			(xy -3.57 -4.572) (xy -3.906 -4.332) (xy -3.906 -4.812) (xy -3.57 -4.572)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "0896e7c0-4207-447c-a2e2-cf13ef0927d6")
+	)
+	(fp_line
+		(start -4.19 5.58)
+		(end -4.19 -5.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "de8a0ec7-8fcb-430e-8e95-9f08cd7b745d")
+	)
+	(fp_line
+		(start -4.19 5.58)
+		(end 4.19 5.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd2932ce-1e89-45f4-9db7-c5d61d905319")
+	)
+	(fp_line
+		(start 4.19 -5.58)
+		(end -4.19 -5.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b121bc2-a811-4c77-a050-c83b4e380334")
+	)
+	(fp_line
+		(start 4.19 -5.58)
+		(end 4.19 5.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df648cfc-c562-4d1b-90a8-f8903ba1e0d9")
+	)
+	(fp_line
+		(start -3.937 3.302)
+		(end -3.937 -2.032)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "beaf46f3-e8cd-40c9-ba76-b86ecd3ecde8")
+	)
+	(fp_line
+		(start -3.937 3.302)
+		(end 3.937 3.302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0c5edcc-472f-4f75-82f6-880f1bd5b8e0")
+	)
+	(fp_line
+		(start -2.667 -3.302)
+		(end -3.937 -2.032)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67270745-30a1-444d-8bba-5384c8fea694")
+	)
+	(fp_line
+		(start 3.937 -3.302)
+		(end -2.667 -3.302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e79a7f7-d747-48d0-b620-7b5c33f85f92")
+	)
+	(fp_line
+		(start 3.937 -3.302)
+		(end 3.937 3.302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db861264-59c7-4ae6-9444-591927e289e1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "99f82c4c-8205-4188-9a37-ec7cf769e308")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 -3.81)
+		(size 1.524 3.048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1ab72782-6ca2-4ee0-99ab-77de2ea571f6")
+	)
+	(pad "2" smd rect
+		(at 0 -3.81)
+		(size 1.524 3.048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ce89bf1e-10d8-407c-8d32-d7fd3ce31117")
+	)
+	(pad "3" smd rect
+		(at 2.54 -3.81)
+		(size 1.524 3.048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e516f0a2-5919-4879-bacc-bd4a7cce7c2d")
+	)
+	(pad "4" smd rect
+		(at 2.54 3.81)
+		(size 1.524 3.048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "64d05470-b9da-45f2-97a4-8222e735e98c")
+	)
+	(pad "5" smd rect
+		(at 0 3.81)
+		(size 1.524 3.048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f2da6759-bcc8-40c4-b6c1-4dbf230f5c3b")
+	)
+	(pad "6" smd rect
+		(at -2.54 3.81)
+		(size 1.524 3.048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b6868618-520f-43f3-a0f1-54a63c92d470")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_QQQ130.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

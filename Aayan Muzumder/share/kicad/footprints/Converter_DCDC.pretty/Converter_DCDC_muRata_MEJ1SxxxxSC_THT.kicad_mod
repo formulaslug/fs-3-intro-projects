@@ -1,0 +1,271 @@
+(footprint "Converter_DCDC_muRata_MEJ1SxxxxSC_THT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "muRata MEJ1SxxxxSC, 19.5x9.8x12.5mm, 5.2kVDC Isolated, 1W, single output, SIP package style, https://power.murata.com/data/power/ncl/kdc_mej1.pdf")
+	(tags "muRata MEJ1S DCDC-Converter")
+	(property "Reference" "REF**"
+		(at 7.86 -3.72 180)
+		(layer "F.SilkS")
+		(uuid "2a88b91c-ed2e-4d9c-a054-5befb5f432d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_muRata_MEJ1SxxxxSC_THT"
+		(at 7.5 8.7 0)
+		(layer "F.Fab")
+		(uuid "b933db4d-84c0-4ae4-bebc-aa31eecdba4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ee323d3-0826-4a5e-ba81-39c2a1a3e3d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b652fb2-0147-4e4e-9141-b864d9fd5b1f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "723dcf80-95ba-43a7-aeba-7f68dab60205")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.43 -2.97)
+		(end -2.43 -1.74)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6ce3e6f-6e60-4a49-80e8-f9f42b3e2720")
+	)
+	(fp_line
+		(start -2.43 -2.97)
+		(end -0.4 -2.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5950d49b-5ec6-4e4e-9e65-15e43c06e612")
+	)
+	(fp_line
+		(start -2.23 -2.77)
+		(end -2.23 7.23)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d1a0345-f74e-4df3-b05f-b3189b9ad5bc")
+	)
+	(fp_line
+		(start -2.23 7.23)
+		(end 17.47 7.23)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13998993-02f0-4fa1-9633-11b620dd879f")
+	)
+	(fp_line
+		(start 17.47 -2.77)
+		(end -2.23 -2.77)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3ab0382-25c9-4581-963d-5b18a120594e")
+	)
+	(fp_line
+		(start 17.47 7.23)
+		(end 17.47 -2.77)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "affd165c-d7f5-4548-b3f1-5c1f64eb54e6")
+	)
+	(fp_line
+		(start -2.38 -2.92)
+		(end -2.38 7.38)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "735478f0-91f6-4a45-9d06-9328219087b0")
+	)
+	(fp_line
+		(start 17.62 -2.92)
+		(end -2.38 -2.92)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "44b09a82-0554-41ee-8f04-40bf6e998e0e")
+	)
+	(fp_line
+		(start 17.62 7.38)
+		(end -2.38 7.38)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f86110e-83e8-40b3-8c37-b6277dd768d8")
+	)
+	(fp_line
+		(start 17.62 7.38)
+		(end 17.62 -2.92)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1aee8a07-30f5-41a1-86cd-f5ce6a33dc2d")
+	)
+	(fp_line
+		(start -2.13 -1.67)
+		(end -2.13 7.13)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08ea0ad1-4569-486e-a2ea-8305df87f241")
+	)
+	(fp_line
+		(start -1.13 -2.67)
+		(end -2.13 -1.67)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a94f9a10-e55b-4135-855b-f8bf855756c1")
+	)
+	(fp_line
+		(start 17.37 -2.67)
+		(end -1.13 -2.67)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be38be16-1a40-4158-a4cb-1829b71f4483")
+	)
+	(fp_line
+		(start 17.37 -2.67)
+		(end 17.37 7.13)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "653328e5-47c0-4ff8-b0a5-37fc4923f823")
+	)
+	(fp_line
+		(start 17.37 7.13)
+		(end -2.13 7.13)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0954ebfe-7bbb-482a-bb5a-ee52bec4d317")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.62 2.23 180)
+		(layer "F.Fab")
+		(uuid "6afc7856-6a7d-4da9-824f-66ab9244abbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.75 1.75)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "005fd7e5-911e-40ce-9862-5161a57edfe8")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.75 1.75)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bbc0b510-d108-414c-9491-11d6ce3427a0")
+	)
+	(pad "5" thru_hole oval
+		(at 10.16 0)
+		(size 1.75 1.75)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e5750527-da37-4748-bb25-56d311d1ee9c")
+	)
+	(pad "7" thru_hole oval
+		(at 15.24 0)
+		(size 1.75 1.75)
+		(drill 1.075)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "780d0734-12e8-48f2-9f04-92157ad62990")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_muRata_MEJ1SxxxxSC_THT.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

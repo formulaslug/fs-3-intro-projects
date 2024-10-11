@@ -1,0 +1,367 @@
+(footprint "Relay_SPST_Schrack-RP-II-1-16A-FormA_RM5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Relay SPST Schrack-RP-II/1 RM5mm 16A 250V AC Form A http://image.schrack.com/datenblaetter/h_rp810012-b.pdf")
+	(tags "Relay SPST Schrack-RP-II/1 RM5mm 16A 250V AC Relay")
+	(property "Reference" "REF**"
+		(at 13.97 -3.81 0)
+		(layer "F.SilkS")
+		(uuid "6b3f1c5b-a992-48ae-a498-c6dc76e98a0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Relay_SPST_Schrack-RP-II-1-16A-FormA_RM5mm"
+		(at 12.192 11.43 0)
+		(layer "F.Fab")
+		(uuid "89123982-ea1f-455c-84c7-8d5986c78c88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "734db625-8d3b-408f-8aa3-ae79075652ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aed6b0e6-059f-4a30-a1af-d3991e53d2a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb9f161f-8144-40ec-ad79-ef54088c524a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -2.54)
+		(end 27.94 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39ebc174-8130-4a32-a5a6-0fc7b30889e5")
+	)
+	(fp_line
+		(start -2.54 10.16)
+		(end -2.54 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1ff28fd-66ef-4a32-82e2-7f429e2b4e44")
+	)
+	(fp_line
+		(start 2.54 0)
+		(end 3.81 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a32e4513-9da0-4a42-a7bd-129e1ee22fd5")
+	)
+	(fp_line
+		(start 2.54 1.27)
+		(end 3.81 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d072e03e-ddb2-46f6-a3d7-560b837d847a")
+	)
+	(fp_line
+		(start 2.54 2.54)
+		(end 5.08 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb1c63dd-78a4-426a-a25f-239d4b445c7d")
+	)
+	(fp_line
+		(start 2.54 6.35)
+		(end 2.54 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "909f24e7-9d75-4a3f-b378-c9eb8b0a72fe")
+	)
+	(fp_line
+		(start 3.81 0)
+		(end 3.81 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d016cad-2236-4846-a8a0-80887de191f1")
+	)
+	(fp_line
+		(start 3.81 1.27)
+		(end 5.08 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be8c1a0a-cfcf-49cb-86ee-924b947999bb")
+	)
+	(fp_line
+		(start 3.81 6.35)
+		(end 3.81 7.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0b15f0f-3917-4b1c-a36b-a20438ae67b2")
+	)
+	(fp_line
+		(start 3.81 7.62)
+		(end 2.54 7.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb1e3040-d568-4946-b157-3cc189d6260b")
+	)
+	(fp_line
+		(start 5.08 1.27)
+		(end 5.08 6.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a47d3990-cbe7-499c-ad5a-84558fb0eed7")
+	)
+	(fp_line
+		(start 5.08 6.35)
+		(end 2.54 6.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3c2b956-c671-4ba8-af8f-a5c71d906fa8")
+	)
+	(fp_line
+		(start 27.94 -2.54)
+		(end 27.94 10.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9d230fc-9aa2-456e-b2ac-3a1c1f255057")
+	)
+	(fp_line
+		(start 27.94 10.16)
+		(end -2.54 10.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddbfedb7-b7bb-423e-975a-9243606a6986")
+	)
+	(fp_line
+		(start -2.8 -2.78)
+		(end 28.2 -2.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "407f43bd-deda-456a-8d83-c0af2079ab97")
+	)
+	(fp_line
+		(start -2.8 10.42)
+		(end -2.8 -2.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ecbe8d2-5a90-462c-8be7-416f79245832")
+	)
+	(fp_line
+		(start 28.2 -2.78)
+		(end 28.2 10.42)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f02aeef3-d556-4760-a4b9-9de8a46e7d7d")
+	)
+	(fp_line
+		(start 28.2 10.42)
+		(end -2.8 10.42)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "19c6a5a9-23f9-4acb-a6bf-176b2b034bbd")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 27.5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "814fafb4-83f4-4b8f-9e4f-73618197bb01")
+	)
+	(fp_line
+		(start -2.5 10.1)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "022ab67b-0bb0-4a78-9dca-df1301a8df2a")
+	)
+	(fp_line
+		(start 0 1.8)
+		(end 0 5.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "098b6fc3-a5c3-4443-aba2-0e62f9745399")
+	)
+	(fp_line
+		(start 27.5 -2.5)
+		(end 27.5 10.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04483155-2199-4000-8a48-5a0990320b36")
+	)
+	(fp_line
+		(start 27.5 10.1)
+		(end -2.5 10.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b119769b-5857-493f-90cb-522927a9f15b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.065 3.81 0)
+		(layer "F.Fab")
+		(uuid "34c135ea-2b42-4940-a61b-92453dd085be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "11" thru_hole circle
+		(at 20.32 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "889d7cc3-e707-40d2-8848-7194e71583b5")
+	)
+	(pad "11" thru_hole circle
+		(at 20.32 7.62)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "acf5d752-45c9-488b-8b34-7f66a1c6240c")
+	)
+	(pad "14" thru_hole circle
+		(at 25.32 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "27182151-6d88-4938-8659-aa089f47410e")
+	)
+	(pad "14" thru_hole circle
+		(at 25.32 7.62)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "682133d6-3428-4fa7-8ead-b1b87fb42b17")
+	)
+	(pad "A1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "78236c95-86e1-42c6-a23d-18755366f9be")
+	)
+	(pad "A2" thru_hole circle
+		(at 0 7.62)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c090d70-cb95-449c-acbc-c290b7f2d2cb")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPST_Schrack-RP-II-1-16A-FormA_RM5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

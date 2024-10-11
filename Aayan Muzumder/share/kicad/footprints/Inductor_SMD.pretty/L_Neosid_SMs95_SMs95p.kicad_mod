@@ -1,0 +1,281 @@
+(footprint "L_Neosid_SMs95_SMs95p"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Neosid, Inductor, SMs95, Fixed inductor, SMD, magnetically shielded, https://neosid.de/import-data/product-pdf/neoFestind_SMs95SMs95p.pdf")
+	(tags "Neosid Inductor SMs95 Fixed inductor SMD magnetically shielded")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(layer "F.SilkS")
+		(uuid "d595ed2a-5987-4ab3-ac5f-e6554a5cd0fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Neosid_SMs95_SMs95p"
+		(at 0 7.1 0)
+		(layer "F.Fab")
+		(uuid "c2743579-b0c3-4084-aaf3-aa823d9f4a1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cacf8c5f-ace5-4373-91c0-e9c14fb21f99")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e6e2b5f-24e5-4671-893b-fd9dfe158894")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f0c81d6-19e7-4beb-827c-01dc087da625")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.6 -2.6)
+		(end -3 -6.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e52a3faf-ec48-4bc0-939b-79a73d566bbd")
+	)
+	(fp_line
+		(start -3 -6.2)
+		(end 3 -6.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a2acd4e-c555-45df-90bc-8c1d5236fb43")
+	)
+	(fp_line
+		(start -3 6.2)
+		(end -6.6 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f30ef517-c936-43ea-87ff-a15197649cdf")
+	)
+	(fp_line
+		(start 3 -6.2)
+		(end 6.6 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e62c4045-fe37-4983-80f3-2f88e77cdeb0")
+	)
+	(fp_line
+		(start 3 6.2)
+		(end -3 6.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b24b2b3b-62b4-4243-ad37-e831aee5ed2c")
+	)
+	(fp_line
+		(start 6.6 2.6)
+		(end 3 6.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "190b9646-7749-4e99-a2cb-7aee09a6d45d")
+	)
+	(fp_line
+		(start -6.95 -6.25)
+		(end -6.95 6.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53bc76b1-0489-4a08-992c-7a759c0ae8f2")
+	)
+	(fp_line
+		(start -6.95 -6.25)
+		(end 6.95 -6.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3fb9224f-7adc-4d1e-80ce-2aa9742407b6")
+	)
+	(fp_line
+		(start 6.95 6.25)
+		(end -6.95 6.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c54130be-86b8-42df-bf0e-884f459251a1")
+	)
+	(fp_line
+		(start 6.95 6.25)
+		(end 6.95 -6.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "438737e4-43a1-4b06-a22a-5f5a685135ff")
+	)
+	(fp_line
+		(start -6.5 -2.4)
+		(end -6.5 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffb0a0fe-fe1d-45c8-9ed4-a93f1ff84a17")
+	)
+	(fp_line
+		(start -6.5 -2.4)
+		(end -2.9 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35e48054-0f4a-4f12-9972-64d3a3bf9b9f")
+	)
+	(fp_line
+		(start -6.5 2.4)
+		(end -2.9 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e58eaca-1d48-4ffb-9a24-4cb64b57252c")
+	)
+	(fp_line
+		(start -2.9 6)
+		(end 2.9 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6cb0274-d8ee-4ea4-b334-1e39e3ac7e62")
+	)
+	(fp_line
+		(start 2.9 -6)
+		(end -2.9 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b063f8c-ad70-4256-b15f-b62ee19dbb42")
+	)
+	(fp_line
+		(start 2.9 6)
+		(end 6.5 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b72fca78-12ee-49f4-a3e7-caf177efa708")
+	)
+	(fp_line
+		(start 6.5 -2.4)
+		(end 2.9 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ddc7e88-15f6-4c92-9275-182967d2c75f")
+	)
+	(fp_line
+		(start 6.5 2.4)
+		(end 6.5 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d056e459-1f26-4309-9c16-292553b48990")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "16793d61-e45c-4902-aa61-173c4f7df275")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.25 0)
+		(size 2.9 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f2af9200-a20c-4764-ae87-8dd00315dd3e")
+	)
+	(pad "2" smd rect
+		(at 5.25 0)
+		(size 2.9 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "56333cee-dd65-41c9-80a6-a09838823002")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_SMs95_SMs95p.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

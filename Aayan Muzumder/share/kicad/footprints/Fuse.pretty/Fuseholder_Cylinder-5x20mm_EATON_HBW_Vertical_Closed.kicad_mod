@@ -1,0 +1,236 @@
+(footprint "Fuseholder_Cylinder-5x20mm_EATON_HBW_Vertical_Closed"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "5 mm x 20 mm fuse holders; Vertical w/o Stability Pins; 250V; 6.3-16A (http://www.cooperindustries.com/content/dam/public/bussmann/Electronics/Resources/product-datasheets/Bus_Elx_DS_2118_HB_PCB_Series.pdf)")
+	(tags "fuse holder vertical 5x20mm")
+	(property "Reference" "REF**"
+		(at 5 -8.5 0)
+		(layer "F.SilkS")
+		(uuid "fd68797b-e11c-4c23-beba-81a138d47eaa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuseholder_Cylinder-5x20mm_EATON_HBW_Vertical_Closed"
+		(at 5 8.5 0)
+		(layer "F.Fab")
+		(uuid "0b39dcf7-e5d2-42a8-a254-27f1305a7ffb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6c3ee41-1a06-450f-ba4c-7a47def82cd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "288d5dc7-984f-4293-9358-4766e048cbac")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cecbf2a0-40df-4ff1-bc26-21133e9e6ae7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.56 -7.56)
+		(end 12.56 -7.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef2c00bb-cc92-4781-86a3-382a97e91e05")
+	)
+	(fp_line
+		(start -2.56 7.56)
+		(end -2.56 -7.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a935de0-d4d3-4706-ae61-66d02dae9324")
+	)
+	(fp_line
+		(start 12.56 -7.56)
+		(end 12.56 7.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46ecd1a0-0cf8-44d3-994e-ca555dcd4f1d")
+	)
+	(fp_line
+		(start 12.56 7.56)
+		(end -2.56 7.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b52e74eb-7575-4bed-ad0e-757168f31810")
+	)
+	(fp_line
+		(start -2.7 -7.7)
+		(end 12.7 -7.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "55290640-9c7d-4e4e-9e19-eb38f3fcfc5e")
+	)
+	(fp_line
+		(start -2.7 7.7)
+		(end -2.7 -7.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e2bd09e-9f4e-4e47-afef-ab70493245ff")
+	)
+	(fp_line
+		(start 12.7 -7.7)
+		(end 12.7 7.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a1d01c3-eaa4-4543-b48c-9ef6e59aafae")
+	)
+	(fp_line
+		(start 12.7 7.7)
+		(end -2.7 7.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "22950358-16a6-422f-a935-38fe9a1d44d2")
+	)
+	(fp_line
+		(start -2.45 -7.45)
+		(end 12.45 -7.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4d2fb01-8d67-4c61-999d-319ca99bfe27")
+	)
+	(fp_line
+		(start -2.45 7.45)
+		(end -2.45 -7.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db928411-218a-4c0b-a8d0-46a15ad3eb3d")
+	)
+	(fp_line
+		(start 12.45 -7.45)
+		(end 12.45 7.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0799534-c2df-4f8c-ba52-3e03780e21cb")
+	)
+	(fp_line
+		(start 12.45 7.45)
+		(end -2.45 7.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83b45c41-798c-415d-a270-21765a09365a")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 11.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8c479266-d026-411e-aa4a-944b1717a7dd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 0 0)
+		(layer "F.Fab")
+		(uuid "d8e139da-95e7-4eaf-bc70-7d2fd0f441e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "384abf01-3575-4bc4-b35a-52faa47d9068")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8713a32d-00ac-4a9d-aa15-88a58933da30")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Cylinder-5x20mm_EATON_HBW_Vertical_Closed.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

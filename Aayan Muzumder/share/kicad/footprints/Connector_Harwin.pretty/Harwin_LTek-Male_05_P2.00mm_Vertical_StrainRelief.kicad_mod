@@ -1,0 +1,451 @@
+(footprint "Harwin_LTek-Male_05_P2.00mm_Vertical_StrainRelief"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Harwin LTek Connector, 5 pins, single row male, vertical entry, strain relief clip")
+	(tags "connector harwin ltek M80")
+	(property "Reference" "REF**"
+		(at 4 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "b112c418-ba28-410f-8996-a5e193b32b55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Harwin_LTek-Male_05_P2.00mm_Vertical_StrainRelief"
+		(at 4 4 0)
+		(layer "F.Fab")
+		(uuid "3cbdff7d-aa8c-464c-a0d4-48b184599ab9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65031125-edbf-4ee5-a109-58f83fe7083a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "213d2804-9833-4e7c-b0b9-0885b89dfb32")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3ec7f67-ffab-4d45-9872-fbff2a57b327")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.5 2.5)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fbd2856-cb74-47f9-9371-743a92a1aea1")
+	)
+	(fp_line
+		(start -3.5 3.5)
+		(end -2.5 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "642089d5-b6f6-4147-97f2-16d88b63caea")
+	)
+	(fp_line
+		(start -3.15 -1.5)
+		(end -3.15 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b954ef3f-e04d-4532-8a43-626f058ab695")
+	)
+	(fp_line
+		(start -1.6 -0.75)
+		(end -1 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ce97cba-11b6-4844-980a-88c44cb6f4b1")
+	)
+	(fp_line
+		(start -1.6 0)
+		(end -1.6 -0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6a5f382-b326-471b-8313-14958f6eae8e")
+	)
+	(fp_line
+		(start -1.05 -2.1)
+		(end 9.05 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fde05aa3-0a11-4800-9e4c-aec968ff19f2")
+	)
+	(fp_line
+		(start -1.05 2.1)
+		(end 9.05 2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b55322d-66fc-4b81-b055-a3269e1a8330")
+	)
+	(fp_line
+		(start -1 -1.35)
+		(end 4 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca2eb3a0-fbd7-414a-b1ca-13711b44d77f")
+	)
+	(fp_line
+		(start 9 -1.35)
+		(end 4 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64e2c8ea-79f1-4464-be2b-106cbf1201ee")
+	)
+	(fp_line
+		(start 9.6 -0.75)
+		(end 9 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f20bd91-69fe-48bb-9ffa-30858af085c7")
+	)
+	(fp_line
+		(start 9.6 0)
+		(end 9.6 -0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91df7a29-c65f-4d64-a7ca-a37610539766")
+	)
+	(fp_line
+		(start 11.15 -1.5)
+		(end 11.15 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "187b7a41-3f25-4e41-92ac-7f2771db2d7a")
+	)
+	(fp_line
+		(start -3.55 -3.5)
+		(end -3.55 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fbd06b23-8610-404a-a85a-fc8ae5e01742")
+	)
+	(fp_line
+		(start -3.55 3.5)
+		(end 11.55 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c554ffc5-7332-4649-b9ef-954548191590")
+	)
+	(fp_line
+		(start 11.55 -3.5)
+		(end -3.55 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e339d63-4b63-41aa-bc2e-9738604d9624")
+	)
+	(fp_line
+		(start 11.55 3.5)
+		(end 11.55 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20dad51b-0eef-4e3f-832f-ed45ba8e6068")
+	)
+	(fp_line
+		(start -3.05 -2)
+		(end -3.05 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2312fba1-c245-41fb-bb4a-f8f2aab20a48")
+	)
+	(fp_line
+		(start -3.05 2)
+		(end 11.05 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58e24db0-5e50-471f-818f-f7cbe7510463")
+	)
+	(fp_line
+		(start -1.75 -0.75)
+		(end -1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a074286e-cd9b-49fa-ada9-96e19f43bb21")
+	)
+	(fp_line
+		(start -1.75 1.5)
+		(end -1.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45a354ca-f13e-443a-803b-f52414042be9")
+	)
+	(fp_line
+		(start -1 -1.5)
+		(end 9 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "18893a6c-693a-4045-869a-a75d22017b20")
+	)
+	(fp_line
+		(start -0.3 1.35)
+		(end 0.3 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbfa0435-0c62-40e3-92e8-629073eed38a")
+	)
+	(fp_line
+		(start 0 0.75)
+		(end -0.3 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "705f0a37-2c20-4e5c-a82c-eab264941cfe")
+	)
+	(fp_line
+		(start 0.3 1.35)
+		(end 0 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68be4014-913e-45b4-b737-5075e71f2a0c")
+	)
+	(fp_line
+		(start 9 -1.5)
+		(end 9.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c730c32-1495-42ff-8946-90d246b5dac1")
+	)
+	(fp_line
+		(start 9.75 -0.75)
+		(end 9.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e3646d1-127c-43a4-b25a-87eea46e1222")
+	)
+	(fp_line
+		(start 9.75 1.5)
+		(end -1.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b940a88-d838-4183-be1c-150d3f7eee27")
+	)
+	(fp_line
+		(start 11.05 -2)
+		(end -3.05 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0077296-4745-424a-b30d-ae44eaea9da8")
+	)
+	(fp_line
+		(start 11.05 2)
+		(end 11.05 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0599d57d-64d0-4034-90e7-8688da5401e0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4 0 0)
+		(layer "F.Fab")
+		(uuid "6c4eea4c-b30c-4f6a-bd28-ce409c791e6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -2.25 -2.375)
+		(size 1.25 1.25)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "badc7d04-04dc-4f67-b0d3-356e35b2680e")
+	)
+	(pad "" thru_hole circle
+		(at -2.25 2.375)
+		(size 1.25 1.25)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9dcd74f4-e683-4c4a-82d0-d21d35f5fcab")
+	)
+	(pad "" thru_hole circle
+		(at 10.25 -2.375)
+		(size 1.25 1.25)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e49ab534-a6d3-4b62-9c08-7b7b53fd0b85")
+	)
+	(pad "" thru_hole circle
+		(at 10.25 2.375)
+		(size 1.25 1.25)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "48d19c87-9097-4cae-91c7-6ac1bd9ba9fd")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.35 1.35)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "24ea2b1b-5f37-4238-a4a6-ed6ed122f340")
+	)
+	(pad "2" thru_hole circle
+		(at 2 0)
+		(size 1.35 1.35)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "83a60230-086c-41da-93c0-6375f26c6e55")
+	)
+	(pad "3" thru_hole circle
+		(at 4 0)
+		(size 1.35 1.35)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "09ab31ae-29d8-4307-b599-21f1dbd6e3f7")
+	)
+	(pad "4" thru_hole circle
+		(at 6 0)
+		(size 1.35 1.35)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d8155734-8bb9-472a-828a-6623cf2ee7d5")
+	)
+	(pad "5" thru_hole circle
+		(at 8 0)
+		(size 1.35 1.35)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d156102f-8c0a-49aa-95cc-0ae9393e0e93")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_LTek-Male_05_P2.00mm_Vertical_StrainRelief.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

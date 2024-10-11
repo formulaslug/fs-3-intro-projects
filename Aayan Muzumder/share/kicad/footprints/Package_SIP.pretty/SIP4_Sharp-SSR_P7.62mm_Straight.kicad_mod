@@ -1,0 +1,291 @@
+(footprint "SIP4_Sharp-SSR_P7.62mm_Straight"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SIP4 Footprint for SSR made by Sharp")
+	(tags "Solid State relais SSR Sharp")
+	(property "Reference" "REF**"
+		(at 0.508 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "443067a8-80f0-4bbb-bdf7-34f43107d9d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SIP4_Sharp-SSR_P7.62mm_Straight"
+		(at 7.62 5 0)
+		(layer "F.Fab")
+		(uuid "4e5b83a2-6b60-4146-9717-cbd5643c0e6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c63ad6c-6232-4ebf-9802-d2ef738caa52")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b721c6d-d939-4315-9257-f877ebab597f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c15efd3a-6361-4a92-b947-9e3dc40dfe49")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.73 -1.7)
+		(end 16.97 -1.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d836418-0650-4ddb-9a17-6dfc16c88f6f")
+	)
+	(fp_line
+		(start -1.73 4)
+		(end -1.73 -1.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6a084a2-897c-4eb6-a58a-dcdffd5cc7ab")
+	)
+	(fp_line
+		(start 1.27 -0.3)
+		(end 3.81 -0.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "097677b9-28ee-44ca-8fcf-d6693c6d9775")
+	)
+	(fp_line
+		(start 2.62 4)
+		(end 1.28 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70da7ff4-dea3-4fc9-99f1-561417de4156")
+	)
+	(fp_line
+		(start 6.35 -0.3)
+		(end 11.43 -0.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5907eaab-e0b7-40ca-a743-360cfc350d7d")
+	)
+	(fp_line
+		(start 12.62 4)
+		(end 13.96 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81138c27-b4a4-4cf9-8912-af292841d473")
+	)
+	(fp_line
+		(start 16.97 -1.7)
+		(end 16.97 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9a0d220-3dc9-4a7c-8c0c-cfa4082200fc")
+	)
+	(fp_line
+		(start 16.97 4)
+		(end -1.73 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06192028-432f-4818-bdca-2ed07969615f")
+	)
+	(fp_line
+		(start -2 -1.95)
+		(end 17.25 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b926b840-9aa1-4184-8e6e-88c56aaab32a")
+	)
+	(fp_line
+		(start -2 4.25)
+		(end -2 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "29389b8f-6a57-40ea-95b0-643c3c096981")
+	)
+	(fp_line
+		(start 17.25 -1.95)
+		(end 17.25 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "76a7dfda-6f4c-40ef-8a14-5ef91edaf69b")
+	)
+	(fp_line
+		(start 17.25 4.25)
+		(end -2 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "78f4f3c9-58ce-49ed-8373-024b167f66a6")
+	)
+	(fp_line
+		(start -1.6 -0.6)
+		(end -1.6 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40547bbb-f93f-46d0-a908-f4d37bc4486c")
+	)
+	(fp_line
+		(start -1.6 3.9)
+		(end 16.8 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb4d7ba8-1b97-4b8b-9848-5863c04432d2")
+	)
+	(fp_line
+		(start -0.6 -1.6)
+		(end -1.6 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0d6dcaa-1fdc-4140-89c7-26655cc4c4b0")
+	)
+	(fp_line
+		(start 16.8 -1.6)
+		(end -0.6 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "095b18d6-a0d0-4eea-ac02-9ded6f2540c3")
+	)
+	(fp_line
+		(start 16.8 3.9)
+		(end 16.8 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52bfa5be-1ba4-4379-8d2f-c954be54a709")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.62 0 0)
+		(layer "F.Fab")
+		(uuid "cb3c85b5-ce4a-44e9-bafc-636589e2f79f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fadaeb21-c49a-40ec-83e7-0db52712c7c8")
+	)
+	(pad "2" thru_hole oval
+		(at 5.08 0)
+		(size 2 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "706ff034-ebc9-4ece-aa37-a2e7b9929e2f")
+	)
+	(pad "3" thru_hole oval
+		(at 12.7 0)
+		(size 2 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e0b1250b-635d-444e-8f29-6f7f672abdcc")
+	)
+	(pad "4" thru_hole oval
+		(at 15.24 0)
+		(size 2 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e3a7528c-c422-4a3c-a821-5dcd0f2fa7cc")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SIP.3dshapes/SIP4_Sharp-SSR_P7.62mm_Straight.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

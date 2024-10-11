@@ -1,0 +1,189 @@
+(footprint "L_Radial_D21.0mm_P15.24mm_Vishay_IHB-2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Radial series, Radial, pin pitch=15.24mm, , diameter=21mm, Vishay, IHB-2, http://www.vishay.com/docs/34015/ihb.pdf")
+	(tags "Inductor Radial series Radial pin pitch 15.24mm  diameter 21mm Vishay IHB-2")
+	(property "Reference" "REF**"
+		(at 7.62 -11.75 0)
+		(layer "F.SilkS")
+		(uuid "f3a0310e-306b-4952-8f55-2712410f48af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Radial_D21.0mm_P15.24mm_Vishay_IHB-2"
+		(at 7.62 11.75 0)
+		(layer "F.Fab")
+		(uuid "084484ab-218a-4602-ae99-24dfa3216f96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25099185-cfb4-4c9e-8c22-d064972d6a59")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af1e5238-c244-46da-8fa8-3b16d9c7659e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35589d75-4434-4870-b193-d7013e69dcae")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 7.62 0)
+		(end 8.96 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3e7ddc0a-5167-4094-973e-fdfaead99187")
+	)
+	(fp_circle
+		(center 7.62 0)
+		(end 18.24 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9213175c-aaef-416c-ba39-62ccc038d29d")
+	)
+	(fp_line
+		(start -3.13 -10.75)
+		(end -3.13 10.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ccadd08d-6efa-4296-ac02-8cca5c14845c")
+	)
+	(fp_line
+		(start -3.13 10.75)
+		(end 18.37 10.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "989eee7f-af6a-43be-9f26-ccf79bcbeba2")
+	)
+	(fp_line
+		(start 18.37 -10.75)
+		(end -3.13 -10.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3822e156-eae6-4faf-96c1-42ece8913fb1")
+	)
+	(fp_line
+		(start 18.37 10.75)
+		(end 18.37 -10.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "94cc62a7-f8e9-4dd3-b0b7-5fcb703ff2dd")
+	)
+	(fp_circle
+		(center 7.62 0)
+		(end 9.08 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c754c25d-2188-45fb-8b15-4b0bbc04c5bd")
+	)
+	(fp_circle
+		(center 7.62 0)
+		(end 18.12 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7eb475e9-c27a-485d-8eca-fe7983dd9c9a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.62 0 0)
+		(layer "F.Fab")
+		(uuid "25175994-4e63-49b4-8e0c-fa3f24d92ec5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37297615-f245-4264-969f-b4078f1307fb")
+	)
+	(pad "2" thru_hole circle
+		(at 15.24 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ec33e9b-c272-41a4-90d4-406977dbce05")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D21.0mm_P15.24mm_Vishay_IHB-2.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

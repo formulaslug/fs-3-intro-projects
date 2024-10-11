@@ -1,0 +1,292 @@
+(footprint "SW_Tactile_Straight_KSA0Axx1LFTR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SW PUSH SMALL http://www.ckswitches.com/media/1457/ksa_ksl.pdf")
+	(tags "SW PUSH SMALL Tactile C&K")
+	(property "Reference" "REF**"
+		(at 3.81 -2.08 0)
+		(layer "F.SilkS")
+		(uuid "c45f1d6d-22ef-4e83-a2f9-72f9481c03fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Tactile_Straight_KSA0Axx1LFTR"
+		(at 3.81 7.28 0)
+		(layer "F.Fab")
+		(uuid "39c1c5b3-d1dc-42fc-b01f-cc107b9e12ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12541509-d947-4bf7-ae4e-93abd96f64ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8be6724-cebb-44cf-b55f-cb6e86b7246a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "961ef815-63cf-4f01-ad50-700bf7e8b2e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -1.27)
+		(end 0 -0.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef313b67-a803-4e00-be11-d5352e85badd")
+	)
+	(fp_line
+		(start 0 -1.27)
+		(end 7.62 -1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9d1a15f-ee29-4312-b26e-55d94c784188")
+	)
+	(fp_line
+		(start 0 0.97)
+		(end 0 4.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "709915ab-5023-4e9d-b20b-59192a9c273d")
+	)
+	(fp_line
+		(start 0 6.05)
+		(end 0 6.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36b6fac3-808b-420f-954f-e02a12ea69e8")
+	)
+	(fp_line
+		(start 7.62 -1.27)
+		(end 7.62 -0.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff48b9cd-5c25-4758-8032-dc581db7a511")
+	)
+	(fp_line
+		(start 7.62 0.97)
+		(end 7.62 4.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "401fa289-8bcf-4362-ba5d-1251fa86028d")
+	)
+	(fp_line
+		(start 7.62 6.05)
+		(end 7.62 6.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4209618-17e6-49a1-bd09-c38c0aae4993")
+	)
+	(fp_line
+		(start 7.62 6.35)
+		(end 0 6.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25661b47-6280-461f-b086-2328a6eb22f2")
+	)
+	(fp_circle
+		(center 3.81 2.54)
+		(end 3.81 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "cd0bfa8a-3721-47b4-b3e0-14eb701716f6")
+	)
+	(fp_line
+		(start -0.95 -1.41)
+		(end -0.95 6.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20fb2e13-fbfd-4690-9e45-60ffef8c157f")
+	)
+	(fp_line
+		(start -0.95 -1.41)
+		(end 8.57 -1.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8683be95-a65e-44f5-b547-7333933aeea0")
+	)
+	(fp_line
+		(start 8.57 6.49)
+		(end -0.95 6.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "29278bf1-d080-42a7-b723-b68845a98224")
+	)
+	(fp_line
+		(start 8.57 6.49)
+		(end 8.57 -1.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f9498ad7-7033-46fd-bf6b-84c3a28f18df")
+	)
+	(fp_line
+		(start 0.11 -1.16)
+		(end 7.51 -1.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64be5ecd-5080-4fe5-9c40-5789317e8a19")
+	)
+	(fp_line
+		(start 0.11 6.24)
+		(end 0.11 -1.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91828570-97bd-46b7-94e0-e4da36b2784a")
+	)
+	(fp_line
+		(start 7.51 -1.16)
+		(end 7.51 6.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d984a1ea-b7f0-455d-b506-d5ed698dc26a")
+	)
+	(fp_line
+		(start 7.51 6.24)
+		(end 0.11 6.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90417a08-447b-49dc-b8bd-0594f84844a1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 2.54 0)
+		(layer "F.Fab")
+		(uuid "f291e387-6bc8-4a74-83f9-6cd94ca6e7e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.397 1.397)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4874d1b3-2428-453b-8feb-486ca5c7d66c")
+	)
+	(pad "1" thru_hole circle
+		(at 7.62 0)
+		(size 1.397 1.397)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "86e24f6a-ad24-4aa5-b3ca-99b736f1f101")
+	)
+	(pad "2" thru_hole circle
+		(at 0 5.08)
+		(size 1.397 1.397)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2f8c0717-2d7d-405d-8beb-4afc0350b51e")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 5.08)
+		(size 1.397 1.397)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf0abe58-23cc-4197-95e4-d3d7f8e0cf51")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Tactile_Straight_KSA0Axx1LFTR.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,286 @@
+(footprint "Wago_734-162_1x02_P3.50mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Molex 734 Male header (for PCBs); Angled solder pin 1 x 1 mm, 734-162 , 2 Pins (http://www.farnell.com/datasheets/2157639.pdf), generated with kicad-footprint-generator")
+	(tags "connector Wago  top entry")
+	(property "Reference" "REF**"
+		(at 1.9 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "bfeecbea-ae61-47c6-83d1-72845d6ff1b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Wago_734-162_1x02_P3.50mm_Horizontal"
+		(at 1.9 10.5 0)
+		(layer "F.Fab")
+		(uuid "b7cb17bc-6595-47c4-b049-a20e6948f739")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e242906-e5fe-4c72-a151-09dd0ee270f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8fe729c-dcbf-4730-b64d-d7c9a205bc32")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3763d15-1610-4b49-bd07-5b6b55d26f90")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.21 -1.41)
+		(end -1.26 -1.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20d9467b-b373-450f-bdcc-c739640e1cd5")
+	)
+	(fp_line
+		(start -3.21 1)
+		(end -3.21 -1.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cb4d398-0de6-493a-8a7e-96467d0f1590")
+	)
+	(fp_line
+		(start -2.91 -1.11)
+		(end -2.91 9.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0cab594b-f98a-4341-bee1-68cf6097d2a2")
+	)
+	(fp_line
+		(start -2.91 9.41)
+		(end 6.71 9.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4b04505-dace-434a-8118-64fe763fa1f8")
+	)
+	(fp_line
+		(start -1.26 -1.11)
+		(end -2.91 -1.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2950831a-36bd-4928-9169-335bf0ce4ea2")
+	)
+	(fp_line
+		(start 1.26 -1.11)
+		(end 2.24 -1.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e446b6da-69e5-4fe7-8dc0-0d7f6f712655")
+	)
+	(fp_line
+		(start 6.71 -1.11)
+		(end 4.76 -1.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7df3966-4482-47e6-ba79-27635e5b4c3f")
+	)
+	(fp_line
+		(start 6.71 9.41)
+		(end 6.71 -1.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a15c1c2f-736b-457c-a875-9c49fee96b24")
+	)
+	(fp_line
+		(start -3.3 -1.5)
+		(end -3.3 9.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13b091e0-ac1e-495d-ab03-130c5cf4fd05")
+	)
+	(fp_line
+		(start -3.3 9.8)
+		(end 7.1 9.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "431a3b1b-3450-4fd7-a293-43ea44c1d959")
+	)
+	(fp_line
+		(start 7.1 -1.5)
+		(end -3.3 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c4ae21d-d29b-480d-9816-877b6ee078e9")
+	)
+	(fp_line
+		(start 7.1 9.8)
+		(end 7.1 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "28fa2961-3db5-4a68-827a-ba7af5aea185")
+	)
+	(fp_line
+		(start -2.8 -1)
+		(end -2.8 9.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7d0f510-c7b3-493b-81d6-7442fd2f3dd4")
+	)
+	(fp_line
+		(start -2.8 9.3)
+		(end 6.6 9.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d50e710b-494c-4d0f-9d7c-96a01869cecd")
+	)
+	(fp_line
+		(start -0.5 -1)
+		(end 0 -0.292893)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dec1a78c-53f9-4397-b0a4-e973b9222fa2")
+	)
+	(fp_line
+		(start 0 -0.292893)
+		(end 0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a532472-e96c-42fb-a140-e4e1c81ba4f0")
+	)
+	(fp_line
+		(start 6.6 -1)
+		(end -2.8 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e0f8d1c-3482-4b14-bace-945435cf1a2e")
+	)
+	(fp_line
+		(start 6.6 9.3)
+		(end 6.6 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "974de066-af8d-4e43-b7eb-087200917f95")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.9 8.6 0)
+		(layer "F.Fab")
+		(uuid "89d7dd44-70da-427f-bf1d-0e328eb4e452")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "1a671d22-f745-48eb-bec2-1e08669ec9fb")
+	)
+	(pad "2" thru_hole oval
+		(at 3.5 0)
+		(size 2 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "48f5df0f-5e9c-4fc7-aff6-1fdf589d5be7")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Wago.3dshapes/Wago_734-162_1x02_P3.50mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

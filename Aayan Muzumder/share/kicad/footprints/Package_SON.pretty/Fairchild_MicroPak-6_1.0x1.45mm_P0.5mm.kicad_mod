@@ -1,0 +1,224 @@
+(footprint "Fairchild_MicroPak-6_1.0x1.45mm_P0.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Fairchild-specific MicroPak-6 1.0x1.45mm Pitch 0.5mm https://www.nxp.com/docs/en/application-note/AN10343.pdff")
+	(tags "Fairchild-specific MicroPak-6 1.0x1.45mm Pitch 0.5mm")
+	(property "Reference" "REF**"
+		(at 0 -1.98 0)
+		(layer "F.SilkS")
+		(uuid "0a6f394a-8859-4224-a313-ac75520dc4df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fairchild_MicroPak-6_1.0x1.45mm_P0.5mm"
+		(at 0.0325 1.75 0)
+		(layer "F.Fab")
+		(uuid "44d6cf24-6e43-4423-8a09-8a17264e05ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2351f9f-edfb-468d-88a4-c48711ee821d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab6b9b4e-9203-4547-961b-17d330ca38d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b270ead-cfb7-4a38-ad35-81b818803018")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.5 -0.91)
+		(end -0.3675 -0.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "740443d5-f118-4958-8b12-1a93f9121fde")
+	)
+	(fp_line
+		(start 0.5 0.91)
+		(end -0.5 0.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6de9d0ab-ce2b-4d50-aa87-f0cf65dac1d1")
+	)
+	(fp_poly
+		(pts
+			(xy -0.65 -0.91) (xy -0.93 -0.91) (xy -0.65 -1.19) (xy -0.65 -0.91)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d4f4ae18-9c30-4bf9-9ec5-47ba9e989dae")
+	)
+	(fp_rect
+		(start -0.88 -0.975)
+		(end 0.88 0.975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "53074ddb-cc63-40cd-ba9b-42bf4e971e4d")
+	)
+	(fp_line
+		(start -0.4925 -0.3)
+		(end -0.0675 -0.725)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "140a6d82-41b9-4be1-a4eb-fccf8744f158")
+	)
+	(fp_line
+		(start -0.4925 0.725)
+		(end -0.4925 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d167e17-20ce-4db3-bd4b-6800621d1837")
+	)
+	(fp_line
+		(start -0.0675 -0.725)
+		(end 0.5075 -0.725)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82a0d322-60d2-4a16-b8a5-404dd1baa9cf")
+	)
+	(fp_line
+		(start 0.5075 -0.725)
+		(end 0.5075 0.725)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e29cc4ac-5371-4247-8b81-56271bf4e584")
+	)
+	(fp_line
+		(start 0.5075 0.725)
+		(end -0.4925 0.725)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae599a35-96d8-4de1-9cba-1b3c3cf20318")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0075 0 0)
+		(layer "F.Fab")
+		(uuid "eeb05bbf-bb51-4341-8b66-8c6360cb1675")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.3675 -0.5)
+		(size 0.52 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ee536c50-39db-4402-b5ca-7b84438cc391")
+	)
+	(pad "2" smd roundrect
+		(at -0.3675 0)
+		(size 0.52 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "111ff1e0-4a24-43eb-90b5-465505ab8fdb")
+	)
+	(pad "3" smd roundrect
+		(at -0.3675 0.5)
+		(size 0.52 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "aaed2dbf-9994-46fd-bd76-5e3071525fa3")
+	)
+	(pad "4" smd roundrect
+		(at 0.3825 0.5)
+		(size 0.52 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a468049d-157a-43ca-a815-1e08c0bdd682")
+	)
+	(pad "5" smd roundrect
+		(at 0.3825 0)
+		(size 0.52 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3d70a14f-da0d-47b7-8959-d0b66a06ca07")
+	)
+	(pad "6" smd roundrect
+		(at 0.3825 -0.5)
+		(size 0.52 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c150c9ec-92b4-46d5-9d98-d63ee190abc8")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Fairchild_MicroPak-6_1.0x1.45mm_P0.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

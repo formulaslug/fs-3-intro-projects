@@ -1,0 +1,223 @@
+(footprint "D_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Diode SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
+	(tags "diode handsolder")
+	(property "Reference" "REF**"
+		(at 0 -2.65 0)
+		(layer "F.SilkS")
+		(uuid "6ce65629-dd2d-4580-b39c-314b587d0d77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(at 0 2.65 0)
+		(layer "F.Fab")
+		(uuid "fc4cb75b-513a-46fc-a107-54d7a9ec3b79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "029d1c88-2711-4918-a7b8-22b66f7cc8fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0dfebdeb-90d1-4aa8-90e4-eb1903b7cf47")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03f83953-eabc-471e-84b7-55239d9bcb1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.135 -1.96)
+		(end -3.135 1.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44c5192b-371e-4256-a596-b3fc32e91b34")
+	)
+	(fp_line
+		(start -3.135 1.96)
+		(end 2.25 1.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f3e2496-49ca-43f1-a4dc-478720c2beb0")
+	)
+	(fp_line
+		(start 2.25 -1.96)
+		(end -3.135 -1.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "787b400c-c2c1-440e-9b13-d81fd749b87d")
+	)
+	(fp_line
+		(start -3.12 -1.95)
+		(end 3.12 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1facc1a4-4652-4a8b-9f54-72608e71ba2e")
+	)
+	(fp_line
+		(start -3.12 1.95)
+		(end -3.12 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f296608-e2cc-4d9e-980d-6969c9ec2f01")
+	)
+	(fp_line
+		(start 3.12 -1.95)
+		(end 3.12 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a62620f-9bcc-4a88-8f41-742e7df7d472")
+	)
+	(fp_line
+		(start 3.12 1.95)
+		(end -3.12 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7aaec721-68d3-407a-9325-d0f9a8213600")
+	)
+	(fp_line
+		(start -2.25 -0.8)
+		(end -2.25 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a443f5aa-f8f9-4642-a01d-28419dde2917")
+	)
+	(fp_line
+		(start -2.25 1.6)
+		(end 2.25 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc3054e3-4e89-4a2c-ad34-c7506cfbf0a2")
+	)
+	(fp_line
+		(start -1.45 -1.6)
+		(end -2.25 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe721617-afbe-4127-80d1-ad20584889b4")
+	)
+	(fp_line
+		(start 2.25 -1.6)
+		(end -1.45 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9db45d0d-8322-4ede-ac62-bf8a09c8da12")
+	)
+	(fp_line
+		(start 2.25 1.6)
+		(end 2.25 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36948afa-f830-490e-80f9-fdb042952fd0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3081818c-438f-40aa-a9fc-0107f5644bc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.225 0)
+		(size 1.3 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.192308)
+		(uuid "327dc91c-2a06-49ce-b779-83570f2149ac")
+	)
+	(pad "2" smd roundrect
+		(at 2.225 0)
+		(size 1.3 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.192308)
+		(uuid "539b295d-1da2-43a1-96e9-72c0fad740a2")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1812_4532Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

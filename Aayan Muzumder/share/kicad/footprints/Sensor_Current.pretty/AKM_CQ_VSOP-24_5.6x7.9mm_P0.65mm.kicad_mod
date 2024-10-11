@@ -1,0 +1,271 @@
+(footprint "AKM_CQ_VSOP-24_5.6x7.9mm_P0.65mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "AKM VSOP-24 current sensor, 5.6x7.9mm body, 0.65mm pitch (http://www.akm.com/akm/en/file/datasheet/CQ-330J.pdf)")
+	(tags "akm vsop 24")
+	(property "Reference" "REF**"
+		(at 0 -4.9 0)
+		(layer "F.SilkS")
+		(uuid "1669da0f-9752-47f7-8a7f-10b8e85c6574")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AKM_CQ_VSOP-24_5.6x7.9mm_P0.65mm"
+		(at 0 4.9 0)
+		(layer "F.Fab")
+		(uuid "ed8a7055-7454-41de-b4cf-1860baf064af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e6bedf2-43df-40ac-ab0d-fe7c121e0863")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0826f276-009a-4907-8e90-45137df614fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c7bb508-73c9-403c-967c-268dc197e219")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 2.8 -4.07)
+		(end -2.8 -4.07)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed5b7fd1-24ef-43c3-9323-21d268ffd69c")
+	)
+	(fp_line
+		(start 2.8 4.07)
+		(end -2.8 4.07)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "706df597-97f8-4534-8d54-6a229f30da92")
+	)
+	(fp_poly
+		(pts
+			(xy -3.8 -4) (xy -4.04 -4.33) (xy -3.56 -4.33) (xy -3.8 -4)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "54626b1a-0fd8-406a-8a66-6e0b55ff95d0")
+	)
+	(fp_line
+		(start -4.77 -4.2)
+		(end 4.77 -4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df48a544-922d-4af2-a542-d3b19d0c33ad")
+	)
+	(fp_line
+		(start -4.77 4.2)
+		(end -4.77 -4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e65f98ba-24f4-4500-9dcb-6a1ea618414a")
+	)
+	(fp_line
+		(start 4.77 -4.2)
+		(end 4.77 4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ea1c1e5-7cec-474f-b1a4-d437d9b430d7")
+	)
+	(fp_line
+		(start 4.77 4.2)
+		(end -4.77 4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f93c3fe7-672a-47ad-a191-d3719fc11b2f")
+	)
+	(fp_line
+		(start -2.8 -2.95)
+		(end -1.8 -3.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e00e177-9e19-492b-98df-20c25c1e93ab")
+	)
+	(fp_line
+		(start -2.8 3.95)
+		(end -2.8 -2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c1bf5f2-8f6f-497a-95ba-0db60bf2c8b5")
+	)
+	(fp_line
+		(start -1.8 -3.95)
+		(end 2.8 -3.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd3d02a1-4f89-4e00-a022-50de96f6c1e2")
+	)
+	(fp_line
+		(start 2.8 -3.95)
+		(end 2.8 3.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0502c44-5c22-4ec6-ab45-d9909ae9ff83")
+	)
+	(fp_line
+		(start 2.8 3.95)
+		(end -2.8 3.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f043c5bf-70e3-4938-ac2a-92d7d01cb474")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bac506bb-55bf-4b91-85cd-9a3f695345bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.81 -2.925)
+		(size 1.42 1.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d6597e47-0bda-444d-bdd1-deace31d24bf")
+	)
+	(pad "2" smd rect
+		(at -3.81 -1.625)
+		(size 1.42 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d9ad0e39-747b-48e3-bd42-b7c1a334433f")
+	)
+	(pad "3" smd rect
+		(at -3.81 -0.975)
+		(size 1.42 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eacc1a68-d9f6-4cde-82e6-e973edd919cd")
+	)
+	(pad "4" smd rect
+		(at -3.81 -0.325)
+		(size 1.42 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2693b396-1aca-4625-a7b6-ee433f9ce501")
+	)
+	(pad "5" smd rect
+		(at -3.81 0.325)
+		(size 1.42 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4938e423-ef76-4c67-a681-b1bce8729b5c")
+	)
+	(pad "6" smd rect
+		(at -3.81 0.975)
+		(size 1.42 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f6cd8a23-f483-4e60-9e5d-212fa0e49ac2")
+	)
+	(pad "7" smd rect
+		(at -3.81 1.625)
+		(size 1.42 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "30fe5db8-08b2-4029-9d3c-769352d2afcb")
+	)
+	(pad "8" smd rect
+		(at -3.81 2.925)
+		(size 1.42 1.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "17fd7696-a56b-4baf-84d7-01a67e97dbbd")
+	)
+	(pad "9" smd rect
+		(at 3.81 1.95)
+		(size 1.42 3.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f3b3ee86-7db2-4516-8159-500b8b734799")
+	)
+	(pad "10" smd rect
+		(at 3.81 -1.95)
+		(size 1.42 3.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1d35d380-0f22-47d7-90d3-e87fce373fae")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Sensor_Current.3dshapes/AKM_CQ_VSOP-24_5.6x7.9mm_P0.65mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

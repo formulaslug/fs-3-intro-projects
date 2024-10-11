@@ -1,0 +1,209 @@
+(footprint "D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Diode, DO-34_SOD68 series, Axial, Vertical, pin pitch=2.54mm, , length*diameter=3.04*1.6mm^2, , https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf")
+	(tags "Diode DO-34_SOD68 series Axial Vertical pin pitch 2.54mm  length 3.04mm diameter 1.6mm")
+	(property "Reference" "REF**"
+		(at 1.27 -2.25566 0)
+		(layer "F.SilkS")
+		(uuid "87d65e75-b9cb-4d50-a7df-ea3b8d5d7c3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp"
+		(at 1.27 3.14466 0)
+		(layer "F.Fab")
+		(uuid "5a6a7a7b-4704-4926-aeec-a9503c4e5841")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d546c2c4-4324-40e5-abf3-03d2b22d1b46")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6676e1db-b9da-4f18-b713-61c91d64b193")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a7bc537-d60e-413b-ad1d-101b120f45c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.28434 0)
+		(end 1.05 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec69360d-0ae7-4ef9-9210-5b2b9dcbb133")
+	)
+	(fp_circle
+		(center 2.54 0)
+		(end 3.79566 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4d8027c6-3b7f-4b3b-b499-8f4c777e33ee")
+	)
+	(fp_line
+		(start -1 -1.05)
+		(end -1 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd172327-7630-41dd-85dc-677d077e5a56")
+	)
+	(fp_line
+		(start -1 1.05)
+		(end 3.59 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38613669-b7ac-401a-80e5-d31a4d9c4b26")
+	)
+	(fp_line
+		(start 3.59 -1.05)
+		(end -1 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "05ef951f-c190-4c54-97df-f6fe6a4bd9d4")
+	)
+	(fp_line
+		(start 3.59 1.05)
+		(end 3.59 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "633eeb92-b5f2-497c-85ef-791ae1217fc3")
+	)
+	(fp_line
+		(start 0 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b755a16-98ec-4fe3-9592-b100ab04860b")
+	)
+	(fp_circle
+		(center 2.54 0)
+		(end 3.34 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "cdb66890-ae6b-4ee8-8058-ed93e5e03160")
+	)
+	(fp_text user "K"
+		(at -1.75 0 0)
+		(layer "F.SilkS")
+		(uuid "e712d5f6-8827-44af-b355-06d196d87798")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 -2.25566 0)
+		(layer "F.Fab")
+		(uuid "0debd905-8f93-4d12-aacb-20405fd88314")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "K"
+		(at -1.75 0 0)
+		(layer "F.Fab")
+		(uuid "71f4ff8f-a931-4b7d-bd45-34446871e27e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16085d90-a40d-487b-a8d9-8ae08dd46184")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ad65a3f1-fa40-4abc-8739-82337ba18c6c")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

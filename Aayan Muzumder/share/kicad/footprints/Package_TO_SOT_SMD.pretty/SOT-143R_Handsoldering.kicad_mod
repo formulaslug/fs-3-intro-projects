@@ -1,0 +1,239 @@
+(footprint "SOT-143R_Handsoldering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-143R, reverse pinning, Handsoldering, https://www.nxp.com/docs/en/package-information/SOT143R.pdf")
+	(tags "SOT-143 Reverse Handsoldering")
+	(property "Reference" "REF**"
+		(at 0.03 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "deb49b49-a834-4fd6-9a05-14cb431fac61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-143R_Handsoldering"
+		(at -0.02 3.5 180)
+		(layer "F.Fab")
+		(uuid "5173553a-32c6-4217-b439-f28bb47b35b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d526e2db-9d56-4ca2-8efc-432b73a5c7dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c92bc79-88ec-481c-b0c9-0434fd775cf0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f59ab8c-c4ae-43e5-95e5-bfe0664a9a61")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.56 0.65)
+		(end -1.56 -0.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20ac9d17-5055-414a-ac84-6d58cc6edfbd")
+	)
+	(fp_line
+		(start 1.56 0.65)
+		(end 1.56 -0.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e617963-fa0f-46aa-920b-9111fc46083a")
+	)
+	(fp_poly
+		(pts
+			(xy -1.51 -1) (xy -1.84 -1.24) (xy -1.84 -0.76) (xy -1.51 -1)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "1350e1af-48a6-4e17-ab60-cbd568430a94")
+	)
+	(fp_line
+		(start -1.7 -2.6)
+		(end -1.7 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f6583c6-58a1-444d-9636-5aa5182c43b6")
+	)
+	(fp_line
+		(start -1.7 -2.6)
+		(end 1.7 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "abaf80a5-e341-4d3b-8c6c-2c4ae5f46705")
+	)
+	(fp_line
+		(start 1.7 2.6)
+		(end -1.7 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "74b5b296-9fe7-44d8-86e8-7daabc6561b1")
+	)
+	(fp_line
+		(start 1.7 2.6)
+		(end 1.7 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "147ccf44-1c07-40fb-a86d-1da2ae1bfc67")
+	)
+	(fp_line
+		(start -1.45 -0.15)
+		(end -1.45 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9be6972-ed73-4bbf-afe2-f25a6b0e2861")
+	)
+	(fp_line
+		(start -1.45 -0.15)
+		(end -0.95 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5fa2d9c9-3e86-4f7f-a25b-6c4ae44f653e")
+	)
+	(fp_line
+		(start -0.95 -0.65)
+		(end 1.45 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f2bdbf5-172b-4508-a879-c86b0e20f258")
+	)
+	(fp_line
+		(start 1.45 -0.65)
+		(end 1.45 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae53b946-ceab-49bf-b1d0-d6f3172d7e34")
+	)
+	(fp_line
+		(start 1.45 0.65)
+		(end -1.45 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b557b950-76ec-4fce-9578-1142ee4ce755")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6f4153b0-25d9-484a-9790-9ed6cc5751d8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.75 -1.5 90)
+		(size 1.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "317e5e54-62b7-4fe0-ac3f-10ac893e0a49")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 -1.5 90)
+		(size 1.7 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "860717b3-bb5d-48a2-8a13-fe9289ba1eae")
+	)
+	(pad "3" smd roundrect
+		(at 0.95 1.5 90)
+		(size 1.7 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "cd5bf8b2-7451-4e1b-9de1-fae653e0d5ac")
+	)
+	(pad "4" smd roundrect
+		(at -0.95 1.5 90)
+		(size 1.7 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "4f23647d-7f4e-41ec-9a1d-b64348e65cd5")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-143R.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

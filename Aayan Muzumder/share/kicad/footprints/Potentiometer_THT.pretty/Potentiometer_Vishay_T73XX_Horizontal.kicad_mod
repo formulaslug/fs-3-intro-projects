@@ -1,0 +1,253 @@
+(footprint "Potentiometer_Vishay_T73XX_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, horizontal, Vishay T73XX, http://www.vishay.com/docs/51016/t73.pdf")
+	(tags "Potentiometer horizontal Vishay T73XX")
+	(property "Reference" "REF**"
+		(at 0 -2.01 0)
+		(layer "F.SilkS")
+		(uuid "b0651142-9182-4e75-b36f-636aae05b4be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Vishay_T73XX_Horizontal"
+		(at 0 7.09 0)
+		(layer "F.Fab")
+		(uuid "16b39c9f-bb3b-45cc-bb0d-7f6dc8b672db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "510ff405-24fa-4690-ac14-0222ae177078")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec52f62b-d6ee-4a39-8ad2-f7e1826e4086")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c8862a1-735a-48ac-82ea-96680e858dc9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.14 -0.88)
+		(end -1.14 5.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a264717f-9ecd-4ade-b6a2-7134f672c78d")
+	)
+	(fp_line
+		(start -1.14 -0.88)
+		(end -0.65 -0.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbfdb82f-0d8f-40b0-9dc4-098253a784f9")
+	)
+	(fp_line
+		(start -1.14 5.96)
+		(end -0.65 5.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13157013-37f7-4f4f-aa85-11228daf6564")
+	)
+	(fp_line
+		(start 0.65 -0.88)
+		(end 3.8 -0.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0815e45c-16dd-44a2-acc1-b9a03ff32cfc")
+	)
+	(fp_line
+		(start 0.65 5.96)
+		(end 3.8 5.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b0510d3-c032-4dd5-bb90-8ba5a8c122e1")
+	)
+	(fp_line
+		(start 3.8 -0.88)
+		(end 3.8 5.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "838581ba-a0a7-4aa6-aa4b-4dd58480703c")
+	)
+	(fp_line
+		(start -1.3 -1.05)
+		(end -1.3 6.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9f97d5b-f6e8-4193-a6bc-100f6901a3ba")
+	)
+	(fp_line
+		(start -1.3 6.1)
+		(end 3.95 6.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f823d091-ac4f-4504-8133-dc4e49dc2105")
+	)
+	(fp_line
+		(start 3.95 -1.05)
+		(end -1.3 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77298e0b-b107-48ca-8132-dcd564f37257")
+	)
+	(fp_line
+		(start 3.95 6.1)
+		(end 3.95 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a33e580-784b-4804-8be9-ca96ad481d55")
+	)
+	(fp_line
+		(start -1.02 -0.76)
+		(end 3.68 -0.76)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8adc688-9bb0-4749-8cf5-fa61e9d939e2")
+	)
+	(fp_line
+		(start -1.02 5.84)
+		(end -1.02 -0.76)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cfae85fa-d617-4183-8fd4-4b038f572899")
+	)
+	(fp_line
+		(start 3.68 -0.76)
+		(end 3.68 5.84)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35501d98-b0b2-436e-8496-0dcea8522b14")
+	)
+	(fp_line
+		(start 3.68 5.84)
+		(end -1.02 5.84)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6992f32-18f9-45d1-bf3e-55cdc1fc3e29")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.33 2.54 0)
+		(layer "F.Fab")
+		(uuid "0361cf4e-5f81-425d-ac27-8465d9329799")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b7593c70-ad64-464b-93dc-a02f0ca75810")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 2.54)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef6fc3d8-21ae-4aa9-9b9d-dcd53a2c869d")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "599096cf-7362-40f2-bdb2-23810918759b")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Vishay_T73XX_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

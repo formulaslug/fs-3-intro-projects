@@ -1,0 +1,258 @@
+(footprint "Converter_DCDC_XP_POWER_JTDxxxxxxx_THT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "XP Power JTD Series DC-DC Converter")
+	(tags "DCDC Isolated")
+	(property "Reference" "REF**"
+		(at 2.51 -10.97 180)
+		(layer "F.SilkS")
+		(uuid "dcde09be-eb4b-4a58-9518-3516ee58be49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_XP_POWER_JTDxxxxxxx_THT"
+		(at 1.51 31.53 180)
+		(layer "F.Fab")
+		(uuid "81701064-c9d3-4db7-ab4f-476cc92f3dc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1e2ecab-b6fa-43da-bc37-bc722c34fbbe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9af985d0-0a5a-490c-b40a-15e8d3cdb2ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7a0f741-b972-4578-a590-7ec2d8826094")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10.28 -10.28)
+		(end -10.28 30.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2262a19f-ae0d-4479-a5f4-c80906e6536b")
+	)
+	(fp_line
+		(start -10.28 30.6)
+		(end 15.36 30.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29e1effd-0872-4075-8d57-d6f9fb129179")
+	)
+	(fp_line
+		(start 15.36 -10.28)
+		(end -10.28 -10.28)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2352194-21cb-4fa3-a95b-af036f1e69b5")
+	)
+	(fp_line
+		(start 15.36 30.6)
+		(end 15.36 -10.28)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92b78e74-b40c-4eec-9d03-a0e6e8460d4d")
+	)
+	(fp_line
+		(start -10.41 -10.41)
+		(end 15.49 -10.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e051977b-03cf-4703-99c4-72631891782f")
+	)
+	(fp_line
+		(start -10.41 30.73)
+		(end -10.41 -10.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02c85464-13bc-455d-af8c-1c4bd02ebae8")
+	)
+	(fp_line
+		(start -10.41 30.73)
+		(end 15.49 30.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50d3679e-5fee-4ec7-8737-67b293c56d2c")
+	)
+	(fp_line
+		(start 15.49 30.73)
+		(end 15.49 -10.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "145fecf6-7e2d-4f3c-b4a6-5fb192e17487")
+	)
+	(fp_line
+		(start -10.16 -10.16)
+		(end 15.24 -10.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbe285e5-da3a-4923-aa58-d2accd3e2e4c")
+	)
+	(fp_line
+		(start -10.16 30.48)
+		(end -10.16 -10.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7577d872-92e6-4430-96d7-c97b6b726e2f")
+	)
+	(fp_line
+		(start -10.16 30.48)
+		(end 15.24 30.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4edf254f-a746-403a-8786-9f3e25eccf2f")
+	)
+	(fp_line
+		(start 15.24 30.48)
+		(end 15.24 -10.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52be3807-271f-40d7-80f9-18879d85ccea")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 10.16 0)
+		(layer "F.Fab")
+		(uuid "cd43d0dd-38d3-4129-be5b-662bab22e8a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "29b60012-c20f-4050-95af-be54b3e7225b")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.5 2.5)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "64be0d17-7d79-40ae-89c9-9e2a5e95ec17")
+	)
+	(pad "3" thru_hole circle
+		(at -7.62 20.32)
+		(size 2.5 2.5)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4cb1a780-0da8-41a9-9e15-0660722f1957")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 20.32)
+		(size 2.5 2.5)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "edef2764-4dfe-48be-ae2f-7b2e37b19955")
+	)
+	(pad "5" thru_hole circle
+		(at 12.7 20.32)
+		(size 2.5 2.5)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6f097f33-db89-4020-9a84-dc036d024d56")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 2.5 2.5)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4f4e1f94-0926-4a5e-bfb2-5214c3d147b0")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_XP_POWER_JTDxxxxxxx_THT.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

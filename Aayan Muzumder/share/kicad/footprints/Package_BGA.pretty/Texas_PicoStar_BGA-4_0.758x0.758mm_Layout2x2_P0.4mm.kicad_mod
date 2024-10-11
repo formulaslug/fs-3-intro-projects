@@ -1,0 +1,260 @@
+(footprint "Texas_PicoStar_BGA-4_0.758x0.758mm_Layout2x2_P0.4mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Texas Instruments PicoStar - 0.15 mm max height, 0.758x0.758mm, 4 Ball, 2x2 Layout, 0.4mm Pitch, https://www.ti.com/lit/ds/symlink/tmp114.pdf")
+	(tags "BGA 4 0.4 PicoStar")
+	(property "Reference" "REF**"
+		(at 0 -1.379 0)
+		(layer "F.SilkS")
+		(uuid "1cdcb357-6b32-4183-aa62-66bdb3b08a0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Texas_PicoStar_BGA-4_0.758x0.758mm_Layout2x2_P0.4mm"
+		(at 0 1.379 0)
+		(layer "F.Fab")
+		(uuid "4c031e76-7aa6-4eab-8766-f424746857bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8093ce1-4579-45fd-af1f-6a855ccab3b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61a99e7f-13df-40ff-817e-abf3fcaf0e4a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53045b38-f73a-4e89-b7d0-92cc926178d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.05)
+	(attr smd)
+	(fp_line
+		(start -0.575 0.575)
+		(end -0.575 -0.3425)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "549e1a0d-184d-4de1-adf0-8e0d5c710b95")
+	)
+	(fp_line
+		(start -0.3425 -0.575)
+		(end 0.575 -0.575)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48d06268-e2b8-4f1c-aae8-ceaf3b06d296")
+	)
+	(fp_line
+		(start 0.575 -0.575)
+		(end 0.575 0.575)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "034146f9-07ad-4caf-b8c5-ba2a7041a189")
+	)
+	(fp_line
+		(start 0.575 0.575)
+		(end -0.575 0.575)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7e57509-1aea-4f3a-9504-50d21600575d")
+	)
+	(fp_poly
+		(pts
+			(xy -0.575 -0.575) (xy -1.075 -0.575) (xy -0.575 -1.075) (xy -0.575 -0.575)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "7657a35b-655a-4bcd-8ca9-055cf034500c")
+	)
+	(fp_line
+		(start -1.38 -1.38)
+		(end -1.38 1.38)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5333945d-f1d8-4624-81fa-a973663a8921")
+	)
+	(fp_line
+		(start -1.38 1.38)
+		(end 1.38 1.38)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed400274-fa4f-427d-9f15-b6bab165179e")
+	)
+	(fp_line
+		(start 1.38 -1.38)
+		(end -1.38 -1.38)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1a03517-9370-4034-ae0a-382aadf6c6eb")
+	)
+	(fp_line
+		(start 1.38 1.38)
+		(end 1.38 -1.38)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1eec9a1e-7a96-414e-a739-27cf5374cf27")
+	)
+	(fp_line
+		(start -0.379 -0.1895)
+		(end -0.1895 -0.379)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aca0bb6e-ee1f-485c-860b-686b3d106617")
+	)
+	(fp_line
+		(start -0.379 0.379)
+		(end -0.379 -0.1895)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2dbdd0df-f152-41e1-b3e3-59645f3fb003")
+	)
+	(fp_line
+		(start -0.1895 -0.379)
+		(end 0.379 -0.379)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93e82752-fb6e-4f46-9831-16c0cfae6115")
+	)
+	(fp_line
+		(start 0.379 -0.379)
+		(end 0.379 0.379)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b56a8673-2478-4845-a844-532998f04a75")
+	)
+	(fp_line
+		(start 0.379 0.379)
+		(end -0.379 0.379)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ceb88e3d-f281-4ecb-abfd-edf15dafc81e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "887ee5fc-7243-4ad0-8b61-e869d0768c8f")
+		(effects
+			(font
+				(size 0.18 0.18)
+				(thickness 0.027)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.2 -0.2)
+		(size 0.23 0.23)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8289be15-9cb0-46a6-9c5a-736fac273873")
+	)
+	(pad "A2" smd circle
+		(at 0.2 -0.2)
+		(size 0.23 0.23)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "688e2f1d-24f9-4c22-84ea-daacd0d77e8d")
+	)
+	(pad "B1" smd circle
+		(at -0.2 0.2)
+		(size 0.23 0.23)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f2059fe0-cae2-452f-bf22-95d07703b2ad")
+	)
+	(pad "B2" smd circle
+		(at 0.2 0.2)
+		(size 0.23 0.23)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d83a0522-62e2-4e42-9b1e-7b06fec72d0d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_PicoStar_BGA-4_0.758x0.758mm_Layout2x2_P0.4mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

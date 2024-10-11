@@ -1,0 +1,345 @@
+(footprint "Heatsink_Fischer_FK24413D2PAK_26x13mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "26x13 mm SMD heatsink for TO-252 TO-263 TO-268, https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/fk_244_13_d2_pak.pdf")
+	(tags "heatsink TO-252 TO-263 TO-268")
+	(property "Reference" "REF**"
+		(at -11.5 -8 180)
+		(layer "F.SilkS")
+		(uuid "5e8d432b-9d05-48cd-bde9-1e1e7822970f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Heatsink_Fischer_FK24413D2PAK_26x13mm"
+		(at 0 8 0)
+		(layer "F.Fab")
+		(uuid "4978ac70-7348-4edd-a815-c0ddade99429")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad61aca7-7e8f-4130-bc7e-1c5bd3d2aad3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be257b76-bf93-4c51-97d6-0a0ef2f81b36")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88e2a7fe-511d-4d62-bacd-63c95e8447f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -13.5 -7)
+		(end -6 -7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f799322-014a-4eaf-b8b7-48500a140e46")
+	)
+	(fp_line
+		(start -13.5 7)
+		(end -13.5 -7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef5e5a4b-3ccc-44dc-bc9f-ff67f584f516")
+	)
+	(fp_line
+		(start -13.5 7)
+		(end -6 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2faa74b4-936d-403b-93c8-7db84d77a5d6")
+	)
+	(fp_line
+		(start 6 -7)
+		(end 13.5 -7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1fcf3a78-27ec-4b97-a80d-7a4d221245c0")
+	)
+	(fp_line
+		(start 6 7)
+		(end 13.5 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de6cbae9-3bf8-4279-8ed4-546aa548fdf9")
+	)
+	(fp_line
+		(start 13.5 -7)
+		(end 13.5 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73af90bd-011a-46fa-b003-e377e4909d56")
+	)
+	(fp_line
+		(start -12.9 -6.4)
+		(end -9.5 -6.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9127addd-d018-4b6b-aa31-1a30c1777a31")
+	)
+	(fp_line
+		(start -12.9 6.4)
+		(end -12.9 -6.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "6b456743-e20a-41ee-9f1d-5011856f603a")
+	)
+	(fp_line
+		(start -9.5 -6.4)
+		(end -9.5 6.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "81f41e1e-ec2f-47ab-9d16-caaa4058add7")
+	)
+	(fp_line
+		(start -9.5 6.4)
+		(end -12.9 6.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3eecc1c5-84af-4c13-ae00-a4a6bcafe019")
+	)
+	(fp_line
+		(start 9.5 6.4)
+		(end 9.5 -6.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1f73a512-ed0b-41e6-b03a-55e1a3933510")
+	)
+	(fp_line
+		(start 9.5 6.4)
+		(end 12.9 6.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a43ccb7d-08f5-4603-ae27-7f16fca54e38")
+	)
+	(fp_line
+		(start 12.9 -6.4)
+		(end 9.5 -6.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "28cf878b-be0f-425d-b676-ab24c22b3e75")
+	)
+	(fp_line
+		(start 12.9 6.4)
+		(end 12.9 -6.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7aca969e-ddec-481c-9198-c8ef6b4258b2")
+	)
+	(fp_line
+		(start -13.25 -6.85)
+		(end -13.25 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7857b8e-25f4-4f80-9dfc-9f15b8485321")
+	)
+	(fp_line
+		(start -13.25 -6.85)
+		(end 13.25 -6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a1ae63b-cb4a-4bb1-ab34-036edd7a8c59")
+	)
+	(fp_line
+		(start 13.25 6.85)
+		(end -13.25 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd88d2a8-65e4-4e94-9805-9c6d3c7e5247")
+	)
+	(fp_line
+		(start 13.25 6.85)
+		(end 13.25 -6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "67787f2f-aa7b-4799-b946-84fe93ff7109")
+	)
+	(fp_line
+		(start -13 -6.5)
+		(end 13 -6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ab512e7-ff77-406a-b7bd-40734f3b076f")
+	)
+	(fp_line
+		(start -13 6.5)
+		(end -13 -6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c1ad11e-454a-49e6-be2a-be19b621c45d")
+	)
+	(fp_line
+		(start 13 -6.5)
+		(end 13 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc844f92-a422-4e42-a9ac-97e7aea605b2")
+	)
+	(fp_line
+		(start 13 6.5)
+		(end -13 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6aae5af-0bb8-47b7-ad95-2fc28d65b646")
+	)
+	(fp_text user "H10mm"
+		(at -11 0 90)
+		(layer "Cmts.User")
+		(uuid "c9ff7950-7678-4d7b-8beb-3b058a188f5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "H10mm"
+		(at 11 0 90)
+		(layer "Cmts.User")
+		(uuid "e716da30-13f2-4ab2-9a65-47e4b28c8a83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6d86352e-c558-4b28-9fab-ec8224117110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -7.7 0 180)
+		(size 3.25 13.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(uuid "8ebb170e-0377-41bb-9db4-bb5b04ba4799")
+	)
+	(pad "1" smd rect
+		(at 7.7 0)
+		(size 3.25 13.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(uuid "a8024d24-4a1c-460c-baaa-932c715c4e71")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Fischer_FK24413D2PAK_26x13mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

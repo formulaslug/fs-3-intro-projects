@@ -1,0 +1,326 @@
+(footprint "SolderWire-0.75sqmm_1x04_P7mm_D1.25mm_OD3.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Soldered wire connection, for 4 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+	(tags "connector wire 0.75sqmm")
+	(property "Reference" "REF**"
+		(at 10.5 -2.95 0)
+		(layer "F.SilkS")
+		(uuid "84740992-fa7c-435e-8947-a4398af7750a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderWire-0.75sqmm_1x04_P7mm_D1.25mm_OD3.5mm"
+		(at 10.5 2.95 0)
+		(layer "F.Fab")
+		(uuid "67718823-ad05-4909-b7c8-689343762b1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0202f2d9-7ae3-4a7b-9d60-c3db36a71117")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9a40c90-49de-4e01-9067-c03d86c07739")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c96e1c3-2d75-475f-b473-0e804a7a3add")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -2.5 -2.25)
+		(end -2.5 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "07b47d26-f416-45e7-814c-8766e6976d9c")
+	)
+	(fp_line
+		(start -2.5 2.25)
+		(end 2.5 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "05018d17-0e76-4377-83bc-9ca591ec4713")
+	)
+	(fp_line
+		(start 2.5 -2.25)
+		(end -2.5 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d54394d4-2a02-4a13-99c3-d2961dbd8f6f")
+	)
+	(fp_line
+		(start 2.5 2.25)
+		(end 2.5 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "19699bb4-de53-40cd-81d2-4884c8e73a1f")
+	)
+	(fp_line
+		(start 4.5 -2.25)
+		(end 4.5 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5dbe2620-a841-403b-b1ba-6a0cc3c11cae")
+	)
+	(fp_line
+		(start 4.5 2.25)
+		(end 9.5 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77ddb67b-f4d2-4ce4-b9c4-14391c492c03")
+	)
+	(fp_line
+		(start 9.5 -2.25)
+		(end 4.5 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5aec22f7-394b-4964-877d-e4268eb2e66f")
+	)
+	(fp_line
+		(start 9.5 2.25)
+		(end 9.5 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a81d8dc-f2a7-4049-b4c6-03db6096ffd1")
+	)
+	(fp_line
+		(start 11.5 -2.25)
+		(end 11.5 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9cec8e50-7228-4432-839f-3bb690da6ffb")
+	)
+	(fp_line
+		(start 11.5 2.25)
+		(end 16.5 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b181c7bf-723c-4a13-904d-06b678ec7104")
+	)
+	(fp_line
+		(start 16.5 -2.25)
+		(end 11.5 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20cc1b59-520f-48c3-a8d9-945f688e29fd")
+	)
+	(fp_line
+		(start 16.5 2.25)
+		(end 16.5 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4180b053-0c2a-4e8f-b463-0b93956378c4")
+	)
+	(fp_line
+		(start 18.5 -2.25)
+		(end 18.5 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "648e3748-67c8-4de7-9bba-f982e8a84e15")
+	)
+	(fp_line
+		(start 18.5 2.25)
+		(end 23.5 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10fe4ee9-972e-4fc2-b696-7749027b8f9c")
+	)
+	(fp_line
+		(start 23.5 -2.25)
+		(end 18.5 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "582d80ba-cbe9-4a28-9f33-aa32b0d7e1da")
+	)
+	(fp_line
+		(start 23.5 2.25)
+		(end 23.5 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71460409-3137-43e0-96fd-ea2fd7eef781")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e6734103-4028-4933-8da3-9848183dd96d")
+	)
+	(fp_circle
+		(center 7 0)
+		(end 8.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "fdafc3b5-cfc2-404d-9ea5-36f6462c8738")
+	)
+	(fp_circle
+		(center 14 0)
+		(end 15.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "63bcb4e0-f297-4fcc-be57-729aac793532")
+	)
+	(fp_circle
+		(center 21 0)
+		(end 22.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "65ace5a8-1e8b-4572-a15a-6288bdc8a453")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10.5 0 90)
+		(layer "F.Fab")
+		(uuid "aeba8a42-48d3-4f16-a006-33d79b1fdf5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 1.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.071429)
+		(uuid "b9713f33-c6ac-4c7d-a4fc-f6b234098d47")
+	)
+	(pad "2" thru_hole circle
+		(at 7 0)
+		(size 3.5 3.5)
+		(drill 1.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b91ccf4-611c-4557-9d57-42f15785840f")
+	)
+	(pad "3" thru_hole circle
+		(at 14 0)
+		(size 3.5 3.5)
+		(drill 1.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "75d85f4d-b5e4-4892-99ce-67d9d2c36572")
+	)
+	(pad "4" thru_hole circle
+		(at 21 0)
+		(size 3.5 3.5)
+		(drill 1.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f32913c9-e7bc-4d88-ae24-a59c78a1bb20")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.75sqmm_1x04_P7mm_D1.25mm_OD3.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

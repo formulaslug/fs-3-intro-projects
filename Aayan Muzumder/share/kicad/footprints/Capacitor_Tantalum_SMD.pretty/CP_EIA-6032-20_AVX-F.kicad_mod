@@ -1,0 +1,223 @@
+(footprint "CP_EIA-6032-20_AVX-F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Tantalum Capacitor SMD AVX-F (6032-20 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor tantalum")
+	(property "Reference" "REF**"
+		(at 0 -2.55 0)
+		(layer "F.SilkS")
+		(uuid "849002a7-5594-4868-b6a8-4725e6802a1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CP_EIA-6032-20_AVX-F"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(uuid "648198cb-fd0e-4711-829d-c5eaff583476")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8862a4c7-54f9-4850-a015-944f9c58795f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68e957d9-826b-409b-95d8-3f5fd0d9f958")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99b530a9-1a7e-4dee-bdf5-a666fe151fc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.76 -1.71)
+		(end -3.76 1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9ff95c1-da47-4a8d-8a97-2e7ede008a21")
+	)
+	(fp_line
+		(start -3.76 1.71)
+		(end 3 1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33a02357-7137-445f-a469-d079954ac6f3")
+	)
+	(fp_line
+		(start 3 -1.71)
+		(end -3.76 -1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80838e32-dbcd-4d69-a4bf-8eb121c53ce0")
+	)
+	(fp_line
+		(start -3.75 -1.85)
+		(end 3.75 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "58149df5-1d8e-455e-a81d-71bf1d95abcc")
+	)
+	(fp_line
+		(start -3.75 1.85)
+		(end -3.75 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef441b70-3b04-46d5-8011-d3915c50b095")
+	)
+	(fp_line
+		(start 3.75 -1.85)
+		(end 3.75 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "471e421b-419c-4712-9317-4da306c304da")
+	)
+	(fp_line
+		(start 3.75 1.85)
+		(end -3.75 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf7a5602-d32b-43be-bb25-08522e156e5d")
+	)
+	(fp_line
+		(start -3 -0.8)
+		(end -3 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2260e86d-9725-4f6f-b5c2-a877586bef5c")
+	)
+	(fp_line
+		(start -3 1.6)
+		(end 3 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3db043f-2a72-4ddf-9649-81846167a620")
+	)
+	(fp_line
+		(start -2.2 -1.6)
+		(end -3 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8fc6359-bf12-4fcf-bd03-486219555538")
+	)
+	(fp_line
+		(start 3 -1.6)
+		(end -2.2 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca1e670c-73ee-4e1f-a6f8-8c312b00f71f")
+	)
+	(fp_line
+		(start 3 1.6)
+		(end 3 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ddef9b9-6d2b-4e9b-9143-28189713a2d1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "11673c27-fd4e-4660-9ff0-70cad562e600")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.4625 0)
+		(size 2.075 2.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.120482)
+		(uuid "d6167cc5-f06a-4de4-be56-96a9119143fc")
+	)
+	(pad "2" smd roundrect
+		(at 2.4625 0)
+		(size 2.075 2.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.120482)
+		(uuid "5d83d590-312a-483b-84d1-dde291b46df5")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-6032-20_AVX-F.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

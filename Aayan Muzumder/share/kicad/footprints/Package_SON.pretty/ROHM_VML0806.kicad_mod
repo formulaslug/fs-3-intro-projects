@@ -1,0 +1,231 @@
+(footprint "ROHM_VML0806"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "VML0806, Rohm (http://rohmfs.rohm.com/en/techdata_basic/transistor/soldering_condition/VML0806_Soldering_Condition.pdf, http://rohmfs.rohm.com/en/products/databook/package/spec/discrete/vml0806_tr-e.pdf)")
+	(tags "ROHM VML0806")
+	(property "Reference" "REF**"
+		(at 0 -1.3 0)
+		(layer "F.SilkS")
+		(uuid "23ce8fda-e8c7-4bf2-9c79-cbf21eabe5bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ROHM_VML0806"
+		(at 0 1.3 0)
+		(layer "F.Fab")
+		(uuid "43fdc952-41ae-4c9b-b38f-dd14d2e1ad15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e3b015b-a1ef-43d3-bbb7-18644f09a5d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a47b80f-1056-458d-8ff1-ad5e8a90df47")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30d90e23-9cc3-4496-a5ca-cf1c2ef76c6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.66 -0.56)
+		(end -0.66 -0.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e68ac225-58e3-41e3-9651-12828ae83692")
+	)
+	(fp_line
+		(start 0.66 0.56)
+		(end -0.66 0.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a87130e-0135-446e-b008-9a88e0cb7128")
+	)
+	(fp_circle
+		(center -0.790356 -0.29)
+		(end -0.650356 -0.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "cdbd99c2-a99e-4c7c-83da-07a988ad35dd")
+	)
+	(fp_line
+		(start -0.7 -0.6)
+		(end 0.7 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3d48f11-4443-4f1e-a840-8786b63d15f9")
+	)
+	(fp_line
+		(start -0.7 0.6)
+		(end -0.7 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0ba1b17-c4a6-43fc-bebf-bc8d464cad9a")
+	)
+	(fp_line
+		(start 0.7 -0.6)
+		(end 0.7 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35b84699-9e93-463e-9463-6db14235b4d1")
+	)
+	(fp_line
+		(start 0.7 0.6)
+		(end -0.7 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60f0485c-adea-4d92-96c6-465a0d2c9c15")
+	)
+	(fp_line
+		(start -0.4 0.3)
+		(end -0.4 -0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17186e7a-fed1-47d5-b34e-914e040d0868")
+	)
+	(fp_line
+		(start -0.15 -0.3)
+		(end -0.4 -0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc5d58f7-47fa-4b51-89fb-8ec3209f470e")
+	)
+	(fp_line
+		(start -0.15 -0.3)
+		(end 0.4 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0b60722-d491-4676-9040-62c6fb735482")
+	)
+	(fp_line
+		(start 0.4 -0.3)
+		(end 0.4 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1bddb552-b145-4660-a8bb-9b10c11a9bc9")
+	)
+	(fp_line
+		(start 0.4 0.3)
+		(end -0.4 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9669986-197a-4143-9f98-03ec61eb7fe4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b0821706-c151-4dd0-96db-d8515e3f086a")
+		(effects
+			(font
+				(size 0.127 0.127)
+				(thickness 0.02)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.3 -0.175)
+		(size 0.3 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "998c25cb-2ed5-4948-a4d1-9b1bdf9e28c9")
+	)
+	(pad "2" smd roundrect
+		(at -0.3 0.175)
+		(size 0.3 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "6cec839b-e8ae-449e-904b-7d86b8b95697")
+	)
+	(pad "3" smd roundrect
+		(at 0.3 0)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ec10d90c-ae19-4be7-9443-1da4828011ec")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/ROHM_VML0806.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
