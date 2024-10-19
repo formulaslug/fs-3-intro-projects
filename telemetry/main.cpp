@@ -28,7 +28,7 @@ struct telemetry {
 int main() {
     AnalogIn IN(A2);
 
-
+    CircularBuffer<CANMessage, 32> canqueue;
     DigitalOut SEL1(D3); //SELECTION 1
     DigitalOut SEL2(D4); //SELECTION 2
     DigitalOut SEL3(D5); //SELECTION 3
@@ -116,15 +116,23 @@ int main() {
             }
 
             dataInt = *(int *) &dataFloat;
-            
             CANMessage testMSG;
+            
             testMSG.id = 0x1a4;
 
             testMSG.data[0] = dataInt;
             testMSG.data[1] = dataInt >> 8;
             testMSG.data[2] = dataInt >> 16;
             testMSG.data[3] = dataInt >> 24;
+            canqueue.push(testMSG);
+            while (!canqueue.empty()) {
+                CANMessage msg;
+                canqueue.pop(msg);
+                uint32_t id = msg.id;
+                unsigned char* data = msg.data;
 
+            }
+            // add state change once we know what the inputs are
             canBus->write(testMSG);
         }
     }
