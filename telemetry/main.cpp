@@ -22,11 +22,10 @@ struct telemetry {
     double wheelSpeedBL;
     double suspensionTravelBL;
     double strainBL;
-}
+};
 	
 
-int main()
-{
+int main() {
     AnalogIn IN(A2);
 
 
@@ -40,6 +39,7 @@ int main()
 
     float dataFloat;
     int dataInt;
+    struct telemetry data;
 
     while (true) {
 
@@ -50,58 +50,69 @@ int main()
             SEL3.write( ((i >> 2) & 1) ); // 4
             SEL4.write( ((i >> 3) & 1) ); // 8
 
-            ThisThread::sleep_for(1ms);
 
             switch(i) {
                 case 0:
                     dataFloat = IN.read();
+                    data.steering = dataFloat;
                     break;
                 case 1:
                     dataFloat = IN.read();
+                    data.rearBrakePressure = dataFloat;
                     break;
                 case 2:
                     dataFloat = IN.read();
+                    data.frontBrakePressure = dataFloat;
                     break;
                 case 3:
                     dataFloat = IN.read();
+                    data.wheelSpeedFR = dataFloat;
                     break;
                 case 4:
                     dataFloat = IN.read();
+                    data.suspensionTravelFR = dataFloat;
                     break;
                 case 5:
                     dataFloat = IN.read();
+                    data.strainFR = dataFloat;
                     break;
                 case 6:
                     dataFloat = IN.read();
+                    data.wheelSpeedFL = dataFloat;
                     break;
                 case 7:
                     dataFloat = IN.read();
+                    data.suspensionTravelFL = dataFloat;
                     break;
                 case 8:
                     dataFloat = IN.read();
+                    data.strainFL = dataFloat;
                     break;
                 case 9:
                     dataFloat = IN.read();
+                    data.wheelSpeedBR = dataFloat;
                     break;
                 case 10:
                     dataFloat = IN.read();
+                    data.suspensionTravelBR = dataFloat;
                     break;
                 case 11:
                     dataFloat = IN.read();
+                    data.strainBR = dataFloat;
                     break;
                 case 12:
                     dataFloat = IN.read();
+                    data.wheelSpeedBL = dataFloat;
                     break;
                 case 13:
                     dataFloat = IN.read();
+                    data.suspensionTravelBL = dataFloat;
                     break;
                 case 14:
-                    dataFloat = IN.read();
+                    data.strainBL = dataFloat;
                     break;
                 default:
                     break;
-                
-
             }
 
             dataInt = *(int *) &dataFloat;
@@ -115,8 +126,6 @@ int main()
             testMSG.data[3] = dataInt >> 24;
 
             canBus->write(testMSG);
-
-            ThisThread::sleep_for(10ms);
         }
     }
 }
