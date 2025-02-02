@@ -1,0 +1,36 @@
+#include "mbed.h"
+#include <cstdint>
+
+
+
+int main() {
+    printf("main()\n");
+    
+    // CircularBuffer<CANMessage, 32> canqueue;
+
+    // AnalogIn IN(A2);
+
+
+    // DigitalOut SEL1(D3); //SELECTION 1
+    // DigitalOut SEL2(D4); //SELECTION 2
+    // DigitalOut SEL3(D5); //SELECTION 3
+    // DigitalOut SEL4(D6); //SELECTION 4
+
+    CAN* canBus;
+    canBus = new CAN(PA_11, PA_12, 500000);
+    // float dataFloat;
+    // int dataInt;
+    // dataInt = *(int *) &dataFloat;
+
+    while (true) {
+        CANMessage testMSG;
+        testMSG.id = 0x1a4;
+        testMSG.data[0] = 'C';
+        testMSG.data[1] = 'O';
+        testMSG.data[2] = 'L';
+        testMSG.data[3] = 'E';
+        canBus->write(testMSG);
+        ThisThread::sleep_for(20ms);
+        
+    }
+}
