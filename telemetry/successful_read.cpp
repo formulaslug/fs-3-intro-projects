@@ -6,8 +6,10 @@ int main() {
     while (true) {
         CANMessage msg;
         if (canBus->read(msg)) {
-            printf("%x: %c%c%c%c%c%c%c%c\n", msg.id, msg.data[0], msg.data[1], msg.data[2], msg.data[3], msg.data[4], msg.data[5], msg.data[6], msg.data[7]);
+            printf("%x: %d%d%d%d%d%d\n", msg.id, msg.data[0], msg.data[1], msg.data[2], msg.data[3], msg.data[4], msg.data[5]);
+        } else {
+            printf("fail\n");
         }
+    ThisThread::sleep_for(100ms);
     }
-
 }
